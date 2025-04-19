@@ -1,4 +1,4 @@
-# TODOs and Goals
+# 🛠️ To-Do's
 
 ## Project Goals
 

@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "docfx",
-    "serve": "docfx build && docfx serve .docs/site",
+    "toc": "rm -rf .docs && bash scripts/tocgen.sh",
+    "build": "npm run toc && docfx build",
+    "serve": "docfx build && docfx serve .vercel/output/static",
     "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml",
     "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --fix",
     "publish": "pnpm run build && vercel --prebuilt --prod"

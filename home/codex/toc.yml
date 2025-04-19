@@ -1,8 +1,2 @@
-- name: 🏠 Home
-  href: index.md
-
-- name: 🛠️ Todos
-  href: todos.md
-
-- name: 🌐 Vision
-  href: vision.md
+- name: 📿 Codex
+  href: Simulation.md

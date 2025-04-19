@@ -1,6 +1,6 @@
 # UI
 
-# 🎨 User Interfaces
+## 🎨 User Interfaces
 
 This section covers various UI approaches for visualizing and interacting with the Game of Life simulation.
 

@@ -1,8 +1,8 @@
 - name: 🏠 Home
-  href: index.md
+  href: /
 
-- name: 🛠️ Todos
-  href: todos.md
+- name: 👀 UI
+  href: index
 
-- name: 🌐 Vision
-  href: vision.md
+- name: 📟 Console
+  href: console-ui

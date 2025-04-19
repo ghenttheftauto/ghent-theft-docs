@@ -19,31 +19,31 @@
   "build": {
     "content": [
       {
-        "src": "home",
+        "src": ".docs/home",
         "files": ["index.md", "toc.yml"]
       },
       {
-        "src": "home/articles",
-        "files": ["index.md", "vision.md", "todos.md", "toc.yml"],
+        "src": ".docs/articles",
+        "files": ["*.md", "toc.yml"],
         "dest": "articles"
       },
       {
-        "src": "home/ui",
-        "files": ["*.md"],
+        "src": ".docs/ui",
+        "files": ["*.md", "toc.yml"],
         "dest": "ui"
       },
       {
-        "src": "home/api",
+        "src": ".docs/api",
         "files": ["*.md"],
         "dest": "api"
       },
       {
-        "src": "home/codex",
-        "files": ["**/*.md"],
+        "src": ".docs/codex",
+        "files": ["**/*.md", "toc.yml"],
         "dest": "codex"
       },
       {
-        "src": ".docs/api",
+        "src": ".vercel/output/static/api",
         "files": ["**/*.yml"],
         "dest": "api"
       }
@@ -58,7 +58,7 @@
 
     "template": ["default", "modern"],
     "globalMetadata": {
-      "_appTitle": "GoL docs",
+      "_appTitle": "ghta docs",
       "_enableSearch": true,
       "pdf": false
     }

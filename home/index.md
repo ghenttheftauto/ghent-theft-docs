@@ -25,6 +25,7 @@ Welcome to the simulation, [Human]((xref:Domain.Humans.Human)).
 - ### 🕰️ DateTime-Driven Emergent Behavior
 
   Each day, the simulation clock ticks — driving events like unpaid [Holiday](/api/Domain.Time.Holiday), school attendance, and the march toward [Death](/api/Domain.Moments.DeathMoment).
+
   Sacred breaks and civic holidays? We got 'em. From [Easter Sunday to Pinkstermaandag](/api/Domain.Time.Calendar), this temporal core governs academic years, school vacations, and divine feast days alike.
   All the while, the [Clock](/api/Domain.Time.Clock) keeps ticking — orchestrating the emergence of life’s rhythms.
 

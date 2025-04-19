@@ -1,3 +1,5 @@
+# 💪 Goals
+
 Ghent Theft Auto's main goal is **exploring the application of videogame technologies towards visualising and simulating the city of Ghent.**
 
 It serves as a versatile testbed for visualising all kinds of data in a 3D environment that is the home of 260.000 residents, each with their own particular lives and activities, accurate to the centimeter.

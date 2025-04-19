@@ -1,4 +1,4 @@
-just terminal
+# Console
 
 cross platform ofc
 

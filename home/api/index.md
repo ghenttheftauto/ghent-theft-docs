@@ -2,13 +2,20 @@
 
 This section contains the **auto-generated** API reference for the Game of Life simulation engine.
 
-It's the canonical source for all things technical — from the deepest `Moment` base classes to the divine `CalculateHalalEaster()` function.
+It's the canonical source for all things technical — from the deepest `Moment` base classes to the divine [CalculateEasterHalal](xref:Domain.Humans.Human) function.
 
 ---
 
-## 📦 Version
+## 📦 dotnet
 
-- **Target Framework:** `netstandard2.1`
+### Target Framework
+
+`netstandard2.1`
+
+For Unity reasons.
+
+### Language features
+
 - **Language Features:** `C# 8.0`
 
 ---
