@@ -4,8 +4,6 @@ This section contains the **auto-generated** API reference for the Game of Life 
 
 It's the canonical source for all things technical — from the deepest `Moment` base classes to the divine [CalculateEasterHalal](xref:Domain.Humans.Human) function.
 
----
-
 ## 📦 dotnet
 
 ### Target Framework

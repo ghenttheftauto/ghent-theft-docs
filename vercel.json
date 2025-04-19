@@ -1,6 +1,9 @@
 {
-  "outputDirectory": ".docs/site",
-  "ignoreCommand": "echo 'handled by .vercelignore'",
-  "cleanUrls": true,
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/.docs/api/$1" }]
+  "redirects": [
+    { "source": "/api", "destination": "/api/", "permanent": true },
+    { "source": "/articles", "destination": "/articles/", "permanent": true },
+    { "source": "/codex", "destination": "/codex/", "permanent": true }
+  ],
+  "cleanUrls": false,
+  "ignoreCommand": "echo 'handled by .vercelignore'"
 }

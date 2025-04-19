@@ -11,7 +11,7 @@
 
 ## ✨ Highlights
 
-Welcome to the simulation, [Human]((xref:Domain.Humans.Human)).
+Welcome to the simulation, [Human](xref:Domain.Humans.Human).
 
 - 🌐 For design philosophy and guiding principles, see the [Vision Doc](articles/vision.md).
 
@@ -19,7 +19,7 @@ Welcome to the simulation, [Human]((xref:Domain.Humans.Human)).
 
 - ### 🧠 Domain-Driven Architecture
 
-  Fully modular simulation engine with dedicated systems for [Education](/api/Domain.Education),[Locations](/api/Domain.Locations), [Profession](/api/Domain.Profession), [Gods](/api/Domain.Gods), [Moments](/api/Domain.Moments), and more.
+  Fully modular simulation engine with dedicated systems for [Education](xref:Domain.Education),[Locations](xref:Domain.Locations), [Profession](xref:Domain.Profession), [Gods](/api/Domain.Gods), [Moments](/api/Domain.Moments), and more.
 
 - ### 🕰️ DateTime-Driven Emergent Behavior
 

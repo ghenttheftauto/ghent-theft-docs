@@ -33,14 +33,14 @@
         "dest": "ui"
       },
       {
-        "src": ".docs/api",
-        "files": ["*.md"],
-        "dest": "api"
-      },
-      {
         "src": ".docs/codex",
         "files": ["**/*.md", "toc.yml"],
         "dest": "codex"
+      },
+      {
+        "src": ".docs/api",
+        "files": ["index.md"],
+        "dest": "api"
       },
       {
         "src": ".docs/api",
