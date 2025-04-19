@@ -1,0 +1,6 @@
+{
+  "outputDirectory": ".docs/site",
+  "ignoreCommand": "echo 'handled by .vercelignore'",
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/.docs/api/$1" }]
+}

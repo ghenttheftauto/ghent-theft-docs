@@ -1,0 +1,21 @@
+# Ignore compiled output
+**/bin
+**/obj
+
+# Ignore build artifacts
+*.cs
+*.csproj
+
+# Ignore domain-specific folders you don't want deployed
+Domain/
+DomainTests/
+Sprookjes/
+
+# Ignore documentation source files (only deploy built site)
+docfx.json
+Documentation/
+README.md
+
+# Ignore solution-level junk
+*.sln
+.editorconfig

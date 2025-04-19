@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../game-of-life/GameOfLifeDomain/Domain",
+          "files": ["Domain.csproj"]
+        },
+        {
+          "src": "../game-of-life/GameOfLifeDomain/Sprookjes",
+          "files": ["Sprookjes.csproj"]
+        }
+      ],
+      "output": ".docs/api",
+      "outputFormat": "mref"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "src": "home",
+        "files": ["index.md", "toc.yml"]
+      },
+      {
+        "src": "home/articles",
+        "files": ["index.md", "vision.md", "todos.md", "toc.yml"],
+        "dest": "articles"
+      },
+      {
+        "src": "home/ui",
+        "files": ["*.md"],
+        "dest": "ui"
+      },
+      {
+        "src": "home/api",
+        "files": ["*.md"],
+        "dest": "api"
+      },
+      {
+        "src": "home/codex",
+        "files": ["**/*.md"],
+        "dest": "codex"
+      },
+      {
+        "src": ".docs/api",
+        "files": ["**/*.yml"],
+        "dest": "api"
+      }
+    ],
+    "resource": [
+      {
+        "src": "home",
+        "files": ["images/**"]
+      }
+    ],
+    "output": ".docs/site",
+    "template": ["default", "modern"],
+    "globalMetadata": {
+      "_appTitle": "GoL docs",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

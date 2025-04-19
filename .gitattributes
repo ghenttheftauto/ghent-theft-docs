@@ -1,0 +1,42 @@
+# 🔧 Normalize all line endings to LF
+* text=auto eol=lf
+
+# 📄 Force LF on common plaintext formats
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.json   text eol=lf
+*.toml   text eol=lf
+*.csv    text eol=lf
+*.txt    text eol=lf
+*.html   text eol=lf
+*.js     text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.jsx    text eol=lf
+*.sh     text eol=lf
+*.py     text eol=lf
+
+# 🧊 Binary files (don't touch line endings)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.svg    binary
+*.ico    binary
+*.glb    binary
+*.gltf   binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.otf    binary
+*.eot    binary
+*.pdf    binary
+
+# 🚫 Ignore normalization in these
+node_modules/** -text
+package-lock.json -text
+yarn.lock -text
+
+# 🛡 Protect .gitattributes from being tampered
+.gitattributes text eol=lf

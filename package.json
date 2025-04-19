@@ -1,0 +1,18 @@
+{
+  "name": "ghent-theft-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "markdownlint": "^0.37.4",
+    "markdownlint-cli2": "^0.17.2",
+    "yaml-lint": "^1.7.0"
+  }
+}

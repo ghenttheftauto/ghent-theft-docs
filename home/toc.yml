@@ -1,0 +1,10 @@
+- name: 🏠 Home
+  href: /
+- name: 📿 Codex
+  href: codex/
+- name: 👨‍💻 API
+  href: api/
+- name: 🗣️ Articles
+  href: articles/
+- name: 👀 UI
+  href: ui/

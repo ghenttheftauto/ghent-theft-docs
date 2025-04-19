@@ -1,0 +1,5 @@
+just terminal
+
+cross platform ofc
+
+[Back to UI](index.md)

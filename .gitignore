@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+
+# Documentation build artifacts
+.docs/
+
+# Obsidian knowledge base
+.obsidian/
+
+# Deployment
+.vercel/
+vercel.json
+.vercelignore
+
+# Pre-commit config
+.pre-commit-config.yaml
+lefthook.yml
+
+# Python (legacy or optional)
+.venv/
+poetry.lock
+
+# Node.js dependencies and lockfile
+node_modules/
+package-lock.json
+
+# Logs (if any tools write them)
+*.log
+
+# Lefthook artifacts
+.lefthook/
+.git/hooks/
