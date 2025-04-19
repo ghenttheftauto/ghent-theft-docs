@@ -44,7 +44,6 @@ normalize_path() {
 
   echo "$normalized"
 }
-
 # Function to build a hierarchical TOC structure
 build_hierarchical_toc() {
   local codex_path="home/codex"
@@ -65,7 +64,7 @@ build_hierarchical_toc() {
     echo "  href: \"${clean_filename}.md\"" >> "$output_file"
   done
 
-  find "$codex_path" -mindepth 1 -type d | sort | while read -r dir; do
+  find "$codex_path" -mindepth 1 -type d ! -name ".*" | sort | while read -r dir; do
     dir_name=$(basename "$dir")
     clean_dir_name=$(clean_text "$dir_name")
     normalized_dir_path=$(normalize_path "${dir#home/}")
@@ -87,6 +86,7 @@ build_hierarchical_toc() {
 
   echo "Hierarchical TOC generated at $output_file"
 }
+
 
 # Function to recursively process subdirectories
 process_subdirectories() {
@@ -157,9 +157,8 @@ done
 
 # Build the hierarchical TOC for codex
 build_hierarchical_toc
-
 generate_flat_tocs() {
-  find home -mindepth 1 -maxdepth 1 -type d ! -name "codex" ! -name "api"| while read -r dir; do
+  find home -mindepth 1 -maxdepth 1 -type d ! -name ".*" ! -name "codex" ! -name "api" | while read -r dir; do
     has_md=$(find "$dir" -maxdepth 1 -name '*.md' | wc -l)
     if [ "$has_md" -gt 0 ]; then
       normalized_dir=$(normalize_path "${dir#home/}")
@@ -175,13 +174,14 @@ generate_flat_tocs() {
         slug_name=$(clean_text "$raw_name")
         echo "- name: \"$raw_name\"" >> "$toc_path"
         echo "  href: \"${slug_name}.md\"" >> "$toc_path"
-
       done
     fi
   done
 }
 
+
 generate_flat_tocs
+
 
 generate_root_toc() {
   toc_path=".docs/toc.yml"
@@ -190,7 +190,7 @@ generate_root_toc() {
   echo "- name: Home" >> "$toc_path"
   echo "  href: /" >> "$toc_path"
 
-  find home -mindepth 1 -maxdepth 1 -type d | sort | while read -r dir; do
+  find home -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort | while read -r dir; do
     section_name=$(basename "$dir") # Keep emoji & original casing
     slug_name=$(clean_text "$section_name") # Normalized path
 
@@ -198,6 +198,5 @@ generate_root_toc() {
     echo "  href: \"$slug_name\"" >> "$toc_path"
   done
 }
-
 
 generate_root_toc

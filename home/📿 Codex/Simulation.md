@@ -10,7 +10,7 @@ Ghent Theft Auto draws inspiration from the concept of a digital twin, and comes
 - Simulate the progression of history and time backwards and forwards
 - combines [[👤 Human]] and [[⏳ Time]] to give the appearance of an actual life inside the city.
 - [[🚦 TrafficSystem]] takes [[OSM]] and builds a traffic system for people to move along from and towards their various destinations.
-- The simulation combines Location and [[💼 Profession]] in order to simulate activity and labour of citizens.
+- The simulation combines Location and [[💼 Work]] in order to simulate activity and labour of citizens.
 - Simulate the generation and consumption of [[⚡️Power]] on the network by producers and consumers.
 
 Since simulating relationships backwards and forwards into time can quickly spiral out of control, at first we’re approaching the Life simulation very individualistic.

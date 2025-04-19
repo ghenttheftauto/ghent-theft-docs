@@ -4,7 +4,7 @@ This project is a reinterpretation of Game of Life by Conway.
 
 ## Hardcore Conway
 
-Essentially a hardcore semantic domain-driven simulation engine that models the entire lifecycle of a population of [Human](xref:Domain.Humans.Human) in a synthetic world and is able to talk about what transpired from as many angles as possible in a very very `Human` way.
+Essentially a hardcore semantic domain-driven simulation engine that models the entire lifecycle of a population of [Human](xref:Humans.Human) in a synthetic world and is able to talk about what transpired from as many angles as possible in a very very `Human` way.
 
 It’s not just Conway’s Game of Life with cells—this is way more narrative and detailed. Every human has a birthdate, experiences key life events (birth, birthdays, schooling, graduation/exams, work, relationships, and death), and these events get recorded as “moments” that fuel a rich, dynamic story of the simulated world.
 
@@ -18,11 +18,11 @@ Where Conway has static grids, we have semantic geography (e.g., Middelbaarstraa
 
 Where Conway had no past, we log everything, canonize it, and tell it back from each perspective.
 
-Each human is created with a specific birthdate (and potentially a death date, determined by [Reaper](xref:Domain.Gods.Reaper) logic). Their lifecycle is driven by age thresholds—for example, when they hit their birthday, they age; when they hit school age, they transition from child to student; eventually, they graduate, work, retire, and ultimately die.
+Each human is created with a specific birthdate (and potentially a death date, determined by [Reaper](xref:Gods.Reaper) logic). Their lifecycle is driven by age thresholds—for example, when they hit their birthday, they age; when they hit school age, they transition from child to student; eventually, they graduate, work, retire, and ultimately die.
 
 Every major event is recorded as a Moment: [`BirthMoment`](xref:Domain.Moments.BirthMoment), [`BirthdayMoment`](xref:Domain.Moments.BirthdayMoment), [`SchoolFirstDayMoment`](xref:Domain.Moments.SchoolFirstDayMoment), [`GraduationMoment`](xref:Domain.Moments.GraduationMoment), [`RetirementMoment`](xref:Domain.Moments.RetirementMoment), [`DeathMoment`](xref:Domain.Moments.DeathMoment), etc.
 
-These events are not just numerical; they’re richly narrated (using the [Sprookjes](xref:Sprookjes) layer to [Vertel](xref:Sprookjes/Vertel)) with emojis and a distinct Dutch style of storytelling. This narrative aspect transforms raw simulation data into story-like outputs.
+These events are not just numerical; they’re richly narrated - using the [Sprookjes](xref:Sprookjes) layer to [Vertel](xref:Sprookjes/Vertel) - with emojis and a distinct Dutch style of storytelling. This narrative aspect transforms raw simulation data into story-like outputs.
 
 The simulation is driven by a [Clock](xref:Domain.Time.Clock) that ticks on a daily basis, managing the passage of time. The Clock fires events for things like New Year’s Eve, the first day of school, school breaks, and holidays, which trigger corresponding changes in the simulation.
 
@@ -38,7 +38,7 @@ The `Sprookjes` layer bridges the gap between the raw simulation data (moments, 
 
 Your narrator (or storyteller) functions can dynamically switch between first-person when describing one’s own life events or third-person (world view) to describe what happened to others or globally.
 
-The [Simulation](xref:Domain.Life.Simulation) is controlled via flow controllers (like SinglePopulationFlow, MultiplePopulationFlow, MainFlow, etc.) which dictate the progression of the simulation and how information is presented.
+The [Simulation](xref:Life.Simulation) is controlled via flow controllers (like SinglePopulationFlow, MultiplePopulationFlow, MainFlow, etc.) which dictate the progression of the simulation and how information is presented.
 
 The [ui] (using Colorify for styling) and custom views allow you to interact with the simulation—configuring the number of simulated people, starting the simulation, and later presenting the compiled narrative of historical moments.
 

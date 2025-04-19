@@ -2,17 +2,18 @@
 
 Ghent Theft Auto's main goal is **exploring the application of videogame technologies towards visualising and simulating the city of Ghent.**
 
-It serves as a versatile testbed for visualising all kinds of data in a 3D environment that is the home of 260.000 residents, each with their own particular lives and activities, accurate to the centimeter.
+It serves as a versatile testbed for visualising all kinds of data in a 3D environment that is the home of 270.000 residents, each with their own particular lives and activities, accurate to the centimeter.
 
 Possible applications of Ghent Theft Auto are the combination of:
 
-- visualisation of live geodata, using [Location](https://www.notion.so/Location-acc1b1a8fa404b2e8cbba85d035f24f5?pvs=21)
+- visualisation of live geodata, using [Location](codex/locations)
 - visualisation of web served tilemaps, LiDAR
 - visualisation of simulations such as crowd simulations, fluid simulations, etc.
 - visualisation of real time crowds, using signals from people’s mobile devices
 - visualisation of urban processes such as public transport
 - visualizing machine learning inside a 3D environment
 - rendering a complete city in realtime, even on low-end hardware as VR or mobile
+- create segmentation maps for buildings for stylised rendering of facades
 - providing a starter kit for real world location games
 - providing people with the tools so that Ghent Theft Auto can build itself
 - actually simulate 270.000 citizens living inside the game world

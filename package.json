@@ -6,7 +6,7 @@
     "clean": "rm -rf .docs && rm -rf .vercel/output/static",
     "rebuild": "npm run clean && npm run build",
     "toc": "rm -rf .docs && bash scripts/tocgen.sh",
-    "build": "npm run toc && docfx metadata && docfx build",
+    "build": "npm run clean && npm run toc && docfx metadata && docfx build",
     "serve": "npm run build && docfx serve .vercel/output/static",
     "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml",
     "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --fix",
