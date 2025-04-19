@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml"
+    "build": "docfx",
+    "serve": "docfx build && docfx serve .docs/site",
+    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml",
+    "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --fix",
+    "publish": "pnpm run build && vercel --prebuilt --prod"
   },
   "keywords": [],
   "author": "",

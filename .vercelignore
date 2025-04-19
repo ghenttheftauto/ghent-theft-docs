@@ -1,21 +1,34 @@
-# Ignore compiled output
+
 **/bin
 **/obj
 
-# Ignore build artifacts
+
 *.cs
 *.csproj
+*.sln
 
-# Ignore domain-specific folders you don't want deployed
+
+.editorconfig
+.obsidian/
+.vercel/
+
+
+.docs/
+!/.docs/site
+
+
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+
+docfx.json
+README.md
+Documentation/
+home/
+scripts/
+
+
 Domain/
 DomainTests/
 Sprookjes/
-
-# Ignore documentation source files (only deploy built site)
-docfx.json
-Documentation/
-README.md
-
-# Ignore solution-level junk
-*.sln
-.editorconfig

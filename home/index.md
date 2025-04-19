@@ -2,27 +2,21 @@
 
 > _You better start believing in simulation theories, you're in one!_
 
-### Navigation
+## Navigation
 
-- [Codex](codex/) - User guides and tutorials
+- [Codex](codex/) - Story driven development
 - [API Reference](api/) - Auto-generated API documentation
+- [Articles](articles/) - Longer form content
+- [UI](ui/) - Various UI design systems
 
-- [Articles](articles/) - User guides and tutorials
-- [API Reference](api/) - Auto-generated API documentation
+## ✨ Highlights
 
-This site documents the entire simulation engine, from domain to storytelling.
+Welcome to the simulation, [Human]((xref:Domain.Humans.Human)).
 
 - 🌐 For design philosophy and guiding principles, see the [Vision Doc](articles/vision.md).
 
 - 🛠️ For ongoing tasks and upcoming features, check the [To-Do List](todos.md).
 
-- 🎨 For UI stuff, go to [UI](ui/index.md)
-
----
-
-# ✨ Highlights
-
-Welcome to the simulation.
 
 - ### 🧠 Domain-Driven Architecture
 

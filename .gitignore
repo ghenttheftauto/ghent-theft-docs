@@ -30,3 +30,4 @@ package-lock.json
 # Lefthook artifacts
 .lefthook/
 .git/hooks/
+.vercel
