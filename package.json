@@ -5,14 +5,14 @@
   "scripts": {
     "clean": "rm -rf .docs && rm -rf .vercel/output/static",
     "rebuild": "npm run clean && npm run build",
-    "toc": "rm -rf .docs && bash scripts/tocgen.sh",
-    "build": "npm run clean && npm run toc && docfx metadata && docfx build",
+    "toc": "bash scripts/tocgen.sh",
+    "build": "npm run toc && docfx metadata && docfx build",
     "serve": "npm run build && docfx serve .vercel/output/static",
     "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml",
     "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --fix",
-    "publish": "pnpm run build && vercel --prebuilt --prod",
-    "prepare": "husky && docfx metadata",
-    "meta": "docfx metadata"
+    "publish": "pnpm run rebuild && vercel --prebuilt --prod",
+    "prepare": "husky",
+    "metadata": "docfx metadata"
   },
   "keywords": [],
   "author": "",
