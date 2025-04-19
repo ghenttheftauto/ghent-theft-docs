@@ -137,12 +137,12 @@
   "api/Education.SchoolBreakTypes.html": {
     "href": "api/Education.SchoolBreakTypes.html",
     "title": "Enum SchoolBreakTypes | ghta docs",
-    "summary": "Enum SchoolBreakTypes Namespace Education Assembly gameoflife.dll public enum SchoolBreakTypes Fields AutumnBreak = 0 ChristmasBreak = 1 EasterBreak = 3 SpringBreak = 2 SummerBreak = 4"
+    "summary": "Enum SchoolBreakTypes Namespace Education Assembly gameoflife.dll Summer loving, happened so fast!! public enum SchoolBreakTypes Fields AutumnBreak = 0 ChristmasBreak = 1 EasterBreak = 3 SpringBreak = 2 SummerBreak = 4"
   },
   "api/Education.html": {
     "href": "api/Education.html",
     "title": "Namespace Education | ghta docs",
-    "summary": "Namespace Education Classes EducationSystem Please refactor me to be static!!! Interfaces IEducatable Represents an educational path or system that governs how a human progresses through schooling. Enums EducationLevel The level of education a human can have. You can grow your level of education by going to the schools like Lageschool, Middelbaar and University. SchoolBreakTypes"
+    "summary": "Namespace Education Classes EducationSystem Please refactor me to be static!!! Interfaces IEducatable Represents an educational path or system that governs how a human progresses through schooling. Enums EducationLevel The level of education a human can have. You can grow your level of education by going to the schools like Lageschool, Middelbaar and University. SchoolBreakTypes Summer loving, happened so fast!!"
   },
   "api/Family.FamilyTree.html": {
     "href": "api/Family.FamilyTree.html",

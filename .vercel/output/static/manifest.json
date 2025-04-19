@@ -400,7 +400,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Education.SchoolBreakTypes",
-      "Summary": null
+      "Summary": "<p sourcefile=\".docs/api/Education.SchoolBreakTypes.yml\" sourcestartlinenumber=\"1\">Summer loving, happened so fast!!</p>\n"
     },
     {
       "type": "ManagedReference",
