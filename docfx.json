@@ -12,14 +12,14 @@
           "files": ["Sprookjes.csproj"]
         }
       ],
-      "output": ".vercel/output/static/api",
+      "output": ".docs/api",
       "outputFormat": "mref"
     }
   ],
   "build": {
     "content": [
       {
-        "src": ".docs/home",
+        "src": ".docs",
         "files": ["index.md", "toc.yml"]
       },
       {
@@ -43,7 +43,7 @@
         "dest": "codex"
       },
       {
-        "src": ".vercel/output/static/api",
+        "src": ".docs/api",
         "files": ["**/*.yml"],
         "dest": "api"
       }

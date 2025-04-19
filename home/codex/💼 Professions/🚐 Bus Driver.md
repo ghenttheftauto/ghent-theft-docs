@@ -1,3 +1,3 @@
-# Bus Driver
+# 🚐 Bus Driver
 
-he tends to stop at the [[🚏 Bus stop]]
+They tend to stop at the [[🚏 Bus stop]]

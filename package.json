@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "clean": "rm -rf .docs && rm -rf .vercel/output/static",
+    "rebuild": "npm run clean && npm run build",
     "toc": "rm -rf .docs && bash scripts/tocgen.sh",
-    "build": "npm run toc && docfx build",
-    "serve": "docfx build && docfx serve .vercel/output/static",
+    "build": "npm run toc && docfx metadata && docfx build",
+    "serve": "npm run build && docfx serve .vercel/output/static",
     "lint": "pnpm dlx markdownlint-cli2 '**/*.md' --ignore-path .markdownlintignore && pnpm dlx yaml-lint home/**/*.yml",
     "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --ignore-path .markdownlintignore --fix",
     "publish": "pnpm run build && vercel --prebuilt --prod",
-    "prepare": "husky"
+    "prepare": "husky && docfx metadata",
+    "meta": "docfx metadata"
   },
   "keywords": [],
   "author": "",
