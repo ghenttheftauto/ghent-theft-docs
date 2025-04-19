@@ -88,23 +88,37 @@
 <h1 id="trafficsystem">TrafficSystem</h1>
 
 <p>kinda has to do with [[🅿️ Parking]]</p>
-<p>The traffic system is a global system, i.e. it’s not linked to specific tiles and stays loaded the whole time on top of the map.</p>
-<p>Keeping this system lightweight will be crucial. It’s nature lends it to be a prime candidate for conversion to the JobSystem and there are some ECS examples online.</p>
+<p>The traffic system is a global system, i.e. it’s not linked to specific tiles
+and stays loaded the whole time on top of the map.</p>
+<p>Keeping this system lightweight will be crucial. It’s nature lends it to be a
+prime candidate for conversion to the JobSystem and there are some ECS examples
+online.</p>
 <p>Individual segments are parsed from OSM and instantiated by TrafficController.</p>
 <p>An algorithm traverses all these nodes and builds a branch.</p>
-<p>For this purpose, roads are sorted along their name. The first road of a batch is picked, we search for other segments where:</p>
+<p>For this purpose, roads are sorted along their name. The first road of a batch
+is picked, we search for other segments where:</p>
 <ul>
-<li>the last point of the other segment equals the first point of our current segment, or</li>
-<li>the first point of the other segment equals the last point of our current segment</li>
+<li>the last point of the other segment equals the first point of our current
+segment, or</li>
+<li>the first point of the other segment equals the last point of our current
+segment</li>
 </ul>
-<p>When one of the above is true, we configure the segments, linking them up until we run out of options.</p>
-<p>When the segment is completely back filled and forward filled, it is considered a complete road and the segments that make it up are removed from the unsorted list.</p>
-<p>Then, a new random segment is selected from the unsorted list and the process is started again.</p>
-<p>When traffic network is available, cars are spawned on top of it. (Check out Megacity demo where they include cars in baking)</p>
-<p>Cars are assigned a segment and traverse it. When they end their segment, they are offered options.</p>
+<p>When one of the above is true, we configure the segments, linking them up until
+we run out of options.</p>
+<p>When the segment is completely back filled and forward filled, it is considered
+a complete road and the segments that make it up are removed from the unsorted
+list.</p>
+<p>Then, a new random segment is selected from the unsorted list and the process is
+started again.</p>
+<p>When traffic network is available, cars are spawned on top of it. (Check out
+Megacity demo where they include cars in baking)</p>
+<p>Cars are assigned a segment and traverse it. When they end their segment, they
+are offered options.</p>
 <p>When no options are available, car will attempt to reverse if it is allowed.</p>
-<p>When no options are available on a one way road, car will return to vehicle pool and await new spawn.</p>
-<p>Roads should be as modular and lightweight as possible, using the tag dictionary and maybe interfaces.</p>
+<p>When no options are available on a one way road, car will return to vehicle pool
+and await new spawn.</p>
+<p>Roads should be as modular and lightweight as possible, using the tag dictionary
+and maybe interfaces.</p>
 
 </article>
 

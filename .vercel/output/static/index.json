@@ -777,7 +777,7 @@
   "ui/console.html": {
     "href": "ui/console.html",
     "title": "\uD83D\uDCDF Console | ghta docs",
-    "summary": "\uD83D\uDCDF Console A cross-platform console interface for controlling or visualizing parts of the simulation. Should run on potato. \uD83E\uDD54 Ideal for: \uD83E\uDDEA Quick testing \uD83D\uDDA5️ Retro command-line vibes \uD83C\uDF10 Headless or remote deployments Built using Console.WriteLine"
+    "summary": "\uD83D\uDCDF Console A cross-platform console interface for controlling or visualizing parts of the simulation. Should run on potato. \uD83E\uDD54 Built using Console.WriteLine Ideal for: \uD83E\uDDEA Quick testing \uD83D\uDDA5️ Retro command-line vibes \uD83C\uDF10 Headless or remote deployments > ./gameoflife.dll run \uD83D\uDCC5 01-09-2000 - Eerste schooldag voor Emma De Wilde \uD83C\uDF93 Emma startte in de Lageschool van Middelbaarstraat \uD83D\uDC80 18-04-2065 - Overlijden van Emma De Wilde op 75-jarige leeftijd \uD83E\uDEA6 Ze werkte 30 jaar als onderwijzeres in Gentbrugge"
   },
   "ui/index.html": {
     "href": "ui/index.html",

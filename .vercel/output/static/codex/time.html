@@ -88,20 +88,31 @@
 <h1 id="time">Time</h1>
 
 <h2 id="introduction">Introduction</h2>
-<p>Ghent Theft Auto can be run in realtime, i.e. local time with a realtime game speed.</p>
-<p>The progression of time in Ghent Theft Auto can also be manipulated to simulate higher or lower speeds.</p>
+<p>Ghent Theft Auto can be run in realtime, i.e. local time with a realtime game
+speed.</p>
+<p>The progression of time in Ghent Theft Auto can also be manipulated to simulate
+higher or lower speeds.</p>
 <p>Time is even able to be halted completely by a single Player.</p>
 <p>This means time of day and calendar are fully mocked.</p>
-<p>The [[⏳ Time]] namespace contains public events for sunset and sunrise, allowing for example [[💡 Street Lamp]] behaviors.</p>
-<p>Time has events based on day of week, triggering [[💼 Profession]] behaviors. Conversely, Weekend and Holiday events will cause [[👤 Human]] to stay at their <a href="https://www.notion.so/Residence-0867e0ef50764c3686f227342945cf02?pvs=21">Residence</a> .</p>
+<p>The [[⏳ Time]] namespace contains public events for sunset and sunrise,
+allowing for example [[💡 Street Lamp]] behaviors.</p>
+<p>Time has events based on day of week, triggering [[💼 Profession]] behaviors.
+Conversely, Weekend and Holiday events will cause [[👤 Human]] to stay at their
+<a href="https://www.notion.so/Residence-0867e0ef50764c3686f227342945cf02?pvs=21">Residence</a>
+.</p>
 <p>Example given:</p>
 <p>On any given Sunday...</p>
 <ul>
-<li>a [[👩‍🎓 Student]] <em>doesn't</em> go to school on a Sunday as part of their [[💼 Profession]]</li>
-<li>a [[🧙‍♂️ Priest]] <strong><em>does</em></strong> go to [[🧎‍♂️ Place of worship]] to perform activities related to their [[💼 Profession]]</li>
+<li>a [[👩‍🎓 Student]] <em>doesn't</em> go to school on a Sunday as part of their
+[[💼 Profession]]</li>
+<li>a [[🧙‍♂️ Priest]] <strong><em>does</em></strong> go to [[🧎‍♂️ Place of worship]] to perform activities
+related to their [[💼 Profession]]</li>
 <li>[[👩‍🎓 Student]] <strong>can</strong> still attend church to fill their Piety need.</li>
 </ul>
-<p>Buildings that have a build year are only shown when the year has passed. For this, we use the calculated pivot of building instances and request the converted WGS84 as an address, we then use this address to look up build year on the GRB API.</p>
+<p>Buildings that have a build year are only shown when the year has passed. For
+this, we use the calculated pivot of building instances and request the
+converted WGS84 as an address, we then use this address to look up build year on
+the GRB API.</p>
 <h2 id="events">Events</h2>
 <p>Calendar events are calculated for each year.</p>
 <p>[[👒 Holidays]]</p>
@@ -110,7 +121,9 @@
 <ul>
 <li>analog clocks such as on the Belfry, the [[🚉 Train station]], etc.</li>
 <li>the ringing of [[🧎‍♂️ Place of worship]] bells</li>
-<li>opening and closing hours of public locations, such as <a href="https://www.notion.so/Shops-e7f46c3dccdd49738b4512dd1d23848a?pvs=21">Shops</a> or [[🅿️ Parking]]</li>
+<li>opening and closing hours of public locations, such as
+<a href="https://www.notion.so/Shops-e7f46c3dccdd49738b4512dd1d23848a?pvs=21">Shops</a>
+or [[🅿️ Parking]]</li>
 <li>activation and deactivation of [[💡 Street Lamp]]</li>
 <li>activity of citizens, based on [[💼 Profession]]</li>
 <li>spawning of trash, as described in [[🚮 Sanitation]]]</li>
@@ -122,7 +135,8 @@
 </ul>
 </li>
 <li>Construction (and deconstruction) of buildings based on historical data</li>
-<li>Feeding historical data into the simulation such as population numbers, (un)employment, etc.</li>
+<li>Feeding historical data into the simulation such as population numbers,
+(un)employment, etc.</li>
 </ul>
 <h2 id="a-single-day-in-ghta">A single day in GhTA</h2>
 <h3 id="0000">00:00</h3>
@@ -136,7 +150,8 @@
 <h3 id="0100">01:00</h3>
 <p>bells ring one time at churches because it’s 1 o clock</p>
 <h3 id="0437">04:37</h3>
-<p>the moon dissappears behind the horizon because we calculated it using CoordinateSharp</p>
+<p>the moon dissappears behind the horizon because we calculated it using
+CoordinateSharp</p>
 <h3 id="0730">07:30</h3>
 <p>coordinate sharp provided us with a sunrise so we turn off the street lights</p>
 <h3 id="0800">08:00</h3>
@@ -146,7 +161,8 @@
 <h3 id="1115">11:15</h3>
 <p>analog clocks display 11:15 on Belfort and Sint Pieters station, for example</p>
 <h3 id="1347">13:47</h3>
-<p>a train arrives at Gent Dampoort, parsed from <a href="https://www.notion.so/iRail-API-808a188b7fd74aac857e6d2fb0dfcdfb?pvs=21">iRail API</a></p>
+<p>a train arrives at Gent Dampoort, parsed from
+<a href="https://www.notion.so/iRail-API-808a188b7fd74aac857e6d2fb0dfcdfb?pvs=21">iRail API</a></p>
 <h3 id="1400">14:00</h3>
 <p>a postman picks up mail from a postbox parsed from OSM API</p>
 <h3 id="1730">17:30</h3>
