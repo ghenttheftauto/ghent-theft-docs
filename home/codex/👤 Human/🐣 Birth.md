@@ -1,3 +1,5 @@
+# Birth
+
 [[👤 Human]] are born all over the place but most of the time it's at a [[🏥 Hospital]], carried out by a [[👩‍⚕️ Doctor]]. Most births come from a [[💍 Marriage]].
 
 They are assigned a name based on their gender expressed as [[🙋‍♂️ Male]] or [[🙋‍♀️ Female]].

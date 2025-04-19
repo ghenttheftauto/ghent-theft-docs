@@ -2,20 +2,21 @@
   "name": "ghent-theft-docs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "toc": "rm -rf .docs && bash scripts/tocgen.sh",
     "build": "npm run toc && docfx build",
     "serve": "docfx build && docfx serve .vercel/output/static",
-    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml",
-    "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --fix",
-    "publish": "pnpm run build && vercel --prebuilt --prod"
+    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' --ignore-path .markdownlintignore && pnpm dlx yaml-lint home/**/*.yml",
+    "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --ignore-path .markdownlintignore --fix",
+    "publish": "pnpm run build && vercel --prebuilt --prod",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.8.1",
   "devDependencies": {
+    "husky": "^9.1.7",
     "markdownlint": "^0.37.4",
     "markdownlint-cli2": "^0.17.2",
     "yaml-lint": "^1.7.0"

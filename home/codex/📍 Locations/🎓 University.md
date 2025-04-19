@@ -1,6 +1,8 @@
-[[👩‍🏫 Teacher]] and [[👩‍🎓 Student]]
+# University
 
-Creme of the creme!
+Workplace of the [[👩‍🏫 Teacher]] and [[👩‍🎓 Student]]
+
+Only for the Creme of the creme!
 
 After this, you have a slim shot of doing a Phd.
 

@@ -1,3 +1,5 @@
+# Human
+
 Human is a class to hold stuff like a name, age, birthplace etc.
 
 [[🤰 Birthplace]]

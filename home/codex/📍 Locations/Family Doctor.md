@@ -2,7 +2,7 @@
 
 Origin: [Open Data Gent](https://www.notion.so/Open-Data-Gent-64cb9944aeb44eebba264cbc2f2dac8d?pvs=21)
 
-# JSON
+## JSON
 
 **JSON schema:**
 
@@ -27,7 +27,7 @@ Origin: [Open Data Gent](https://www.notion.so/Open-Data-Gent-64cb9944aeb44eebba
 }
 ```
 
-# **Parsing logic**
+## **Parsing logic**
 
 - `"NAME"` value decides the `GameObject` name.
 - `"GESLACHT"` value decides wether the `GameObject` `Sprite` is 👩‍⚕️ or 👨‍⚕️.

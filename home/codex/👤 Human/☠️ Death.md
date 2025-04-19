@@ -1,3 +1,5 @@
+# Death
+
 The poor [[👤 Human]]. Destined to die when their time is come.
 
 Mortality rates are included in the project and a dice is rolled yearly for each alive human in the population in order to asses if and when they should die.

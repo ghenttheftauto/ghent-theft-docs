@@ -1,6 +1,6 @@
 # Healthcare
 
-# NPC
+## NPC
 
 In Ghent Theft Auto, citizens who are in need of medical assistance are healed or revived by a [[👩‍⚕️ Doctor]], usually working at a Doctor Residence or in a [[🏥 Hospital]]
 

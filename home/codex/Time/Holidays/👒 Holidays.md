@@ -1,3 +1,5 @@
+# Holidays
+
 Some holidays are always on the same date, e.g. [[1225_Kerstmis_🎅]], others vary each year, e.g.: [[🐰 Easter]].
 
 Some holidays are paid holidays, causing people to have a day off.

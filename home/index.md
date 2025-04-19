@@ -17,7 +17,6 @@ Welcome to the simulation, [Human]((xref:Domain.Humans.Human)).
 
 - 🛠️ For ongoing tasks and upcoming features, check the [To-Do List](todos.md).
 
-
 - ### 🧠 Domain-Driven Architecture
 
   Fully modular simulation engine with dedicated systems for [Education](/api/Domain.Education),[Locations](/api/Domain.Locations), [Profession](/api/Domain.Profession), [Gods](/api/Domain.Gods), [Moments](/api/Domain.Moments), and more.
