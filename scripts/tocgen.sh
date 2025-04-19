@@ -62,44 +62,31 @@ build_hierarchical_toc() {
     filename=$(basename "$file" .md)
     clean_filename=$(clean_text "$filename")
     echo "- name: \"$filename\"" >> "$output_file"
-    echo "  href: \"${clean_filename}\"" >> "$output_file"  # 🔥 removed .md
+    echo "  href: \"${clean_filename}.md\"" >> "$output_file"
   done
 
   find "$codex_path" -mindepth 1 -type d | sort | while read -r dir; do
     dir_name=$(basename "$dir")
     clean_dir_name=$(clean_text "$dir_name")
+    normalized_dir_path=$(normalize_path "${dir#home/}")
 
-    file_count=$(find "$dir" -maxdepth 1 -name "*.md" | wc -l)
+    echo "" >> "$output_file"
+    echo "# Entries for $dir_name" >> "$output_file"
+    echo "- name: \"$dir_name\"" >> "$output_file"
+    echo "  items:" >> "$output_file"
 
-    if [ "$file_count" -gt 0 ] || [ "$(find "$dir" -type f -name "*.md" | wc -l)" -gt 0 ]; then
-      echo "" >> "$output_file"
-      echo "# Entries for $dir_name" >> "$output_file"
-      echo "- name: \"$dir_name\"" >> "$output_file"
+    find "$dir" -maxdepth 1 -name "*.md" | sort | while read -r file; do
+      filename=$(basename "$file" .md)
+      clean_filename=$(clean_text "$filename")
+      echo "    - name: \"$filename\"" >> "$output_file"
+      echo "      href: \"${normalized_dir_path}/${clean_filename}.md\"" >> "$output_file"
+    done
 
-      if [ -f "$dir/index.md" ]; then
-        href_path="$(normalize_path "${dir#home/}")/index"  # 🔥 strip .md manually
-        echo "  href: \"${href_path}\"" >> "$output_file"
-      fi
-
-      echo "  items:" >> "$output_file"
-
-      find "$dir" -maxdepth 1 -name "*.md" | sort | while read -r file; do
-        filename=$(basename "$file" .md)
-        if [ "$filename" != "index" ]; then
-          clean_filename=$(clean_text "$filename")
-          normalized_path="$(normalize_path "${dir#home/}")"
-          echo "    - name: \"$filename\"" >> "$output_file"
-          echo "      href: \"${normalized_path}/${clean_filename}\"" >> "$output_file"  # 🔥 no .md
-        fi
-      done
-
-      process_subdirectories "$dir" "$output_file" "    "
-    fi
+    process_subdirectories "$dir" "$output_file" "    "
   done
 
   echo "Hierarchical TOC generated at $output_file"
 }
-
 
 # Function to recursively process subdirectories
 process_subdirectories() {
@@ -187,7 +174,7 @@ generate_flat_tocs() {
         raw_name=$(basename "$file" .md)
         slug_name=$(clean_text "$raw_name")
         echo "- name: \"$raw_name\"" >> "$toc_path"
-        echo "  href: \"${slug_name}\"" >> "$toc_path"
+        echo "  href: \"${slug_name}.md\"" >> "$toc_path"
 
       done
     fi
@@ -198,18 +185,19 @@ generate_flat_tocs
 
 generate_root_toc() {
   toc_path=".docs/toc.yml"
-  echo "# Generated on $(date)" >> "$toc_path"
+  echo "# Generated on $(date)" > "$toc_path"
   echo "" >> "$toc_path"
   echo "- name: Home" >> "$toc_path"
   echo "  href: /" >> "$toc_path"
 
-  for section in articles api codex ui; do
-    if [ -f ".docs/${section}" ]; then
-      display_name=$(basename "$section")
-      echo "- name: \"$display_name\"" >> "$toc_path"
-      echo "  href: \"/${section}/\"" >> "$toc_path"
-    fi
+  find home -mindepth 1 -maxdepth 1 -type d | sort | while read -r dir; do
+    section_name=$(basename "$dir") # Keep emoji & original casing
+    slug_name=$(clean_text "$section_name") # Normalized path
+
+    echo "- name: \"$section_name\"" >> "$toc_path"
+    echo "  href: \"$slug_name\"" >> "$toc_path"
   done
 }
+
 
 generate_root_toc

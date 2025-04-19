@@ -15,24 +15,28 @@ Welcome to the simulation, [Human](xref:Domain.Humans.Human).
 
 - 🌐 For design philosophy and guiding principles, see the [Vision Doc](articles/vision.md).
 
-- 🛠️ For ongoing tasks and upcoming features, check the [To-Do List](todos.md).
+- 🛠️ For ongoing tasks and upcoming features, check the [To-Do List](articles/to-dos.md).
 
 - ### 🧠 Domain-Driven Architecture
 
-  Fully modular simulation engine with dedicated systems for [Education](xref:Domain.Education),[Locations](xref:Domain.Locations), [Profession](xref:Domain.Profession), [Gods](/api/Domain.Gods), [Moments](/api/Domain.Moments), and more.
+  Fully modular simulation engine with dedicated systems for [Education](xref:Domain.Education),[Locations](xref:Domain.Locations), [Profession](xref:Domain.Profession), [Gods](xref:Domain.Gods), [Moments](xref:Domain.Moments), and more.
 
 - ### 🕰️ DateTime-Driven Emergent Behavior
 
-  Each day, the simulation clock ticks — driving events like unpaid [Holiday](/api/Domain.Time.Holiday), school attendance, and the march toward [Death](/api/Domain.Moments.DeathMoment).
+  Each day, the simulation clock ticks — driving events like unpaid [Holiday](xref:Domain.Time.Holiday), school attendance, and the march toward [Death](xref:Domain.Moments.DeathMoment).
 
-  Sacred breaks and civic holidays? We got 'em. From [Easter Sunday to Pinkstermaandag](/api/Domain.Time.Calendar), this temporal core governs academic years, school vacations, and divine feast days alike.
-  All the while, the [Clock](/api/Domain.Time.Clock) keeps ticking — orchestrating the emergence of life’s rhythms.
+  Sacred breaks and civic holidays? We got 'em.
 
-- ### 🌅 Eclestial Easter Calculator
+  From [Easter Sunday to Pinkstermaandag](xref:Domain.Time.Calendar), this temporal core governs academic years, school vacations, and divine feast days alike.
+
+  All the while, the [Clock](xref:Domain.Time.Clock) keeps ticking — orchestrating the emergence of life’s rhythms.
+
+- ### 🌅 Halal Easter Calculator
 
   A totally unhinged, fully halal, and vaguely canonical [Easter calculation](xref:Domain.Gods.Religion) — just as ordained by the Council of Nicaea in 325-whatever.
+
   For all your sacred scheduling needs, from Ash Wednesday to Corpus Christi.
 
 - ### 🍆 Static Sex Class
 
-  Absolutely cursed. You know what [this](/api/Domain.Gods.Sex) is.
+  Absolutely cursed. You are gonna click [this](xref:Domain.Gods.Sex), you already know it.
