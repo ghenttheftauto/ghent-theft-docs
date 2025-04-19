@@ -158,7 +158,7 @@ done
 # Build the hierarchical TOC for codex
 build_hierarchical_toc
 generate_flat_tocs() {
-  find home -mindepth 1 -maxdepth 1 -type d ! -name ".*" ! -name "codex" ! -name "api" | while read -r dir; do
+  find home -mindepth 1 -maxdepth 1 -type d ! -name ".*" ! -name "codex" ! -name "images" ! -name "api" | while read -r dir; do
     has_md=$(find "$dir" -maxdepth 1 -name '*.md' | wc -l)
     if [ "$has_md" -gt 0 ]; then
       normalized_dir=$(normalize_path "${dir#home/}")
@@ -187,10 +187,10 @@ generate_root_toc() {
   toc_path=".docs/toc.yml"
   echo "# Generated on $(date)" > "$toc_path"
   echo "" >> "$toc_path"
-  echo "- name: Home" >> "$toc_path"
+  echo "- name: 🏠 Home" >> "$toc_path"
   echo "  href: /" >> "$toc_path"
 
-  find home -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort | while read -r dir; do
+  find home -mindepth 1 -maxdepth 1 -type d ! -name ".*" ! -name "images" | sort | while read -r dir; do
     section_name=$(basename "$dir") # Keep emoji & original casing
     slug_name=$(clean_text "$section_name") # Normalized path
 
