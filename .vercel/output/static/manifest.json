@@ -1958,10 +1958,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": ".docs/ui/terminal-gui.md",
+      "source_relative_path": ".docs/ui/terminal.md",
       "output": {
         ".html": {
-          "relative_path": "ui/terminal-gui.html"
+          "relative_path": "ui/terminal.html"
         }
       },
       "version": ""

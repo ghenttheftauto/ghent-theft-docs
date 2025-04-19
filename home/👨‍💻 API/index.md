@@ -1,8 +1,10 @@
 # 🧾 API Documentation
 
-This section contains the **auto-generated** API reference for the Game of Life simulation engine.
+This section contains the **auto-generated** API reference for the Game of Life
+simulation engine.
 
-It's the canonical source for all things technical — from the deepest `Moment` base classes to the divine [CalculateEasterHalal](xref:Gods.Religion) function.
+It's the canonical source for all things technical — from the deepest `Moment`
+base classes to the divine [CalculateEasterHalal](xref:Gods.Religion) function.
 
 ## 📦 dotnet
 
@@ -29,4 +31,5 @@ All code is neatly grouped by domain. Expect things like:
 
 ---
 
-Explore the API by using the sidebar on the left, or dive into a class like [`Gods.Religion`](xref:Gods.Religion) to start on holy ground. 🕊️
+Explore the API by using the sidebar on the left, or dive into a class like
+[`Gods.Religion`](xref:Gods.Religion) to start on holy ground. 🕊️

@@ -1,6 +1,7 @@
 # Post Office
 
-**Origin:** [Amenity](https://www.notion.so/Amenity-9ef417216252480aa8ff9125a9e5a11b?pvs=21)
+**Origin:**
+[Amenity](https://www.notion.so/Amenity-9ef417216252480aa8ff9125a9e5a11b?pvs=21)
 
 Post offices are the workplace of [[👮🏻‍♀️ Postal Worker]]
 

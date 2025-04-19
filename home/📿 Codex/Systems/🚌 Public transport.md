@@ -2,7 +2,8 @@
 
 Public transport governs a big part of [[🚦 TrafficSystem]].
 
-It can be used by any citizen. People working in [[🚌 Public transport]] have as a [[💼 Profession]]:
+It can be used by any citizen. People working in [[🚌 Public transport]] have as
+a [[💼 Profession]]:
 
 - [[🚐 Bus Driver]]
 - [[🚕 Taxi Driver]]

@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rm -rf .docs && rm -rf .vercel/output/static",
     "rebuild": "npm run clean && npm run build",
+    "format": "pnpm dlx prettier --write '**/*.md'",
     "toc": "bash scripts/tocgen.sh",
     "build": "npm run toc && docfx metadata && docfx build",
     "serve": "npm run build && docfx serve .vercel/output/static",

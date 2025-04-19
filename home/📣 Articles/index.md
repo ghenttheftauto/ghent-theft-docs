@@ -1,8 +1,9 @@
 # 🗣️ Articles
 
-> *For when the yapping is real*
+> _For when the yapping is real_
 
-This is where the thinking out loud happens. Where thoughts turn into paragraphs, and paragraphs occasionally turn into insight.
+This is where the thinking out loud happens. Where thoughts turn into
+paragraphs, and paragraphs occasionally turn into insight.
 
 ## Vision
 
@@ -11,7 +12,8 @@ This is where the thinking out loud happens. Where thoughts turn into paragraphs
 
 ## Medium Posts
 
-Some of these are cross-posted, some are just vibes. Written while caffeinated, most likely.
+Some of these are cross-posted, some are just vibes. Written while caffeinated,
+most likely.
 
 - [Making Ghent Theft Auto with Monk Math 🧘‍♂️](https://medium.com/@lucas.selfslagh/making-ghent-theft-auto-with-monk-math-45464ea1de02)
 - [Making Ghent Theft Auto with Height Maps 🌍](https://medium.com/ghent-theft-auto/making-ghent-theft-auto-with-height-maps-5b7400f6ce56)
