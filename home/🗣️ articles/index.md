@@ -1,15 +1,15 @@
 # 🗣️ Articles
 
-## For when the yapping is real.
+> *For when the yapping is real*
 
 This is where the thinking out loud happens. Where thoughts turn into paragraphs, and paragraphs occasionally turn into insight.
 
-### Vision
+## Vision
 
 - [Vision](vision.md): A look into where this is all going.
 - [Goals](goals.md): A look into where this is all going.
 
-### Medium Posts
+## Medium Posts
 
 Some of these are cross-posted, some are just vibes. Written while caffeinated, most likely.
 

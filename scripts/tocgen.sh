@@ -187,7 +187,7 @@ generate_flat_tocs() {
         raw_name=$(basename "$file" .md)
         slug_name=$(clean_text "$raw_name")
         echo "- name: \"$raw_name\"" >> "$toc_path"
-        echo "  href: \"${slug_name}.md\"" >> "$toc_path"
+        echo "  href: \"${slug_name}\"" >> "$toc_path"
 
       done
     fi
@@ -198,17 +198,16 @@ generate_flat_tocs
 
 generate_root_toc() {
   toc_path=".docs/toc.yml"
-  echo "# Root TOC" > "$toc_path"
   echo "# Generated on $(date)" >> "$toc_path"
   echo "" >> "$toc_path"
   echo "- name: Home" >> "$toc_path"
-  echo "  href: index.md" >> "$toc_path"
+  echo "  href: /" >> "$toc_path"
 
   for section in articles api codex ui; do
-    if [ -f ".docs/${section}/index.md" ]; then
+    if [ -f ".docs/${section}" ]; then
       display_name=$(basename "$section")
       echo "- name: \"$display_name\"" >> "$toc_path"
-      echo "  href: \"${section}/index.md\"" >> "$toc_path"
+      echo "  href: \"/${section}/\"" >> "$toc_path"
     fi
   done
 }
