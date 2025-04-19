@@ -8,8 +8,8 @@
     "toc": "rm -rf .docs && bash scripts/tocgen.sh",
     "build": "npm run toc && docfx metadata && docfx build",
     "serve": "npm run build && docfx serve .vercel/output/static",
-    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' --ignore-path .markdownlintignore && pnpm dlx yaml-lint home/**/*.yml",
-    "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --ignore-path .markdownlintignore --fix",
+    "lint": "pnpm dlx markdownlint-cli2 '**/*.md' && pnpm dlx yaml-lint home/**/*.yml",
+    "fix": "pnpm dlx markdownlint-cli2 '**/*.md' --fix",
     "publish": "pnpm run build && vercel --prebuilt --prod",
     "prepare": "husky && docfx metadata",
     "meta": "docfx metadata"
