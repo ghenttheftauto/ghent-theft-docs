@@ -1,3 +1,9 @@
 {
-  "ignores": [".markdownlintignore", "node_modules", ".vercel", ".docs"]
+  "ignores": [
+    ".markdownlintignore",
+    "node_modules",
+    ".vercel",
+    ".docs",
+    "README.md"
+  ]
 }

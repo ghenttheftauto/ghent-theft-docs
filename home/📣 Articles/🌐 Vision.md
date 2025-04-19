@@ -20,11 +20,11 @@ Where Conway had no past, we log everything, canonize it, and tell it back from 
 
 Each human is created with a specific birthdate (and potentially a death date, determined by [Reaper](xref:Gods.Reaper) logic). Their lifecycle is driven by age thresholds—for example, when they hit their birthday, they age; when they hit school age, they transition from child to student; eventually, they graduate, work, retire, and ultimately die.
 
-Every major event is recorded as a Moment: [`BirthMoment`](xref:Domain.Moments.BirthMoment), [`BirthdayMoment`](xref:Domain.Moments.BirthdayMoment), [`SchoolFirstDayMoment`](xref:Domain.Moments.SchoolFirstDayMoment), [`GraduationMoment`](xref:Domain.Moments.GraduationMoment), [`RetirementMoment`](xref:Domain.Moments.RetirementMoment), [`DeathMoment`](xref:Domain.Moments.DeathMoment), etc.
+Every major event is recorded as a Moment: [`BirthMoment`](xref:Domain.Moments.BirthMoment), [`BirthdayMoment`](xref:Domain.Moments.BirthdayMoment), [`SchoolFirstDayMoment`](xref:Domain.Moments.SchoolFirstDayMoment), (xref:Domain.Moments.SchoolFirstDayMoment), [`SchoolGraduationMoment`](xref:Domain.Moments.SchoolGraduationMoment), [`WorkRetirementMoment`](xref:Domain.Moments.WorkRetirementMoment), [`DeathMoment`](xref:Domain.Moments.DeathMoment), etc.
 
-These events are not just numerical; they’re richly narrated - using the [Sprookjes](xref:Sprookjes) layer to [Vertel](xref:Sprookjes/Vertel) - with emojis and a distinct Dutch style of storytelling. This narrative aspect transforms raw simulation data into story-like outputs.
+These events are not just numerical; they’re richly narrated - using the [Sprookjes](xref:Sprookjes) layer to [Vertel](xref:Sprookjes.Vertel) - with emojis and a distinct Dutch style of storytelling. This narrative aspect transforms raw simulation data into story-like outputs.
 
-The simulation is driven by a [Clock](xref:Domain.Time.Clock) that ticks on a daily basis, managing the passage of time. The Clock fires events for things like New Year’s Eve, the first day of school, school breaks, and holidays, which trigger corresponding changes in the simulation.
+The simulation is driven by a [Clock](xref:Time.Clock) that ticks on a daily basis, managing the passage of time. The Clock fires events for things like New Year’s Eve, the first day of school, school breaks, and holidays, which trigger corresponding changes in the simulation.
 
 The clock recalculates academic years and holidays every year, affecting how and when events such as the first day of school or end-of-school events occur.
 

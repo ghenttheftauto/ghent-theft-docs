@@ -1,4 +1,4 @@
-# 🧬 game-of-life docs
+# ![logo](images/logo-alpha.png)
 
 > _You better start believing in simulation theories, you're in one!_
 

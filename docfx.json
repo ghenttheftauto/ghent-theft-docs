@@ -51,7 +51,7 @@
     "resource": [
       {
         "src": "home",
-        "files": ["images/**"]
+        "files": ["images/**/*.jpg", "images/**/*.png"]
       }
     ],
     "output": ".vercel/output/static",

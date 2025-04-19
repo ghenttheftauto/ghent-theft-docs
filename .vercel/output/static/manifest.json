@@ -1978,6 +1978,46 @@
         }
       },
       "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "home/images/favicon.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "home/images/logo-alpha.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-alpha.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "home/images/logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "home/images/logo_dark.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_dark.jpg"
+        }
+      },
+      "version": ""
     }
   ],
   "groups": [
