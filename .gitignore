@@ -1,8 +1,9 @@
-# Build output
+
+
+# docfx input
 .docs/
 
-# Deployment configs and platform folders
-.vercel/
+
 vercel.json
 .vercelignore
 

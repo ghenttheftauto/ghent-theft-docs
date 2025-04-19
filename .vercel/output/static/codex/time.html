@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Time | ghta docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Time | ghta docs ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/codex/time.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="time">Time</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>Ghent Theft Auto can be run in realtime, i.e. local time with a realtime game speed.</p>
+<p>The progression of time in Ghent Theft Auto can also be manipulated to simulate higher or lower speeds.</p>
+<p>Time is even able to be halted completely by a single Player.</p>
+<p>This means time of day and calendar are fully mocked.</p>
+<p>The [[⏳ Time]] namespace contains public events for sunset and sunrise, allowing for example [[💡 Street Lamp]] behaviors.</p>
+<p>Time has events based on day of week, triggering [[💼 Profession]] behaviors. Conversely, Weekend and Holiday events will cause [[👤 Human]] to stay at their <a href="https://www.notion.so/Residence-0867e0ef50764c3686f227342945cf02?pvs=21">Residence</a> .</p>
+<p>Example given:</p>
+<p>On any given Sunday...</p>
+<ul>
+<li>a [[👩‍🎓 Student]] <em>doesn't</em> go to school on a Sunday as part of their [[💼 Profession]]</li>
+<li>a [[🧙‍♂️ Priest]] <strong><em>does</em></strong> go to [[🧎‍♂️ Place of worship]] to perform activities related to their [[💼 Profession]]</li>
+<li>[[👩‍🎓 Student]] <strong>can</strong> still attend church to fill their Piety need.</li>
+</ul>
+<p>Buildings that have a build year are only shown when the year has passed. For this, we use the calculated pivot of building instances and request the converted WGS84 as an address, we then use this address to look up build year on the GRB API.</p>
+<h2 id="events">Events</h2>
+<p>Calendar events are calculated for each year.</p>
+<p>[[👒 Holidays]]</p>
+<h2 id="systems">Systems</h2>
+<p>Time drives systems such as:</p>
+<ul>
+<li>analog clocks such as on the Belfry, the [[🚉 Train station]], etc.</li>
+<li>the ringing of [[🧎‍♂️ Place of worship]] bells</li>
+<li>opening and closing hours of public locations, such as <a href="https://www.notion.so/Shops-e7f46c3dccdd49738b4512dd1d23848a?pvs=21">Shops</a> or [[🅿️ Parking]]</li>
+<li>activation and deactivation of [[💡 Street Lamp]]</li>
+<li>activity of citizens, based on [[💼 Profession]]</li>
+<li>spawning of trash, as described in [[🚮 Sanitation]]]</li>
+<li>graduation of [[👩‍🎓 Student]] at the end of the academic year</li>
+<li>Holidays:
+<ul>
+<li>Fireworks at [[0101_Nieuwjaarsdag_🎊]]</li>
+<li>Gentse Feesten</li>
+</ul>
+</li>
+<li>Construction (and deconstruction) of buildings based on historical data</li>
+<li>Feeding historical data into the simulation such as population numbers, (un)employment, etc.</li>
+</ul>
+<h2 id="a-single-day-in-ghta">A single day in GhTA</h2>
+<h3 id="0000">00:00</h3>
+<p>DateTime is advanced one day</p>
+<p>new weather data is assigned to the climate</p>
+<p>Date is checked for date bound events such as:</p>
+<ul>
+<li>day of week</li>
+<li>nye</li>
+</ul>
+<h3 id="0100">01:00</h3>
+<p>bells ring one time at churches because it’s 1 o clock</p>
+<h3 id="0437">04:37</h3>
+<p>the moon dissappears behind the horizon because we calculated it using CoordinateSharp</p>
+<h3 id="0730">07:30</h3>
+<p>coordinate sharp provided us with a sunrise so we turn off the street lights</p>
+<h3 id="0800">08:00</h3>
+<p>since we parsed OSM opening hours for a store, it opens at this hour</p>
+<h3 id="0830">08:30</h3>
+<p>schools dont have opening hours but are hardcoded to open at 8:30</p>
+<h3 id="1115">11:15</h3>
+<p>analog clocks display 11:15 on Belfort and Sint Pieters station, for example</p>
+<h3 id="1347">13:47</h3>
+<p>a train arrives at Gent Dampoort, parsed from <a href="https://www.notion.so/iRail-API-808a188b7fd74aac857e6d2fb0dfcdfb?pvs=21">iRail API</a></p>
+<h3 id="1400">14:00</h3>
+<p>a postman picks up mail from a postbox parsed from OSM API</p>
+<h3 id="1730">17:30</h3>
+<p>a bus leaves at the Zuid, parsed from De Lijn</p>
+<h3 id="1800">18:00</h3>
+<p>shops close in the Veldstraat because we parsed their opening hours</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/codex/time.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

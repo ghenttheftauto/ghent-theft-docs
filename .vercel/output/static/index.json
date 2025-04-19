@@ -1,0 +1,792 @@
+{
+  "api/Domain.Exceptions.DeadHumanException.html": {
+    "href": "api/Domain.Exceptions.DeadHumanException.html",
+    "title": "Class DeadHumanException | ghta docs",
+    "summary": "Class DeadHumanException Namespace Domain.Exceptions Assembly gameoflife.dll \uD83D\uDEAB Thrown when an action is performed on someone who has already returned to dust. public class DeadHumanException : Exception, ISerializable Inheritance object Exception DeadHumanException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetObjectData(SerializationInfo, StreamingContext) Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite Exception.SerializeObjectState object.Equals(object) object.Equals(object, object) object.GetHashCode() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors DeadHumanException() Initializes a new instance of the DeadHumanException class with a default message. public DeadHumanException() DeadHumanException(string) Initializes a new instance of the DeadHumanException class with a specified error message. public DeadHumanException(string message) Parameters message string The message that describes the error. DeadHumanException(string, Exception) Initializes a new instance of the DeadHumanException class with a specified error message and a reference to the inner exception that is the cause of this exception. public DeadHumanException(string message, Exception innerException) Parameters message string The error message that explains the reason for the exception. innerException Exception The exception that is the cause of the current exception, or a null reference if no inner exception is specified."
+  },
+  "api/Domain.Exceptions.LiturgicalException.html": {
+    "href": "api/Domain.Exceptions.LiturgicalException.html",
+    "title": "Class LiturgicalException | ghta docs",
+    "summary": "Class LiturgicalException Namespace Domain.Exceptions Assembly gameoflife.dll ⛪ Represents an error that occurs when a liturgical operation violates sacred calendrical bounds, theological logic, or canonical expectations. public class LiturgicalException : Exception, ISerializable Inheritance object Exception LiturgicalException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetObjectData(SerializationInfo, StreamingContext) Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite Exception.SerializeObjectState object.Equals(object) object.Equals(object, object) object.GetHashCode() object.MemberwiseClone() object.ReferenceEquals(object, object) Remarks \uD83D\uDED0 This exception is intended for use in religiously-aware simulation systems, including but not limited to: \uD83D\uDD4A️ Misaligned feast day calculations \uD83D\uDCDC Attempts to compute Gregorian dates before the 1583 reform \uD83D\uDD6F️ Violations of monastic mathematical purity ☝️ It is not to be thrown lightly. Only invoke when your code finds itself at odds with divine chronology. Constructors LiturgicalException() public LiturgicalException() LiturgicalException(string) public LiturgicalException(string message) Parameters message string LiturgicalException(string, Exception) public LiturgicalException(string message, Exception inner) Parameters message string inner Exception"
+  },
+  "api/Domain.Exceptions.ReaperException.html": {
+    "href": "api/Domain.Exceptions.ReaperException.html",
+    "title": "Class ReaperException | ghta docs",
+    "summary": "Class ReaperException Namespace Domain.Exceptions Assembly gameoflife.dll ☠️ Thrown when Reaper attempts to reap a Human that has already been reaped. public class ReaperException : Exception, ISerializable Inheritance object Exception ReaperException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetObjectData(SerializationInfo, StreamingContext) Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite Exception.SerializeObjectState object.Equals(object) object.Equals(object, object) object.GetHashCode() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors ReaperException() public ReaperException()"
+  },
+  "api/Domain.Exceptions.html": {
+    "href": "api/Domain.Exceptions.html",
+    "title": "Namespace Domain.Exceptions | ghta docs",
+    "summary": "Namespace Domain.Exceptions Classes DeadHumanException \uD83D\uDEAB Thrown when an action is performed on someone who has already returned to dust. LiturgicalException ⛪ Represents an error that occurs when a liturgical operation violates sacred calendrical bounds, theological logic, or canonical expectations. ReaperException ☠️ Thrown when Reaper attempts to reap a Human that has already been reaped."
+  },
+  "api/Domain.Moments.BirthMoment.html": {
+    "href": "api/Domain.Moments.BirthMoment.html",
+    "title": "Class BirthMoment | ghta docs",
+    "summary": "Class BirthMoment Namespace Domain.Moments Assembly gameoflife.dll The exact moment in time when someone is born; a significant event for all involved Human instances. public class BirthMoment : Moment Inheritance object Moment BirthMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BirthMoment(Human, IAddressable, DateTime) The joyous moment of birth. \uD83D\uDC23 public BirthMoment(Human child, IAddressable location, DateTime time) Parameters child Human location IAddressable time DateTime Fields Child \uD83C\uDF0E The Simulation welcomes a new little wonder. This property is of type Human and represents the newborn child. public readonly Human Child Field Value Human Father The father of the child. Nullable Male is more on brand. public readonly Male? Father Field Value Male Mother The mother of the child. Nullable Female feels wrong, but it's the only way to make it work. public readonly Female? Mother Field Value Female"
+  },
+  "api/Domain.Moments.BirthdayMoment.html": {
+    "href": "api/Domain.Moments.BirthdayMoment.html",
+    "title": "Class BirthdayMoment | ghta docs",
+    "summary": "Class BirthdayMoment Namespace Domain.Moments Assembly gameoflife.dll public class BirthdayMoment : Moment Inheritance object Moment BirthdayMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BirthdayMoment(Human, DateTime) public BirthdayMoment(Human who, DateTime when) Parameters who Human when DateTime Fields BirthdayBoy public readonly Human BirthdayBoy Field Value Human"
+  },
+  "api/Domain.Moments.DeathMoment.html": {
+    "href": "api/Domain.Moments.DeathMoment.html",
+    "title": "Class DeathMoment | ghta docs",
+    "summary": "Class DeathMoment Namespace Domain.Moments Assembly gameoflife.dll public class DeathMoment : Moment Inheritance object Moment DeathMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DeathMoment(Human, DateTime) public DeathMoment(Human who, DateTime when) Parameters who Human when DateTime Fields Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.DropoutMoment.html": {
+    "href": "api/Domain.Moments.DropoutMoment.html",
+    "title": "Class DropoutMoment | ghta docs",
+    "summary": "Class DropoutMoment Namespace Domain.Moments Assembly gameoflife.dll public class DropoutMoment : Moment Inheritance object Moment DropoutMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DropoutMoment(Human, DateTime, IEducatable) public DropoutMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.HistoricMoment.html": {
+    "href": "api/Domain.Moments.HistoricMoment.html",
+    "title": "Class HistoricMoment | ghta docs",
+    "summary": "Class HistoricMoment Namespace Domain.Moments Assembly gameoflife.dll public class HistoricMoment Inheritance object HistoricMoment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HistoricMoment(DateTime, string) public HistoricMoment(DateTime when, string what) Parameters when DateTime what string Fields Description public readonly string Description Field Value string When public readonly DateTime When Field Value DateTime"
+  },
+  "api/Domain.Moments.Moment.html": {
+    "href": "api/Domain.Moments.Moment.html",
+    "title": "Class Moment | ghta docs",
+    "summary": "Class Moment Namespace Domain.Moments Assembly gameoflife.dll public abstract class Moment Inheritance object Moment Derived BirthMoment BirthdayMoment DeathMoment DropoutMoment NewSchoolMoment SchoolDropoutMoment SchoolExamnMoment SchoolFirstDayMoment SchoolGraduationMoment SchoolTooDumbMoment WorkRetirementMoment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Moment(DateTime, IAddressable) protected Moment(DateTime when, IAddressable where) Parameters when DateTime where IAddressable Fields Participants public List<Human> Participants Field Value List<Human> When public readonly DateTime When Field Value DateTime Where public readonly IAddressable Where Field Value IAddressable"
+  },
+  "api/Domain.Moments.NewSchoolMoment.html": {
+    "href": "api/Domain.Moments.NewSchoolMoment.html",
+    "title": "Class NewSchoolMoment | ghta docs",
+    "summary": "Class NewSchoolMoment Namespace Domain.Moments Assembly gameoflife.dll public class NewSchoolMoment : Moment Inheritance object Moment NewSchoolMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors NewSchoolMoment(Human, DateTime, IAddressable) public NewSchoolMoment(Human who, DateTime when, IAddressable where) Parameters who Human when DateTime where IAddressable Fields School public readonly IEducatable? School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.SchoolDropoutMoment.html": {
+    "href": "api/Domain.Moments.SchoolDropoutMoment.html",
+    "title": "Class SchoolDropoutMoment | ghta docs",
+    "summary": "Class SchoolDropoutMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolDropoutMoment : Moment Inheritance object Moment SchoolDropoutMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolDropoutMoment(Human, DateTime, IEducatable) public SchoolDropoutMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.SchoolExamnMoment.html": {
+    "href": "api/Domain.Moments.SchoolExamnMoment.html",
+    "title": "Class SchoolExamnMoment | ghta docs",
+    "summary": "Class SchoolExamnMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolExamnMoment : Moment Inheritance object Moment SchoolExamnMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolExamnMoment(Human, bool, DateTime, IEducatable) public SchoolExamnMoment(Human pupil, bool passed, DateTime when, IEducatable school) Parameters pupil Human passed bool when DateTime school IEducatable Fields Passed public readonly bool Passed Field Value bool School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.SchoolFirstDayMoment.html": {
+    "href": "api/Domain.Moments.SchoolFirstDayMoment.html",
+    "title": "Class SchoolFirstDayMoment | ghta docs",
+    "summary": "Class SchoolFirstDayMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolFirstDayMoment : Moment Inheritance object Moment SchoolFirstDayMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolFirstDayMoment(Human, DateTime, IEducatable) public SchoolFirstDayMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.SchoolGraduationMoment.html": {
+    "href": "api/Domain.Moments.SchoolGraduationMoment.html",
+    "title": "Class SchoolGraduationMoment | ghta docs",
+    "summary": "Class SchoolGraduationMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolGraduationMoment : Moment Inheritance object Moment SchoolGraduationMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolGraduationMoment(Human, DateTime, IEducatable) public SchoolGraduationMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.SchoolTooDumbMoment.html": {
+    "href": "api/Domain.Moments.SchoolTooDumbMoment.html",
+    "title": "Class SchoolTooDumbMoment | ghta docs",
+    "summary": "Class SchoolTooDumbMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolTooDumbMoment : Moment Inheritance object Moment SchoolTooDumbMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolTooDumbMoment(Human, DateTime, IEducatable) public SchoolTooDumbMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.WorkRetirementMoment.html": {
+    "href": "api/Domain.Moments.WorkRetirementMoment.html",
+    "title": "Class WorkRetirementMoment | ghta docs",
+    "summary": "Class WorkRetirementMoment Namespace Domain.Moments Assembly gameoflife.dll public class WorkRetirementMoment : Moment Inheritance object Moment WorkRetirementMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors WorkRetirementMoment(Human, DateTime) public WorkRetirementMoment(Human who, DateTime when) Parameters who Human when DateTime Fields Who public readonly Human Who Field Value Human"
+  },
+  "api/Domain.Moments.html": {
+    "href": "api/Domain.Moments.html",
+    "title": "Namespace Domain.Moments | ghta docs",
+    "summary": "Namespace Domain.Moments Classes BirthMoment The exact moment in time when someone is born; a significant event for all involved Human instances. BirthdayMoment DeathMoment DropoutMoment HistoricMoment Moment NewSchoolMoment SchoolDropoutMoment SchoolExamnMoment SchoolFirstDayMoment SchoolGraduationMoment SchoolTooDumbMoment WorkRetirementMoment"
+  },
+  "api/Domain.Utility.BellCurve.html": {
+    "href": "api/Domain.Utility.BellCurve.html",
+    "title": "Class BellCurve | ghta docs",
+    "summary": "Class BellCurve Namespace Domain.Utility Assembly gameoflife.dll public class BellCurve Inheritance object BellCurve Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BellCurve(double, double) public BellCurve(double mean, double deviation) Parameters mean double deviation double Methods SampleBellCurve() public double SampleBellCurve() Returns double"
+  },
+  "api/Domain.Utility.CollectionExtension.html": {
+    "href": "api/Domain.Utility.CollectionExtension.html",
+    "title": "Class CollectionExtension | ghta docs",
+    "summary": "Class CollectionExtension Namespace Domain.Utility Assembly gameoflife.dll public static class CollectionExtension Inheritance object CollectionExtension Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods RandomElement<T>(IList<T>) public static T RandomElement<T>(this IList<T> list) Parameters list IList<T> Returns T Type Parameters T RandomElement<T>(T[]) public static T RandomElement<T>(this T[] array) Parameters array T[] Returns T Type Parameters T"
+  },
+  "api/Domain.Utility.DateTimeExtension.html": {
+    "href": "api/Domain.Utility.DateTimeExtension.html",
+    "title": "Class DateTimeExtension | ghta docs",
+    "summary": "Class DateTimeExtension Namespace Domain.Utility Assembly gameoflife.dll public static class DateTimeExtension Inheritance object DateTimeExtension Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsEasterSunday(DateTime) public static bool IsEasterSunday(this DateTime original) Parameters original DateTime Returns bool IsInPeriod(DateTime, (DateTime, DateTime)) public static bool IsInPeriod(this DateTime time, (DateTime, DateTime) period) Parameters time DateTime period (DateTime, DateTime) Returns bool IsWeekend(DateTime) public static bool IsWeekend(this DateTime originalDate) Parameters originalDate DateTime Returns bool"
+  },
+  "api/Domain.Utility.EnumExtension.html": {
+    "href": "api/Domain.Utility.EnumExtension.html",
+    "title": "Class EnumExtension | ghta docs",
+    "summary": "Class EnumExtension Namespace Domain.Utility Assembly gameoflife.dll public static class EnumExtension Inheritance object EnumExtension Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetRandomEnumValue(Type) public static Enum GetRandomEnumValue(this Type t) Parameters t Type Returns Enum"
+  },
+  "api/Domain.Utility.StringExtensions.html": {
+    "href": "api/Domain.Utility.StringExtensions.html",
+    "title": "Class StringExtensions | ghta docs",
+    "summary": "Class StringExtensions Namespace Domain.Utility Assembly gameoflife.dll public static class StringExtensions Inheritance object StringExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FirstCharToUpper(string) public static string FirstCharToUpper(this string input) Parameters input string Returns string"
+  },
+  "api/Domain.Utility.html": {
+    "href": "api/Domain.Utility.html",
+    "title": "Namespace Domain.Utility | ghta docs",
+    "summary": "Namespace Domain.Utility Classes BellCurve CollectionExtension DateTimeExtension EnumExtension StringExtensions"
+  },
+  "api/Education.EducationLevel.html": {
+    "href": "api/Education.EducationLevel.html",
+    "title": "Enum EducationLevel | ghta docs",
+    "summary": "Enum EducationLevel Namespace Education Assembly gameoflife.dll The level of education a human can have. You can grow your level of education by going to the schools like Lageschool, Middelbaar and University. public enum EducationLevel Fields elementary = 1 illiterate = 0 secondary = 2 university = 3"
+  },
+  "api/Education.EducationSystem.html": {
+    "href": "api/Education.EducationSystem.html",
+    "title": "Class EducationSystem | ghta docs",
+    "summary": "Class EducationSystem Namespace Education Assembly gameoflife.dll Please refactor me to be static!!! public class EducationSystem Inheritance object EducationSystem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors EducationSystem(DateTime) public EducationSystem(DateTime time) Parameters time DateTime Properties AcademicYear The academic year is the time between the first day of school and the last day of school. Calculated by the CalculateAcademicYear(DateTime) method. public (DateTime, DateTime) AcademicYear { get; } Property Value (DateTime, DateTime) Methods AssignNewSchool(Human, in EducationLevel) Enrolls a student into a new school. public void AssignNewSchool(Human human, in EducationLevel level) Parameters human Human The poor pupil being enrolled level EducationLevel The difficulty if the school FirstDayOfNewAcademicYear(DateTime) public void FirstDayOfNewAcademicYear(DateTime time) Parameters time DateTime GradeStudent(in Human, byte, byte) Grades a Student based on the difficulty of their education and their Intelligence. public bool GradeStudent(in Human human, byte intelligence, byte difficulty) Parameters human Human intelligence byte difficulty byte Returns bool Whether the Student succeeds for this Exam"
+  },
+  "api/Education.IEducatable.html": {
+    "href": "api/Education.IEducatable.html",
+    "title": "Interface IEducatable | ghta docs",
+    "summary": "Interface IEducatable Namespace Education Assembly gameoflife.dll Represents an educational path or system that governs how a human progresses through schooling. public interface IEducatable Properties Difficulty The difficulty of this educational path, on a scale from 0 to 255. Used to determine success, dropout chance, etc. byte Difficulty { get; } Property Value byte Duration Duration in years typically required to complete this education, granted no flunking. byte Duration { get; } Property Value byte Level The level of education this path corresponds to (e.g., Lageschool, Middelbaar, University). EducationLevel Level { get; } Property Value EducationLevel Methods Advance(in DateTime, in Human) void Advance(in DateTime time, in Human human) Parameters time DateTime human Human Graduate(in DateTime, in Human) void Graduate(in DateTime time, in Human human) Parameters time DateTime human Human"
+  },
+  "api/Education.SchoolBreakTypes.html": {
+    "href": "api/Education.SchoolBreakTypes.html",
+    "title": "Enum SchoolBreakTypes | ghta docs",
+    "summary": "Enum SchoolBreakTypes Namespace Education Assembly gameoflife.dll public enum SchoolBreakTypes Fields AutumnBreak = 0 ChristmasBreak = 1 EasterBreak = 3 SpringBreak = 2 SummerBreak = 4"
+  },
+  "api/Education.html": {
+    "href": "api/Education.html",
+    "title": "Namespace Education | ghta docs",
+    "summary": "Namespace Education Classes EducationSystem Please refactor me to be static!!! Interfaces IEducatable Represents an educational path or system that governs how a human progresses through schooling. Enums EducationLevel The level of education a human can have. You can grow your level of education by going to the schools like Lageschool, Middelbaar and University. SchoolBreakTypes"
+  },
+  "api/Family.FamilyTree.html": {
+    "href": "api/Family.FamilyTree.html",
+    "title": "Class FamilyTree | ghta docs",
+    "summary": "Class FamilyTree Namespace Family Assembly gameoflife.dll public class FamilyTree : TreeNode, IEnumerable<TreeNode>, IEnumerable<Human>, IEnumerable<Relation>, IEnumerable Inheritance object TreeNode FamilyTree Implements IEnumerable<TreeNode> IEnumerable<Human> IEnumerable<Relation> IEnumerable Inherited Members TreeNode.Couple TreeNode.Father TreeNode.Mother TreeNode._couple TreeNode.Children TreeNode._allHumans TreeNode.GetEnumerator() TreeNode.OnChildBecomesCouple TreeNode.UpdateNodeWithChild(Human) TreeNode.HandleNewCouple(Relation) TreeNode.AddTreeNodeToTreeNode(Relation) TreeNode.Depth TreeNode.IsRoot TreeNode.Root TreeNode.Parent TreeNode._childNodes TreeNode.ChildNodes object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors FamilyTree(Relation, TreeNode) public FamilyTree(Relation couple, TreeNode parent = null) Parameters couple Relation parent TreeNode Fields AdamAndEve public Relation AdamAndEve Field Value Relation Methods AreSiblings(Human, Human) public bool AreSiblings(Human humanA, Human humanB) Parameters humanA Human humanB Human Returns bool ContainsCouple(Relation) public bool ContainsCouple(Relation couple) Parameters couple Relation Returns bool ContainsHuman(Human) public bool ContainsHuman(Human human) Parameters human Human Returns bool GetChildrenForParent(Human) public IEnumerable<Human> GetChildrenForParent(Human parent) Parameters parent Human Returns IEnumerable<Human> GetNodeForChild(Human) public TreeNode GetNodeForChild(Human child) Parameters child Human Returns TreeNode GetNodeForCouple(Relation) public TreeNode GetNodeForCouple(Relation couple) Parameters couple Relation Returns TreeNode GetNodeForParent(Human) public TreeNode GetNodeForParent(Human parent) Parameters parent Human Returns TreeNode GetParentsForChild(Human) public IEnumerable<Human> GetParentsForChild(Human child) Parameters child Human Returns IEnumerable<Human> GetSelfAndSiblings(Human) public IEnumerable<Human> GetSelfAndSiblings(Human child) Parameters child Human Returns IEnumerable<Human> GetSiblings(Human) public IEnumerable<Human> GetSiblings(Human human) Parameters human Human Returns IEnumerable<Human> IsChildOf(Human, Human) public bool IsChildOf(Human child, Human parent) Parameters child Human parent Human Returns bool IsChildOf(Human, Relation) public bool IsChildOf(Human human, Relation couple) Parameters human Human couple Relation Returns bool IsParentOf(Human, Human) public bool IsParentOf(Human parent, Human child) Parameters parent Human child Human Returns bool ToList() public List<Human> ToList() Returns List<Human>"
+  },
+  "api/Family.TreeNode.html": {
+    "href": "api/Family.TreeNode.html",
+    "title": "Class TreeNode | ghta docs",
+    "summary": "Class TreeNode Namespace Family Assembly gameoflife.dll public class TreeNode : IEnumerable<Relation>, IEnumerable<Human>, IEnumerable Inheritance object TreeNode Implements IEnumerable<Relation> IEnumerable<Human> IEnumerable Derived FamilyTree Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TreeNode(Relation, TreeNode) public TreeNode(Relation couple, TreeNode parent) Parameters couple Relation parent TreeNode Fields Father public Male Father Field Value Male Mother public Female Mother Field Value Female OnChildBecomesCouple public Action<Relation> OnChildBecomesCouple Field Value Action<Relation> _allHumans protected List<Human> _allHumans Field Value List<Human> _childNodes protected TreeNodeList _childNodes Field Value TreeNodeList _couple protected readonly List<Relation> _couple Field Value List<Relation> Properties ChildNodes public TreeNodeList ChildNodes { get; } Property Value TreeNodeList Children public List<Human> Children { get; } Property Value List<Human> Couple public Relation Couple { get; } Property Value Relation Depth public int Depth { get; } Property Value int IsRoot public bool IsRoot { get; } Property Value bool Parent public TreeNode Parent { get; set; } Property Value TreeNode Root public TreeNode Root { get; } Property Value TreeNode Methods AddTreeNodeToTreeNode(Relation) public TreeNode AddTreeNodeToTreeNode(Relation couple) Parameters couple Relation Returns TreeNode GetEnumerator() Returns an enumerator that iterates through the collection. public IEnumerator<Relation> GetEnumerator() Returns IEnumerator<Relation> An enumerator that can be used to iterate through the collection. HandleNewCouple(Relation) protected void HandleNewCouple(Relation couple) Parameters couple Relation UpdateNodeWithChild(Human) public void UpdateNodeWithChild(Human human) Parameters human Human"
+  },
+  "api/Family.TreeNodeList.html": {
+    "href": "api/Family.TreeNodeList.html",
+    "title": "Class TreeNodeList | ghta docs",
+    "summary": "Class TreeNodeList Namespace Family Assembly gameoflife.dll public class TreeNodeList : List<TreeNode>, IList<TreeNode>, ICollection<TreeNode>, IReadOnlyList<TreeNode>, IReadOnlyCollection<TreeNode>, IEnumerable<TreeNode>, IList, ICollection, IEnumerable Inheritance object List<TreeNode> TreeNodeList Implements IList<TreeNode> ICollection<TreeNode> IReadOnlyList<TreeNode> IReadOnlyCollection<TreeNode> IEnumerable<TreeNode> IList ICollection IEnumerable Inherited Members List<TreeNode>.AddRange(IEnumerable<TreeNode>) List<TreeNode>.AsReadOnly() List<TreeNode>.BinarySearch(int, int, TreeNode, IComparer<TreeNode>) List<TreeNode>.BinarySearch(TreeNode) List<TreeNode>.BinarySearch(TreeNode, IComparer<TreeNode>) List<TreeNode>.Clear() List<TreeNode>.Contains(TreeNode) List<TreeNode>.ConvertAll<TOutput>(Converter<TreeNode, TOutput>) List<TreeNode>.CopyTo(int, TreeNode[], int, int) List<TreeNode>.CopyTo(TreeNode[]) List<TreeNode>.CopyTo(TreeNode[], int) List<TreeNode>.Exists(Predicate<TreeNode>) List<TreeNode>.Find(Predicate<TreeNode>) List<TreeNode>.FindAll(Predicate<TreeNode>) List<TreeNode>.FindIndex(int, int, Predicate<TreeNode>) List<TreeNode>.FindIndex(int, Predicate<TreeNode>) List<TreeNode>.FindIndex(Predicate<TreeNode>) List<TreeNode>.FindLast(Predicate<TreeNode>) List<TreeNode>.FindLastIndex(int, int, Predicate<TreeNode>) List<TreeNode>.FindLastIndex(int, Predicate<TreeNode>) List<TreeNode>.FindLastIndex(Predicate<TreeNode>) List<TreeNode>.ForEach(Action<TreeNode>) List<TreeNode>.GetEnumerator() List<TreeNode>.GetRange(int, int) List<TreeNode>.IndexOf(TreeNode) List<TreeNode>.IndexOf(TreeNode, int) List<TreeNode>.IndexOf(TreeNode, int, int) List<TreeNode>.Insert(int, TreeNode) List<TreeNode>.InsertRange(int, IEnumerable<TreeNode>) List<TreeNode>.LastIndexOf(TreeNode) List<TreeNode>.LastIndexOf(TreeNode, int) List<TreeNode>.LastIndexOf(TreeNode, int, int) List<TreeNode>.Remove(TreeNode) List<TreeNode>.RemoveAll(Predicate<TreeNode>) List<TreeNode>.RemoveAt(int) List<TreeNode>.RemoveRange(int, int) List<TreeNode>.Reverse() List<TreeNode>.Reverse(int, int) List<TreeNode>.Sort() List<TreeNode>.Sort(IComparer<TreeNode>) List<TreeNode>.Sort(Comparison<TreeNode>) List<TreeNode>.Sort(int, int, IComparer<TreeNode>) List<TreeNode>.ToArray() List<TreeNode>.TrimExcess() List<TreeNode>.TrueForAll(Predicate<TreeNode>) List<TreeNode>.Capacity List<TreeNode>.Count List<TreeNode>.this[int] object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Extension Methods CollectionExtension.RandomElement<T>(IList<T>) Constructors TreeNodeList(TreeNode) public TreeNodeList(TreeNode Parent) Parameters Parent TreeNode Fields Parent public TreeNode Parent Field Value TreeNode Methods Add(TreeNode) public TreeNode Add(TreeNode Node) Parameters Node TreeNode Returns TreeNode Add(Relation) public TreeNode Add(Relation couple) Parameters couple Relation Returns TreeNode"
+  },
+  "api/Family.html": {
+    "href": "api/Family.html",
+    "title": "Namespace Family | ghta docs",
+    "summary": "Namespace Family Classes FamilyTree TreeNode TreeNodeList"
+  },
+  "api/Gods.Fate.html": {
+    "href": "api/Gods.Fate.html",
+    "title": "Class Fate | ghta docs",
+    "summary": "Class Fate Namespace Gods Assembly gameoflife.dll ✨ The winds of Fate decide all outcomes. In the vast tapestry of possibility, threads interweave in patterns beyond mortal comprehension. public static class Fate Inheritance object Fate Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks This static class acts as the central oracle of randomness within the simulation. All stochastic processes — conception, deaths, traits, timings — flow through this point, including the determination of SchoolGraduationMoment, Moments.DeathMoment. giving a divine consistency to randomness. Whether a child is born with brilliance, whether a soul survives the winter, or whether two lovers meet at the right moment... Use this class with reverence. It does not guarantee fairness, only possibility. \uD83C\uDFB2 Alea acta est. Properties Random \uD83E\uDEC0 The internal beating heart of uncertainty, a wellspring of possibility from which all randomness flows like water from a hidden mountain spring. public static Random Random { get; } Property Value Random Methods DrawCard(int) \uD83C\uDCCF Draws a card from the universal deck, where each pull reveals another fragment of the grand design. public static int DrawCard(int cards) Parameters cards int The number of cards in the mystic deck. Returns int The zero-indexed position of fate's chosen card. FlipCoin() \uD83E\uDE99 As a spinning coin slices through the air - glinting in the light of possibility - two futures shimmer in parallel. In its descent, all timelines converge, collapsing into a singular truth the moment it lands. public static bool FlipCoin() Returns bool True or false, yes or no, \uD83D\uDC4D or \uD83D\uDC4E - the binary breath of fate. RollDice() \uD83C\uDFB2 Consults the dice of the cosmos, six platonic planes arranged in 24 dimensions The dice is a tool of fate,a means of divining the future, and have determined the fate of kings and paupers alike since time immemorial. public static int RollDice() Returns int \uD83D\uDCAD A number written in the stars, between 1 and the specified sides."
+  },
+  "api/Gods.Reaper.html": {
+    "href": "api/Gods.Reaper.html",
+    "title": "Class Reaper | ghta docs",
+    "summary": "Class Reaper Namespace Gods Assembly gameoflife.dll ☠️ He who wanders the plains. The silent constant. Reaper decides when the thread is cut — no earlier, no later. public static class Reaper Inheritance object Reaper Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks This static class governs mortality within the simulation. Based on age-specific probabilities stored in MortalityTuples, the Reaper evaluates whether a human should pass. This can be triggered by ThrowDiceOfLife, which simulates the uncertainty of life, or IsThisTheDay, which simply checks whether death is scheduled. If so, Yoink pulls the soul from the world. No negotiation. No mercy. Just one final tick. Fields MortalityTuples public static readonly Dictionary<byte, (double, double)> MortalityTuples Field Value Dictionary<byte, (double, double)> Methods IsThisTheDay(Human, in DateTime) Checks if a human should die today. public static bool IsThisTheDay(Human human, in DateTime time) Parameters human Human time DateTime Returns bool ThrowDiceOfLife(in Human) \uD83C\uDFB2 Casts the eternal dice of mortality to see if this soul must depart. public static bool ThrowDiceOfLife(in Human human) Parameters human Human The human to throw the dice for. Returns bool Yoink(Human, in DateTime) ✂️ Reaps the soul of the given human. Their thread is cut, their journey ends. public static void Yoink(Human human, in DateTime time) Parameters human Human time DateTime"
+  },
+  "api/Gods.Religion.html": {
+    "href": "api/Gods.Religion.html",
+    "title": "Class Religion | ghta docs",
+    "summary": "Class Religion Namespace Gods Assembly gameoflife.dll \uD83D\uDD4A️ A sacred module for computing key dates in the liturgical calendar with reverence and precision. \uD83D\uDCFF Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi— all derived from canonical computus, purified of any profane math. \uD83D\uDD4C Fully halal. \uD83D\uDD4D Kosher-compliant. ✡️ Julian-aware. Designed for use in cathedral-scale simulations, ascetic calendar engines, and ecclesiastically approved procedural generation. public static class Religion Inheritance object Religion Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CalculateHalalEaster(int) ✨ Calculates \uD83D\uDC23 Easter Sunday for a given year using fully \uD83D\uDD4C Halal math. public static DateTime CalculateHalalEaster(int year) Parameters year int \uD83D\uDCC5 The Gregorian year (e.g. 2025). Returns DateTime \uD83D\uDCC6 The date of the ✝️ resurrection of Christ. Remarks \uD83D\uDE4F Nomine Patris, et Filii, et Spiritus Sancti. \uD83D\uDD4C This is a fully halal implementation of the \uD83E\uDDEE Computus — the sacred algorithm used to determine Easter. ❌ Forbidden operations intentionally excluded: \uD83D\uDEAB Modulus (%) \uD83D\uDEAB Floating point division \uD83D\uDEAB Math libraries \uD83D\uDEAB Any logic that would offend a 6th-century monk \uD83E\uDDD8 ✅ This method is compliant with ecclesiastical expectations from the era of the Council of Nicaea (325 AD) onward. ✅ It is ideal for \uD83D\uDED0 liturgical simulators, \uD83E\uDDE0 theological simulations, and any sacred date generation engine. \uD83D\uDCDC The formula is based on the Computus as formalized in the Gregorian calendar, notably using the Gauss algorithm (1800s), transcribed here using only operations blessed by holy logic \uD83D\uDD25. \uD83C\uDFF0 Perfect for cathedral-scale \uD83D\uDD4D simulations or ascetic \uD83E\uDDCE‍♂️ command-line environments. GetAshWednesday(int) Calculates Ash Wednesday (Easter - 46 days). public static DateTime GetAshWednesday(int year) Parameters year int Returns DateTime GetCorpusChristi(int) \uD83D\uDD25\uD83D\uDE4F Calculates the date of Corpus Christi (Easter + 60 days). public static DateTime GetCorpusChristi(int year) Parameters year int Returns DateTime GetPentecost(int) Calculates Pentecost Sunday (Easter + 49 days). public static DateTime GetPentecost(int year) Parameters year int Returns DateTime"
+  },
+  "api/Gods.Sex.html": {
+    "href": "api/Gods.Sex.html",
+    "title": "Class Sex | ghta docs",
+    "summary": "Class Sex Namespace Gods Assembly gameoflife.dll \uD83D\uDE33 Yeah. I never thought I was going to write this class. It's not what it seems, I swear. \uD83E\uDEE3 public static class Sex Inheritance object Sex Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GenerateDaughter(DateTime, Human, Human) \uD83D\uDC67 Generates a daughter from two parents. public static Female GenerateDaughter(DateTime time, Human one, Human other) Parameters time DateTime one Human other Human Returns Female GenerateSon(DateTime, Human, Human) \uD83D\uDC66 Generates a son from two parents public static Male GenerateSon(DateTime time, Human one, Human other) Parameters time DateTime one Human other Human Returns Male Have(Human, Human, DateTime, out Human?) \uD83D\uDECC\uD83D\uDC69‍❤️‍\uD83D\uDC68 When two people really like each other... public static bool Have(Human a, Human b, DateTime time, out Human? child) Parameters a Human b Human time DateTime child Human Returns bool"
+  },
+  "api/Gods.html": {
+    "href": "api/Gods.html",
+    "title": "Namespace Gods | ghta docs",
+    "summary": "Namespace Gods Classes Fate ✨ The winds of Fate decide all outcomes. In the vast tapestry of possibility, threads interweave in patterns beyond mortal comprehension. Reaper ☠️ He who wanders the plains. The silent constant. Reaper decides when the thread is cut — no earlier, no later. Religion \uD83D\uDD4A️ A sacred module for computing key dates in the liturgical calendar with reverence and precision. \uD83D\uDCFF Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi— all derived from canonical computus, purified of any profane math. \uD83D\uDD4C Fully halal. \uD83D\uDD4D Kosher-compliant. ✡️ Julian-aware. Designed for use in cathedral-scale simulations, ascetic calendar engines, and ecclesiastically approved procedural generation. Sex \uD83D\uDE33 Yeah. I never thought I was going to write this class. It's not what it seems, I swear. \uD83E\uDEE3"
+  },
+  "api/Humans.Female.html": {
+    "href": "api/Humans.Female.html",
+    "title": "Class Female | ghta docs",
+    "summary": "Class Female Namespace Humans Assembly gameoflife.dll Meisjes, ze maken ons zo zot meneer! public class Female : Human, IBeing Inheritance object Human Female Implements IBeing Inherited Members Human.Single Human.Name Human.Alive Human.Age Human.Couple Human.Partner Human.Gay Human.Born Human.Died Human.Intelligence Human.HealthPoints Human.MentalHealthPoints Human.XP Human.YearsWorked Human.BirthDate Human.DeathDate Human.Father Human.Mother Human.Fertile Human.Children Human.FertileAge Human.LastName Human.Occupation Human.Profession Human.BirthPlace Human.CurrentEducation Human.Degree Human.EducationProgression Human.Middelbaar Human.Lageschool Human.Universiteit Human.Workplace Human.Residence Human.CurrentLocation Human.ChildWishAge Human.OnBirth Human.OnDeath Human.RequestWorkplace Human.RequestResidence Human.OnGraduation Human.OnBirthday Human.OnBecomeCouple Human.OnBecomeParent Human.HasFather Human.HasMother Human.FindSuitablePartner(List<Human>) Human.Hookup(Relation) Human.BecomeParent(Human) Human.Breakup(Human) Human.Die(in DateTime) Human.Birth(in IAddressable) Human.GraduateSchool(in DateTime, IEducatable) Human.ChangeOccupation(in DateTime, in Occupation) Human.AdvanceAge() Human.ToString() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Female(DateTime) Create a new Female without known parents. Often used for initializing the first generation of simulation (Eve potential). public Female(DateTime time) Parameters time DateTime The birth timestamp of the simulation Eve. Female(DateTime, Male?, Female?) Create a new Female with parents. public Female(DateTime time, Male? father, Female? mother) Parameters time DateTime father Male mother Female Fields IntendedChildrenCount Total number of children this Female plans to have. public byte IntendedChildrenCount Field Value byte Properties IsPregnant public bool IsPregnant { get; } Property Value bool WantsChildren If the woman wants any more children. public bool WantsChildren { get; } Property Value bool Methods CanBecomePregnant() Checks whether this Female is currently willing and able to become pregante. public bool CanBecomePregnant() Returns bool DeliverChild(Human) Deliver the Human child and set the IsPregnant property to false. public void DeliverChild(Human child) Parameters child Human Exceptions InvalidOperationException ArgumentNullException GetKnockedUp(Human) Get pregnant with a Human child. public void GetKnockedUp(Human child) Parameters child Human Exceptions InvalidOperationException Events OnBecomePregnant public event Action? OnBecomePregnant Event Type Action"
+  },
+  "api/Humans.Human.html": {
+    "href": "api/Humans.Human.html",
+    "title": "Class Human | ghta docs",
+    "summary": "Class Human Namespace Humans Assembly gameoflife.dll public abstract class Human : IBeing Inheritance object Human Implements IBeing Derived Female Male Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Human(DateTime) Some people don't know their parents. protected Human(DateTime birthDate) Parameters birthDate DateTime Human(DateTime, Male?, Female?) Pretty normal Human construction. protected Human(DateTime birthDate, Male? father, Female? mother) Parameters birthDate DateTime father Male mother Female Fields Children public List<Human> Children Field Value List<Human> Couple public Relation? Couple Field Value Relation DeathDate public DateTime? DeathDate Field Value DateTime? Father public Male? Father Field Value Male Intelligence public byte Intelligence Field Value byte LastName public string LastName Field Value string Mother public Female? Mother Field Value Female Properties Age ⏳ The age of the vessel in years. public byte Age { get; set; } Property Value byte Alive \uD83D\uDC80 Whether the vessel is alive or not in the eyes of the simulation. public bool Alive { get; } Property Value bool BirthDate public DateTime BirthDate { get; } Property Value DateTime BirthPlace public IAddressable BirthPlace { get; set; } Property Value IAddressable Born public bool Born { get; } Property Value bool ChildWishAge public double ChildWishAge { get; } Property Value double CurrentEducation public IEducatable? CurrentEducation { get; } Property Value IEducatable CurrentLocation public IAddressable CurrentLocation { get; set; } Property Value IAddressable Degree public EducationLevel Degree { get; } Property Value EducationLevel Died public bool Died { get; } Property Value bool EducationProgression public int EducationProgression { get; } Property Value int Fertile public bool Fertile { get; } Property Value bool FertileAge public double FertileAge { get; } Property Value double Gay public bool Gay { get; set; } Property Value bool HasFather public bool HasFather { get; } Property Value bool HasMother public bool HasMother { get; } Property Value bool HealthPoints public byte HealthPoints { get; } Property Value byte Lageschool public Lageschool Lageschool { get; } Property Value Lageschool MentalHealthPoints public byte MentalHealthPoints { get; } Property Value byte Middelbaar public Middelbaar Middelbaar { get; } Property Value Middelbaar Name public Name Name { get; protected set; } Property Value Name Occupation public Occupation Occupation { get; } Property Value Occupation Partner public Human? Partner { get; set; } Property Value Human Profession public Professions Profession { get; } Property Value Professions Residence public IAddressable Residence { get; set; } Property Value IAddressable Single public bool Single { get; } Property Value bool Universiteit public University Universiteit { get; } Property Value University Workplace public IWorkplace? Workplace { get; set; } Property Value IWorkplace XP public int XP { get; } Property Value int YearsWorked public byte YearsWorked { get; } Property Value byte Methods AdvanceAge() Advances the Human's life by one year and checks if their Occupation should change. public void AdvanceAge() BecomeParent(Human) public void BecomeParent(Human child) Parameters child Human Birth(in IAddressable) \uD83C\uDF0C Brings the soul into a vessel, usually a Human. public void Birth(in IAddressable location = null) Parameters location IAddressable Breakup(Human) public void Breakup(Human other) Parameters other Human ChangeOccupation(in DateTime, in Occupation) public void ChangeOccupation(in DateTime time, in Occupation occupation) Parameters time DateTime occupation Occupation Die(in DateTime) \uD83D\uDC80 Reaps the vessel and sets the soul adrift on the eternal winds of the Ghent steppe. public void Die(in DateTime time) Parameters time DateTime The fated moment of passing. FindSuitablePartner(List<Human>) public Human? FindSuitablePartner(List<Human> potentionalPartners) Parameters potentionalPartners List<Human> Returns Human GraduateSchool(in DateTime, IEducatable) public void GraduateSchool(in DateTime time, IEducatable school) Parameters time DateTime school IEducatable Hookup(Relation) public void Hookup(Relation couple) Parameters couple Relation ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object. Events OnBecomeCouple public event Action<Relation>? OnBecomeCouple Event Type Action<Relation> OnBecomeParent public event Action<Relation, Human>? OnBecomeParent Event Type Action<Relation, Human> OnBirth public event Action<Human>? OnBirth Event Type Action<Human> OnBirthday public event Action? OnBirthday Event Type Action OnDeath public event Action<Human>? OnDeath Event Type Action<Human> OnGraduation public event Action<Human, DateTime, EducationLevel>? OnGraduation Event Type Action<Human, DateTime, EducationLevel> RequestResidence public event Action<Human>? RequestResidence Event Type Action<Human> RequestWorkplace public event Action<Human, DateTime>? RequestWorkplace Event Type Action<Human, DateTime>"
+  },
+  "api/Humans.IBeing.html": {
+    "href": "api/Humans.IBeing.html",
+    "title": "Interface IBeing | ghta docs",
+    "summary": "Interface IBeing Namespace Humans Assembly gameoflife.dll ✨ Esoteric interface for all beings that can be born, die, and age. \uD83D\uDCAB Souls are not included but get implanted later. Like soul -> fetus -> human -> ghost. public interface IBeing Properties Age ⏳ The age of the vessel in years. byte Age { get; } Property Value byte Alive \uD83D\uDC80 Whether the vessel is alive or not in the eyes of the simulation. bool Alive { get; } Property Value bool Methods AdvanceAge() Ages the vessel. void AdvanceAge() Birth(in IAddressable) \uD83C\uDF0C Brings the soul into a vessel, usually a Human. void Birth(in IAddressable location) Parameters location IAddressable Die(in DateTime) \uD83D\uDC80 Reaps the vessel and sets the soul adrift on the eternal winds of the Ghent steppe. void Die(in DateTime time) Parameters time DateTime The fated moment of passing."
+  },
+  "api/Humans.Male.html": {
+    "href": "api/Humans.Male.html",
+    "title": "Class Male | ghta docs",
+    "summary": "Class Male Namespace Humans Assembly gameoflife.dll Ne vent, wa moede meer zegge? public class Male : Human, IBeing Inheritance object Human Male Implements IBeing Inherited Members Human.Single Human.Name Human.Alive Human.Age Human.Couple Human.Partner Human.Gay Human.Born Human.Died Human.Intelligence Human.HealthPoints Human.MentalHealthPoints Human.XP Human.YearsWorked Human.BirthDate Human.DeathDate Human.Father Human.Mother Human.Fertile Human.Children Human.FertileAge Human.LastName Human.Occupation Human.Profession Human.BirthPlace Human.CurrentEducation Human.Degree Human.EducationProgression Human.Middelbaar Human.Lageschool Human.Universiteit Human.Workplace Human.Residence Human.CurrentLocation Human.ChildWishAge Human.OnBirth Human.OnDeath Human.RequestWorkplace Human.RequestResidence Human.OnGraduation Human.OnBirthday Human.OnBecomeCouple Human.OnBecomeParent Human.HasFather Human.HasMother Human.FindSuitablePartner(List<Human>) Human.Hookup(Relation) Human.BecomeParent(Human) Human.Breakup(Human) Human.Die(in DateTime) Human.Birth(in IAddressable) Human.GraduateSchool(in DateTime, IEducatable) Human.ChangeOccupation(in DateTime, in Occupation) Human.AdvanceAge() Human.ToString() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Male(DateTime) Create a new Male, no parents, Adam potential. public Male(DateTime time) Parameters time DateTime Male(DateTime, Male, Female) Create a new Male with Parents. public Male(DateTime time, Male father, Female mother) Parameters time DateTime father Male mother Female"
+  },
+  "api/Humans.MemoryBank.html": {
+    "href": "api/Humans.MemoryBank.html",
+    "title": "Class MemoryBank | ghta docs",
+    "summary": "Class MemoryBank Namespace Humans Assembly gameoflife.dll public class MemoryBank Inheritance object MemoryBank Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Methods Forget(Func<string, bool>) public void Forget(Func<string, bool> filter) Parameters filter Func<string, bool> Recall(Func<string, bool>) public IEnumerable<string> Recall(Func<string, bool> filter = null) Parameters filter Func<string, bool> Returns IEnumerable<string> RecallLatest() public string RecallLatest() Returns string Remember(string) public void Remember(string memory) Parameters memory string ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
+  "api/Humans.Relation.html": {
+    "href": "api/Humans.Relation.html",
+    "title": "Class Relation | ghta docs",
+    "summary": "Class Relation Namespace Humans Assembly gameoflife.dll \uD83D\uDC91 Relation between two humans. public class Relation : IEnumerable<Human>, IEnumerable Inheritance object Relation Implements IEnumerable<Human> IEnumerable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Relation(in Human, in Human, in DateTime) A constructor filled with hope and dreams. public Relation(in Human A, in Human B, in DateTime time) Parameters A Human B Human time DateTime A very fun time indeed. Exceptions InvalidOperationException \uD83D\uDC36 ain't no fun when the homie can't have none. Fields OnHaveChild public Action<Human>? OnHaveChild Field Value Action<Human> Properties A public Human A { get; } Property Value Human B public Human B { get; } Property Value Human EndDate \uD83C\uDFBB oh baby it aint over till its over \uD83D\uDE3F public DateTime? EndDate { get; } Property Value DateTime? Heterosexual FYI: Simulation only cares about this for reproduction reasons. Theocrats can suck it. public bool Heterosexual { get; } Property Value bool StartDate public DateTime StartDate { get; } Property Value DateTime StillTogether public bool StillTogether { get; } Property Value bool TimeTogether public ushort TimeTogether { get; } Property Value ushort Methods Age() public void Age() BreakUp(DateTime) \uD83D\uDC94 Tragic. public void BreakUp(DateTime when) Parameters when DateTime Could be a heated fight or a fizzle out. \uD83E\uDD40 GetEnumerator() Returns the humans in this relation. public IEnumerator<Human> GetEnumerator() Returns IEnumerator<Human> HaveChild(in Human) public void HaveChild(in Human human) Parameters human Human ToString() Debugging thingy. public override string ToString() Returns string"
+  },
+  "api/Humans.html": {
+    "href": "api/Humans.html",
+    "title": "Namespace Humans | ghta docs",
+    "summary": "Namespace Humans Classes Female Meisjes, ze maken ons zo zot meneer! Human Male Ne vent, wa moede meer zegge? MemoryBank Relation \uD83D\uDC91 Relation between two humans. Interfaces IBeing ✨ Esoteric interface for all beings that can be born, die, and age. \uD83D\uDCAB Souls are not included but get implanted later. Like soul -> fetus -> human -> ghost."
+  },
+  "api/Life.Occupation.html": {
+    "href": "api/Life.Occupation.html",
+    "title": "Enum Occupation | ghta docs",
+    "summary": "Enum Occupation Namespace Life Assembly gameoflife.dll public enum Occupation Fields Child = 1 Deceased = 5 Employed = 3 None = 0 Retired = 4 Student = 2"
+  },
+  "api/Life.Simulation.html": {
+    "href": "api/Life.Simulation.html",
+    "title": "Class Simulation | ghta docs",
+    "summary": "Class Simulation Namespace Life Assembly gameoflife.dll Simulation holds the instances of Human and governs the Clock. public class Simulation Inheritance object Simulation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Simulation(DateTime) public Simulation(DateTime time) Parameters time DateTime Simulation(DateTime, Human) public Simulation(DateTime time, Human human) Parameters time DateTime human Human Simulation(DateTime, List<Human>) public Simulation(DateTime time, List<Human> humans) Parameters time DateTime humans List<Human> Properties AliveCount public int AliveCount { get; } Property Value int CurrentTime public DateTime CurrentTime { get; } Property Value DateTime Education public EducationSystem Education { get; } Property Value EducationSystem Moments public List<Moment> Moments { get; } Property Value List<Moment> NumberOfDaysSimulated public int NumberOfDaysSimulated { get; } Property Value int Population public List<Human> Population { get; } Property Value List<Human> _clock public Clock _clock { get; } Property Value Clock Methods Evaluate(in bool) public void Evaluate(in bool mortality) Parameters mortality bool FindJobForHuman(DateTime, Human) public void FindJobForHuman(DateTime time, Human human) Parameters time DateTime human Human HandleFirstDayOfSchool(DateTime) public void HandleFirstDayOfSchool(DateTime time) Parameters time DateTime HandleLastDayOfSchool(DateTime) public void HandleLastDayOfSchool(DateTime time) Parameters time DateTime Progress() public void Progress() SetPopulation(List<Human>) public void SetPopulation(List<Human> pop) Parameters pop List<Human> SetupTime(DateTime) public void SetupTime(DateTime time) Parameters time DateTime Events OnGlobalEvent public event Action<DateTime, string>? OnGlobalEvent Event Type Action<DateTime, string> OnHoliday public event Action<DateTime, string, bool>? OnHoliday Event Type Action<DateTime, string, bool> OnSimulationStarted public event Action? OnSimulationStarted Event Type Action"
+  },
+  "api/Life.Soul.html": {
+    "href": "api/Life.Soul.html",
+    "title": "Class Soul | ghta docs",
+    "summary": "Class Soul Namespace Life Assembly gameoflife.dll \uD83C\uDF11 The Soul emerges on the eternal steppe of Ghent. public sealed class Soul Inheritance object Soul Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Remarks Sealed class. Properties Id \uD83E\uDE84 The unique identifier of the soul. public Guid Id { get; } Property Value Guid LastIncarnation Good to be back huh. public DateTime? LastIncarnation { get; set; } Property Value DateTime? Methods Descend(Human, DateTime) public static Soul Descend(Human vessel, DateTime time) Parameters vessel Human time DateTime Returns Soul"
+  },
+  "api/Life.StaticLife.html": {
+    "href": "api/Life.StaticLife.html",
+    "title": "Class StaticLife | ghta docs",
+    "summary": "Class StaticLife Namespace Life Assembly gameoflife.dll public static class StaticLife Inheritance object StaticLife Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields FertilityAge public static BellCurve FertilityAge Field Value BellCurve FirstChildAge public static BellCurve FirstChildAge Field Value BellCurve IQCurve public static BellCurve IQCurve Field Value BellCurve MeanPregnancyAge public const byte MeanPregnancyAge = 28 Field Value byte NamesFemale public static string[] NamesFemale Field Value string[] NamesMale public static string[] NamesMale Field Value string[] PregnancyAgeDeviation public const byte PregnancyAgeDeviation = 8 Field Value byte RetirementAge public const byte RetirementAge = 45 Field Value byte SchoolAge public const byte SchoolAge = 5 Field Value byte Surnames public static string[] Surnames Field Value string[] WorkingAge public const byte WorkingAge = 18 Field Value byte Methods AssignGender() 50/50 chance. public static bool AssignGender() Returns bool AssignIntelligence() public static byte AssignIntelligence() Returns byte CalculateAgeAt(DateTime, DateTime) public static int CalculateAgeAt(DateTime birthDate, DateTime moment) Parameters birthDate DateTime moment DateTime Returns int RandomDayInYear(in int) public static DateTime RandomDayInYear(in int year) Parameters year int Returns DateTime RandomGaussianValue(double, double) public static double RandomGaussianValue(double mean, double standardDeviation) Parameters mean double standardDeviation double Returns double RandomUniformSample() public static double RandomUniformSample() Returns double"
+  },
+  "api/Life.Steppe.html": {
+    "href": "api/Life.Steppe.html",
+    "title": "Class Steppe | ghta docs",
+    "summary": "Class Steppe Namespace Life Assembly gameoflife.dll \uD83C\uDF11\uD83D\uDC3A\uD83E\uDDAC The Steppes, illuminated by a eternal Paschall full moon. where 270.000 Souls wander the timeless frozen tundra plains amongst Bisons and Mammoths. The Steppe whispers...and a soul answers. The Steppe recalls? ✂️ Reaper cuts the thread and the soul returns to the steppe. Immutable Soul, no backref, spiritual asymmetry no one has the full GUIDs except the Steppe. \uD83C\uDF2B️ public static class Steppe Inheritance object Steppe Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields SoulCount public const int SoulCount = 270000 Field Value int Methods CastAbound(Human) The Steppe casts a vessel adrift in the world. public static void CastAbound(Human vessel) Parameters vessel Human Echo(Human) A faint echo of the soul, if it walks this world. public static Soul? Echo(Human vessel) Parameters vessel Human Returns Soul Recall(Human) The Steppe recalls a vessel. The human form - whether it is worn, weary or young and immaculate - returns across the snow. The Soul slips free, joining the ancient procession beneath the full Paschal moon. public static void Recall(Human vessel) Parameters vessel Human Whisper(Human) The Steppe whispers and a soul answers. It is cast abound in the World. public static Soul Whisper(Human vessel) Parameters vessel Human Returns Soul"
+  },
+  "api/Life.html": {
+    "href": "api/Life.html",
+    "title": "Namespace Life | ghta docs",
+    "summary": "Namespace Life Classes Simulation Simulation holds the instances of Human and governs the Clock. Soul \uD83C\uDF11 The Soul emerges on the eternal steppe of Ghent. StaticLife Steppe \uD83C\uDF11\uD83D\uDC3A\uD83E\uDDAC The Steppes, illuminated by a eternal Paschall full moon. where 270.000 Souls wander the timeless frozen tundra plains amongst Bisons and Mammoths. The Steppe whispers...and a soul answers. The Steppe recalls? ✂️ Reaper cuts the thread and the soul returns to the steppe. Immutable Soul, no backref, spiritual asymmetry no one has the full GUIDs except the Steppe. \uD83C\uDF2B️ Enums Occupation"
+  },
+  "api/Locations.Bedrijfcentrum.html": {
+    "href": "api/Locations.Bedrijfcentrum.html",
+    "title": "Class Bedrijfcentrum | ghta docs",
+    "summary": "Class Bedrijfcentrum Namespace Locations Assembly gameoflife.dll public class Bedrijfcentrum : IAddressable, IWorkplace Inheritance object Bedrijfcentrum Implements IAddressable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Type public string Type { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions>"
+  },
+  "api/Locations.Dokterspraktijk.html": {
+    "href": "api/Locations.Dokterspraktijk.html",
+    "title": "Class Dokterspraktijk | ghta docs",
+    "summary": "Class Dokterspraktijk Namespace Locations Assembly gameoflife.dll public class Dokterspraktijk : IAddressable, IWorkplace Inheritance object Dokterspraktijk Implements IAddressable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Address public string Address { get; set; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions>"
+  },
+  "api/Locations.Hospital.html": {
+    "href": "api/Locations.Hospital.html",
+    "title": "Class Hospital | ghta docs",
+    "summary": "Class Hospital Namespace Locations Assembly gameoflife.dll public class Hospital : IAddressable, IWorkplace Inheritance object Hospital Implements IAddressable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Hospital(XmlNode) public Hospital(XmlNode n) Parameters n XmlNode Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions> Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
+  "api/Locations.IAddressable.html": {
+    "href": "api/Locations.IAddressable.html",
+    "title": "Interface IAddressable | ghta docs",
+    "summary": "Interface IAddressable Namespace Locations Assembly gameoflife.dll public interface IAddressable Properties Address string Address { get; } Property Value string City string City { get; } Property Value string Housenumber string Housenumber { get; } Property Value string Postcode int Postcode { get; } Property Value int Street string Street { get; } Property Value string"
+  },
+  "api/Locations.ICoordinate.html": {
+    "href": "api/Locations.ICoordinate.html",
+    "title": "Interface ICoordinate | ghta docs",
+    "summary": "Interface ICoordinate Namespace Locations Assembly gameoflife.dll public interface ICoordinate Properties Latitude double Latitude { get; set; } Property Value double Longitude double Longitude { get; set; } Property Value double"
+  },
+  "api/Locations.Lageschool.html": {
+    "href": "api/Locations.Lageschool.html",
+    "title": "Class Lageschool | ghta docs",
+    "summary": "Class Lageschool Namespace Locations Assembly gameoflife.dll public class Lageschool : IEducatable, IAddressable, IWorkplace Inheritance object Lageschool Implements IEducatable IAddressable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Difficulty The difficulty of this educational path, on a scale from 0 to 255. Used to determine success, dropout chance, etc. public byte Difficulty { get; } Property Value byte Duration Duration in years typically required to complete this education, granted no flunking. public byte Duration { get; } Property Value byte Housenumber public string Housenumber { get; } Property Value string Level The level of education this path corresponds to (e.g., Lageschool, Middelbaar, University). public EducationLevel Level { get; } Property Value EducationLevel Name public string Name { get; } Property Value string Onderwijsnet public string Onderwijsnet { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions> Methods Advance(in DateTime, in Human) public void Advance(in DateTime time, in Human human) Parameters time DateTime human Human Graduate(in DateTime, in Human) public void Graduate(in DateTime time, in Human human) Parameters time DateTime human Human"
+  },
+  "api/Locations.Middelbaar.html": {
+    "href": "api/Locations.Middelbaar.html",
+    "title": "Class Middelbaar | ghta docs",
+    "summary": "Class Middelbaar Namespace Locations Assembly gameoflife.dll public class Middelbaar : IAddressable, IEducatable, IWorkplace Inheritance object Middelbaar Implements IAddressable IEducatable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Difficulty The difficulty of this educational path, on a scale from 0 to 255. Used to determine success, dropout chance, etc. public byte Difficulty { get; } Property Value byte Duration Duration in years typically required to complete this education, granted no flunking. public byte Duration { get; } Property Value byte Housenumber public string Housenumber { get; } Property Value string Level The level of education this path corresponds to (e.g., Lageschool, Middelbaar, University). public EducationLevel Level { get; } Property Value EducationLevel Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions> Methods Advance(in DateTime, in Human) public void Advance(in DateTime time, in Human human) Parameters time DateTime human Human Graduate(in DateTime, in Human) public void Graduate(in DateTime time, in Human human) Parameters time DateTime human Human"
+  },
+  "api/Locations.PoliceStation.html": {
+    "href": "api/Locations.PoliceStation.html",
+    "title": "Class PoliceStation | ghta docs",
+    "summary": "Class PoliceStation Namespace Locations Assembly gameoflife.dll public class PoliceStation : IAddressable, IWorkplace Inheritance object PoliceStation Implements IAddressable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors PoliceStation(string) public PoliceStation(string name) Parameters name string Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions>"
+  },
+  "api/Locations.PostOffice.html": {
+    "href": "api/Locations.PostOffice.html",
+    "title": "Class PostOffice | ghta docs",
+    "summary": "Class PostOffice Namespace Locations Assembly gameoflife.dll public class PostOffice : IAddressable, IWorkplace Inheritance object PostOffice Implements IAddressable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors PostOffice(string) public PostOffice(string name) Parameters name string Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions>"
+  },
+  "api/Locations.Residence.html": {
+    "href": "api/Locations.Residence.html",
+    "title": "Class Residence | ghta docs",
+    "summary": "Class Residence Namespace Locations Assembly gameoflife.dll public class Residence : IAddressable Inheritance object Residence Implements IAddressable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Residence(int) public Residence(int houseNumber) Parameters houseNumber int Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string"
+  },
+  "api/Locations.TheStreets.html": {
+    "href": "api/Locations.TheStreets.html",
+    "title": "Class TheStreets | ghta docs",
+    "summary": "Class TheStreets Namespace Locations Assembly gameoflife.dll public class TheStreets : IWorkplace, IAddressable Inheritance object TheStreets Implements IWorkplace IAddressable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TheStreets() public TheStreets() Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Housenumber public string Housenumber { get; } Property Value string Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions>"
+  },
+  "api/Locations.University.html": {
+    "href": "api/Locations.University.html",
+    "title": "Class University | ghta docs",
+    "summary": "Class University Namespace Locations Assembly gameoflife.dll public class University : IAddressable, IEducatable, IWorkplace Inheritance object University Implements IAddressable IEducatable IWorkplace Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors University(string) public University(string name) Parameters name string Properties Address public string Address { get; } Property Value string City public string City { get; } Property Value string Difficulty The difficulty of this educational path, on a scale from 0 to 255. Used to determine success, dropout chance, etc. public byte Difficulty { get; } Property Value byte Duration Duration in years typically required to complete this education, granted no flunking. public byte Duration { get; } Property Value byte Housenumber public string Housenumber { get; } Property Value string Level The level of education this path corresponds to (e.g., Lageschool, Middelbaar, University). public EducationLevel Level { get; } Property Value EducationLevel Name public string Name { get; } Property Value string Postcode public int Postcode { get; } Property Value int Street public string Street { get; } Property Value string Workers public List<Professions> Workers { get; } Property Value List<Professions> Methods Advance(in DateTime, in Human) public void Advance(in DateTime time, in Human human) Parameters time DateTime human Human Graduate(in DateTime, in Human) public void Graduate(in DateTime time, in Human human) Parameters time DateTime human Human"
+  },
+  "api/Locations.World.html": {
+    "href": "api/Locations.World.html",
+    "title": "Class World | ghta docs",
+    "summary": "Class World Namespace Locations Assembly gameoflife.dll public static class World Inheritance object World Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields AllBuildings public static List<IAddressable> AllBuildings Field Value List<IAddressable> WorkPlaces public static List<IWorkplace> WorkPlaces Field Value List<IWorkplace> Properties DoctorOffices public static List<Dokterspraktijk> DoctorOffices { get; } Property Value List<Dokterspraktijk> GetRandomResidence public static Residence GetRandomResidence { get; } Property Value Residence GetRandomWorkplace public static IWorkplace GetRandomWorkplace { get; } Property Value IWorkplace GetUniversiteit public static University GetUniversiteit { get; } Property Value University Hospitals public static List<Hospital> Hospitals { get; } Property Value List<Hospital> Lagescholen public static List<Lageschool> Lagescholen { get; } Property Value List<Lageschool> Middelbaren public static List<Middelbaar> Middelbaren { get; } Property Value List<Middelbaar> OfficeParks public static List<Bedrijfcentrum> OfficeParks { get; } Property Value List<Bedrijfcentrum> RandomLageschool public static Lageschool RandomLageschool { get; } Property Value Lageschool RandomSecundair public static Middelbaar RandomSecundair { get; } Property Value Middelbaar RandomZiekenhuis public static Hospital RandomZiekenhuis { get; } Property Value Hospital Residences public static List<Residence> Residences { get; } Property Value List<Residence> Universities public static List<University> Universities { get; } Property Value List<University> WorldAge public static int WorldAge { get; } Property Value int Methods AgeWorld() public static void AgeWorld() GetWorkPlaceForProfession(Professions) public static IWorkplace GetWorkPlaceForProfession(Professions profession) Parameters profession Professions Returns IWorkplace"
+  },
+  "api/Locations.html": {
+    "href": "api/Locations.html",
+    "title": "Namespace Locations | ghta docs",
+    "summary": "Namespace Locations Classes Bedrijfcentrum Dokterspraktijk Hospital Lageschool Middelbaar PoliceStation PostOffice Residence TheStreets University World Interfaces IAddressable ICoordinate"
+  },
+  "api/Names.INameable.html": {
+    "href": "api/Names.INameable.html",
+    "title": "Interface INameable | ghta docs",
+    "summary": "Interface INameable Namespace Names Assembly gameoflife.dll public interface INameable Properties Name string Name { get; } Property Value string"
+  },
+  "api/Names.Name.html": {
+    "href": "api/Names.Name.html",
+    "title": "Struct Name | ghta docs",
+    "summary": "Struct Name Namespace Names Assembly gameoflife.dll public readonly struct Name Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors Name(in string, in string) public Name(in string first, in string last) Parameters first string last string Properties FirstName public string FirstName { get; } Property Value string FullName public string FullName { get; } Property Value string LastName public string LastName { get; } Property Value string Methods ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name."
+  },
+  "api/Names.html": {
+    "href": "api/Names.html",
+    "title": "Namespace Names | ghta docs",
+    "summary": "Namespace Names Structs Name Interfaces INameable"
+  },
+  "api/Sprookjes.Taal.html": {
+    "href": "api/Sprookjes.Taal.html",
+    "title": "Class Taal | ghta docs",
+    "summary": "Class Taal Namespace Sprookjes Assembly Sprookjes.dll public static class Taal Inheritance object Taal Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BezittelijkVoornaamWoord(in bool) public static string BezittelijkVoornaamWoord(in bool male) Parameters male bool Returns string PersoonlijkVoornaamWoord(in bool) public static string PersoonlijkVoornaamWoord(in bool male) Parameters male bool Returns string"
+  },
+  "api/Sprookjes.Vertel.html": {
+    "href": "api/Sprookjes.Vertel.html",
+    "title": "Class Vertel | ghta docs",
+    "summary": "Class Vertel Namespace Sprookjes Assembly Sprookjes.dll public static class Vertel Inheritance object Vertel Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods DescribeBirth(Human?, BirthMoment) public static string DescribeBirth(Human? human, BirthMoment birth) Parameters human Human birth BirthMoment Returns string DescribeBirthday(Human?, BirthdayMoment) public static string DescribeBirthday(Human? human, BirthdayMoment birthday) Parameters human Human birthday BirthdayMoment Returns string DescribeDeath(Human?, DeathMoment) public static string DescribeDeath(Human? human, DeathMoment death) Parameters human Human death DeathMoment Returns string DescribeGraduation(Human?, SchoolGraduationMoment) public static string DescribeGraduation(Human? human, SchoolGraduationMoment graduation) Parameters human Human graduation SchoolGraduationMoment Returns string DescribeRetirement(Human?, WorkRetirementMoment) public static string DescribeRetirement(Human? human, WorkRetirementMoment retirement) Parameters human Human retirement WorkRetirementMoment Returns string DescribeSchoolExamn(Human?, SchoolExamnMoment) public static string DescribeSchoolExamn(Human? human, SchoolExamnMoment schoolExamn) Parameters human Human schoolExamn SchoolExamnMoment Returns string DescribeSchoolFirstDay(Human?, SchoolFirstDayMoment) public static string DescribeSchoolFirstDay(Human? human, SchoolFirstDayMoment schoolFirstDay) Parameters human Human schoolFirstDay SchoolFirstDayMoment Returns string Gebeurtenis(Human?, Moment) public static string Gebeurtenis(Human? human, Moment moment) Parameters human Human moment Moment Returns string HoeOudIemandWas(Human, DateTime) public static int HoeOudIemandWas(Human human, DateTime when) Parameters human Human when DateTime Returns int OverIemand(Human, Human) public static string OverIemand(Human human, Human someoneElse) Parameters human Human someoneElse Human Returns string"
+  },
+  "api/Sprookjes.html": {
+    "href": "api/Sprookjes.html",
+    "title": "Namespace Sprookjes | ghta docs",
+    "summary": "Namespace Sprookjes Classes Taal Vertel"
+  },
+  "api/Time.Calendar.html": {
+    "href": "api/Time.Calendar.html",
+    "title": "Class Calendar | ghta docs",
+    "summary": "Class Calendar Namespace Time Assembly gameoflife.dll public static class Calendar Inheritance object Calendar Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CalculateAcademicYear(DateTime) public static (DateTime, DateTime) CalculateAcademicYear(DateTime time) Parameters time DateTime Returns (DateTime, DateTime) CalculateAutumnBreak(int) Calculates Autumn break for the current academic year. Autumn break starts on the Monday of the week in which November 1st falls. If November 1st is a Sunday, Autumn break starts on the second calendar day of November. public static (DateTime, DateTime) CalculateAutumnBreak(int year) Parameters year int Returns (DateTime, DateTime) CalculateChristmasBreak(int) public static (DateTime, DateTime) CalculateChristmasBreak(int year) Parameters year int Returns (DateTime, DateTime) CalculateEaster(int) Calculates Easter Sunday for the given year. The algorithm is based on the Computus, which is a calculation to determine the date of Easter. The Computus is based on the cycles of the moon and the spring equinox. The algorithm is a simplified version of the one used by the Church of Alexandria. public static DateTime CalculateEaster(int year) Parameters year int Returns DateTime CalculateEasterBreak(int) public static (DateTime, DateTime) CalculateEasterBreak(int year) Parameters year int Returns (DateTime, DateTime) CalculateEasterMonday(int) Easter Monday, called Paasmaandag in Dutch, is always the following Monday after Easter Sunday. public static DateTime CalculateEasterMonday(int input) Parameters input int Returns DateTime CalculateSchoolBreak(int, SchoolBreakTypes) public static (DateTime, DateTime) CalculateSchoolBreak(int year, SchoolBreakTypes type) Parameters year int type SchoolBreakTypes Returns (DateTime, DateTime) CalculateSpringBreak(int) Calculates Spring break for the current academic year. public static (DateTime, DateTime) CalculateSpringBreak(int year) Parameters year int Returns (DateTime, DateTime) CalculateSummerBreak(int) public static (DateTime, DateTime) CalculateSummerBreak(int year) Parameters year int Returns (DateTime, DateTime) CalculateWhitMonday(int) Whit Monday, also called Pinkstermaandag in Dutch, falls 50 days after Easter Sunday. public static DateTime CalculateWhitMonday(int input) Parameters input int Returns DateTime GetHolidaysForYear(int) public static Dictionary<DateTime, Holiday> GetHolidaysForYear(int year) Parameters year int Returns Dictionary<DateTime, Holiday> GetSchoolBreaksForYear(int) public static Dictionary<(DateTime, DateTime), SchoolBreakTypes> GetSchoolBreaksForYear(int year) Parameters year int Returns Dictionary<(DateTime, DateTime), SchoolBreakTypes>"
+  },
+  "api/Time.Clock.html": {
+    "href": "api/Time.Clock.html",
+    "title": "Class Clock | ghta docs",
+    "summary": "Class Clock Namespace Time Assembly gameoflife.dll public class Clock Inheritance object Clock Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Clock(in DateTime) public Clock(in DateTime time) Parameters time DateTime Fields _currentBreaks public Dictionary<(DateTime, DateTime), SchoolBreakTypes> _currentBreaks Field Value Dictionary<(DateTime, DateTime), SchoolBreakTypes> _currentHolidays public Dictionary<DateTime, Holiday> _currentHolidays Field Value Dictionary<DateTime, Holiday> Properties AcademicYear public (DateTime, DateTime) AcademicYear { get; } Property Value (DateTime, DateTime) IsSchoolDay public bool IsSchoolDay { get; } Property Value bool IsWorkDay public bool IsWorkDay { get; } Property Value bool Time public DateTime Time { get; } Property Value DateTime Methods DayTick() public void DayTick() IsInSchoolBreak(DateTime) public bool IsInSchoolBreak(DateTime time) Parameters time DateTime Returns bool Events OnFirstDayOfSchool public event Action<DateTime> OnFirstDayOfSchool Event Type Action<DateTime> OnGlobalEvent public event Action<DateTime, string> OnGlobalEvent Event Type Action<DateTime, string> OnHistoricEvent public event Action<DateTime, string> OnHistoricEvent Event Type Action<DateTime, string> OnHoliday public event Action<DateTime, string, bool> OnHoliday Event Type Action<DateTime, string, bool> OnLastDayOfSchool public event Action<DateTime> OnLastDayOfSchool Event Type Action<DateTime> OnNewYearsEve public event Action<DateTime> OnNewYearsEve Event Type Action<DateTime>"
+  },
+  "api/Time.History.html": {
+    "href": "api/Time.History.html",
+    "title": "Class History | ghta docs",
+    "summary": "Class History Namespace Time Assembly gameoflife.dll public static class History Inheritance object History Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields DynamicEvents public static Dictionary<DateTime, List<string>> DynamicEvents Field Value Dictionary<DateTime, List<string>> HistoricEvents public static Dictionary<DateTime, string> HistoricEvents Field Value Dictionary<DateTime, string> Methods Record(DateTime, string) public static void Record(DateTime date, string theThingThatHappened) Parameters date DateTime theThingThatHappened string RetrieveHistoryDataForYear(in int) public static int? RetrieveHistoryDataForYear(in int year) Parameters year int Returns int?"
+  },
+  "api/Time.Holiday.html": {
+    "href": "api/Time.Holiday.html",
+    "title": "Struct Holiday | ghta docs",
+    "summary": "Struct Holiday Namespace Time Assembly gameoflife.dll [Serializable] public readonly struct Holiday Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors Holiday(DateTime, string, bool) public Holiday(DateTime date, string name, bool paid) Parameters date DateTime name string paid bool Fields Date public readonly DateTime Date Field Value DateTime Name public readonly string Name Field Value string Paid public readonly bool Paid Field Value bool"
+  },
+  "api/Time.PopulationData.html": {
+    "href": "api/Time.PopulationData.html",
+    "title": "Struct PopulationData | ghta docs",
+    "summary": "Struct PopulationData Namespace Time Assembly gameoflife.dll public readonly struct PopulationData Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Properties PopulationNumber public int PopulationNumber { get; } Property Value int Year public int Year { get; } Property Value int"
+  },
+  "api/Time.html": {
+    "href": "api/Time.html",
+    "title": "Namespace Time | ghta docs",
+    "summary": "Namespace Time Classes Calendar Clock History Structs Holiday PopulationData"
+  },
+  "api/Work.IWorkplace.html": {
+    "href": "api/Work.IWorkplace.html",
+    "title": "Interface IWorkplace | ghta docs",
+    "summary": "Interface IWorkplace Namespace Work Assembly gameoflife.dll public interface IWorkplace Properties Workers List<Professions> Workers { get; } Property Value List<Professions>"
+  },
+  "api/Work.Profession.html": {
+    "href": "api/Work.Profession.html",
+    "title": "Class Profession | ghta docs",
+    "summary": "Class Profession Namespace Work Assembly gameoflife.dll public static class Profession Inheritance object Profession Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields ProfessionDictionary public static readonly Dictionary<int, List<Professions>> ProfessionDictionary Field Value Dictionary<int, List<Professions>> Methods GetRandomProfessionForEducationLevel(in int) public static Professions GetRandomProfessionForEducationLevel(in int level) Parameters level int Returns Professions"
+  },
+  "api/Work.Professions.html": {
+    "href": "api/Work.Professions.html",
+    "title": "Enum Professions | ghta docs",
+    "summary": "Enum Professions Namespace Work Assembly gameoflife.dll public enum Professions Fields administrative = 12 busdriver = 7 cop = 0 criminal = 1 doctor = 4 freeloader = 11 ivago = 10 janitor = 14 judge = 2 lawyer = 3 nurse = 5 postman = 8 sales = 13 shopkeeper = 9 teacher = 6"
+  },
+  "api/Work.html": {
+    "href": "api/Work.html",
+    "title": "Namespace Work | ghta docs",
+    "summary": "Namespace Work Classes Profession Interfaces IWorkplace Enums Professions"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "\uD83E\uDDFE API Documentation | ghta docs",
+    "summary": "\uD83E\uDDFE API Documentation This section contains the auto-generated API reference for the Game of Life simulation engine. It's the canonical source for all things technical — from the deepest Moment base classes to the divine CalculateEasterHalal function. \uD83D\uDCE6 dotnet Target Framework netstandard2.1 For Unity reasons. Language features Language Features: C# 8.0 \uD83D\uDCDA Namespaces All code is neatly grouped by domain. Expect things like: Humans – \uD83D\uDC80 Birth, life, and death. Education – \uD83C\uDF93 School systems and exams. Domain.Religion – ✝️ Liturgical logic for divine scheduling. Domain.Moments – \uD83D\uDCC6 Everything that happens in a life, tracked and narrated. Explore the API by using the sidebar on the left, or dive into a class like Gods.Religion to start on holy ground. \uD83D\uDD4A️"
+  },
+  "articles/goals.html": {
+    "href": "articles/goals.html",
+    "title": "\uD83D\uDCAA Goals | ghta docs",
+    "summary": "\uD83D\uDCAA Goals Ghent Theft Auto's main goal is exploring the application of videogame technologies towards visualising and simulating the city of Ghent. It serves as a versatile testbed for visualising all kinds of data in a 3D environment that is the home of 270.000 residents, each with their own particular lives and activities, accurate to the centimeter. Possible applications of Ghent Theft Auto are the combination of: visualisation of live geodata, using Location visualisation of web served tilemaps, LiDAR visualisation of simulations such as crowd simulations, fluid simulations, etc. visualisation of real time crowds, using signals from people’s mobile devices visualisation of urban processes such as public transport visualizing machine learning inside a 3D environment rendering a complete city in realtime, even on low-end hardware as VR or mobile create segmentation maps for buildings for stylised rendering of facades providing a starter kit for real world location games providing people with the tools so that Ghent Theft Auto can build itself actually simulate 270.000 citizens living inside the game world provide OSM spawnable data for all tiles present in the huge Gent in 3D set retrieve build date from GRB for every building mesh/address in the map every Ghent building should be destructible \uD83D\uDE3B The scope of Ghent Theft Auto could theoretically be expanded to the complete territory of Belgium, even the world. But that's for the next guy. \uD83D\uDC4D"
+  },
+  "articles/history.html": {
+    "href": "articles/history.html",
+    "title": "\uD83D\uDCDC History | ghta docs",
+    "summary": "\uD83D\uDCDC History Ghent Theft Auto has been my monster pet project since somewhere around 2013. The project originated as a GTA:IV mod but as my skills progressed, it has since turned into an application that uses a more accessible game engine. In this case, Unity. During my failed Architecture studies, I wanted to show a design of mine inside of a game engine. I knew it was possible because there are tons of mods available for a vast array of games, every single on of them basically altering the game to the will of the mod creator."
+  },
+  "articles/index.html": {
+    "href": "articles/index.html",
+    "title": "\uD83D\uDDE3️ Articles | ghta docs",
+    "summary": "\uD83D\uDDE3️ Articles For when the yapping is real This is where the thinking out loud happens. Where thoughts turn into paragraphs, and paragraphs occasionally turn into insight. Vision Vision: A look into where this is all going. Goals: A look into where this is all going. Medium Posts Some of these are cross-posted, some are just vibes. Written while caffeinated, most likely. Making Ghent Theft Auto with Monk Math \uD83E\uDDD8‍♂️ Making Ghent Theft Auto with Height Maps \uD83C\uDF0D"
+  },
+  "articles/to-dos.html": {
+    "href": "articles/to-dos.html",
+    "title": "\uD83D\uDEE0️ To-Do's | ghta docs",
+    "summary": "\uD83D\uDEE0️ To-Do's Project Goals Implement Conway's Game of Life with huge layers of semantics on top in the city of Ghent. 270,000 agents. Optimize performance for large grids. Short-Term TODOs Work on narration layer Implement trait inheritance (IQ is a start) Add funeral moment generator (tie to DeathMoment) Add neighborhoods and location-aware logic (e.g., schools start at 8:00 in Middelbaarstraat) \uD83D\uDC76 \uD83E\uDDD2 \uD83D\uDC68‍\uD83C\uDF93 \uD83E\uDDD1‍\uD83D\uDCBC \uD83E\uDDD3 \uD83D\uDC80 Long-Term TODOs [ ] Implement Zodiac personalities. [ ] Add a Terminal.GUI layer. [ ] Have a Religious figure who is in charge of stuff like easter calc/marriage/funerals/etc. [ ] Soul refactor: Fetus -> Human -> Ghost, and vice versa Stretch Goals [ ] Implement 3D version of the Game of Life in Unity with a float4 buffer. [ ] Explore AI-based pattern generation. [ ] Create an online demo or web version."
+  },
+  "articles/vision.html": {
+    "href": "articles/vision.html",
+    "title": "Vision Doc | ghta docs",
+    "summary": "Vision Doc This project is a reinterpretation of Game of Life by Conway. Hardcore Conway Essentially a hardcore semantic domain-driven simulation engine that models the entire lifecycle of a population of Human in a synthetic world and is able to talk about what transpired from as many angles as possible in a very very Human way. It’s not just Conway’s Game of Life with cells—this is way more narrative and detailed. Every human has a birthdate, experiences key life events (birth, birthdays, schooling, graduation/exams, work, relationships, and death), and these events get recorded as “moments” that fuel a rich, dynamic story of the simulated world. It’s not just that people are born and die. It’s that: “Opa Jan stierf in de lente van 1986. Hij werkte nog in de bakkerij van Gentbrugge. Zijn dochter, mijn mama, werd zwanger met mij net na zijn begrafenis.” Where Conway has \"under/overpopulation\" death, we have death based on MortalityTuples, FertileAge, and Reaper rolls. Where Conway has static grids, we have semantic geography (e.g., Middelbaarstraat, neighborhoods). Where Conway had no past, we log everything, canonize it, and tell it back from each perspective. Each human is created with a specific birthdate (and potentially a death date, determined by Reaper logic). Their lifecycle is driven by age thresholds—for example, when they hit their birthday, they age; when they hit school age, they transition from child to student; eventually, they graduate, work, retire, and ultimately die. Every major event is recorded as a Moment: BirthMoment, BirthdayMoment, SchoolFirstDayMoment, SchoolGraduationMoment, WorkRetirementMoment, DeathMoment, etc. These events are not just numerical; they’re richly narrated - using the Sprookjes layer to Vertel - with emojis and a distinct Dutch style of storytelling. This narrative aspect transforms raw simulation data into story-like outputs. The simulation is driven by a Clock that ticks on a daily basis, managing the passage of time. The Clock fires events for things like New Year’s Eve, the first day of school, school breaks, and holidays, which trigger corresponding changes in the simulation. The clock recalculates academic years and holidays every year, affecting how and when events such as the first day of school or end-of-school events occur. The Simulation class maintains a list of Human instances. It uses the clock and a daily “tick” to evaluate each human’s state (e.g., are they due for a birthday? Should they die? Do they need to be “born” if their birthdate has arrived?) In flows like SinglePopulationFlow or MultiplePopulationFlow, the simulation runs in a loop where each day is processed. During each tick, events are evaluated (birthdays, graduation events, etc.), moments are recorded, and then the clock progresses. The simulation stops when no humans are alive, or it hits a configured cap (to avoid infinite loops). Sprookjes The Sprookjes layer bridges the gap between the raw simulation data (moments, events, lifecycle changes) and a human-friendly narrative. It takes these Moments and “translates” them into stories (in Dutch, with a healthy dose of emojis) that describe what happened. For example, it can say, “Ik werd 25 jaar oud op 2016” for a birthday, or “Ik studeerde af van Lageschool in 2002 op mijn 11-jarige leeftijd” for graduation. Your narrator (or storyteller) functions can dynamically switch between first-person when describing one’s own life events or third-person (world view) to describe what happened to others or globally. The Simulation is controlled via flow controllers (like SinglePopulationFlow, MultiplePopulationFlow, MainFlow, etc.) which dictate the progression of the simulation and how information is presented. The [ui] (using Colorify for styling) and custom views allow you to interact with the simulation—configuring the number of simulated people, starting the simulation, and later presenting the compiled narrative of historical moments. You have clear separation between the simulation engine (domain logic), the narrative (Sprookjes/Vertel static class), and the user interaction (flow controllers and views). This modular design means you can extend or refactor each layer without breaking the others. Technical and Poetic The combination of hard simulation rules (like age calculation via StaticLife.CalculateAgeAt) with poetic storytelling (using emojis, Dutch phrasing, and creative narrative functions) makes the project both a technical challenge and an artistic expression. It’s like creating a mini-universe where every human life is a story waiting to be told—and you’re both the programmer and the narrator."
+  },
+  "codex/human/birth.html": {
+    "href": "codex/human/birth.html",
+    "title": "Birth | ghta docs",
+    "summary": "Birth [[\uD83D\uDC64 Human]] are born all over the place but most of the time it's at a [[\uD83C\uDFE5 Hospital]], carried out by a [[\uD83D\uDC69‍⚕️ Doctor]]. Most births come from a [[\uD83D\uDC8D Marriage]]. They are assigned a name based on their gender expressed as [[\uD83D\uDE4B‍♂️ Male]] or [[\uD83D\uDE4B‍♀️ Female]]. As stated before, for sanity, citizens have no particular relations with anybody. They have no parents and will own a house from the day they are born. Actually, after spending their first year at the hospital, they move in to their place at the age of 1. Individuals involved in a relationship can have a child after a time that distributes by an exponential function with parameter λ= 8 years. A woman can get pregnant if she has an age that follows a normal (bell-shaped) distribution function with parameters µ = 28 and σ2 = 8 years. Every woman has a number of children that distributes by a normal function with parameters µ = 2and σ2 = 6 years. (The parameter µ represents the average age while σ2 is the measure of age variability.)"
+  },
+  "codex/human/birthplace.html": {
+    "href": "codex/human/birthplace.html",
+    "title": "Birthplace | ghta docs",
+    "summary": "Birthplace"
+  },
+  "codex/human/death.html": {
+    "href": "codex/human/death.html",
+    "title": "Death | ghta docs",
+    "summary": "Death The poor [[\uD83D\uDC64 Human]]. Destined to die when their time is come. Mortality rates are included in the project and a dice is rolled yearly for each alive human in the population in order to asses if and when they should die. When they die, humans are not removed from memory, in order to reverse and even extend Life in the opposite direction. A [[\uD83E\uDDD9‍♂️ Priest]] is scheduled to bid them farewell."
+  },
+  "codex/human/female.html": {
+    "href": "codex/human/female.html",
+    "title": "Female | ghta docs",
+    "summary": "Female Very important for [[\uD83D\uDC23 Birth]] Linked to the partner through [[\uD83D\uDC8D Marriage]]"
+  },
+  "codex/human/human.html": {
+    "href": "codex/human/human.html",
+    "title": "Human | ghta docs",
+    "summary": "Human Human is a class to hold stuff like a name, age, birthplace etc. [[\uD83E\uDD30 Birthplace]] [[\uD83D\uDCBC Workplace]] When their [[⏳ Time]] comes, they appear through [[\uD83D\uDC23 Birth]] They also suffer a little thing called [[☠️ Death]]."
+  },
+  "codex/human/male.html": {
+    "href": "codex/human/male.html",
+    "title": "Male | ghta docs",
+    "summary": "Male Linked to the partner through [[\uD83D\uDC8D Marriage]]"
+  },
+  "codex/human/marriage.html": {
+    "href": "codex/human/marriage.html",
+    "title": "Marriage | ghta docs",
+    "summary": "Marriage For the fools."
+  },
+  "codex/human/workplace.html": {
+    "href": "codex/human/workplace.html",
+    "title": "Workplace | ghta docs",
+    "summary": "Workplace 1/3 of your life."
+  },
+  "codex/locations/bus-stop.html": {
+    "href": "codex/locations/bus-stop.html",
+    "title": "Bus stop | ghta docs",
+    "summary": "Bus stop Origin: Open Street Map"
+  },
+  "codex/locations/college.html": {
+    "href": "codex/locations/college.html",
+    "title": "| ghta docs",
+    "summary": ""
+  },
+  "codex/locations/courthouse.html": {
+    "href": "codex/locations/courthouse.html",
+    "title": "Courthouse | ghta docs",
+    "summary": "Courthouse Courthouse is workplace of [[\uD83D\uDC68‍⚖️ Judge]] [[\uD83D\uDC73\uD83C\uDFFD‍♂️ Criminal]] who are caught by [[\uD83D\uDC68‍✈️ Cop]] are brought here. If sentenced they go to prison."
+  },
+  "codex/locations/day-care.html": {
+    "href": "codex/locations/day-care.html",
+    "title": "Day Care | ghta docs",
+    "summary": "Day Care amenity=day_care"
+  },
+  "codex/locations/family-doctor.html": {
+    "href": "codex/locations/family-doctor.html",
+    "title": "Family Doctor | ghta docs",
+    "summary": "Family Doctor Origin: Open Data Gent JSON JSON schema: { \"FID\":\"Huisartsen.1\", \"NAAM\":\"Dr. Hans Taragola\", \"HUISNR\":\"114\", \"TYPE\":\"Duo\", \"STRAAT\":\"Gontrode Heirweg\", \"GEMEENTE\":\"Melle\", \"POSTCODE\":\"9090\", \"EMAIL\":\"\", \"TELEFOON\":\"09/252.23.84\", \"WEBSITE\":\"\", \"GESLACHT\":\"M\", \"OPENOP\":\"\", \"FICHE\":\"\", \"DRUPAL_ID\":\"4837\", \"GlobalID\":\"fd619ecb-530e-4ede-8edf-6fddaeb6ea3b\", \"SHAPE\":\"POINT (421743.24240000173 6620832.234200001)\"}, } Parsing logic \"NAME\" value decides the GameObject name. \"GESLACHT\" value decides wether the GameObject Sprite is \uD83D\uDC69‍⚕️ or \uD83D\uDC68‍⚕️. \"SHAPE\" value is converted to GameCoordinates to place the GameObject using its Transform.position \"WEBSITE\" value, when it isn't null, a is added to the GameObject. When HUISNR, STRAAT, GEMEENTE, POSTCODE aren't null, an is added to the GameObject. Doctors have a revive component"
+  },
+  "codex/locations/hospital.html": {
+    "href": "codex/locations/hospital.html",
+    "title": "Hospital | ghta docs",
+    "summary": "Hospital Workplace of the [[\uD83D\uDC69‍⚕️ Doctor]]."
+  },
+  "codex/locations/hotel.html": {
+    "href": "codex/locations/hotel.html",
+    "title": "Hotel | ghta docs",
+    "summary": "Hotel Origin: Open Street Map"
+  },
+  "codex/locations/parking-location.html": {
+    "href": "codex/locations/parking-location.html",
+    "title": "| ghta docs",
+    "summary": ""
+  },
+  "codex/locations/pharmacy.html": {
+    "href": "codex/locations/pharmacy.html",
+    "title": "Pharmacy | ghta docs",
+    "summary": "Pharmacy"
+  },
+  "codex/locations/picnic-table.html": {
+    "href": "codex/locations/picnic-table.html",
+    "title": "Picnic Table | ghta docs",
+    "summary": "Picnic Table Origin: Leisure"
+  },
+  "codex/locations/place-of-worship.html": {
+    "href": "codex/locations/place-of-worship.html",
+    "title": "Place of worship | ghta docs",
+    "summary": "Place of worship [[\uD83E\uDDD9‍♂️ Priest]] workplace. You have your [[\uD83D\uDC8D Marriage]] here, you get buried here when you [[☠️ Death]]"
+  },
+  "codex/locations/post-office.html": {
+    "href": "codex/locations/post-office.html",
+    "title": "Post Office | ghta docs",
+    "summary": "Post Office Origin: Amenity Post offices are the workplace of [[\uD83D\uDC6E\uD83C\uDFFB‍♀️ Postal Worker]] They arrive here in the morning and then go collect Mail from [[\uD83D\uDCEE Postbox]]"
+  },
+  "codex/locations/postbox.html": {
+    "href": "codex/locations/postbox.html",
+    "title": "| ghta docs",
+    "summary": ""
+  },
+  "codex/locations/primary-school.html": {
+    "href": "codex/locations/primary-school.html",
+    "title": "Primary School | ghta docs",
+    "summary": "Primary School leads into [[\uD83C\uDFEB Secondary School]]"
+  },
+  "codex/locations/residence.html": {
+    "href": "codex/locations/residence.html",
+    "title": "Residence | ghta docs",
+    "summary": "Residence Where Human live."
+  },
+  "codex/locations/restaurant.html": {
+    "href": "codex/locations/restaurant.html",
+    "title": "Restaurant | ghta docs",
+    "summary": "Restaurant Origin: Open Street Map kiiinda part of [[\uD83C\uDFDD️ Tourism]] too"
+  },
+  "codex/locations/secondary-school.html": {
+    "href": "codex/locations/secondary-school.html",
+    "title": "Secondary School | ghta docs",
+    "summary": "Secondary School leads into [[\uD83C\uDFEB College]] or [[\uD83C\uDF93 University]]"
+  },
+  "codex/locations/street-lamp.html": {
+    "href": "codex/locations/street-lamp.html",
+    "title": "| ghta docs",
+    "summary": ""
+  },
+  "codex/locations/supermarket.html": {
+    "href": "codex/locations/supermarket.html",
+    "title": "Supermarket | ghta docs",
+    "summary": "Supermarket Origin: Open Street Map"
+  },
+  "codex/locations/traffic-signal.html": {
+    "href": "codex/locations/traffic-signal.html",
+    "title": "Traffic Signal | ghta docs",
+    "summary": "Traffic Signal Origin: Open Street Map"
+  },
+  "codex/locations/train-station.html": {
+    "href": "codex/locations/train-station.html",
+    "title": "| ghta docs",
+    "summary": ""
+  },
+  "codex/locations/tree.html": {
+    "href": "codex/locations/tree.html",
+    "title": "| ghta docs",
+    "summary": ""
+  },
+  "codex/locations/university.html": {
+    "href": "codex/locations/university.html",
+    "title": "University | ghta docs",
+    "summary": "University Workplace of the [[\uD83D\uDC69‍\uD83C\uDFEB Teacher]] and [[\uD83D\uDC69‍\uD83C\uDF93 Student]] Only for the Creme of the creme! After this, you have a slim shot of doing a Phd. Access to good paying jobs."
+  },
+  "codex/locations/wind-turbine.html": {
+    "href": "codex/locations/wind-turbine.html",
+    "title": "Wind turbines | ghta docs",
+    "summary": "Wind turbines"
+  },
+  "codex/simulation.html": {
+    "href": "codex/simulation.html",
+    "title": "Simulation | ghta docs",
+    "summary": "Simulation Simulations are techniques in which a real-life systems or processes are emulated by a designed model. Simulation systems are big systems, coupling components into bigger processes. Ghent Theft Auto draws inspiration from the concept of a digital twin, and comes with some very lofty goals: Simulate the actual amount of humans inside the city at all times, every one of them with a full history and relations (260.000 entitites) Simulate the progression of history and time backwards and forwards combines [[\uD83D\uDC64 Human]] and [[⏳ Time]] to give the appearance of an actual life inside the city. [[\uD83D\uDEA6 TrafficSystem]] takes [[OSM]] and builds a traffic system for people to move along from and towards their various destinations. The simulation combines Location and [[\uD83D\uDCBC Work]] in order to simulate activity and labour of citizens. Simulate the generation and consumption of [[⚡️Power]] on the network by producers and consumers. Since simulating relationships backwards and forwards into time can quickly spiral out of control, at first we’re approaching the Life simulation very individualistic. Citizens aren’t born from parents. They just get born in a [[\uD83C\uDFE5 Hospital]]. They don’t meet anybody, live alone their whole life and die alone \uD83D\uDE1C Another weird reprecussion on the vision of Ghent Theft Auto will be the ability to ‘undie’ a person, i.e. starting it out really old and turning the gears of life backwards, like de-retiring and de-educating. With these two out of the way, and a lot more incoming, let’s get started and take a look at a regular life inside Ghent Theft Auto."
+  },
+  "codex/systems.html": {
+    "href": "codex/systems.html",
+    "title": "\uD83E\uDEF3 Systems | ghta docs",
+    "summary": "\uD83E\uDEF3 Systems Systems are like gods. All powerful. Pure. Static. Omniprescent. They act as pure processors of the state. Agnostic."
+  },
+  "codex/systems/crime.html": {
+    "href": "codex/systems/crime.html",
+    "title": "Crime | ghta docs",
+    "summary": "Crime In Ghent Theft Auto, law and order is enforced by [[\uD83D\uDC68‍✈️ Cop]] and [[\uD83D\uDC68‍⚖️ Judge]] Citizens who commit crimes have a chance of being reported to the police, who subsequently try and arrest the citizen and try to bring him before a Courthouse. There are two Courthouse in Ghent, the nature of the crime dictates the location of the trial. Crime is expressed as stars in Ghent Theft Auto, one of the areas where it copies the game it was based on completely. Courthouse \uD83D\uDE93 Police stations [[\uD83D\uDC73\uD83C\uDFFD‍♂️ Criminal]]"
+  },
+  "codex/systems/education.html": {
+    "href": "codex/systems/education.html",
+    "title": "Education | ghta docs",
+    "summary": "Education In Ghent Theft Auto, citizens who have their fifth birthday in the currently simulated year are automatically enrolled into their first profession: the [[\uD83D\uDC69‍\uD83C\uDF93 Student]] profession. Being a student is practically the same thing as being a [[\uD83D\uDC69‍\uD83C\uDFEB Teacher]]: it basically means you have to show up at your [[\uD83D\uDCBC Workplace]] every weekday. Yes, students also work at schools. [[\uD83D\uDC69‍\uD83C\uDF93 Student]] and [[\uD83D\uDC69‍\uD83C\uDFEB Teacher]] don't follow the rest of the citizens when it comes to [[\uD83D\uDC52 Holidays]]. Instead, they get way more, in the form of school breaks. Citizens who graduate a certain EducationLevel can graduate into a [[\uD83D\uDC69‍\uD83C\uDFEB Teacher]]. A student’s progression through this system is tightly coupled to the difficulty of the SchoolLevel and his/her stats. [[\uD83C\uDF4E Primary School]] Primary school starts in the calendar year the [[\uD83D\uDC64 Human]] becomes 5 years old. From then on, citizens have a chance of flunking the education progress based on their Intelligence and the EducationLevel. Correspondingly, flunking your first year of primary school will be harder than passing your last year of secondary school. Each time you fail a year of education, it gets easier. Primary school lasts six years if all goes well. After graduating the sixth year of primary, the citizen goes out and looks for a secondary school. [[\uD83C\uDFEB Secondary School]] The EducationLevel SecondarySchool follows after graduating the sixth year of primary school and is mandatory up to the age of 16. Generally speaking, secondary school is exactly the same as primary school. Even the duration is the same, six years if all goes well. The main difference being that secondary school is a bit harder and more importantly: starting at the age of sixteen and increasing rapidly each flunk, the [[\uD83D\uDC64 Human]] will have a chance of dropping out of the Education system entirely and picking up a [[\uD83D\uDCBC Profession]]. [[\uD83C\uDFEB College]] College is like university light You can still get a university degree after your college degree through magic called: schakeltraject. [[\uD83C\uDF93 University]] Every calendar year on the last day of June, a Student can either advance a year, flunk a year, or dropout entirely."
+  },
+  "codex/systems/healthcare.html": {
+    "href": "codex/systems/healthcare.html",
+    "title": "Healthcare | ghta docs",
+    "summary": "Healthcare NPC In Ghent Theft Auto, citizens who are in need of medical assistance are healed or revived by a [[\uD83D\uDC69‍⚕️ Doctor]], usually working at a Doctor Residence or in a [[\uD83C\uDFE5 Hospital]] Birth [[\uD83C\uDFE5 Hospital]] also serve as the [[\uD83E\uDD30 Birthplace]] of all citizens, player controlled or NPC. Death When a Player's health reaches zero, he/she dies. Their UI displays WASTED and the location they died at. NPC's that die of old age will sometimes do so after being transferred to a [[\uD83D\uDC64 Human]] Reviving When a Player dies, the following message should be displayed to their UI. You have [death method] at [last_known_address]. A nearby doctor [doctor_name] at [doctor_address] wants to revive you. When the Player accepts, he/she is transported to the doctor address and a sum of Money is withdrawn from their Wallet."
+  },
+  "codex/systems/parking.html": {
+    "href": "codex/systems/parking.html",
+    "title": "Parking | ghta docs",
+    "summary": "Parking By using Open Data Gent API's, we can show real-time parking occupancy data inside Ghent Theft Auto for [[\uD83C\uDD7F️ Parking location]] entities inside the World. The parking occupancy data is updated in real-time, every minute. If a [[\uD83C\uDD7F️ Parking location]] closes during the night, it subscribes to the [[⏳ Time]] system."
+  },
+  "codex/systems/post.html": {
+    "href": "codex/systems/post.html",
+    "title": "Post | ghta docs",
+    "summary": "Post In Ghent Theft Auto, mail is collected every day from various [[\uD83D\uDCEE Postbox]] locations throughout the city, by a [[\uD83D\uDC6E\uD83C\uDFFB‍♀️ Postal Worker]] who deposit the collected mail at a Post Office."
+  },
+  "codex/systems/power.html": {
+    "href": "codex/systems/power.html",
+    "title": "Power | ghta docs",
+    "summary": "Power Power is generated in Wind turbines , solar panels, electricity plants. Power is consumed by businesses and residences."
+  },
+  "codex/systems/public-transport.html": {
+    "href": "codex/systems/public-transport.html",
+    "title": "Public transport | ghta docs",
+    "summary": "Public transport Public transport governs a big part of [[\uD83D\uDEA6 TrafficSystem]]. It can be used by any citizen. People working in [[\uD83D\uDE8C Public transport]] have as a [[\uD83D\uDCBC Profession]]: [[\uD83D\uDE90 Bus Driver]] [[\uD83D\uDE95 Taxi Driver]] Bus stop [[\uD83D\uDE89 Train station]] \uD83D\uDE96 Taxi locations ✅"
+  },
+  "codex/systems/sanitation.html": {
+    "href": "codex/systems/sanitation.html",
+    "title": "Sanitation | ghta docs",
+    "summary": "Sanitation In Ghent Theft Auto, it is possible to spawn correct types of trash in right streets by using \uD83D\uDEAE IVAGO, and also on the appropriate days by using IVAGO - Calendar. [[\uD83D\uDC77 Sanitation worker]] pick the trash up. Public toilets relieve citizens"
+  },
+  "codex/systems/tourism.html": {
+    "href": "codex/systems/tourism.html",
+    "title": "Tourism | ghta docs",
+    "summary": "Tourism Ghent Theft Auto is visited each day by [[\uD83E\uDD33 Tourist]], they arrive in Train station and do not contribute to the population. Tourists live in Hotel and guesthouses. They visit \uD83C\uDFDD Tourism but also museums, Place of Worship, etc. Tourists mode of transportation is [[\uD83D\uDE8C Public transport]]."
+  },
+  "codex/systems/trafficsystem.html": {
+    "href": "codex/systems/trafficsystem.html",
+    "title": "TrafficSystem | ghta docs",
+    "summary": "TrafficSystem kinda has to do with [[\uD83C\uDD7F️ Parking]] The traffic system is a global system, i.e. it’s not linked to specific tiles and stays loaded the whole time on top of the map. Keeping this system lightweight will be crucial. It’s nature lends it to be a prime candidate for conversion to the JobSystem and there are some ECS examples online. Individual segments are parsed from OSM and instantiated by TrafficController. An algorithm traverses all these nodes and builds a branch. For this purpose, roads are sorted along their name. The first road of a batch is picked, we search for other segments where: the last point of the other segment equals the first point of our current segment, or the first point of the other segment equals the last point of our current segment When one of the above is true, we configure the segments, linking them up until we run out of options. When the segment is completely back filled and forward filled, it is considered a complete road and the segments that make it up are removed from the unsorted list. Then, a new random segment is selected from the unsorted list and the process is started again. When traffic network is available, cars are spawned on top of it. (Check out Megacity demo where they include cars in baking) Cars are assigned a segment and traverse it. When they end their segment, they are offered options. When no options are available, car will attempt to reverse if it is allowed. When no options are available on a one way road, car will return to vehicle pool and await new spawn. Roads should be as modular and lightweight as possible, using the tag dictionary and maybe interfaces."
+  },
+  "codex/time.html": {
+    "href": "codex/time.html",
+    "title": "Time | ghta docs",
+    "summary": "Time Introduction Ghent Theft Auto can be run in realtime, i.e. local time with a realtime game speed. The progression of time in Ghent Theft Auto can also be manipulated to simulate higher or lower speeds. Time is even able to be halted completely by a single Player. This means time of day and calendar are fully mocked. The [[⏳ Time]] namespace contains public events for sunset and sunrise, allowing for example [[\uD83D\uDCA1 Street Lamp]] behaviors. Time has events based on day of week, triggering [[\uD83D\uDCBC Profession]] behaviors. Conversely, Weekend and Holiday events will cause [[\uD83D\uDC64 Human]] to stay at their Residence . Example given: On any given Sunday... a [[\uD83D\uDC69‍\uD83C\uDF93 Student]] doesn't go to school on a Sunday as part of their [[\uD83D\uDCBC Profession]] a [[\uD83E\uDDD9‍♂️ Priest]] does go to [[\uD83E\uDDCE‍♂️ Place of worship]] to perform activities related to their [[\uD83D\uDCBC Profession]] [[\uD83D\uDC69‍\uD83C\uDF93 Student]] can still attend church to fill their Piety need. Buildings that have a build year are only shown when the year has passed. For this, we use the calculated pivot of building instances and request the converted WGS84 as an address, we then use this address to look up build year on the GRB API. Events Calendar events are calculated for each year. [[\uD83D\uDC52 Holidays]] Systems Time drives systems such as: analog clocks such as on the Belfry, the [[\uD83D\uDE89 Train station]], etc. the ringing of [[\uD83E\uDDCE‍♂️ Place of worship]] bells opening and closing hours of public locations, such as Shops or [[\uD83C\uDD7F️ Parking]] activation and deactivation of [[\uD83D\uDCA1 Street Lamp]] activity of citizens, based on [[\uD83D\uDCBC Profession]] spawning of trash, as described in [[\uD83D\uDEAE Sanitation]]] graduation of [[\uD83D\uDC69‍\uD83C\uDF93 Student]] at the end of the academic year Holidays: Fireworks at [[0101_Nieuwjaarsdag_\uD83C\uDF8A]] Gentse Feesten Construction (and deconstruction) of buildings based on historical data Feeding historical data into the simulation such as population numbers, (un)employment, etc. A single day in GhTA 00:00 DateTime is advanced one day new weather data is assigned to the climate Date is checked for date bound events such as: day of week nye 01:00 bells ring one time at churches because it’s 1 o clock 04:37 the moon dissappears behind the horizon because we calculated it using CoordinateSharp 07:30 coordinate sharp provided us with a sunrise so we turn off the street lights 08:00 since we parsed OSM opening hours for a store, it opens at this hour 08:30 schools dont have opening hours but are hardcoded to open at 8:30 11:15 analog clocks display 11:15 on Belfort and Sint Pieters station, for example 13:47 a train arrives at Gent Dampoort, parsed from iRail API 14:00 a postman picks up mail from a postbox parsed from OSM API 17:30 a bus leaves at the Zuid, parsed from De Lijn 18:00 shops close in the Veldstraat because we parsed their opening hours"
+  },
+  "codex/time/holidays/holidays.html": {
+    "href": "codex/time/holidays/holidays.html",
+    "title": "Holidays | ghta docs",
+    "summary": "Holidays Some holidays are always on the same date, e.g. [[1225_Kerstmis_\uD83C\uDF85]], others vary each year, e.g.: [[\uD83D\uDC30 Easter]]. Some holidays are paid holidays, causing people to have a day off. They don't have to go to their [[\uD83D\uDCBC Workplace]] Other holidays are purely 'semantic', such as World Animal Day or [[0214_Valentijn_\uD83D\uDC95]]. Static holidays are: [[0101_Nieuwjaarsdag_\uD83C\uDF8A]] [[0214_Valentijn_\uD83D\uDC95]] [[0501_Feest van de Arbeid_✊]] [[0815_OLV Hemelvaart_\uD83D\uDE4F]] [[1111_Wapenstilstand_\uD83E\uDD1D]] [[1225_Kerstmis_\uD83C\uDF85]] [[1231_Oudejaar_\uD83C\uDF7E]] Dynamic holidays School breaks"
+  },
+  "codex/time/holidays/holidaysdynamic/easter.html": {
+    "href": "codex/time/holidays/holidaysdynamic/easter.html",
+    "title": "Easter | ghta docs",
+    "summary": "Easter \uD83D\uDC30"
+  },
+  "codex/time/holidays/holidaysstatic/feest-van-de-arbeid.html": {
+    "href": "codex/time/holidays/holidaysstatic/feest-van-de-arbeid.html",
+    "title": "Feest van de Arbeid | ghta docs",
+    "summary": "Feest van de Arbeid Date: May 1, 2021 Paid: Yes ShortDate: 01-05"
+  },
+  "codex/time/holidays/holidaysstatic/kerstmis.html": {
+    "href": "codex/time/holidays/holidaysstatic/kerstmis.html",
+    "title": "Kerstmis | ghta docs",
+    "summary": "Kerstmis Date: December 25, 2021 Paid: Yes ShortDate: 25-12"
+  },
+  "codex/time/holidays/holidaysstatic/nieuwjaarsdag.html": {
+    "href": "codex/time/holidays/holidaysstatic/nieuwjaarsdag.html",
+    "title": "Nieuwjaarsdag | ghta docs",
+    "summary": "Nieuwjaarsdag Date: January 1, 2021 Paid: Yes ShortDate: 01-01"
+  },
+  "codex/time/holidays/holidaysstatic/olv-hemelvaart.html": {
+    "href": "codex/time/holidays/holidaysstatic/olv-hemelvaart.html",
+    "title": "OLV Hemelvaart | ghta docs",
+    "summary": "OLV Hemelvaart Date: August 15, 2021 Paid: Yes ShortDate: 15-08"
+  },
+  "codex/time/holidays/holidaysstatic/oudejaar.html": {
+    "href": "codex/time/holidays/holidaysstatic/oudejaar.html",
+    "title": "Oudejaar | ghta docs",
+    "summary": "Oudejaar Date: December 31, 2021 Paid: Yes ShortDate: 31-12"
+  },
+  "codex/time/holidays/holidaysstatic/valentijn.html": {
+    "href": "codex/time/holidays/holidaysstatic/valentijn.html",
+    "title": "Valentijn | ghta docs",
+    "summary": "Valentijn Date: February 14, 2021 Paid: No ShortDate: 14-02 It's a great time to drop a \uD83D\uDC8C in a [[\uD83D\uDCEE Postbox]]"
+  },
+  "codex/time/holidays/holidaysstatic/wapenstilstand.html": {
+    "href": "codex/time/holidays/holidaysstatic/wapenstilstand.html",
+    "title": "Wapenstilstand | ghta docs",
+    "summary": "Wapenstilstand Date: November 11, 2021 Paid: Yes ShortDate: 11-11"
+  },
+  "codex/work.html": {
+    "href": "codex/work.html",
+    "title": "\uD83D\uDCBC Profession | ghta docs",
+    "summary": "\uD83D\uDCBC Profession Professions are the occupation of Humans during the day. They are usually linked with a Location and involve the [[\uD83D\uDC64 Human]] spending [[⏳ Time]] there or doing activities outside the workplace that relate to the profession eg postman. [[\uD83D\uDC69‍⚕️ Doctor]] [[\uD83D\uDC6E\uD83C\uDFFB‍♀️ Postal Worker]] [[\uD83D\uDC68‍✈️ Cop]] [[\uD83D\uDC73\uD83C\uDFFD‍♂️ Criminal]] [[\uD83D\uDC68‍⚖️ Judge]] [[\uD83D\uDC69‍\uD83C\uDF93 Student]] [[\uD83D\uDC69‍\uD83C\uDFEB Teacher]] [[\uD83D\uDC77 Sanitation worker]] [[\uD83D\uDE95 Taxi Driver]]"
+  },
+  "codex/work/bus-driver.html": {
+    "href": "codex/work/bus-driver.html",
+    "title": "\uD83D\uDE90 Bus Driver | ghta docs",
+    "summary": "\uD83D\uDE90 Bus Driver They tend to stop at the [[\uD83D\uDE8F Bus stop]]"
+  },
+  "codex/work/cop.html": {
+    "href": "codex/work/cop.html",
+    "title": "Cop | ghta docs",
+    "summary": "Cop ACAB. Cops work at Police Stations and take care of bad guys, i.e. [[\uD83D\uDC73\uD83C\uDFFD‍♂️ Criminal]]. Governed by the [[⚖️ Crime]] system"
+  },
+  "codex/work/criminal.html": {
+    "href": "codex/work/criminal.html",
+    "title": "Criminal | ghta docs",
+    "summary": "Criminal Criminals accrue money through nefarious practices and run the risk of being caught by Cop professions and be braught to Courthouses and maybe eventually, Jail."
+  },
+  "codex/work/doctor.html": {
+    "href": "codex/work/doctor.html",
+    "title": "Doctor | ghta docs",
+    "summary": "Doctor A Doctor either works at Family Doctor or [[\uD83C\uDFE5 Hospital]] Doctors can heal or revive players."
+  },
+  "codex/work/judge.html": {
+    "href": "codex/work/judge.html",
+    "title": "Judge | ghta docs",
+    "summary": "Judge Judge works at Courthouse."
+  },
+  "codex/work/postal-worker.html": {
+    "href": "codex/work/postal-worker.html",
+    "title": "Postal Worker | ghta docs",
+    "summary": "Postal Worker Postal workers job location is Post Office, they go pick up mail from Post Box locations scattered throughout the city."
+  },
+  "codex/work/priest.html": {
+    "href": "codex/work/priest.html",
+    "title": "Priest | ghta docs",
+    "summary": "Priest he is the guy in charge of keeping [[⏳ Time]] and calculating [[\uD83D\uDC30 Easter]] each year. no joke. funerals after [[☠️ Death]] weddings"
+  },
+  "codex/work/sanitation-worker.html": {
+    "href": "codex/work/sanitation-worker.html",
+    "title": "Sanitation worker | ghta docs",
+    "summary": "Sanitation worker Pick up trash."
+  },
+  "codex/work/student.html": {
+    "href": "codex/work/student.html",
+    "title": "Student | ghta docs",
+    "summary": "Student Students are subject to the [[\uD83D\uDCDA Education]] system. Just like [[\uD83D\uDC69‍\uD83C\uDFEB Teacher]], their job is primarily showing up at their ‣ every weekday at 8:30 am."
+  },
+  "codex/work/taxi-driver.html": {
+    "href": "codex/work/taxi-driver.html",
+    "title": "Taxi Driver | ghta docs",
+    "summary": "Taxi Driver A [[\uD83D\uDE95 Taxi Driver]] hangs out at \uD83D\uDE96 Taxi locations ✅, waiting to pick up citizens and dropping them off at various locations, to return to his/her post. For instance, a [[\uD83E\uDD33 Tourist]] would likely arrive at a [[\uD83D\uDE89 Train station]] and would want to navigate to their temporary goal of a \uD83C\uDFDD Tourism or his/her Hotel, using [[\uD83D\uDE8C Public transport]]."
+  },
+  "codex/work/teacher.html": {
+    "href": "codex/work/teacher.html",
+    "title": "Teacher | ghta docs",
+    "summary": "Teacher Teacher's job is, just like [[\uD83D\uDC69‍\uD83C\uDF93 Student]] profession, to show up at a school every weekday."
+  },
+  "codex/work/tourist.html": {
+    "href": "codex/work/tourist.html",
+    "title": "Tourist | ghta docs",
+    "summary": "Tourist Tourist workplace is [[\uD83C\uDFDD️ Tourism]] they transport using [[\uD83D\uDE8C Public transport]]. They spawn and despawn at [[\uD83D\uDE89 Train station]]"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "\uD83E\uDDEC game-of-life docs | ghta docs",
+    "summary": "\uD83E\uDDEC game-of-life docs You better start believing in simulation theories, you're in one! Overview Codex - Story driven development API Reference - Auto-generated API documentation Articles - Longer form content UI - Various UI design systems ✨ Highlights Welcome to the simulation, Human. \uD83C\uDF10 For design philosophy and guiding principles, see the Vision Doc. \uD83D\uDEE0️ For ongoing tasks and upcoming features, check the To-Do List. \uD83E\uDDE0 Domain-Driven Architecture Fully modular simulation engine with dedicated systems for Education,Locations, Work, Gods, Moments, and more. \uD83D\uDD70️ DateTime-Driven Emergent Behavior Each day, the simulation clock ticks — driving events like unpaid Holiday, school attendance with intermittent realistic school breaks, and the inevitable march toward Death ☠️. Don't be sad, the Steppe is always there. Sacred breaks and civic holidays? We got 'em. From Easter Sunday to Pinkstermaandag, this temporal core governs academic years, school vacations, and divine feast days alike. All the while, the Clock keeps ticking — orchestrating the emergence of life’s rhythms. \uD83C\uDF05 Halal Easter Calculator A totally unhinged, fully halal, and vaguely canonical Easter calculation — just as ordained by the Council of Nicaea in 325-whatever. For all your sacred scheduling needs, from Ash Wednesday to Corpus Christi. \uD83C\uDF46 Static Sex Class Absolutely cursed. You are gonna click this, you already know it."
+  },
+  "ui/console.html": {
+    "href": "ui/console.html",
+    "title": "Console | ghta docs",
+    "summary": "Console cross platform ofc Back to UI"
+  },
+  "ui/index.html": {
+    "href": "ui/index.html",
+    "title": "UI | ghta docs",
+    "summary": "UI \uD83C\uDFA8 User Interfaces This section covers various UI approaches for visualizing and interacting with the Game of Life simulation. \uD83D\uDDA5️ Console UI — Minimal output for debugging or script-based runs. \uD83E\uDE9F Terminal.GUI — Text-based but interactive."
+  },
+  "ui/terminal-gui.html": {
+    "href": "ui/terminal-gui.html",
+    "title": "terminal gui | ghta docs",
+    "summary": "terminal gui link to terminal gui?"
+  }
+}

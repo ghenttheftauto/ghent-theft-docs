@@ -1,0 +1,1988 @@
+{
+  "source_base_path": "/Users/lucy/dev/ghent-theft-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Exceptions.DeadHumanException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Exceptions.DeadHumanException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Exceptions.DeadHumanException",
+      "Summary": "<p sourcefile=\".docs/api/Domain.Exceptions.DeadHumanException.yml\" sourcestartlinenumber=\"1\">\uD83D\uDEAB Thrown when an action is performed on someone who has already returned to dust.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Exceptions.LiturgicalException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Exceptions.LiturgicalException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Exceptions.LiturgicalException",
+      "Summary": "<p sourcefile=\".docs/api/Domain.Exceptions.LiturgicalException.yml\" sourcestartlinenumber=\"1\">⛪ Represents an error that occurs when a liturgical operation violates sacred calendrical bounds,\ntheological logic, or canonical expectations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Exceptions.ReaperException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Exceptions.ReaperException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Exceptions.ReaperException",
+      "Summary": "<p sourcefile=\".docs/api/Domain.Exceptions.ReaperException.yml\" sourcestartlinenumber=\"1\">☠️ Thrown when <xref href=\"Gods.Reaper\" data-throw-if-not-resolved=\"false\"></xref> attempts to reap a <xref href=\"Humans.Human\" data-throw-if-not-resolved=\"false\"></xref> that has already been reaped.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.BirthMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.BirthMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.BirthMoment",
+      "Summary": "<p sourcefile=\".docs/api/Domain.Moments.BirthMoment.yml\" sourcestartlinenumber=\"1\">The exact moment in time when someone is born; a significant event for all involved <xref href=\"Humans.Human\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.BirthdayMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.BirthdayMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.BirthdayMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.DeathMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.DeathMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.DeathMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.DropoutMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.DropoutMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.DropoutMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.HistoricMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.HistoricMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.HistoricMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.Moment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.Moment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.Moment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.NewSchoolMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.NewSchoolMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.NewSchoolMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.SchoolDropoutMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.SchoolDropoutMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.SchoolDropoutMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.SchoolExamnMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.SchoolExamnMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.SchoolExamnMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.SchoolFirstDayMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.SchoolFirstDayMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.SchoolFirstDayMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.SchoolGraduationMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.SchoolGraduationMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.SchoolGraduationMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.SchoolTooDumbMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.SchoolTooDumbMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.SchoolTooDumbMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.WorkRetirementMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.WorkRetirementMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments.WorkRetirementMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Moments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Moments.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Moments",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Utility.BellCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Utility.BellCurve.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Utility.BellCurve",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Utility.CollectionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Utility.CollectionExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Utility.CollectionExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Utility.DateTimeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Utility.DateTimeExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Utility.DateTimeExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Utility.EnumExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Utility.EnumExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Utility.EnumExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Utility.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Utility.StringExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Utility.StringExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Domain.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domain.Utility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Domain.Utility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Education.EducationLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Education.EducationLevel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Education.EducationLevel",
+      "Summary": "<p sourcefile=\".docs/api/Education.EducationLevel.yml\" sourcestartlinenumber=\"1\">The level of education a human can have.</p>\n<p sourcefile=\".docs/api/Education.EducationLevel.yml\" sourcestartlinenumber=\"3\">You can grow your level of education by going to the schools like <xref href=\"Locations.Lageschool\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Locations.Middelbaar\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Locations.University\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Education.EducationSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Education.EducationSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Education.EducationSystem",
+      "Summary": "<p sourcefile=\".docs/api/Education.EducationSystem.yml\" sourcestartlinenumber=\"1\">Please refactor me to be static!!!</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Education.IEducatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Education.IEducatable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Education.IEducatable",
+      "Summary": "<p sourcefile=\".docs/api/Education.IEducatable.yml\" sourcestartlinenumber=\"1\">Represents an educational path or system that governs how a human progresses through schooling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Education.SchoolBreakTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Education.SchoolBreakTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Education.SchoolBreakTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Education.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Education.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Education",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Family.FamilyTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Family.FamilyTree.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Family.FamilyTree",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Family.TreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Family.TreeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Family.TreeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Family.TreeNodeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Family.TreeNodeList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Family.TreeNodeList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Family.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Family.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Family",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Gods.Fate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gods.Fate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Gods.Fate",
+      "Summary": "<p sourcefile=\".docs/api/Gods.Fate.yml\" sourcestartlinenumber=\"1\">✨ The winds of Fate decide all outcomes.</p>\n<p sourcefile=\".docs/api/Gods.Fate.yml\" sourcestartlinenumber=\"3\">In the vast tapestry of possibility, threads interweave in patterns beyond\nmortal comprehension.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Gods.Reaper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gods.Reaper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Gods.Reaper",
+      "Summary": "<p sourcefile=\".docs/api/Gods.Reaper.yml\" sourcestartlinenumber=\"1\">☠️ He who wanders the plains. The silent constant.</p>\n<p sourcefile=\".docs/api/Gods.Reaper.yml\" sourcestartlinenumber=\"3\">Reaper decides when the thread is cut — no earlier, no later.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Gods.Religion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gods.Religion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Gods.Religion",
+      "Summary": "<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"1\">\uD83D\uDD4A️ A sacred module for computing key dates in the liturgical calendar with reverence and precision.</p>\n<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"3\">\uD83D\uDCFF Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi—\nall derived from canonical computus, purified of any profane math.</p>\n<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"6\">\uD83D\uDD4C Fully halal. \uD83D\uDD4D Kosher-compliant. ✡️ Julian-aware.</p>\n<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"8\">Designed for use in cathedral-scale simulations, ascetic calendar engines,\nand ecclesiastically approved procedural generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Gods.Sex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gods.Sex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Gods.Sex",
+      "Summary": "<p sourcefile=\".docs/api/Gods.Sex.yml\" sourcestartlinenumber=\"1\">\uD83D\uDE33 Yeah. I never thought I was going to write this class.</p>\n<p sourcefile=\".docs/api/Gods.Sex.yml\" sourcestartlinenumber=\"3\">It's not what it seems, I swear. \uD83E\uDEE3</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Gods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Gods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.Female.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.Female.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.Female",
+      "Summary": "<p sourcefile=\".docs/api/Humans.Female.yml\" sourcestartlinenumber=\"1\">Meisjes, ze maken ons zo zot meneer!</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.Human.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.Human.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.Human",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.IBeing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.IBeing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.IBeing",
+      "Summary": "<p sourcefile=\".docs/api/Humans.IBeing.yml\" sourcestartlinenumber=\"1\">✨ Esoteric interface for all beings that can be born, die, and age.</p>\n<p sourcefile=\".docs/api/Humans.IBeing.yml\" sourcestartlinenumber=\"3\">\uD83D\uDCAB Souls are not included but get implanted later. Like soul -&gt; fetus -&gt; human -&gt; ghost.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.Male.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.Male.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.Male",
+      "Summary": "<p sourcefile=\".docs/api/Humans.Male.yml\" sourcestartlinenumber=\"1\">Ne vent, wa moede meer zegge?</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.MemoryBank.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.MemoryBank.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.MemoryBank",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.Relation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.Relation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.Relation",
+      "Summary": "<p sourcefile=\".docs/api/Humans.Relation.yml\" sourcestartlinenumber=\"1\">\uD83D\uDC91 Relation between two humans.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Life.Occupation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Life.Occupation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Life.Occupation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Life.Simulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Life.Simulation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Life.Simulation",
+      "Summary": "<p sourcefile=\".docs/api/Life.Simulation.yml\" sourcestartlinenumber=\"1\">Simulation holds the instances of Human and governs the Clock.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Life.Soul.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Life.Soul.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Life.Soul",
+      "Summary": "<p sourcefile=\".docs/api/Life.Soul.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF11 The Soul emerges on the eternal steppe of Ghent.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Life.StaticLife.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Life.StaticLife.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Life.StaticLife",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Life.Steppe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Life.Steppe.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Life.Steppe",
+      "Summary": "<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF11\uD83D\uDC3A\uD83E\uDDAC\nThe Steppes, illuminated by a eternal Paschall full moon.\nwhere 270.000 Souls wander the timeless frozen tundra plains amongst Bisons and Mammoths.</p>\n<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"5\">The Steppe whispers...and a soul answers.</p>\n<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"7\">The Steppe recalls? ✂️ <xref href=\"Gods.Reaper\" data-throw-if-not-resolved=\"false\"></xref> cuts the thread and the soul returns to the steppe.</p>\n<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"9\">Immutable <xref href=\"Life.Soul\" data-throw-if-not-resolved=\"false\"></xref>, no backref, spiritual asymmetry\nno one has the full GUIDs except the Steppe. \uD83C\uDF2B️</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Life.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Life.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Life",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.Bedrijfcentrum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.Bedrijfcentrum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.Bedrijfcentrum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.Dokterspraktijk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.Dokterspraktijk.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.Dokterspraktijk",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.Hospital.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.Hospital.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.Hospital",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.IAddressable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.IAddressable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.IAddressable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.ICoordinate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.ICoordinate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.ICoordinate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.Lageschool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.Lageschool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.Lageschool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.Middelbaar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.Middelbaar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.Middelbaar",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.PoliceStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.PoliceStation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.PoliceStation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.PostOffice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.PostOffice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.PostOffice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.Residence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.Residence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.Residence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.TheStreets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.TheStreets.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.TheStreets",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.University.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.University.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.University",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.World.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.World.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations.World",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Locations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Locations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Locations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Names.INameable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Names.INameable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Names.INameable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Names.Name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Names.Name.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Names.Name",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Names.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Names.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Names",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Sprookjes.Taal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sprookjes.Taal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sprookjes.Taal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Sprookjes.Vertel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sprookjes.Vertel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sprookjes.Vertel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Sprookjes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sprookjes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sprookjes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.Calendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.Calendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.Calendar",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.Clock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.Clock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.Clock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.History.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.History.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.History",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.Holiday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.Holiday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.Holiday",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.PopulationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.PopulationData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.PopulationData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Work.IWorkplace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Work.IWorkplace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Work.IWorkplace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Work.Profession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Work.Profession.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Work.Profession",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Work.Professions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Work.Professions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Work.Professions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Work.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Work.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Work",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": ".docs/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/goals.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/goals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/history.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/history.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/to-dos.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/to-dos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": ".docs/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/vision.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/vision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/birth.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/birth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/birthplace.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/birthplace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/death.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/death.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/female.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/female.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/human.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/human.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/male.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/male.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/marriage.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/marriage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/human/workplace.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/human/workplace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/bus-stop.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/bus-stop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/college.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/college.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/courthouse.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/courthouse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/day-care.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/day-care.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/family-doctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/family-doctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/hospital.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/hospital.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/hotel.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/hotel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/parking-location.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/parking-location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/pharmacy.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/pharmacy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/picnic-table.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/picnic-table.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/place-of-worship.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/place-of-worship.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/post-office.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/post-office.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/postbox.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/postbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/primary-school.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/primary-school.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/residence.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/residence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/restaurant.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/restaurant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/secondary-school.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/secondary-school.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/street-lamp.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/street-lamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/supermarket.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/supermarket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/traffic-signal.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/traffic-signal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/train-station.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/train-station.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/tree.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/tree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/university.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/university.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/locations/wind-turbine.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/locations/wind-turbine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/simulation.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/simulation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/crime.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/crime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/education.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/education.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/healthcare.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/healthcare.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/parking.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/parking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/post.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/post.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/power.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/power.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/public-transport.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/public-transport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/sanitation.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/sanitation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/tourism.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/tourism.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/systems/trafficsystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/systems/trafficsystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidays.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidays.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysdynamic/easter.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysdynamic/easter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/feest-van-de-arbeid.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/feest-van-de-arbeid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/kerstmis.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/kerstmis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/nieuwjaarsdag.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/nieuwjaarsdag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/olv-hemelvaart.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/olv-hemelvaart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/oudejaar.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/oudejaar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/valentijn.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/valentijn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/time/holidays/holidaysstatic/wapenstilstand.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/time/holidays/holidaysstatic/wapenstilstand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": ".docs/codex/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "codex/toc.html"
+        },
+        ".json": {
+          "relative_path": "codex/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/bus-driver.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/bus-driver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/cop.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/cop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/criminal.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/criminal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/doctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/doctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/judge.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/judge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/postal-worker.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/postal-worker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/priest.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/priest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/sanitation-worker.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/sanitation-worker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/student.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/student.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/taxi-driver.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/taxi-driver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/teacher.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/teacher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/codex/work/tourist.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/work/tourist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": ".docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/ui/console.md",
+      "output": {
+        ".html": {
+          "relative_path": "ui/console.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/ui/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "ui/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/ui/terminal-gui.md",
+      "output": {
+        ".html": {
+          "relative_path": "ui/terminal-gui.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": ".docs/ui/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ui/toc.html"
+        },
+        ".json": {
+          "relative_path": "ui/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

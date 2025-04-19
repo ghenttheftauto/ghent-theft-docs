@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "routes": [
+    { "src": "^/$", "dest": "/index.html" },
+    { "src": "^/api$", "status": 308, "headers": { "Location": "/api/" } },
+    { "src": "^/api/$", "dest": "/api/index.html" },
+    {
+      "src": "^/articles$",
+      "status": 308,
+      "headers": { "Location": "/articles/" }
+    },
+    { "src": "^/articles/$", "dest": "/articles/index.html" },
+    { "src": "^/codex$", "status": 308, "headers": { "Location": "/codex/" } },
+    { "src": "^/codex/$", "dest": "/codex/simulation.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
