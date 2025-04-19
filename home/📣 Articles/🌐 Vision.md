@@ -40,7 +40,7 @@ Your narrator (or storyteller) functions can dynamically switch between first-pe
 
 The [Simulation](xref:Life.Simulation) is controlled via flow controllers (like SinglePopulationFlow, MultiplePopulationFlow, MainFlow, etc.) which dictate the progression of the simulation and how information is presented.
 
-The [ui] (using Colorify for styling) and custom views allow you to interact with the simulation—configuring the number of simulated people, starting the simulation, and later presenting the compiled narrative of historical moments.
+The various [UI systems](/ui) (using Colorify for styling) and custom views allow you to interact with the simulation—configuring the number of simulated people, starting the simulation, and later presenting the compiled narrative of historical moments.
 
 You have clear separation between the simulation engine (domain logic), the narrative (Sprookjes/Vertel static class), and the user interaction (flow controllers and views). This modular design means you can extend or refactor each layer without breaking the others.
 
