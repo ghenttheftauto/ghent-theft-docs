@@ -1,6 +1,8 @@
 {
   "proseWrap": "preserve",
   "tabWidth": 2,
+  "semi": false,
+  "trailingComma": "none",
   "useTabs": false,
   "bracketSpacing": true,
   "endOfLine": "lf",

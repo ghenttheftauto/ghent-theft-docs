@@ -1030,7 +1030,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Time.Clock",
-      "Summary": "<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"1\">☀️ Wake up in the mornin' feeling like P. Diddy \uD83D\uDE48\n\uD83D\uDD76️ Grab my glasses; I'm out the door, I'm gonna hit this city \uD83C\uDF06\n\uD83E\uDD1A Before I leave, brush my teeth, with a bottle of Jack \uD83E\uDD43</p>\n"
+      "Summary": "<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"1\">☀️ Wake up in the mornin' feeling like P. Diddy \uD83D\uDE48</p>\n<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"3\">\uD83D\uDD76️ Grab my glasses; I'm out the door, I'm gonna hit this city \uD83C\uDF06</p>\n<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"5\">\uD83E\uDD1A Before I leave, brush my teeth, with a bottle of Jack \uD83E\uDD43</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1193,6 +1193,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/steppe.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/steppe.html"
         }
       },
       "version": ""
