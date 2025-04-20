@@ -21,15 +21,9 @@ with some very lofty goals:
 - Simulate the generation and consumption of [[⚡️Power]] on the network by
   producers and consumers.
 
-Since simulating relationships backwards and forwards into time can quickly
-spiral out of control, at first we’re approaching the Life simulation very
-individualistic.
+Citizens aren born from parents. They get born in a [[🏥 Hospital]].
 
-Citizens aren’t born from parents. They just get born in a [[🏥 Hospital]].
-
-They don’t meet anybody, live alone their whole life and die alone 😜
-
-Another weird reprecussion on the vision of Ghent Theft Auto will be the ability
+A weird reprecussion on the vision of Ghent Theft Auto will be the ability
 to ‘undie’ a person, i.e. starting it out really old and turning the gears of
 life backwards, like de-retiring and de-educating.
 

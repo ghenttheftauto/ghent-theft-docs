@@ -1,17 +1,15 @@
 # Birth
 
 [[👤 Human]] are born all over the place but most of the time it's at a
-[[🏥 Hospital]], carried out by a [[👩‍⚕️ Doctor]]. Most births come from a
-[[💍 Marriage]].
+[[🏥 Hospital]], carried out by a [[👩‍⚕️ Doctor]], resulting in a [[🤰 Birthplace]] log on the human and the location itself.
 
-They are assigned a name based on their gender expressed as [[🙋‍♂️ Male]] or
+Most births come from a [[💍 Marriage]] but you never know!
+
+Babies are assigned a name based on their gender expressed as [[🙋‍♂️ Male]] or
 [[🙋‍♀️ Female]].
 
-As stated before, for sanity, citizens have no particular relations with
-anybody. They have no parents and will own a house from the day they are born.
-
-Actually, after spending their first year at the hospital, they move in to their
-place at the age of 1.
+After spending some time at the hospital with their mother, humans move in to their
+residence.
 
 Individuals involved in a relationship can have a child after a time that
 distributes by an exponential function with parameter λ= 8 years.
