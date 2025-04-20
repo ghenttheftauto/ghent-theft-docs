@@ -1169,6 +1169,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": ".docs/articles/easter.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/easter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": ".docs/articles/goals.md",
       "output": {
         ".html": {

@@ -409,6 +409,11 @@
     "title": "\uD83E\uDDFE API Documentation | ghta docs",
     "summary": "\uD83E\uDDFE API Documentation This section contains the auto-generated API reference for the Game of Life simulation engine. It's the canonical source for all things technical — from the deepest Moment base classes to the divine CalculateEasterHalal function. \uD83D\uDCE6 dotnet Target Framework netstandard2.1 For Unity reasons. Language features Language Features: C# 8.0 \uD83D\uDCDA Namespaces All code is neatly grouped by domain. Expect things like: Humans – \uD83D\uDC80 Birth, life, and death. Education – \uD83C\uDF93 School systems and exams. Domain.Religion – ✝️ Liturgical logic for divine scheduling. Domain.Moments – \uD83D\uDCC6 Everything that happens in a life, tracked and narrated. Explore the API by using the sidebar on the left, or dive into a class like Gods.Religion to start on holy ground. \uD83D\uDD4A️"
   },
+  "articles/easter.html": {
+    "href": "articles/easter.html",
+    "title": "Easter | ghta docs",
+    "summary": "Easter first foray into custom time calc."
+  },
   "articles/goals.html": {
     "href": "articles/goals.html",
     "title": "\uD83D\uDCAA Goals | ghta docs",
@@ -426,8 +431,8 @@
   },
   "articles/steppe.html": {
     "href": "articles/steppe.html",
-    "title": "The Steppe | ghta docs",
-    "summary": "The Steppe Ever since I read this article, I've been think about the Steppe. \uD83D\uDC3A\uD83C\uDF19\uD83E\uDDAC VRT artikel \"We kunnen aan de hand van analyses de geschiedenis van de site reconstrueren\", vertelt De Gryse. De oudste afzetting is een dikke zandlaag die afgezet is door de wind, vanuit het Noordzeebekken. Dat gebeurde in de prehistorie (18.000 tot 14.650 jaar geleden). Later werd het een golvend duinlandschap. This is the ticking back to 18,000 BCE, not just as a technical gimmick but as an act of reverence. The steppe is not a backdrop. It's the cradle of continuity. The tundra beneath Sint-Baafs remembers. And we the ones who let it speak."
+    "title": "\uD83D\uDC3A The Steppe | ghta docs",
+    "summary": "\uD83D\uDC3A The Steppe Ever since I read this article, I've been think about the Steppe. \uD83D\uDC3A\uD83C\uDF19\uD83E\uDDAC VRT artikel \"We kunnen aan de hand van analyses de geschiedenis van de site reconstrueren\", vertelt De Gryse. De oudste afzetting is een dikke zandlaag die afgezet is door de wind, vanuit het Noordzeebekken. Dat gebeurde in de prehistorie (18.000 tot 14.650 jaar geleden). Later werd het een golvend duinlandschap. This is the ticking back to 18,000 BCE, not just as a technical gimmick but as an act of reverence. The steppe is not a backdrop. It's the cradle of continuity. The tundra beneath Sint-Baafs remembers. And we the ones who let it speak. We know we can do it since we fixed Easter"
   },
   "articles/to-dos.html": {
     "href": "articles/to-dos.html",
