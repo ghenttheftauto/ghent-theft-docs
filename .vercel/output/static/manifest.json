@@ -572,17 +572,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Humans.IBeing.yml",
+      "source_relative_path": ".docs/api/Humans.IVessel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Humans.IBeing.html"
+          "relative_path": "api/Humans.IVessel.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Humans.IBeing",
-      "Summary": "<p sourcefile=\".docs/api/Humans.IBeing.yml\" sourcestartlinenumber=\"1\">✨ Esoteric interface for all beings that can be born, die, and age.</p>\n<p sourcefile=\".docs/api/Humans.IBeing.yml\" sourcestartlinenumber=\"3\">\uD83D\uDCAB Souls are not included but get implanted later. Like soul -&gt; fetus -&gt; human -&gt; ghost.</p>\n"
+      "Title": "Humans.IVessel",
+      "Summary": "<p sourcefile=\".docs/api/Humans.IVessel.yml\" sourcestartlinenumber=\"1\">Earthy fleshy interface for all beings that can be born, die, and age.</p>\n<p sourcefile=\".docs/api/Humans.IVessel.yml\" sourcestartlinenumber=\"3\">\uD83D\uDCAB Souls are not included but get implanted later. Like soul -&gt; fetus -&gt; human -&gt; ghost.</p>\n"
     },
     {
       "type": "ManagedReference",

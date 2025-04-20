@@ -2503,83 +2503,83 @@ references:
   isSpec: "True"
   fullName: Humans.Human.YearsWorked
   nameWithType: Human.YearsWorked
-- uid: Humans.IBeing
-  name: IBeing
-  href: api/Humans.IBeing.html
-  commentId: T:Humans.IBeing
-  fullName: Humans.IBeing
-  nameWithType: IBeing
-- uid: Humans.IBeing.AdvanceAge
+- uid: Humans.IVessel
+  name: IVessel
+  href: api/Humans.IVessel.html
+  commentId: T:Humans.IVessel
+  fullName: Humans.IVessel
+  nameWithType: IVessel
+- uid: Humans.IVessel.AdvanceAge
   name: AdvanceAge()
-  href: api/Humans.IBeing.html#Humans_IBeing_AdvanceAge
-  commentId: M:Humans.IBeing.AdvanceAge
-  fullName: Humans.IBeing.AdvanceAge()
-  nameWithType: IBeing.AdvanceAge()
-- uid: Humans.IBeing.AdvanceAge*
+  href: api/Humans.IVessel.html#Humans_IVessel_AdvanceAge
+  commentId: M:Humans.IVessel.AdvanceAge
+  fullName: Humans.IVessel.AdvanceAge()
+  nameWithType: IVessel.AdvanceAge()
+- uid: Humans.IVessel.AdvanceAge*
   name: AdvanceAge
-  href: api/Humans.IBeing.html#Humans_IBeing_AdvanceAge_
-  commentId: Overload:Humans.IBeing.AdvanceAge
+  href: api/Humans.IVessel.html#Humans_IVessel_AdvanceAge_
+  commentId: Overload:Humans.IVessel.AdvanceAge
   isSpec: "True"
-  fullName: Humans.IBeing.AdvanceAge
-  nameWithType: IBeing.AdvanceAge
-- uid: Humans.IBeing.Age
+  fullName: Humans.IVessel.AdvanceAge
+  nameWithType: IVessel.AdvanceAge
+- uid: Humans.IVessel.Age
   name: Age
-  href: api/Humans.IBeing.html#Humans_IBeing_Age
-  commentId: P:Humans.IBeing.Age
-  fullName: Humans.IBeing.Age
-  nameWithType: IBeing.Age
-- uid: Humans.IBeing.Age*
+  href: api/Humans.IVessel.html#Humans_IVessel_Age
+  commentId: P:Humans.IVessel.Age
+  fullName: Humans.IVessel.Age
+  nameWithType: IVessel.Age
+- uid: Humans.IVessel.Age*
   name: Age
-  href: api/Humans.IBeing.html#Humans_IBeing_Age_
-  commentId: Overload:Humans.IBeing.Age
+  href: api/Humans.IVessel.html#Humans_IVessel_Age_
+  commentId: Overload:Humans.IVessel.Age
   isSpec: "True"
-  fullName: Humans.IBeing.Age
-  nameWithType: IBeing.Age
-- uid: Humans.IBeing.Alive
+  fullName: Humans.IVessel.Age
+  nameWithType: IVessel.Age
+- uid: Humans.IVessel.Alive
   name: Alive
-  href: api/Humans.IBeing.html#Humans_IBeing_Alive
-  commentId: P:Humans.IBeing.Alive
-  fullName: Humans.IBeing.Alive
-  nameWithType: IBeing.Alive
-- uid: Humans.IBeing.Alive*
+  href: api/Humans.IVessel.html#Humans_IVessel_Alive
+  commentId: P:Humans.IVessel.Alive
+  fullName: Humans.IVessel.Alive
+  nameWithType: IVessel.Alive
+- uid: Humans.IVessel.Alive*
   name: Alive
-  href: api/Humans.IBeing.html#Humans_IBeing_Alive_
-  commentId: Overload:Humans.IBeing.Alive
+  href: api/Humans.IVessel.html#Humans_IVessel_Alive_
+  commentId: Overload:Humans.IVessel.Alive
   isSpec: "True"
-  fullName: Humans.IBeing.Alive
-  nameWithType: IBeing.Alive
-- uid: Humans.IBeing.Birth(Locations.IAddressable@)
+  fullName: Humans.IVessel.Alive
+  nameWithType: IVessel.Alive
+- uid: Humans.IVessel.Birth(Locations.IAddressable@)
   name: Birth(in IAddressable)
-  href: api/Humans.IBeing.html#Humans_IBeing_Birth_Locations_IAddressable__
-  commentId: M:Humans.IBeing.Birth(Locations.IAddressable@)
+  href: api/Humans.IVessel.html#Humans_IVessel_Birth_Locations_IAddressable__
+  commentId: M:Humans.IVessel.Birth(Locations.IAddressable@)
   name.vb: Birth(IAddressable)
-  fullName: Humans.IBeing.Birth(in Locations.IAddressable)
-  fullName.vb: Humans.IBeing.Birth(Locations.IAddressable)
-  nameWithType: IBeing.Birth(in IAddressable)
-  nameWithType.vb: IBeing.Birth(IAddressable)
-- uid: Humans.IBeing.Birth*
+  fullName: Humans.IVessel.Birth(in Locations.IAddressable)
+  fullName.vb: Humans.IVessel.Birth(Locations.IAddressable)
+  nameWithType: IVessel.Birth(in IAddressable)
+  nameWithType.vb: IVessel.Birth(IAddressable)
+- uid: Humans.IVessel.Birth*
   name: Birth
-  href: api/Humans.IBeing.html#Humans_IBeing_Birth_
-  commentId: Overload:Humans.IBeing.Birth
+  href: api/Humans.IVessel.html#Humans_IVessel_Birth_
+  commentId: Overload:Humans.IVessel.Birth
   isSpec: "True"
-  fullName: Humans.IBeing.Birth
-  nameWithType: IBeing.Birth
-- uid: Humans.IBeing.Die(System.DateTime@)
+  fullName: Humans.IVessel.Birth
+  nameWithType: IVessel.Birth
+- uid: Humans.IVessel.Die(System.DateTime@)
   name: Die(in DateTime)
-  href: api/Humans.IBeing.html#Humans_IBeing_Die_System_DateTime__
-  commentId: M:Humans.IBeing.Die(System.DateTime@)
+  href: api/Humans.IVessel.html#Humans_IVessel_Die_System_DateTime__
+  commentId: M:Humans.IVessel.Die(System.DateTime@)
   name.vb: Die(Date)
-  fullName: Humans.IBeing.Die(in System.DateTime)
-  fullName.vb: Humans.IBeing.Die(Date)
-  nameWithType: IBeing.Die(in DateTime)
-  nameWithType.vb: IBeing.Die(Date)
-- uid: Humans.IBeing.Die*
+  fullName: Humans.IVessel.Die(in System.DateTime)
+  fullName.vb: Humans.IVessel.Die(Date)
+  nameWithType: IVessel.Die(in DateTime)
+  nameWithType.vb: IVessel.Die(Date)
+- uid: Humans.IVessel.Die*
   name: Die
-  href: api/Humans.IBeing.html#Humans_IBeing_Die_
-  commentId: Overload:Humans.IBeing.Die
+  href: api/Humans.IVessel.html#Humans_IVessel_Die_
+  commentId: Overload:Humans.IVessel.Die
   isSpec: "True"
-  fullName: Humans.IBeing.Die
-  nameWithType: IBeing.Die
+  fullName: Humans.IVessel.Die
+  nameWithType: IVessel.Die
 - uid: Humans.Male
   name: Male
   href: api/Humans.Male.html
@@ -4978,6 +4978,32 @@ references:
   commentId: T:Names.INameable
   fullName: Names.INameable
   nameWithType: INameable
+- uid: Names.INameable.FirstName
+  name: FirstName
+  href: api/Names.INameable.html#Names_INameable_FirstName
+  commentId: P:Names.INameable.FirstName
+  fullName: Names.INameable.FirstName
+  nameWithType: INameable.FirstName
+- uid: Names.INameable.FirstName*
+  name: FirstName
+  href: api/Names.INameable.html#Names_INameable_FirstName_
+  commentId: Overload:Names.INameable.FirstName
+  isSpec: "True"
+  fullName: Names.INameable.FirstName
+  nameWithType: INameable.FirstName
+- uid: Names.INameable.LastName
+  name: LastName
+  href: api/Names.INameable.html#Names_INameable_LastName
+  commentId: P:Names.INameable.LastName
+  fullName: Names.INameable.LastName
+  nameWithType: INameable.LastName
+- uid: Names.INameable.LastName*
+  name: LastName
+  href: api/Names.INameable.html#Names_INameable_LastName_
+  commentId: Overload:Names.INameable.LastName
+  isSpec: "True"
+  fullName: Names.INameable.LastName
+  nameWithType: INameable.LastName
 - uid: Names.INameable.Name
   name: Name
   href: api/Names.INameable.html#Names_INameable_Name
@@ -4991,6 +5017,19 @@ references:
   isSpec: "True"
   fullName: Names.INameable.Name
   nameWithType: INameable.Name
+- uid: Names.INameable.ToDebugString
+  name: ToDebugString()
+  href: api/Names.INameable.html#Names_INameable_ToDebugString
+  commentId: M:Names.INameable.ToDebugString
+  fullName: Names.INameable.ToDebugString()
+  nameWithType: INameable.ToDebugString()
+- uid: Names.INameable.ToDebugString*
+  name: ToDebugString
+  href: api/Names.INameable.html#Names_INameable_ToDebugString_
+  commentId: Overload:Names.INameable.ToDebugString
+  isSpec: "True"
+  fullName: Names.INameable.ToDebugString
+  nameWithType: INameable.ToDebugString
 - uid: Names.Name
   name: Name
   href: api/Names.Name.html
