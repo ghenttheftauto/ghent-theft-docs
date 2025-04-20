@@ -37,13 +37,13 @@ hit school age, they transition from child to student; eventually, they
 graduate, work, retire, and ultimately die.
 
 Every major event is recorded as a Moment:
-[`BirthMoment`](xref:Domain.Moments.BirthMoment),
-[`BirthdayMoment`](xref:Domain.Moments.BirthdayMoment),
-[`SchoolFirstDayMoment`](xref:Domain.Moments.SchoolFirstDayMoment),
-(xref:Domain.Moments.SchoolFirstDayMoment),
-[`SchoolGraduationMoment`](xref:Domain.Moments.SchoolGraduationMoment),
-[`WorkRetirementMoment`](xref:Domain.Moments.WorkRetirementMoment),
-[`DeathMoment`](xref:Domain.Moments.DeathMoment), etc.
+[`BirthMoment`](xref:Moments.BirthMoment),
+[`BirthdayMoment`](xref:Moments.BirthdayMoment),
+[`SchoolFirstDayMoment`](xref:Moments.SchoolFirstDayMoment),
+(xref:Moments.SchoolFirstDayMoment),
+[`SchoolGraduationMoment`](xref:Moments.SchoolGraduationMoment),
+[`WorkRetirementMoment`](xref:Moments.WorkRetirementMoment),
+[`DeathMoment`](xref:Moments.DeathMoment), etc.
 
 These events are not just numerical; they’re richly narrated - using the
 [Sprookjes](xref:Sprookjes) layer to [Vertel](xref:Sprookjes.Vertel) - with

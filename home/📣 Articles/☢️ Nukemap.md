@@ -61,6 +61,8 @@ Want to know if a pigeon 340 meters up gets flash-fried? Also yes.
 This isn’t just nuke-core.
 This is context-aware annihilation.
 
+We deform the `TerrainData`faster than a cat can react.
+
 ## Don't mention the war
 
 For those with delicate dispositions: yes, you can look away. I am a math enjoyer, I don't fatshame isotopes.

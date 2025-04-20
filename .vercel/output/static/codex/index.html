@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>☢️ Nukemap | ghta docs </title>
+      <title>Simulation | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="☢️ Nukemap | ghta docs ">
+      <meta name="title" content="Simulation | ghta docs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/articles/nukemap.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/codex/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,48 +85,40 @@
         </div>
 
         <article data-uid="">
-<h1 id="-nukemap">☢️ Nukemap</h1>
+<h1 id="simulation">Simulation</h1>
 
-<p>What is one the most outlandish ways to query a city-scale spatial datastructure fast?</p>
-<p>You <strong>nuke</strong> it. In 2 milliseconds.</p>
-<p>You've seen them. The cute webmap tile interfaces supposed to make your bones shudder or something when they draw three concentric circles, each a different color.</p>
-<p>Some number is ticking up somewhere in the corner of the map.</p>
-<p>Pathetic.</p>
-<p>Imagine you’ve got 270,000 entities in Ghent running around in between 127,000 buildings. Each building, person, and bird is spatially indexed.</p>
-<p>We want to ask it: what is visible? What <em>feels</em> the heat?</p>
-<p>What does a mach stem ripping through 800+ years of history look like?</p>
-<p>Would the Citadel bunker shield you from a neutron bomb?</p>
-<p><strong>Yes</strong>. This is peak Ghent Theft Auto, and <em>you know</em> you love it too.</p>
-<h2 id="-concentric-circles">🤹‍♂️ Concentric circles</h2>
-<p>We don't want to render pixels. We want to render Celcius, Pascal and Sievert.</p>
-<h3 id="-thermal-radiation">🔥 Thermal Radiation</h3>
-<p>Melted stained glass windows.</p>
-<h3 id="-overpressure-shockwave">💨 Overpressure Shockwave</h3>
-<p>Doornikse blauwsteen turned to shrapnel.</p>
-<h3 id="-fallout-radius">🌫️ Fallout Radius</h3>
-<p>Radioactive Macha tea in Patershol date?</p>
-<h2 id="-query-by-death">🧠 Query by Death</h2>
-<p>This isn't <code>SELECT \* FROM Buildings WHERE Distance &lt; radius</code>.</p>
-<p>Ghent is a Quadtree.
-The payload is a Vector3.
-The sradius is a float.</p>
-<p>We traverse once. We run a visibility check with shadows and render targets.</p>
-<p>We say: &quot;Show me what’s dead.&quot;</p>
-<p>The engine responds: &quot;Everyone east of the ring road except that guy swimming, but the fallout gets him about 30 minutes later.&quot;</p>
-<p>We imprint the <code>BitGrid</code> with isotopes for that real real.</p>
-<h2 id="-precision-please">📍 Precision, please</h2>
-<p>Want to know if a glass pane at Graslei survives? We can tell you.</p>
-<p>Want to know if a pigeon 340 meters up gets flash-fried? Also yes.</p>
-<p>This isn’t just nuke-core.
-This is context-aware annihilation.</p>
-<p>We deform the <code>TerrainData</code>faster than a cat can react.</p>
-<h2 id="dont-mention-the-war">Don't mention the war</h2>
-<p>For those with delicate dispositions: yes, you can look away. I am a math enjoyer, I don't fatshame isotopes.</p>
+<blockquote>
+<p>Simulations are techniques in which a real-life systems or processes are
+emulated by a designed model.</p>
+</blockquote>
+<p>Simulation systems are <strong>big</strong> systems, coupling components into bigger
+processes.</p>
+<p>Ghent Theft Auto draws inspiration from the concept of a digital twin, and comes
+with some very lofty goals:</p>
+<ul>
+<li>Simulate the actual amount of humans inside the city at all times, every one
+of them with a full history and relations (260.000 entitites)</li>
+<li>Simulate the progression of history and time backwards and forwards</li>
+<li>combines [[👤 Human]] and [[⏳ Time]] to give the appearance of an actual life
+inside the city.</li>
+<li>[[🚦 TrafficSystem]] takes [[OSM]] and builds a traffic system for people to
+move along from and towards their various destinations.</li>
+<li>The simulation combines Location and [[💼 Work]] in order to simulate activity
+and labour of citizens.</li>
+<li>Simulate the generation and consumption of [[⚡️Power]] on the network by
+producers and consumers.</li>
+</ul>
+<p>Citizens aren born from parents. They get born in a [[🏥 Hospital]].</p>
+<p>A weird reprecussion on the vision of Ghent Theft Auto will be the ability
+to ‘undie’ a person, i.e. starting it out really old and turning the gears of
+life backwards, like de-retiring and de-educating.</p>
+<p>With these two out of the way, and a lot more incoming, let’s get started and
+take a look at a regular life inside Ghent Theft Auto.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/articles/nukemap.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/codex/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

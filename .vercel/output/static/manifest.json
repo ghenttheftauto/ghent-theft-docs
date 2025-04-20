@@ -1342,6 +1342,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": ".docs/codex/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "codex/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": ".docs/codex/locations/bus-stop.md",
       "output": {
         ".html": {

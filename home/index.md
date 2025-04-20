@@ -26,14 +26,14 @@ Welcome to the simulation, [Human](xref:Humans.Human).
 
   Fully modular simulation engine with dedicated systems for
   [Education](xref:Education), [Locations](xref:Locations), [Work](xref:Work),
-  [Gods](xref:Gods), [Moments](xref:Domain.Moments), and more.
+  [Gods](xref:Gods), [Moments](xref:Moments), and more.
 
 - #### 🕰️ DateTime-driven Emergent Behavior
 
   Each day, the simulation clock ticks — driving events like unpaid
   [Holiday](xref:Time.Holiday), school attendance with intermittent realistic
   [school breaks](xref:Education.SchoolBreakTypes), and the inevitable march
-  toward [Death](xref:Domain.Moments.DeathMoment) ☠️.
+  toward [Death](xref:Moments.DeathMoment) ☠️.
 
   Don't be sad, the [Steppe](xref:Life.Steppe) is always there.
 

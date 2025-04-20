@@ -8,4 +8,4 @@ This triggered me to 'tick the game loop back to 18,000 BCE to pre-cook the simu
 
 The tundra beneath Sint-Baafskathedraal remembers. We know we can do it since we fixed [Easter](easter.md) with Metonic cycles and Epacts. We just need more maths, bigger numbers and possibly more balls, than the monks did in 500AD.
 
-In the simulation, every living human is tied to a Soul. These are not erased upon death—they return to the Steppe. A `static` list of 227,000 souls forms the canonical registry, passed around like candle flames between vessels. You can invoke the GC on a [IVessel](xref:Life.IVessel), but the Soul `struct` is `readonly`.
+In the simulation, every living human is tied to a Soul. These are not erased upon death—they return to the Steppe. A `static` list of 227,000 souls forms the canonical registry, passed around like candle flames between vessels. You can invoke the GC on a [IVessel](xref:Humans.IVessel), but the Soul `struct` is `readonly`.
