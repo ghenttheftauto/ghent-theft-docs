@@ -1,4 +1,4 @@
-# Vision Doc
+# The Vision™️ Doc
 
 This project is a reinterpretation of Game of Life by Conway.
 
