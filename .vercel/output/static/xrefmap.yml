@@ -118,493 +118,6 @@ references:
   fullName.vb: Domain.Exceptions.ReaperException.New
   nameWithType: ReaperException.ReaperException
   nameWithType.vb: ReaperException.New
-- uid: Domain.Moments
-  name: Domain.Moments
-  href: api/Domain.Moments.html
-  commentId: N:Domain.Moments
-  fullName: Domain.Moments
-  nameWithType: Domain.Moments
-- uid: Domain.Moments.BirthMoment
-  name: BirthMoment
-  href: api/Domain.Moments.BirthMoment.html
-  commentId: T:Domain.Moments.BirthMoment
-  fullName: Domain.Moments.BirthMoment
-  nameWithType: BirthMoment
-- uid: Domain.Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)
-  name: BirthMoment(Human, IAddressable, DateTime)
-  href: api/Domain.Moments.BirthMoment.html#Domain_Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_
-  commentId: M:Domain.Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)
-  name.vb: New(Human, IAddressable, Date)
-  fullName: Domain.Moments.BirthMoment.BirthMoment(Humans.Human, Locations.IAddressable, System.DateTime)
-  fullName.vb: Domain.Moments.BirthMoment.New(Humans.Human, Locations.IAddressable, Date)
-  nameWithType: BirthMoment.BirthMoment(Human, IAddressable, DateTime)
-  nameWithType.vb: BirthMoment.New(Human, IAddressable, Date)
-- uid: Domain.Moments.BirthMoment.#ctor*
-  name: BirthMoment
-  href: api/Domain.Moments.BirthMoment.html#Domain_Moments_BirthMoment__ctor_
-  commentId: Overload:Domain.Moments.BirthMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.BirthMoment.BirthMoment
-  fullName.vb: Domain.Moments.BirthMoment.New
-  nameWithType: BirthMoment.BirthMoment
-  nameWithType.vb: BirthMoment.New
-- uid: Domain.Moments.BirthMoment.Child
-  name: Child
-  href: api/Domain.Moments.BirthMoment.html#Domain_Moments_BirthMoment_Child
-  commentId: F:Domain.Moments.BirthMoment.Child
-  fullName: Domain.Moments.BirthMoment.Child
-  nameWithType: BirthMoment.Child
-- uid: Domain.Moments.BirthMoment.Father
-  name: Father
-  href: api/Domain.Moments.BirthMoment.html#Domain_Moments_BirthMoment_Father
-  commentId: F:Domain.Moments.BirthMoment.Father
-  fullName: Domain.Moments.BirthMoment.Father
-  nameWithType: BirthMoment.Father
-- uid: Domain.Moments.BirthMoment.Mother
-  name: Mother
-  href: api/Domain.Moments.BirthMoment.html#Domain_Moments_BirthMoment_Mother
-  commentId: F:Domain.Moments.BirthMoment.Mother
-  fullName: Domain.Moments.BirthMoment.Mother
-  nameWithType: BirthMoment.Mother
-- uid: Domain.Moments.BirthdayMoment
-  name: BirthdayMoment
-  href: api/Domain.Moments.BirthdayMoment.html
-  commentId: T:Domain.Moments.BirthdayMoment
-  fullName: Domain.Moments.BirthdayMoment
-  nameWithType: BirthdayMoment
-- uid: Domain.Moments.BirthdayMoment.#ctor(Humans.Human,System.DateTime)
-  name: BirthdayMoment(Human, DateTime)
-  href: api/Domain.Moments.BirthdayMoment.html#Domain_Moments_BirthdayMoment__ctor_Humans_Human_System_DateTime_
-  commentId: M:Domain.Moments.BirthdayMoment.#ctor(Humans.Human,System.DateTime)
-  name.vb: New(Human, Date)
-  fullName: Domain.Moments.BirthdayMoment.BirthdayMoment(Humans.Human, System.DateTime)
-  fullName.vb: Domain.Moments.BirthdayMoment.New(Humans.Human, Date)
-  nameWithType: BirthdayMoment.BirthdayMoment(Human, DateTime)
-  nameWithType.vb: BirthdayMoment.New(Human, Date)
-- uid: Domain.Moments.BirthdayMoment.#ctor*
-  name: BirthdayMoment
-  href: api/Domain.Moments.BirthdayMoment.html#Domain_Moments_BirthdayMoment__ctor_
-  commentId: Overload:Domain.Moments.BirthdayMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.BirthdayMoment.BirthdayMoment
-  fullName.vb: Domain.Moments.BirthdayMoment.New
-  nameWithType: BirthdayMoment.BirthdayMoment
-  nameWithType.vb: BirthdayMoment.New
-- uid: Domain.Moments.BirthdayMoment.BirthdayBoy
-  name: BirthdayBoy
-  href: api/Domain.Moments.BirthdayMoment.html#Domain_Moments_BirthdayMoment_BirthdayBoy
-  commentId: F:Domain.Moments.BirthdayMoment.BirthdayBoy
-  fullName: Domain.Moments.BirthdayMoment.BirthdayBoy
-  nameWithType: BirthdayMoment.BirthdayBoy
-- uid: Domain.Moments.DeathMoment
-  name: DeathMoment
-  href: api/Domain.Moments.DeathMoment.html
-  commentId: T:Domain.Moments.DeathMoment
-  fullName: Domain.Moments.DeathMoment
-  nameWithType: DeathMoment
-- uid: Domain.Moments.DeathMoment.#ctor(Humans.Human,System.DateTime)
-  name: DeathMoment(Human, DateTime)
-  href: api/Domain.Moments.DeathMoment.html#Domain_Moments_DeathMoment__ctor_Humans_Human_System_DateTime_
-  commentId: M:Domain.Moments.DeathMoment.#ctor(Humans.Human,System.DateTime)
-  name.vb: New(Human, Date)
-  fullName: Domain.Moments.DeathMoment.DeathMoment(Humans.Human, System.DateTime)
-  fullName.vb: Domain.Moments.DeathMoment.New(Humans.Human, Date)
-  nameWithType: DeathMoment.DeathMoment(Human, DateTime)
-  nameWithType.vb: DeathMoment.New(Human, Date)
-- uid: Domain.Moments.DeathMoment.#ctor*
-  name: DeathMoment
-  href: api/Domain.Moments.DeathMoment.html#Domain_Moments_DeathMoment__ctor_
-  commentId: Overload:Domain.Moments.DeathMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.DeathMoment.DeathMoment
-  fullName.vb: Domain.Moments.DeathMoment.New
-  nameWithType: DeathMoment.DeathMoment
-  nameWithType.vb: DeathMoment.New
-- uid: Domain.Moments.DeathMoment.Who
-  name: Who
-  href: api/Domain.Moments.DeathMoment.html#Domain_Moments_DeathMoment_Who
-  commentId: F:Domain.Moments.DeathMoment.Who
-  fullName: Domain.Moments.DeathMoment.Who
-  nameWithType: DeathMoment.Who
-- uid: Domain.Moments.DropoutMoment
-  name: DropoutMoment
-  href: api/Domain.Moments.DropoutMoment.html
-  commentId: T:Domain.Moments.DropoutMoment
-  fullName: Domain.Moments.DropoutMoment
-  nameWithType: DropoutMoment
-- uid: Domain.Moments.DropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name: DropoutMoment(Human, DateTime, IEducatable)
-  href: api/Domain.Moments.DropoutMoment.html#Domain_Moments_DropoutMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
-  commentId: M:Domain.Moments.DropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name.vb: New(Human, Date, IEducatable)
-  fullName: Domain.Moments.DropoutMoment.DropoutMoment(Humans.Human, System.DateTime, Education.IEducatable)
-  fullName.vb: Domain.Moments.DropoutMoment.New(Humans.Human, Date, Education.IEducatable)
-  nameWithType: DropoutMoment.DropoutMoment(Human, DateTime, IEducatable)
-  nameWithType.vb: DropoutMoment.New(Human, Date, IEducatable)
-- uid: Domain.Moments.DropoutMoment.#ctor*
-  name: DropoutMoment
-  href: api/Domain.Moments.DropoutMoment.html#Domain_Moments_DropoutMoment__ctor_
-  commentId: Overload:Domain.Moments.DropoutMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.DropoutMoment.DropoutMoment
-  fullName.vb: Domain.Moments.DropoutMoment.New
-  nameWithType: DropoutMoment.DropoutMoment
-  nameWithType.vb: DropoutMoment.New
-- uid: Domain.Moments.DropoutMoment.School
-  name: School
-  href: api/Domain.Moments.DropoutMoment.html#Domain_Moments_DropoutMoment_School
-  commentId: F:Domain.Moments.DropoutMoment.School
-  fullName: Domain.Moments.DropoutMoment.School
-  nameWithType: DropoutMoment.School
-- uid: Domain.Moments.DropoutMoment.Who
-  name: Who
-  href: api/Domain.Moments.DropoutMoment.html#Domain_Moments_DropoutMoment_Who
-  commentId: F:Domain.Moments.DropoutMoment.Who
-  fullName: Domain.Moments.DropoutMoment.Who
-  nameWithType: DropoutMoment.Who
-- uid: Domain.Moments.HistoricMoment
-  name: HistoricMoment
-  href: api/Domain.Moments.HistoricMoment.html
-  commentId: T:Domain.Moments.HistoricMoment
-  fullName: Domain.Moments.HistoricMoment
-  nameWithType: HistoricMoment
-- uid: Domain.Moments.HistoricMoment.#ctor(System.DateTime,System.String)
-  name: HistoricMoment(DateTime, string)
-  href: api/Domain.Moments.HistoricMoment.html#Domain_Moments_HistoricMoment__ctor_System_DateTime_System_String_
-  commentId: M:Domain.Moments.HistoricMoment.#ctor(System.DateTime,System.String)
-  name.vb: New(Date, String)
-  fullName: Domain.Moments.HistoricMoment.HistoricMoment(System.DateTime, string)
-  fullName.vb: Domain.Moments.HistoricMoment.New(Date, String)
-  nameWithType: HistoricMoment.HistoricMoment(DateTime, string)
-  nameWithType.vb: HistoricMoment.New(Date, String)
-- uid: Domain.Moments.HistoricMoment.#ctor*
-  name: HistoricMoment
-  href: api/Domain.Moments.HistoricMoment.html#Domain_Moments_HistoricMoment__ctor_
-  commentId: Overload:Domain.Moments.HistoricMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.HistoricMoment.HistoricMoment
-  fullName.vb: Domain.Moments.HistoricMoment.New
-  nameWithType: HistoricMoment.HistoricMoment
-  nameWithType.vb: HistoricMoment.New
-- uid: Domain.Moments.HistoricMoment.Description
-  name: Description
-  href: api/Domain.Moments.HistoricMoment.html#Domain_Moments_HistoricMoment_Description
-  commentId: F:Domain.Moments.HistoricMoment.Description
-  fullName: Domain.Moments.HistoricMoment.Description
-  nameWithType: HistoricMoment.Description
-- uid: Domain.Moments.HistoricMoment.When
-  name: When
-  href: api/Domain.Moments.HistoricMoment.html#Domain_Moments_HistoricMoment_When
-  commentId: F:Domain.Moments.HistoricMoment.When
-  fullName: Domain.Moments.HistoricMoment.When
-  nameWithType: HistoricMoment.When
-- uid: Domain.Moments.Moment
-  name: Moment
-  href: api/Domain.Moments.Moment.html
-  commentId: T:Domain.Moments.Moment
-  fullName: Domain.Moments.Moment
-  nameWithType: Moment
-- uid: Domain.Moments.Moment.#ctor(System.DateTime,Locations.IAddressable)
-  name: Moment(DateTime, IAddressable)
-  href: api/Domain.Moments.Moment.html#Domain_Moments_Moment__ctor_System_DateTime_Locations_IAddressable_
-  commentId: M:Domain.Moments.Moment.#ctor(System.DateTime,Locations.IAddressable)
-  name.vb: New(Date, IAddressable)
-  fullName: Domain.Moments.Moment.Moment(System.DateTime, Locations.IAddressable)
-  fullName.vb: Domain.Moments.Moment.New(Date, Locations.IAddressable)
-  nameWithType: Moment.Moment(DateTime, IAddressable)
-  nameWithType.vb: Moment.New(Date, IAddressable)
-- uid: Domain.Moments.Moment.#ctor*
-  name: Moment
-  href: api/Domain.Moments.Moment.html#Domain_Moments_Moment__ctor_
-  commentId: Overload:Domain.Moments.Moment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.Moment.Moment
-  fullName.vb: Domain.Moments.Moment.New
-  nameWithType: Moment.Moment
-  nameWithType.vb: Moment.New
-- uid: Domain.Moments.Moment.Participants
-  name: Participants
-  href: api/Domain.Moments.Moment.html#Domain_Moments_Moment_Participants
-  commentId: F:Domain.Moments.Moment.Participants
-  fullName: Domain.Moments.Moment.Participants
-  nameWithType: Moment.Participants
-- uid: Domain.Moments.Moment.When
-  name: When
-  href: api/Domain.Moments.Moment.html#Domain_Moments_Moment_When
-  commentId: F:Domain.Moments.Moment.When
-  fullName: Domain.Moments.Moment.When
-  nameWithType: Moment.When
-- uid: Domain.Moments.Moment.Where
-  name: Where
-  href: api/Domain.Moments.Moment.html#Domain_Moments_Moment_Where
-  commentId: F:Domain.Moments.Moment.Where
-  fullName: Domain.Moments.Moment.Where
-  nameWithType: Moment.Where
-- uid: Domain.Moments.NewSchoolMoment
-  name: NewSchoolMoment
-  href: api/Domain.Moments.NewSchoolMoment.html
-  commentId: T:Domain.Moments.NewSchoolMoment
-  fullName: Domain.Moments.NewSchoolMoment
-  nameWithType: NewSchoolMoment
-- uid: Domain.Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Locations.IAddressable)
-  name: NewSchoolMoment(Human, DateTime, IAddressable)
-  href: api/Domain.Moments.NewSchoolMoment.html#Domain_Moments_NewSchoolMoment__ctor_Humans_Human_System_DateTime_Locations_IAddressable_
-  commentId: M:Domain.Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Locations.IAddressable)
-  name.vb: New(Human, Date, IAddressable)
-  fullName: Domain.Moments.NewSchoolMoment.NewSchoolMoment(Humans.Human, System.DateTime, Locations.IAddressable)
-  fullName.vb: Domain.Moments.NewSchoolMoment.New(Humans.Human, Date, Locations.IAddressable)
-  nameWithType: NewSchoolMoment.NewSchoolMoment(Human, DateTime, IAddressable)
-  nameWithType.vb: NewSchoolMoment.New(Human, Date, IAddressable)
-- uid: Domain.Moments.NewSchoolMoment.#ctor*
-  name: NewSchoolMoment
-  href: api/Domain.Moments.NewSchoolMoment.html#Domain_Moments_NewSchoolMoment__ctor_
-  commentId: Overload:Domain.Moments.NewSchoolMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.NewSchoolMoment.NewSchoolMoment
-  fullName.vb: Domain.Moments.NewSchoolMoment.New
-  nameWithType: NewSchoolMoment.NewSchoolMoment
-  nameWithType.vb: NewSchoolMoment.New
-- uid: Domain.Moments.NewSchoolMoment.School
-  name: School
-  href: api/Domain.Moments.NewSchoolMoment.html#Domain_Moments_NewSchoolMoment_School
-  commentId: F:Domain.Moments.NewSchoolMoment.School
-  fullName: Domain.Moments.NewSchoolMoment.School
-  nameWithType: NewSchoolMoment.School
-- uid: Domain.Moments.NewSchoolMoment.Who
-  name: Who
-  href: api/Domain.Moments.NewSchoolMoment.html#Domain_Moments_NewSchoolMoment_Who
-  commentId: F:Domain.Moments.NewSchoolMoment.Who
-  fullName: Domain.Moments.NewSchoolMoment.Who
-  nameWithType: NewSchoolMoment.Who
-- uid: Domain.Moments.SchoolDropoutMoment
-  name: SchoolDropoutMoment
-  href: api/Domain.Moments.SchoolDropoutMoment.html
-  commentId: T:Domain.Moments.SchoolDropoutMoment
-  fullName: Domain.Moments.SchoolDropoutMoment
-  nameWithType: SchoolDropoutMoment
-- uid: Domain.Moments.SchoolDropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name: SchoolDropoutMoment(Human, DateTime, IEducatable)
-  href: api/Domain.Moments.SchoolDropoutMoment.html#Domain_Moments_SchoolDropoutMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
-  commentId: M:Domain.Moments.SchoolDropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name.vb: New(Human, Date, IEducatable)
-  fullName: Domain.Moments.SchoolDropoutMoment.SchoolDropoutMoment(Humans.Human, System.DateTime, Education.IEducatable)
-  fullName.vb: Domain.Moments.SchoolDropoutMoment.New(Humans.Human, Date, Education.IEducatable)
-  nameWithType: SchoolDropoutMoment.SchoolDropoutMoment(Human, DateTime, IEducatable)
-  nameWithType.vb: SchoolDropoutMoment.New(Human, Date, IEducatable)
-- uid: Domain.Moments.SchoolDropoutMoment.#ctor*
-  name: SchoolDropoutMoment
-  href: api/Domain.Moments.SchoolDropoutMoment.html#Domain_Moments_SchoolDropoutMoment__ctor_
-  commentId: Overload:Domain.Moments.SchoolDropoutMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.SchoolDropoutMoment.SchoolDropoutMoment
-  fullName.vb: Domain.Moments.SchoolDropoutMoment.New
-  nameWithType: SchoolDropoutMoment.SchoolDropoutMoment
-  nameWithType.vb: SchoolDropoutMoment.New
-- uid: Domain.Moments.SchoolDropoutMoment.School
-  name: School
-  href: api/Domain.Moments.SchoolDropoutMoment.html#Domain_Moments_SchoolDropoutMoment_School
-  commentId: F:Domain.Moments.SchoolDropoutMoment.School
-  fullName: Domain.Moments.SchoolDropoutMoment.School
-  nameWithType: SchoolDropoutMoment.School
-- uid: Domain.Moments.SchoolDropoutMoment.Who
-  name: Who
-  href: api/Domain.Moments.SchoolDropoutMoment.html#Domain_Moments_SchoolDropoutMoment_Who
-  commentId: F:Domain.Moments.SchoolDropoutMoment.Who
-  fullName: Domain.Moments.SchoolDropoutMoment.Who
-  nameWithType: SchoolDropoutMoment.Who
-- uid: Domain.Moments.SchoolExamnMoment
-  name: SchoolExamnMoment
-  href: api/Domain.Moments.SchoolExamnMoment.html
-  commentId: T:Domain.Moments.SchoolExamnMoment
-  fullName: Domain.Moments.SchoolExamnMoment
-  nameWithType: SchoolExamnMoment
-- uid: Domain.Moments.SchoolExamnMoment.#ctor(Humans.Human,System.Boolean,System.DateTime,Education.IEducatable)
-  name: SchoolExamnMoment(Human, bool, DateTime, IEducatable)
-  href: api/Domain.Moments.SchoolExamnMoment.html#Domain_Moments_SchoolExamnMoment__ctor_Humans_Human_System_Boolean_System_DateTime_Education_IEducatable_
-  commentId: M:Domain.Moments.SchoolExamnMoment.#ctor(Humans.Human,System.Boolean,System.DateTime,Education.IEducatable)
-  name.vb: New(Human, Boolean, Date, IEducatable)
-  fullName: Domain.Moments.SchoolExamnMoment.SchoolExamnMoment(Humans.Human, bool, System.DateTime, Education.IEducatable)
-  fullName.vb: Domain.Moments.SchoolExamnMoment.New(Humans.Human, Boolean, Date, Education.IEducatable)
-  nameWithType: SchoolExamnMoment.SchoolExamnMoment(Human, bool, DateTime, IEducatable)
-  nameWithType.vb: SchoolExamnMoment.New(Human, Boolean, Date, IEducatable)
-- uid: Domain.Moments.SchoolExamnMoment.#ctor*
-  name: SchoolExamnMoment
-  href: api/Domain.Moments.SchoolExamnMoment.html#Domain_Moments_SchoolExamnMoment__ctor_
-  commentId: Overload:Domain.Moments.SchoolExamnMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.SchoolExamnMoment.SchoolExamnMoment
-  fullName.vb: Domain.Moments.SchoolExamnMoment.New
-  nameWithType: SchoolExamnMoment.SchoolExamnMoment
-  nameWithType.vb: SchoolExamnMoment.New
-- uid: Domain.Moments.SchoolExamnMoment.Passed
-  name: Passed
-  href: api/Domain.Moments.SchoolExamnMoment.html#Domain_Moments_SchoolExamnMoment_Passed
-  commentId: F:Domain.Moments.SchoolExamnMoment.Passed
-  fullName: Domain.Moments.SchoolExamnMoment.Passed
-  nameWithType: SchoolExamnMoment.Passed
-- uid: Domain.Moments.SchoolExamnMoment.School
-  name: School
-  href: api/Domain.Moments.SchoolExamnMoment.html#Domain_Moments_SchoolExamnMoment_School
-  commentId: F:Domain.Moments.SchoolExamnMoment.School
-  fullName: Domain.Moments.SchoolExamnMoment.School
-  nameWithType: SchoolExamnMoment.School
-- uid: Domain.Moments.SchoolExamnMoment.Who
-  name: Who
-  href: api/Domain.Moments.SchoolExamnMoment.html#Domain_Moments_SchoolExamnMoment_Who
-  commentId: F:Domain.Moments.SchoolExamnMoment.Who
-  fullName: Domain.Moments.SchoolExamnMoment.Who
-  nameWithType: SchoolExamnMoment.Who
-- uid: Domain.Moments.SchoolFirstDayMoment
-  name: SchoolFirstDayMoment
-  href: api/Domain.Moments.SchoolFirstDayMoment.html
-  commentId: T:Domain.Moments.SchoolFirstDayMoment
-  fullName: Domain.Moments.SchoolFirstDayMoment
-  nameWithType: SchoolFirstDayMoment
-- uid: Domain.Moments.SchoolFirstDayMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name: SchoolFirstDayMoment(Human, DateTime, IEducatable)
-  href: api/Domain.Moments.SchoolFirstDayMoment.html#Domain_Moments_SchoolFirstDayMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
-  commentId: M:Domain.Moments.SchoolFirstDayMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name.vb: New(Human, Date, IEducatable)
-  fullName: Domain.Moments.SchoolFirstDayMoment.SchoolFirstDayMoment(Humans.Human, System.DateTime, Education.IEducatable)
-  fullName.vb: Domain.Moments.SchoolFirstDayMoment.New(Humans.Human, Date, Education.IEducatable)
-  nameWithType: SchoolFirstDayMoment.SchoolFirstDayMoment(Human, DateTime, IEducatable)
-  nameWithType.vb: SchoolFirstDayMoment.New(Human, Date, IEducatable)
-- uid: Domain.Moments.SchoolFirstDayMoment.#ctor*
-  name: SchoolFirstDayMoment
-  href: api/Domain.Moments.SchoolFirstDayMoment.html#Domain_Moments_SchoolFirstDayMoment__ctor_
-  commentId: Overload:Domain.Moments.SchoolFirstDayMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.SchoolFirstDayMoment.SchoolFirstDayMoment
-  fullName.vb: Domain.Moments.SchoolFirstDayMoment.New
-  nameWithType: SchoolFirstDayMoment.SchoolFirstDayMoment
-  nameWithType.vb: SchoolFirstDayMoment.New
-- uid: Domain.Moments.SchoolFirstDayMoment.School
-  name: School
-  href: api/Domain.Moments.SchoolFirstDayMoment.html#Domain_Moments_SchoolFirstDayMoment_School
-  commentId: F:Domain.Moments.SchoolFirstDayMoment.School
-  fullName: Domain.Moments.SchoolFirstDayMoment.School
-  nameWithType: SchoolFirstDayMoment.School
-- uid: Domain.Moments.SchoolFirstDayMoment.Who
-  name: Who
-  href: api/Domain.Moments.SchoolFirstDayMoment.html#Domain_Moments_SchoolFirstDayMoment_Who
-  commentId: F:Domain.Moments.SchoolFirstDayMoment.Who
-  fullName: Domain.Moments.SchoolFirstDayMoment.Who
-  nameWithType: SchoolFirstDayMoment.Who
-- uid: Domain.Moments.SchoolGraduationMoment
-  name: SchoolGraduationMoment
-  href: api/Domain.Moments.SchoolGraduationMoment.html
-  commentId: T:Domain.Moments.SchoolGraduationMoment
-  fullName: Domain.Moments.SchoolGraduationMoment
-  nameWithType: SchoolGraduationMoment
-- uid: Domain.Moments.SchoolGraduationMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name: SchoolGraduationMoment(Human, DateTime, IEducatable)
-  href: api/Domain.Moments.SchoolGraduationMoment.html#Domain_Moments_SchoolGraduationMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
-  commentId: M:Domain.Moments.SchoolGraduationMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name.vb: New(Human, Date, IEducatable)
-  fullName: Domain.Moments.SchoolGraduationMoment.SchoolGraduationMoment(Humans.Human, System.DateTime, Education.IEducatable)
-  fullName.vb: Domain.Moments.SchoolGraduationMoment.New(Humans.Human, Date, Education.IEducatable)
-  nameWithType: SchoolGraduationMoment.SchoolGraduationMoment(Human, DateTime, IEducatable)
-  nameWithType.vb: SchoolGraduationMoment.New(Human, Date, IEducatable)
-- uid: Domain.Moments.SchoolGraduationMoment.#ctor*
-  name: SchoolGraduationMoment
-  href: api/Domain.Moments.SchoolGraduationMoment.html#Domain_Moments_SchoolGraduationMoment__ctor_
-  commentId: Overload:Domain.Moments.SchoolGraduationMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.SchoolGraduationMoment.SchoolGraduationMoment
-  fullName.vb: Domain.Moments.SchoolGraduationMoment.New
-  nameWithType: SchoolGraduationMoment.SchoolGraduationMoment
-  nameWithType.vb: SchoolGraduationMoment.New
-- uid: Domain.Moments.SchoolGraduationMoment.School
-  name: School
-  href: api/Domain.Moments.SchoolGraduationMoment.html#Domain_Moments_SchoolGraduationMoment_School
-  commentId: F:Domain.Moments.SchoolGraduationMoment.School
-  fullName: Domain.Moments.SchoolGraduationMoment.School
-  nameWithType: SchoolGraduationMoment.School
-- uid: Domain.Moments.SchoolGraduationMoment.Who
-  name: Who
-  href: api/Domain.Moments.SchoolGraduationMoment.html#Domain_Moments_SchoolGraduationMoment_Who
-  commentId: F:Domain.Moments.SchoolGraduationMoment.Who
-  fullName: Domain.Moments.SchoolGraduationMoment.Who
-  nameWithType: SchoolGraduationMoment.Who
-- uid: Domain.Moments.SchoolTooDumbMoment
-  name: SchoolTooDumbMoment
-  href: api/Domain.Moments.SchoolTooDumbMoment.html
-  commentId: T:Domain.Moments.SchoolTooDumbMoment
-  fullName: Domain.Moments.SchoolTooDumbMoment
-  nameWithType: SchoolTooDumbMoment
-- uid: Domain.Moments.SchoolTooDumbMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name: SchoolTooDumbMoment(Human, DateTime, IEducatable)
-  href: api/Domain.Moments.SchoolTooDumbMoment.html#Domain_Moments_SchoolTooDumbMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
-  commentId: M:Domain.Moments.SchoolTooDumbMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
-  name.vb: New(Human, Date, IEducatable)
-  fullName: Domain.Moments.SchoolTooDumbMoment.SchoolTooDumbMoment(Humans.Human, System.DateTime, Education.IEducatable)
-  fullName.vb: Domain.Moments.SchoolTooDumbMoment.New(Humans.Human, Date, Education.IEducatable)
-  nameWithType: SchoolTooDumbMoment.SchoolTooDumbMoment(Human, DateTime, IEducatable)
-  nameWithType.vb: SchoolTooDumbMoment.New(Human, Date, IEducatable)
-- uid: Domain.Moments.SchoolTooDumbMoment.#ctor*
-  name: SchoolTooDumbMoment
-  href: api/Domain.Moments.SchoolTooDumbMoment.html#Domain_Moments_SchoolTooDumbMoment__ctor_
-  commentId: Overload:Domain.Moments.SchoolTooDumbMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.SchoolTooDumbMoment.SchoolTooDumbMoment
-  fullName.vb: Domain.Moments.SchoolTooDumbMoment.New
-  nameWithType: SchoolTooDumbMoment.SchoolTooDumbMoment
-  nameWithType.vb: SchoolTooDumbMoment.New
-- uid: Domain.Moments.SchoolTooDumbMoment.School
-  name: School
-  href: api/Domain.Moments.SchoolTooDumbMoment.html#Domain_Moments_SchoolTooDumbMoment_School
-  commentId: F:Domain.Moments.SchoolTooDumbMoment.School
-  fullName: Domain.Moments.SchoolTooDumbMoment.School
-  nameWithType: SchoolTooDumbMoment.School
-- uid: Domain.Moments.SchoolTooDumbMoment.Who
-  name: Who
-  href: api/Domain.Moments.SchoolTooDumbMoment.html#Domain_Moments_SchoolTooDumbMoment_Who
-  commentId: F:Domain.Moments.SchoolTooDumbMoment.Who
-  fullName: Domain.Moments.SchoolTooDumbMoment.Who
-  nameWithType: SchoolTooDumbMoment.Who
-- uid: Domain.Moments.WorkRetirementMoment
-  name: WorkRetirementMoment
-  href: api/Domain.Moments.WorkRetirementMoment.html
-  commentId: T:Domain.Moments.WorkRetirementMoment
-  fullName: Domain.Moments.WorkRetirementMoment
-  nameWithType: WorkRetirementMoment
-- uid: Domain.Moments.WorkRetirementMoment.#ctor(Humans.Human,System.DateTime)
-  name: WorkRetirementMoment(Human, DateTime)
-  href: api/Domain.Moments.WorkRetirementMoment.html#Domain_Moments_WorkRetirementMoment__ctor_Humans_Human_System_DateTime_
-  commentId: M:Domain.Moments.WorkRetirementMoment.#ctor(Humans.Human,System.DateTime)
-  name.vb: New(Human, Date)
-  fullName: Domain.Moments.WorkRetirementMoment.WorkRetirementMoment(Humans.Human, System.DateTime)
-  fullName.vb: Domain.Moments.WorkRetirementMoment.New(Humans.Human, Date)
-  nameWithType: WorkRetirementMoment.WorkRetirementMoment(Human, DateTime)
-  nameWithType.vb: WorkRetirementMoment.New(Human, Date)
-- uid: Domain.Moments.WorkRetirementMoment.#ctor*
-  name: WorkRetirementMoment
-  href: api/Domain.Moments.WorkRetirementMoment.html#Domain_Moments_WorkRetirementMoment__ctor_
-  commentId: Overload:Domain.Moments.WorkRetirementMoment.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Domain.Moments.WorkRetirementMoment.WorkRetirementMoment
-  fullName.vb: Domain.Moments.WorkRetirementMoment.New
-  nameWithType: WorkRetirementMoment.WorkRetirementMoment
-  nameWithType.vb: WorkRetirementMoment.New
-- uid: Domain.Moments.WorkRetirementMoment.Who
-  name: Who
-  href: api/Domain.Moments.WorkRetirementMoment.html#Domain_Moments_WorkRetirementMoment_Who
-  commentId: F:Domain.Moments.WorkRetirementMoment.Who
-  fullName: Domain.Moments.WorkRetirementMoment.Who
-  nameWithType: WorkRetirementMoment.Who
 - uid: Domain.Utility
   name: Domain.Utility
   href: api/Domain.Utility.html
@@ -4966,6 +4479,493 @@ references:
   isSpec: "True"
   fullName: Locations.World.WorldAge
   nameWithType: World.WorldAge
+- uid: Moments
+  name: Moments
+  href: api/Moments.html
+  commentId: N:Moments
+  fullName: Moments
+  nameWithType: Moments
+- uid: Moments.BirthMoment
+  name: BirthMoment
+  href: api/Moments.BirthMoment.html
+  commentId: T:Moments.BirthMoment
+  fullName: Moments.BirthMoment
+  nameWithType: BirthMoment
+- uid: Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)
+  name: BirthMoment(Human, IAddressable, DateTime)
+  href: api/Moments.BirthMoment.html#Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_
+  commentId: M:Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)
+  name.vb: New(Human, IAddressable, Date)
+  fullName: Moments.BirthMoment.BirthMoment(Humans.Human, Locations.IAddressable, System.DateTime)
+  fullName.vb: Moments.BirthMoment.New(Humans.Human, Locations.IAddressable, Date)
+  nameWithType: BirthMoment.BirthMoment(Human, IAddressable, DateTime)
+  nameWithType.vb: BirthMoment.New(Human, IAddressable, Date)
+- uid: Moments.BirthMoment.#ctor*
+  name: BirthMoment
+  href: api/Moments.BirthMoment.html#Moments_BirthMoment__ctor_
+  commentId: Overload:Moments.BirthMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.BirthMoment.BirthMoment
+  fullName.vb: Moments.BirthMoment.New
+  nameWithType: BirthMoment.BirthMoment
+  nameWithType.vb: BirthMoment.New
+- uid: Moments.BirthMoment.Child
+  name: Child
+  href: api/Moments.BirthMoment.html#Moments_BirthMoment_Child
+  commentId: F:Moments.BirthMoment.Child
+  fullName: Moments.BirthMoment.Child
+  nameWithType: BirthMoment.Child
+- uid: Moments.BirthMoment.Father
+  name: Father
+  href: api/Moments.BirthMoment.html#Moments_BirthMoment_Father
+  commentId: F:Moments.BirthMoment.Father
+  fullName: Moments.BirthMoment.Father
+  nameWithType: BirthMoment.Father
+- uid: Moments.BirthMoment.Mother
+  name: Mother
+  href: api/Moments.BirthMoment.html#Moments_BirthMoment_Mother
+  commentId: F:Moments.BirthMoment.Mother
+  fullName: Moments.BirthMoment.Mother
+  nameWithType: BirthMoment.Mother
+- uid: Moments.BirthdayMoment
+  name: BirthdayMoment
+  href: api/Moments.BirthdayMoment.html
+  commentId: T:Moments.BirthdayMoment
+  fullName: Moments.BirthdayMoment
+  nameWithType: BirthdayMoment
+- uid: Moments.BirthdayMoment.#ctor(Humans.Human,System.DateTime)
+  name: BirthdayMoment(Human, DateTime)
+  href: api/Moments.BirthdayMoment.html#Moments_BirthdayMoment__ctor_Humans_Human_System_DateTime_
+  commentId: M:Moments.BirthdayMoment.#ctor(Humans.Human,System.DateTime)
+  name.vb: New(Human, Date)
+  fullName: Moments.BirthdayMoment.BirthdayMoment(Humans.Human, System.DateTime)
+  fullName.vb: Moments.BirthdayMoment.New(Humans.Human, Date)
+  nameWithType: BirthdayMoment.BirthdayMoment(Human, DateTime)
+  nameWithType.vb: BirthdayMoment.New(Human, Date)
+- uid: Moments.BirthdayMoment.#ctor*
+  name: BirthdayMoment
+  href: api/Moments.BirthdayMoment.html#Moments_BirthdayMoment__ctor_
+  commentId: Overload:Moments.BirthdayMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.BirthdayMoment.BirthdayMoment
+  fullName.vb: Moments.BirthdayMoment.New
+  nameWithType: BirthdayMoment.BirthdayMoment
+  nameWithType.vb: BirthdayMoment.New
+- uid: Moments.BirthdayMoment.BirthdayBoy
+  name: BirthdayBoy
+  href: api/Moments.BirthdayMoment.html#Moments_BirthdayMoment_BirthdayBoy
+  commentId: F:Moments.BirthdayMoment.BirthdayBoy
+  fullName: Moments.BirthdayMoment.BirthdayBoy
+  nameWithType: BirthdayMoment.BirthdayBoy
+- uid: Moments.DeathMoment
+  name: DeathMoment
+  href: api/Moments.DeathMoment.html
+  commentId: T:Moments.DeathMoment
+  fullName: Moments.DeathMoment
+  nameWithType: DeathMoment
+- uid: Moments.DeathMoment.#ctor(Humans.Human,System.DateTime)
+  name: DeathMoment(Human, DateTime)
+  href: api/Moments.DeathMoment.html#Moments_DeathMoment__ctor_Humans_Human_System_DateTime_
+  commentId: M:Moments.DeathMoment.#ctor(Humans.Human,System.DateTime)
+  name.vb: New(Human, Date)
+  fullName: Moments.DeathMoment.DeathMoment(Humans.Human, System.DateTime)
+  fullName.vb: Moments.DeathMoment.New(Humans.Human, Date)
+  nameWithType: DeathMoment.DeathMoment(Human, DateTime)
+  nameWithType.vb: DeathMoment.New(Human, Date)
+- uid: Moments.DeathMoment.#ctor*
+  name: DeathMoment
+  href: api/Moments.DeathMoment.html#Moments_DeathMoment__ctor_
+  commentId: Overload:Moments.DeathMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.DeathMoment.DeathMoment
+  fullName.vb: Moments.DeathMoment.New
+  nameWithType: DeathMoment.DeathMoment
+  nameWithType.vb: DeathMoment.New
+- uid: Moments.DeathMoment.Who
+  name: Who
+  href: api/Moments.DeathMoment.html#Moments_DeathMoment_Who
+  commentId: F:Moments.DeathMoment.Who
+  fullName: Moments.DeathMoment.Who
+  nameWithType: DeathMoment.Who
+- uid: Moments.DropoutMoment
+  name: DropoutMoment
+  href: api/Moments.DropoutMoment.html
+  commentId: T:Moments.DropoutMoment
+  fullName: Moments.DropoutMoment
+  nameWithType: DropoutMoment
+- uid: Moments.DropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name: DropoutMoment(Human, DateTime, IEducatable)
+  href: api/Moments.DropoutMoment.html#Moments_DropoutMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
+  commentId: M:Moments.DropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name.vb: New(Human, Date, IEducatable)
+  fullName: Moments.DropoutMoment.DropoutMoment(Humans.Human, System.DateTime, Education.IEducatable)
+  fullName.vb: Moments.DropoutMoment.New(Humans.Human, Date, Education.IEducatable)
+  nameWithType: DropoutMoment.DropoutMoment(Human, DateTime, IEducatable)
+  nameWithType.vb: DropoutMoment.New(Human, Date, IEducatable)
+- uid: Moments.DropoutMoment.#ctor*
+  name: DropoutMoment
+  href: api/Moments.DropoutMoment.html#Moments_DropoutMoment__ctor_
+  commentId: Overload:Moments.DropoutMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.DropoutMoment.DropoutMoment
+  fullName.vb: Moments.DropoutMoment.New
+  nameWithType: DropoutMoment.DropoutMoment
+  nameWithType.vb: DropoutMoment.New
+- uid: Moments.DropoutMoment.School
+  name: School
+  href: api/Moments.DropoutMoment.html#Moments_DropoutMoment_School
+  commentId: F:Moments.DropoutMoment.School
+  fullName: Moments.DropoutMoment.School
+  nameWithType: DropoutMoment.School
+- uid: Moments.DropoutMoment.Who
+  name: Who
+  href: api/Moments.DropoutMoment.html#Moments_DropoutMoment_Who
+  commentId: F:Moments.DropoutMoment.Who
+  fullName: Moments.DropoutMoment.Who
+  nameWithType: DropoutMoment.Who
+- uid: Moments.HistoricMoment
+  name: HistoricMoment
+  href: api/Moments.HistoricMoment.html
+  commentId: T:Moments.HistoricMoment
+  fullName: Moments.HistoricMoment
+  nameWithType: HistoricMoment
+- uid: Moments.HistoricMoment.#ctor(System.DateTime,System.String)
+  name: HistoricMoment(DateTime, string)
+  href: api/Moments.HistoricMoment.html#Moments_HistoricMoment__ctor_System_DateTime_System_String_
+  commentId: M:Moments.HistoricMoment.#ctor(System.DateTime,System.String)
+  name.vb: New(Date, String)
+  fullName: Moments.HistoricMoment.HistoricMoment(System.DateTime, string)
+  fullName.vb: Moments.HistoricMoment.New(Date, String)
+  nameWithType: HistoricMoment.HistoricMoment(DateTime, string)
+  nameWithType.vb: HistoricMoment.New(Date, String)
+- uid: Moments.HistoricMoment.#ctor*
+  name: HistoricMoment
+  href: api/Moments.HistoricMoment.html#Moments_HistoricMoment__ctor_
+  commentId: Overload:Moments.HistoricMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.HistoricMoment.HistoricMoment
+  fullName.vb: Moments.HistoricMoment.New
+  nameWithType: HistoricMoment.HistoricMoment
+  nameWithType.vb: HistoricMoment.New
+- uid: Moments.HistoricMoment.Description
+  name: Description
+  href: api/Moments.HistoricMoment.html#Moments_HistoricMoment_Description
+  commentId: F:Moments.HistoricMoment.Description
+  fullName: Moments.HistoricMoment.Description
+  nameWithType: HistoricMoment.Description
+- uid: Moments.HistoricMoment.When
+  name: When
+  href: api/Moments.HistoricMoment.html#Moments_HistoricMoment_When
+  commentId: F:Moments.HistoricMoment.When
+  fullName: Moments.HistoricMoment.When
+  nameWithType: HistoricMoment.When
+- uid: Moments.Moment
+  name: Moment
+  href: api/Moments.Moment.html
+  commentId: T:Moments.Moment
+  fullName: Moments.Moment
+  nameWithType: Moment
+- uid: Moments.Moment.#ctor(System.DateTime,Locations.IAddressable)
+  name: Moment(DateTime, IAddressable)
+  href: api/Moments.Moment.html#Moments_Moment__ctor_System_DateTime_Locations_IAddressable_
+  commentId: M:Moments.Moment.#ctor(System.DateTime,Locations.IAddressable)
+  name.vb: New(Date, IAddressable)
+  fullName: Moments.Moment.Moment(System.DateTime, Locations.IAddressable)
+  fullName.vb: Moments.Moment.New(Date, Locations.IAddressable)
+  nameWithType: Moment.Moment(DateTime, IAddressable)
+  nameWithType.vb: Moment.New(Date, IAddressable)
+- uid: Moments.Moment.#ctor*
+  name: Moment
+  href: api/Moments.Moment.html#Moments_Moment__ctor_
+  commentId: Overload:Moments.Moment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.Moment.Moment
+  fullName.vb: Moments.Moment.New
+  nameWithType: Moment.Moment
+  nameWithType.vb: Moment.New
+- uid: Moments.Moment.Participants
+  name: Participants
+  href: api/Moments.Moment.html#Moments_Moment_Participants
+  commentId: F:Moments.Moment.Participants
+  fullName: Moments.Moment.Participants
+  nameWithType: Moment.Participants
+- uid: Moments.Moment.When
+  name: When
+  href: api/Moments.Moment.html#Moments_Moment_When
+  commentId: F:Moments.Moment.When
+  fullName: Moments.Moment.When
+  nameWithType: Moment.When
+- uid: Moments.Moment.Where
+  name: Where
+  href: api/Moments.Moment.html#Moments_Moment_Where
+  commentId: F:Moments.Moment.Where
+  fullName: Moments.Moment.Where
+  nameWithType: Moment.Where
+- uid: Moments.NewSchoolMoment
+  name: NewSchoolMoment
+  href: api/Moments.NewSchoolMoment.html
+  commentId: T:Moments.NewSchoolMoment
+  fullName: Moments.NewSchoolMoment
+  nameWithType: NewSchoolMoment
+- uid: Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Locations.IAddressable)
+  name: NewSchoolMoment(Human, DateTime, IAddressable)
+  href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment__ctor_Humans_Human_System_DateTime_Locations_IAddressable_
+  commentId: M:Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Locations.IAddressable)
+  name.vb: New(Human, Date, IAddressable)
+  fullName: Moments.NewSchoolMoment.NewSchoolMoment(Humans.Human, System.DateTime, Locations.IAddressable)
+  fullName.vb: Moments.NewSchoolMoment.New(Humans.Human, Date, Locations.IAddressable)
+  nameWithType: NewSchoolMoment.NewSchoolMoment(Human, DateTime, IAddressable)
+  nameWithType.vb: NewSchoolMoment.New(Human, Date, IAddressable)
+- uid: Moments.NewSchoolMoment.#ctor*
+  name: NewSchoolMoment
+  href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment__ctor_
+  commentId: Overload:Moments.NewSchoolMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.NewSchoolMoment.NewSchoolMoment
+  fullName.vb: Moments.NewSchoolMoment.New
+  nameWithType: NewSchoolMoment.NewSchoolMoment
+  nameWithType.vb: NewSchoolMoment.New
+- uid: Moments.NewSchoolMoment.School
+  name: School
+  href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment_School
+  commentId: F:Moments.NewSchoolMoment.School
+  fullName: Moments.NewSchoolMoment.School
+  nameWithType: NewSchoolMoment.School
+- uid: Moments.NewSchoolMoment.Who
+  name: Who
+  href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment_Who
+  commentId: F:Moments.NewSchoolMoment.Who
+  fullName: Moments.NewSchoolMoment.Who
+  nameWithType: NewSchoolMoment.Who
+- uid: Moments.SchoolDropoutMoment
+  name: SchoolDropoutMoment
+  href: api/Moments.SchoolDropoutMoment.html
+  commentId: T:Moments.SchoolDropoutMoment
+  fullName: Moments.SchoolDropoutMoment
+  nameWithType: SchoolDropoutMoment
+- uid: Moments.SchoolDropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name: SchoolDropoutMoment(Human, DateTime, IEducatable)
+  href: api/Moments.SchoolDropoutMoment.html#Moments_SchoolDropoutMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
+  commentId: M:Moments.SchoolDropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name.vb: New(Human, Date, IEducatable)
+  fullName: Moments.SchoolDropoutMoment.SchoolDropoutMoment(Humans.Human, System.DateTime, Education.IEducatable)
+  fullName.vb: Moments.SchoolDropoutMoment.New(Humans.Human, Date, Education.IEducatable)
+  nameWithType: SchoolDropoutMoment.SchoolDropoutMoment(Human, DateTime, IEducatable)
+  nameWithType.vb: SchoolDropoutMoment.New(Human, Date, IEducatable)
+- uid: Moments.SchoolDropoutMoment.#ctor*
+  name: SchoolDropoutMoment
+  href: api/Moments.SchoolDropoutMoment.html#Moments_SchoolDropoutMoment__ctor_
+  commentId: Overload:Moments.SchoolDropoutMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.SchoolDropoutMoment.SchoolDropoutMoment
+  fullName.vb: Moments.SchoolDropoutMoment.New
+  nameWithType: SchoolDropoutMoment.SchoolDropoutMoment
+  nameWithType.vb: SchoolDropoutMoment.New
+- uid: Moments.SchoolDropoutMoment.School
+  name: School
+  href: api/Moments.SchoolDropoutMoment.html#Moments_SchoolDropoutMoment_School
+  commentId: F:Moments.SchoolDropoutMoment.School
+  fullName: Moments.SchoolDropoutMoment.School
+  nameWithType: SchoolDropoutMoment.School
+- uid: Moments.SchoolDropoutMoment.Who
+  name: Who
+  href: api/Moments.SchoolDropoutMoment.html#Moments_SchoolDropoutMoment_Who
+  commentId: F:Moments.SchoolDropoutMoment.Who
+  fullName: Moments.SchoolDropoutMoment.Who
+  nameWithType: SchoolDropoutMoment.Who
+- uid: Moments.SchoolExamnMoment
+  name: SchoolExamnMoment
+  href: api/Moments.SchoolExamnMoment.html
+  commentId: T:Moments.SchoolExamnMoment
+  fullName: Moments.SchoolExamnMoment
+  nameWithType: SchoolExamnMoment
+- uid: Moments.SchoolExamnMoment.#ctor(Humans.Human,System.Boolean,System.DateTime,Education.IEducatable)
+  name: SchoolExamnMoment(Human, bool, DateTime, IEducatable)
+  href: api/Moments.SchoolExamnMoment.html#Moments_SchoolExamnMoment__ctor_Humans_Human_System_Boolean_System_DateTime_Education_IEducatable_
+  commentId: M:Moments.SchoolExamnMoment.#ctor(Humans.Human,System.Boolean,System.DateTime,Education.IEducatable)
+  name.vb: New(Human, Boolean, Date, IEducatable)
+  fullName: Moments.SchoolExamnMoment.SchoolExamnMoment(Humans.Human, bool, System.DateTime, Education.IEducatable)
+  fullName.vb: Moments.SchoolExamnMoment.New(Humans.Human, Boolean, Date, Education.IEducatable)
+  nameWithType: SchoolExamnMoment.SchoolExamnMoment(Human, bool, DateTime, IEducatable)
+  nameWithType.vb: SchoolExamnMoment.New(Human, Boolean, Date, IEducatable)
+- uid: Moments.SchoolExamnMoment.#ctor*
+  name: SchoolExamnMoment
+  href: api/Moments.SchoolExamnMoment.html#Moments_SchoolExamnMoment__ctor_
+  commentId: Overload:Moments.SchoolExamnMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.SchoolExamnMoment.SchoolExamnMoment
+  fullName.vb: Moments.SchoolExamnMoment.New
+  nameWithType: SchoolExamnMoment.SchoolExamnMoment
+  nameWithType.vb: SchoolExamnMoment.New
+- uid: Moments.SchoolExamnMoment.Passed
+  name: Passed
+  href: api/Moments.SchoolExamnMoment.html#Moments_SchoolExamnMoment_Passed
+  commentId: F:Moments.SchoolExamnMoment.Passed
+  fullName: Moments.SchoolExamnMoment.Passed
+  nameWithType: SchoolExamnMoment.Passed
+- uid: Moments.SchoolExamnMoment.School
+  name: School
+  href: api/Moments.SchoolExamnMoment.html#Moments_SchoolExamnMoment_School
+  commentId: F:Moments.SchoolExamnMoment.School
+  fullName: Moments.SchoolExamnMoment.School
+  nameWithType: SchoolExamnMoment.School
+- uid: Moments.SchoolExamnMoment.Who
+  name: Who
+  href: api/Moments.SchoolExamnMoment.html#Moments_SchoolExamnMoment_Who
+  commentId: F:Moments.SchoolExamnMoment.Who
+  fullName: Moments.SchoolExamnMoment.Who
+  nameWithType: SchoolExamnMoment.Who
+- uid: Moments.SchoolFirstDayMoment
+  name: SchoolFirstDayMoment
+  href: api/Moments.SchoolFirstDayMoment.html
+  commentId: T:Moments.SchoolFirstDayMoment
+  fullName: Moments.SchoolFirstDayMoment
+  nameWithType: SchoolFirstDayMoment
+- uid: Moments.SchoolFirstDayMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name: SchoolFirstDayMoment(Human, DateTime, IEducatable)
+  href: api/Moments.SchoolFirstDayMoment.html#Moments_SchoolFirstDayMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
+  commentId: M:Moments.SchoolFirstDayMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name.vb: New(Human, Date, IEducatable)
+  fullName: Moments.SchoolFirstDayMoment.SchoolFirstDayMoment(Humans.Human, System.DateTime, Education.IEducatable)
+  fullName.vb: Moments.SchoolFirstDayMoment.New(Humans.Human, Date, Education.IEducatable)
+  nameWithType: SchoolFirstDayMoment.SchoolFirstDayMoment(Human, DateTime, IEducatable)
+  nameWithType.vb: SchoolFirstDayMoment.New(Human, Date, IEducatable)
+- uid: Moments.SchoolFirstDayMoment.#ctor*
+  name: SchoolFirstDayMoment
+  href: api/Moments.SchoolFirstDayMoment.html#Moments_SchoolFirstDayMoment__ctor_
+  commentId: Overload:Moments.SchoolFirstDayMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.SchoolFirstDayMoment.SchoolFirstDayMoment
+  fullName.vb: Moments.SchoolFirstDayMoment.New
+  nameWithType: SchoolFirstDayMoment.SchoolFirstDayMoment
+  nameWithType.vb: SchoolFirstDayMoment.New
+- uid: Moments.SchoolFirstDayMoment.School
+  name: School
+  href: api/Moments.SchoolFirstDayMoment.html#Moments_SchoolFirstDayMoment_School
+  commentId: F:Moments.SchoolFirstDayMoment.School
+  fullName: Moments.SchoolFirstDayMoment.School
+  nameWithType: SchoolFirstDayMoment.School
+- uid: Moments.SchoolFirstDayMoment.Who
+  name: Who
+  href: api/Moments.SchoolFirstDayMoment.html#Moments_SchoolFirstDayMoment_Who
+  commentId: F:Moments.SchoolFirstDayMoment.Who
+  fullName: Moments.SchoolFirstDayMoment.Who
+  nameWithType: SchoolFirstDayMoment.Who
+- uid: Moments.SchoolGraduationMoment
+  name: SchoolGraduationMoment
+  href: api/Moments.SchoolGraduationMoment.html
+  commentId: T:Moments.SchoolGraduationMoment
+  fullName: Moments.SchoolGraduationMoment
+  nameWithType: SchoolGraduationMoment
+- uid: Moments.SchoolGraduationMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name: SchoolGraduationMoment(Human, DateTime, IEducatable)
+  href: api/Moments.SchoolGraduationMoment.html#Moments_SchoolGraduationMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
+  commentId: M:Moments.SchoolGraduationMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name.vb: New(Human, Date, IEducatable)
+  fullName: Moments.SchoolGraduationMoment.SchoolGraduationMoment(Humans.Human, System.DateTime, Education.IEducatable)
+  fullName.vb: Moments.SchoolGraduationMoment.New(Humans.Human, Date, Education.IEducatable)
+  nameWithType: SchoolGraduationMoment.SchoolGraduationMoment(Human, DateTime, IEducatable)
+  nameWithType.vb: SchoolGraduationMoment.New(Human, Date, IEducatable)
+- uid: Moments.SchoolGraduationMoment.#ctor*
+  name: SchoolGraduationMoment
+  href: api/Moments.SchoolGraduationMoment.html#Moments_SchoolGraduationMoment__ctor_
+  commentId: Overload:Moments.SchoolGraduationMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.SchoolGraduationMoment.SchoolGraduationMoment
+  fullName.vb: Moments.SchoolGraduationMoment.New
+  nameWithType: SchoolGraduationMoment.SchoolGraduationMoment
+  nameWithType.vb: SchoolGraduationMoment.New
+- uid: Moments.SchoolGraduationMoment.School
+  name: School
+  href: api/Moments.SchoolGraduationMoment.html#Moments_SchoolGraduationMoment_School
+  commentId: F:Moments.SchoolGraduationMoment.School
+  fullName: Moments.SchoolGraduationMoment.School
+  nameWithType: SchoolGraduationMoment.School
+- uid: Moments.SchoolGraduationMoment.Who
+  name: Who
+  href: api/Moments.SchoolGraduationMoment.html#Moments_SchoolGraduationMoment_Who
+  commentId: F:Moments.SchoolGraduationMoment.Who
+  fullName: Moments.SchoolGraduationMoment.Who
+  nameWithType: SchoolGraduationMoment.Who
+- uid: Moments.SchoolTooDumbMoment
+  name: SchoolTooDumbMoment
+  href: api/Moments.SchoolTooDumbMoment.html
+  commentId: T:Moments.SchoolTooDumbMoment
+  fullName: Moments.SchoolTooDumbMoment
+  nameWithType: SchoolTooDumbMoment
+- uid: Moments.SchoolTooDumbMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name: SchoolTooDumbMoment(Human, DateTime, IEducatable)
+  href: api/Moments.SchoolTooDumbMoment.html#Moments_SchoolTooDumbMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_
+  commentId: M:Moments.SchoolTooDumbMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)
+  name.vb: New(Human, Date, IEducatable)
+  fullName: Moments.SchoolTooDumbMoment.SchoolTooDumbMoment(Humans.Human, System.DateTime, Education.IEducatable)
+  fullName.vb: Moments.SchoolTooDumbMoment.New(Humans.Human, Date, Education.IEducatable)
+  nameWithType: SchoolTooDumbMoment.SchoolTooDumbMoment(Human, DateTime, IEducatable)
+  nameWithType.vb: SchoolTooDumbMoment.New(Human, Date, IEducatable)
+- uid: Moments.SchoolTooDumbMoment.#ctor*
+  name: SchoolTooDumbMoment
+  href: api/Moments.SchoolTooDumbMoment.html#Moments_SchoolTooDumbMoment__ctor_
+  commentId: Overload:Moments.SchoolTooDumbMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.SchoolTooDumbMoment.SchoolTooDumbMoment
+  fullName.vb: Moments.SchoolTooDumbMoment.New
+  nameWithType: SchoolTooDumbMoment.SchoolTooDumbMoment
+  nameWithType.vb: SchoolTooDumbMoment.New
+- uid: Moments.SchoolTooDumbMoment.School
+  name: School
+  href: api/Moments.SchoolTooDumbMoment.html#Moments_SchoolTooDumbMoment_School
+  commentId: F:Moments.SchoolTooDumbMoment.School
+  fullName: Moments.SchoolTooDumbMoment.School
+  nameWithType: SchoolTooDumbMoment.School
+- uid: Moments.SchoolTooDumbMoment.Who
+  name: Who
+  href: api/Moments.SchoolTooDumbMoment.html#Moments_SchoolTooDumbMoment_Who
+  commentId: F:Moments.SchoolTooDumbMoment.Who
+  fullName: Moments.SchoolTooDumbMoment.Who
+  nameWithType: SchoolTooDumbMoment.Who
+- uid: Moments.WorkRetirementMoment
+  name: WorkRetirementMoment
+  href: api/Moments.WorkRetirementMoment.html
+  commentId: T:Moments.WorkRetirementMoment
+  fullName: Moments.WorkRetirementMoment
+  nameWithType: WorkRetirementMoment
+- uid: Moments.WorkRetirementMoment.#ctor(Humans.Human,System.DateTime)
+  name: WorkRetirementMoment(Human, DateTime)
+  href: api/Moments.WorkRetirementMoment.html#Moments_WorkRetirementMoment__ctor_Humans_Human_System_DateTime_
+  commentId: M:Moments.WorkRetirementMoment.#ctor(Humans.Human,System.DateTime)
+  name.vb: New(Human, Date)
+  fullName: Moments.WorkRetirementMoment.WorkRetirementMoment(Humans.Human, System.DateTime)
+  fullName.vb: Moments.WorkRetirementMoment.New(Humans.Human, Date)
+  nameWithType: WorkRetirementMoment.WorkRetirementMoment(Human, DateTime)
+  nameWithType.vb: WorkRetirementMoment.New(Human, Date)
+- uid: Moments.WorkRetirementMoment.#ctor*
+  name: WorkRetirementMoment
+  href: api/Moments.WorkRetirementMoment.html#Moments_WorkRetirementMoment__ctor_
+  commentId: Overload:Moments.WorkRetirementMoment.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Moments.WorkRetirementMoment.WorkRetirementMoment
+  fullName.vb: Moments.WorkRetirementMoment.New
+  nameWithType: WorkRetirementMoment.WorkRetirementMoment
+  nameWithType.vb: WorkRetirementMoment.New
+- uid: Moments.WorkRetirementMoment.Who
+  name: Who
+  href: api/Moments.WorkRetirementMoment.html#Moments_WorkRetirementMoment_Who
+  commentId: F:Moments.WorkRetirementMoment.Who
+  fullName: Moments.WorkRetirementMoment.Who
+  nameWithType: WorkRetirementMoment.Who
 - uid: Names
   name: Names
   href: api/Names.html
@@ -5157,13 +5157,13 @@ references:
   commentId: T:Sprookjes.Vertel
   fullName: Sprookjes.Vertel
   nameWithType: Vertel
-- uid: Sprookjes.Vertel.DescribeBirth(Humans.Human,Domain.Moments.BirthMoment)
+- uid: Sprookjes.Vertel.DescribeBirth(Humans.Human,Moments.BirthMoment)
   name: DescribeBirth(Human?, BirthMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeBirth_Humans_Human_Domain_Moments_BirthMoment_
-  commentId: M:Sprookjes.Vertel.DescribeBirth(Humans.Human,Domain.Moments.BirthMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeBirth_Humans_Human_Moments_BirthMoment_
+  commentId: M:Sprookjes.Vertel.DescribeBirth(Humans.Human,Moments.BirthMoment)
   name.vb: DescribeBirth(Human, BirthMoment)
-  fullName: Sprookjes.Vertel.DescribeBirth(Humans.Human?, Domain.Moments.BirthMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeBirth(Humans.Human, Domain.Moments.BirthMoment)
+  fullName: Sprookjes.Vertel.DescribeBirth(Humans.Human?, Moments.BirthMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeBirth(Humans.Human, Moments.BirthMoment)
   nameWithType: Vertel.DescribeBirth(Human?, BirthMoment)
   nameWithType.vb: Vertel.DescribeBirth(Human, BirthMoment)
 - uid: Sprookjes.Vertel.DescribeBirth*
@@ -5173,13 +5173,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeBirth
   nameWithType: Vertel.DescribeBirth
-- uid: Sprookjes.Vertel.DescribeBirthday(Humans.Human,Domain.Moments.BirthdayMoment)
+- uid: Sprookjes.Vertel.DescribeBirthday(Humans.Human,Moments.BirthdayMoment)
   name: DescribeBirthday(Human?, BirthdayMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeBirthday_Humans_Human_Domain_Moments_BirthdayMoment_
-  commentId: M:Sprookjes.Vertel.DescribeBirthday(Humans.Human,Domain.Moments.BirthdayMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeBirthday_Humans_Human_Moments_BirthdayMoment_
+  commentId: M:Sprookjes.Vertel.DescribeBirthday(Humans.Human,Moments.BirthdayMoment)
   name.vb: DescribeBirthday(Human, BirthdayMoment)
-  fullName: Sprookjes.Vertel.DescribeBirthday(Humans.Human?, Domain.Moments.BirthdayMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeBirthday(Humans.Human, Domain.Moments.BirthdayMoment)
+  fullName: Sprookjes.Vertel.DescribeBirthday(Humans.Human?, Moments.BirthdayMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeBirthday(Humans.Human, Moments.BirthdayMoment)
   nameWithType: Vertel.DescribeBirthday(Human?, BirthdayMoment)
   nameWithType.vb: Vertel.DescribeBirthday(Human, BirthdayMoment)
 - uid: Sprookjes.Vertel.DescribeBirthday*
@@ -5189,13 +5189,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeBirthday
   nameWithType: Vertel.DescribeBirthday
-- uid: Sprookjes.Vertel.DescribeDeath(Humans.Human,Domain.Moments.DeathMoment)
+- uid: Sprookjes.Vertel.DescribeDeath(Humans.Human,Moments.DeathMoment)
   name: DescribeDeath(Human?, DeathMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeDeath_Humans_Human_Domain_Moments_DeathMoment_
-  commentId: M:Sprookjes.Vertel.DescribeDeath(Humans.Human,Domain.Moments.DeathMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeDeath_Humans_Human_Moments_DeathMoment_
+  commentId: M:Sprookjes.Vertel.DescribeDeath(Humans.Human,Moments.DeathMoment)
   name.vb: DescribeDeath(Human, DeathMoment)
-  fullName: Sprookjes.Vertel.DescribeDeath(Humans.Human?, Domain.Moments.DeathMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeDeath(Humans.Human, Domain.Moments.DeathMoment)
+  fullName: Sprookjes.Vertel.DescribeDeath(Humans.Human?, Moments.DeathMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeDeath(Humans.Human, Moments.DeathMoment)
   nameWithType: Vertel.DescribeDeath(Human?, DeathMoment)
   nameWithType.vb: Vertel.DescribeDeath(Human, DeathMoment)
 - uid: Sprookjes.Vertel.DescribeDeath*
@@ -5205,13 +5205,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeDeath
   nameWithType: Vertel.DescribeDeath
-- uid: Sprookjes.Vertel.DescribeGraduation(Humans.Human,Domain.Moments.SchoolGraduationMoment)
+- uid: Sprookjes.Vertel.DescribeGraduation(Humans.Human,Moments.SchoolGraduationMoment)
   name: DescribeGraduation(Human?, SchoolGraduationMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeGraduation_Humans_Human_Domain_Moments_SchoolGraduationMoment_
-  commentId: M:Sprookjes.Vertel.DescribeGraduation(Humans.Human,Domain.Moments.SchoolGraduationMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeGraduation_Humans_Human_Moments_SchoolGraduationMoment_
+  commentId: M:Sprookjes.Vertel.DescribeGraduation(Humans.Human,Moments.SchoolGraduationMoment)
   name.vb: DescribeGraduation(Human, SchoolGraduationMoment)
-  fullName: Sprookjes.Vertel.DescribeGraduation(Humans.Human?, Domain.Moments.SchoolGraduationMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeGraduation(Humans.Human, Domain.Moments.SchoolGraduationMoment)
+  fullName: Sprookjes.Vertel.DescribeGraduation(Humans.Human?, Moments.SchoolGraduationMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeGraduation(Humans.Human, Moments.SchoolGraduationMoment)
   nameWithType: Vertel.DescribeGraduation(Human?, SchoolGraduationMoment)
   nameWithType.vb: Vertel.DescribeGraduation(Human, SchoolGraduationMoment)
 - uid: Sprookjes.Vertel.DescribeGraduation*
@@ -5221,13 +5221,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeGraduation
   nameWithType: Vertel.DescribeGraduation
-- uid: Sprookjes.Vertel.DescribeRetirement(Humans.Human,Domain.Moments.WorkRetirementMoment)
+- uid: Sprookjes.Vertel.DescribeRetirement(Humans.Human,Moments.WorkRetirementMoment)
   name: DescribeRetirement(Human?, WorkRetirementMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeRetirement_Humans_Human_Domain_Moments_WorkRetirementMoment_
-  commentId: M:Sprookjes.Vertel.DescribeRetirement(Humans.Human,Domain.Moments.WorkRetirementMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeRetirement_Humans_Human_Moments_WorkRetirementMoment_
+  commentId: M:Sprookjes.Vertel.DescribeRetirement(Humans.Human,Moments.WorkRetirementMoment)
   name.vb: DescribeRetirement(Human, WorkRetirementMoment)
-  fullName: Sprookjes.Vertel.DescribeRetirement(Humans.Human?, Domain.Moments.WorkRetirementMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeRetirement(Humans.Human, Domain.Moments.WorkRetirementMoment)
+  fullName: Sprookjes.Vertel.DescribeRetirement(Humans.Human?, Moments.WorkRetirementMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeRetirement(Humans.Human, Moments.WorkRetirementMoment)
   nameWithType: Vertel.DescribeRetirement(Human?, WorkRetirementMoment)
   nameWithType.vb: Vertel.DescribeRetirement(Human, WorkRetirementMoment)
 - uid: Sprookjes.Vertel.DescribeRetirement*
@@ -5237,13 +5237,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeRetirement
   nameWithType: Vertel.DescribeRetirement
-- uid: Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human,Domain.Moments.SchoolExamnMoment)
+- uid: Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human,Moments.SchoolExamnMoment)
   name: DescribeSchoolExamn(Human?, SchoolExamnMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeSchoolExamn_Humans_Human_Domain_Moments_SchoolExamnMoment_
-  commentId: M:Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human,Domain.Moments.SchoolExamnMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeSchoolExamn_Humans_Human_Moments_SchoolExamnMoment_
+  commentId: M:Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human,Moments.SchoolExamnMoment)
   name.vb: DescribeSchoolExamn(Human, SchoolExamnMoment)
-  fullName: Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human?, Domain.Moments.SchoolExamnMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human, Domain.Moments.SchoolExamnMoment)
+  fullName: Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human?, Moments.SchoolExamnMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeSchoolExamn(Humans.Human, Moments.SchoolExamnMoment)
   nameWithType: Vertel.DescribeSchoolExamn(Human?, SchoolExamnMoment)
   nameWithType.vb: Vertel.DescribeSchoolExamn(Human, SchoolExamnMoment)
 - uid: Sprookjes.Vertel.DescribeSchoolExamn*
@@ -5253,13 +5253,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeSchoolExamn
   nameWithType: Vertel.DescribeSchoolExamn
-- uid: Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human,Domain.Moments.SchoolFirstDayMoment)
+- uid: Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human,Moments.SchoolFirstDayMoment)
   name: DescribeSchoolFirstDay(Human?, SchoolFirstDayMoment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeSchoolFirstDay_Humans_Human_Domain_Moments_SchoolFirstDayMoment_
-  commentId: M:Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human,Domain.Moments.SchoolFirstDayMoment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_DescribeSchoolFirstDay_Humans_Human_Moments_SchoolFirstDayMoment_
+  commentId: M:Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human,Moments.SchoolFirstDayMoment)
   name.vb: DescribeSchoolFirstDay(Human, SchoolFirstDayMoment)
-  fullName: Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human?, Domain.Moments.SchoolFirstDayMoment)
-  fullName.vb: Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human, Domain.Moments.SchoolFirstDayMoment)
+  fullName: Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human?, Moments.SchoolFirstDayMoment)
+  fullName.vb: Sprookjes.Vertel.DescribeSchoolFirstDay(Humans.Human, Moments.SchoolFirstDayMoment)
   nameWithType: Vertel.DescribeSchoolFirstDay(Human?, SchoolFirstDayMoment)
   nameWithType.vb: Vertel.DescribeSchoolFirstDay(Human, SchoolFirstDayMoment)
 - uid: Sprookjes.Vertel.DescribeSchoolFirstDay*
@@ -5269,13 +5269,13 @@ references:
   isSpec: "True"
   fullName: Sprookjes.Vertel.DescribeSchoolFirstDay
   nameWithType: Vertel.DescribeSchoolFirstDay
-- uid: Sprookjes.Vertel.Gebeurtenis(Humans.Human,Domain.Moments.Moment)
+- uid: Sprookjes.Vertel.Gebeurtenis(Humans.Human,Moments.Moment)
   name: Gebeurtenis(Human?, Moment)
-  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_Gebeurtenis_Humans_Human_Domain_Moments_Moment_
-  commentId: M:Sprookjes.Vertel.Gebeurtenis(Humans.Human,Domain.Moments.Moment)
+  href: api/Sprookjes.Vertel.html#Sprookjes_Vertel_Gebeurtenis_Humans_Human_Moments_Moment_
+  commentId: M:Sprookjes.Vertel.Gebeurtenis(Humans.Human,Moments.Moment)
   name.vb: Gebeurtenis(Human, Moment)
-  fullName: Sprookjes.Vertel.Gebeurtenis(Humans.Human?, Domain.Moments.Moment)
-  fullName.vb: Sprookjes.Vertel.Gebeurtenis(Humans.Human, Domain.Moments.Moment)
+  fullName: Sprookjes.Vertel.Gebeurtenis(Humans.Human?, Moments.Moment)
+  fullName.vb: Sprookjes.Vertel.Gebeurtenis(Humans.Human, Moments.Moment)
   nameWithType: Vertel.Gebeurtenis(Human?, Moment)
   nameWithType.vb: Vertel.Gebeurtenis(Human, Moment)
 - uid: Sprookjes.Vertel.Gebeurtenis*

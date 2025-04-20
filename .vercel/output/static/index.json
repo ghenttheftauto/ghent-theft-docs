@@ -19,76 +19,6 @@
     "title": "Namespace Domain.Exceptions | ghta docs",
     "summary": "Namespace Domain.Exceptions Classes DeadHumanException \uD83D\uDEAB Thrown when an action is performed on someone who has already returned to dust. LiturgicalException ⛪ Represents an error that occurs when a liturgical operation violates sacred calendrical bounds, theological logic, or canonical expectations. ReaperException ☠️ Thrown when Reaper attempts to reap a Human that has already been reaped."
   },
-  "api/Domain.Moments.BirthMoment.html": {
-    "href": "api/Domain.Moments.BirthMoment.html",
-    "title": "Class BirthMoment | ghta docs",
-    "summary": "Class BirthMoment Namespace Domain.Moments Assembly gameoflife.dll The exact moment in time when someone is born; a significant event for all involved Human instances. public class BirthMoment : Moment Inheritance object Moment BirthMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BirthMoment(Human, IAddressable, DateTime) The joyous moment of birth. \uD83D\uDC23 public BirthMoment(Human child, IAddressable location, DateTime time) Parameters child Human location IAddressable time DateTime Fields Child \uD83C\uDF0E The Simulation welcomes a new little wonder. This property is of type Human and represents the newborn child. public readonly Human Child Field Value Human Father The father of the child. Nullable Male is more on brand. public readonly Male? Father Field Value Male Mother The mother of the child. Nullable Female feels wrong, but it's the only way to make it work. public readonly Female? Mother Field Value Female"
-  },
-  "api/Domain.Moments.BirthdayMoment.html": {
-    "href": "api/Domain.Moments.BirthdayMoment.html",
-    "title": "Class BirthdayMoment | ghta docs",
-    "summary": "Class BirthdayMoment Namespace Domain.Moments Assembly gameoflife.dll public class BirthdayMoment : Moment Inheritance object Moment BirthdayMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BirthdayMoment(Human, DateTime) public BirthdayMoment(Human who, DateTime when) Parameters who Human when DateTime Fields BirthdayBoy public readonly Human BirthdayBoy Field Value Human"
-  },
-  "api/Domain.Moments.DeathMoment.html": {
-    "href": "api/Domain.Moments.DeathMoment.html",
-    "title": "Class DeathMoment | ghta docs",
-    "summary": "Class DeathMoment Namespace Domain.Moments Assembly gameoflife.dll public class DeathMoment : Moment Inheritance object Moment DeathMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DeathMoment(Human, DateTime) public DeathMoment(Human who, DateTime when) Parameters who Human when DateTime Fields Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.DropoutMoment.html": {
-    "href": "api/Domain.Moments.DropoutMoment.html",
-    "title": "Class DropoutMoment | ghta docs",
-    "summary": "Class DropoutMoment Namespace Domain.Moments Assembly gameoflife.dll public class DropoutMoment : Moment Inheritance object Moment DropoutMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DropoutMoment(Human, DateTime, IEducatable) public DropoutMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.HistoricMoment.html": {
-    "href": "api/Domain.Moments.HistoricMoment.html",
-    "title": "Class HistoricMoment | ghta docs",
-    "summary": "Class HistoricMoment Namespace Domain.Moments Assembly gameoflife.dll public class HistoricMoment Inheritance object HistoricMoment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HistoricMoment(DateTime, string) public HistoricMoment(DateTime when, string what) Parameters when DateTime what string Fields Description public readonly string Description Field Value string When public readonly DateTime When Field Value DateTime"
-  },
-  "api/Domain.Moments.Moment.html": {
-    "href": "api/Domain.Moments.Moment.html",
-    "title": "Class Moment | ghta docs",
-    "summary": "Class Moment Namespace Domain.Moments Assembly gameoflife.dll public abstract class Moment Inheritance object Moment Derived BirthMoment BirthdayMoment DeathMoment DropoutMoment NewSchoolMoment SchoolDropoutMoment SchoolExamnMoment SchoolFirstDayMoment SchoolGraduationMoment SchoolTooDumbMoment WorkRetirementMoment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Moment(DateTime, IAddressable) protected Moment(DateTime when, IAddressable where) Parameters when DateTime where IAddressable Fields Participants public List<Human> Participants Field Value List<Human> When public readonly DateTime When Field Value DateTime Where public readonly IAddressable Where Field Value IAddressable"
-  },
-  "api/Domain.Moments.NewSchoolMoment.html": {
-    "href": "api/Domain.Moments.NewSchoolMoment.html",
-    "title": "Class NewSchoolMoment | ghta docs",
-    "summary": "Class NewSchoolMoment Namespace Domain.Moments Assembly gameoflife.dll public class NewSchoolMoment : Moment Inheritance object Moment NewSchoolMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors NewSchoolMoment(Human, DateTime, IAddressable) public NewSchoolMoment(Human who, DateTime when, IAddressable where) Parameters who Human when DateTime where IAddressable Fields School public readonly IEducatable? School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.SchoolDropoutMoment.html": {
-    "href": "api/Domain.Moments.SchoolDropoutMoment.html",
-    "title": "Class SchoolDropoutMoment | ghta docs",
-    "summary": "Class SchoolDropoutMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolDropoutMoment : Moment Inheritance object Moment SchoolDropoutMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolDropoutMoment(Human, DateTime, IEducatable) public SchoolDropoutMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.SchoolExamnMoment.html": {
-    "href": "api/Domain.Moments.SchoolExamnMoment.html",
-    "title": "Class SchoolExamnMoment | ghta docs",
-    "summary": "Class SchoolExamnMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolExamnMoment : Moment Inheritance object Moment SchoolExamnMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolExamnMoment(Human, bool, DateTime, IEducatable) public SchoolExamnMoment(Human pupil, bool passed, DateTime when, IEducatable school) Parameters pupil Human passed bool when DateTime school IEducatable Fields Passed public readonly bool Passed Field Value bool School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.SchoolFirstDayMoment.html": {
-    "href": "api/Domain.Moments.SchoolFirstDayMoment.html",
-    "title": "Class SchoolFirstDayMoment | ghta docs",
-    "summary": "Class SchoolFirstDayMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolFirstDayMoment : Moment Inheritance object Moment SchoolFirstDayMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolFirstDayMoment(Human, DateTime, IEducatable) public SchoolFirstDayMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.SchoolGraduationMoment.html": {
-    "href": "api/Domain.Moments.SchoolGraduationMoment.html",
-    "title": "Class SchoolGraduationMoment | ghta docs",
-    "summary": "Class SchoolGraduationMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolGraduationMoment : Moment Inheritance object Moment SchoolGraduationMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolGraduationMoment(Human, DateTime, IEducatable) public SchoolGraduationMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.SchoolTooDumbMoment.html": {
-    "href": "api/Domain.Moments.SchoolTooDumbMoment.html",
-    "title": "Class SchoolTooDumbMoment | ghta docs",
-    "summary": "Class SchoolTooDumbMoment Namespace Domain.Moments Assembly gameoflife.dll public class SchoolTooDumbMoment : Moment Inheritance object Moment SchoolTooDumbMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolTooDumbMoment(Human, DateTime, IEducatable) public SchoolTooDumbMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.WorkRetirementMoment.html": {
-    "href": "api/Domain.Moments.WorkRetirementMoment.html",
-    "title": "Class WorkRetirementMoment | ghta docs",
-    "summary": "Class WorkRetirementMoment Namespace Domain.Moments Assembly gameoflife.dll public class WorkRetirementMoment : Moment Inheritance object Moment WorkRetirementMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors WorkRetirementMoment(Human, DateTime) public WorkRetirementMoment(Human who, DateTime when) Parameters who Human when DateTime Fields Who public readonly Human Who Field Value Human"
-  },
-  "api/Domain.Moments.html": {
-    "href": "api/Domain.Moments.html",
-    "title": "Namespace Domain.Moments | ghta docs",
-    "summary": "Namespace Domain.Moments Classes BirthMoment The exact moment in time when someone is born; a significant event for all involved Human instances. BirthdayMoment DeathMoment DropoutMoment HistoricMoment Moment NewSchoolMoment SchoolDropoutMoment SchoolExamnMoment SchoolFirstDayMoment SchoolGraduationMoment SchoolTooDumbMoment WorkRetirementMoment"
-  },
   "api/Domain.Utility.BellCurve.html": {
     "href": "api/Domain.Utility.BellCurve.html",
     "title": "Class BellCurve | ghta docs",
@@ -167,7 +97,7 @@
   "api/Gods.Fate.html": {
     "href": "api/Gods.Fate.html",
     "title": "Class Fate | ghta docs",
-    "summary": "Class Fate Namespace Gods Assembly gameoflife.dll ✨ The winds of Fate decide all outcomes. In the vast tapestry of possibility, threads interweave in patterns beyond mortal comprehension. public static class Fate Inheritance object Fate Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks This static class acts as the central oracle of randomness within the simulation. All stochastic processes — conception, deaths, traits, timings — flow through this point, including the determination of SchoolGraduationMoment, DeathMoment. giving a divine consistency to randomness. Whether a child is born with brilliance, whether a vessel survives the winter, or whether two lovers meet at the right moment... Use this class with reverence. It does not guarantee fairness, only possibility. \uD83C\uDFB2 Alea acta est. Properties Random \uD83E\uDEC0 The internal beating heart of uncertainty, a wellspring of possibility from which all randomness flows like water from a hidden mountain spring. public static Random Random { get; } Property Value Random Methods DrawCard(int) \uD83C\uDCCF Draws a card from the universal deck, where each pull reveals another fragment of the grand design. public static int DrawCard(int cards) Parameters cards int The number of cards in the mystic deck. Returns int The zero-indexed position of fate's chosen card. FlipCoin() \uD83E\uDE99 As a spinning coin slices through the air - glinting in the light of possibility - two futures shimmer in parallel. In its descent, all timelines converge, collapsing into a singular truth the moment it lands. public static bool FlipCoin() Returns bool True or false, yes or no, \uD83D\uDC4D or \uD83D\uDC4E - the binary breath of fate. RollDice() \uD83C\uDFB2 Consults the dice of the cosmos, six platonic planes arranged in 24 dimensions The dice is a tool of fate,a means of divining the future, and have determined the fate of kings and paupers alike since time immemorial. public static int RollDice() Returns int \uD83D\uDCAD A number written in the stars, between 1 and the specified sides."
+    "summary": "Class Fate Namespace Gods Assembly gameoflife.dll ✨ The winds of Fate decide all outcomes. In the vast tapestry of possibility, threads interweave in patterns beyond mortal comprehension. public static class Fate Inheritance object Fate Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks This static class acts as the central oracle of randomness within the simulation. All stochastic processes — conception, deaths, traits, timings — flow through this point, including the determination of Domain.Moments.SchoolGraduationMoment, Domain.Moments.DeathMoment. giving a divine consistency to randomness. Whether a child is born with brilliance, whether a vessel survives the winter, or whether two lovers meet at the right moment... Use this class with reverence. It does not guarantee fairness, only possibility. \uD83C\uDFB2 Alea acta est. Properties Random \uD83E\uDEC0 The internal beating heart of uncertainty, a wellspring of possibility from which all randomness flows like water from a hidden mountain spring. public static Random Random { get; } Property Value Random Methods DrawCard(int) \uD83C\uDCCF Draws a card from the universal deck, where each pull reveals another fragment of the grand design. public static int DrawCard(int cards) Parameters cards int The number of cards in the mystic deck. Returns int The zero-indexed position of fate's chosen card. FlipCoin() \uD83E\uDE99 As a spinning coin slices through the air - glinting in the light of possibility - two futures shimmer in parallel. In its descent, all timelines converge, collapsing into a singular truth the moment it lands. public static bool FlipCoin() Returns bool True or false, yes or no, \uD83D\uDC4D or \uD83D\uDC4E - the binary breath of fate. RollDice() \uD83C\uDFB2 Consults the dice of the cosmos, six platonic planes arranged in 24 dimensions The dice is a tool of fate,a means of divining the future, and have determined the fate of kings and paupers alike since time immemorial. public static int RollDice() Returns int \uD83D\uDCAD A number written in the stars, between 1 and the specified sides."
   },
   "api/Gods.Reaper.html": {
     "href": "api/Gods.Reaper.html",
@@ -323,6 +253,76 @@
     "href": "api/Locations.html",
     "title": "Namespace Locations | ghta docs",
     "summary": "Namespace Locations Classes Bedrijfcentrum Dokterspraktijk Hospital Lageschool Middelbaar PoliceStation PostOffice Residence TheStreets University World Interfaces IAddressable ICoordinate"
+  },
+  "api/Moments.BirthMoment.html": {
+    "href": "api/Moments.BirthMoment.html",
+    "title": "Class BirthMoment | ghta docs",
+    "summary": "Class BirthMoment Namespace Moments Assembly gameoflife.dll The exact moment in time when someone is born; a significant event for all involved Human instances. public class BirthMoment : Moment Inheritance object Moment BirthMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BirthMoment(Human, IAddressable, DateTime) The joyous moment of birth. \uD83D\uDC23 public BirthMoment(Human child, IAddressable location, DateTime time) Parameters child Human location IAddressable time DateTime Fields Child \uD83C\uDF0E The Simulation welcomes a new little wonder. This property is of type Human and represents the newborn child. public readonly Human Child Field Value Human Father The father of the child. Nullable Male is more on brand. public readonly Male? Father Field Value Male Mother The mother of the child. Nullable Female feels wrong, but it's the only way to make it work. public readonly Female? Mother Field Value Female"
+  },
+  "api/Moments.BirthdayMoment.html": {
+    "href": "api/Moments.BirthdayMoment.html",
+    "title": "Class BirthdayMoment | ghta docs",
+    "summary": "Class BirthdayMoment Namespace Moments Assembly gameoflife.dll public class BirthdayMoment : Moment Inheritance object Moment BirthdayMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BirthdayMoment(Human, DateTime) public BirthdayMoment(Human who, DateTime when) Parameters who Human when DateTime Fields BirthdayBoy public readonly Human BirthdayBoy Field Value Human"
+  },
+  "api/Moments.DeathMoment.html": {
+    "href": "api/Moments.DeathMoment.html",
+    "title": "Class DeathMoment | ghta docs",
+    "summary": "Class DeathMoment Namespace Moments Assembly gameoflife.dll public class DeathMoment : Moment Inheritance object Moment DeathMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DeathMoment(Human, DateTime) public DeathMoment(Human who, DateTime when) Parameters who Human when DateTime Fields Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.DropoutMoment.html": {
+    "href": "api/Moments.DropoutMoment.html",
+    "title": "Class DropoutMoment | ghta docs",
+    "summary": "Class DropoutMoment Namespace Moments Assembly gameoflife.dll public class DropoutMoment : Moment Inheritance object Moment DropoutMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DropoutMoment(Human, DateTime, IEducatable) public DropoutMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.HistoricMoment.html": {
+    "href": "api/Moments.HistoricMoment.html",
+    "title": "Class HistoricMoment | ghta docs",
+    "summary": "Class HistoricMoment Namespace Moments Assembly gameoflife.dll public class HistoricMoment Inheritance object HistoricMoment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HistoricMoment(DateTime, string) public HistoricMoment(DateTime when, string what) Parameters when DateTime what string Fields Description public readonly string Description Field Value string When public readonly DateTime When Field Value DateTime"
+  },
+  "api/Moments.Moment.html": {
+    "href": "api/Moments.Moment.html",
+    "title": "Class Moment | ghta docs",
+    "summary": "Class Moment Namespace Moments Assembly gameoflife.dll public abstract class Moment Inheritance object Moment Derived BirthMoment BirthdayMoment DeathMoment DropoutMoment NewSchoolMoment SchoolDropoutMoment SchoolExamnMoment SchoolFirstDayMoment SchoolGraduationMoment SchoolTooDumbMoment WorkRetirementMoment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Moment(DateTime, IAddressable) protected Moment(DateTime when, IAddressable where) Parameters when DateTime where IAddressable Fields Participants public List<Human> Participants Field Value List<Human> When public readonly DateTime When Field Value DateTime Where public readonly IAddressable Where Field Value IAddressable"
+  },
+  "api/Moments.NewSchoolMoment.html": {
+    "href": "api/Moments.NewSchoolMoment.html",
+    "title": "Class NewSchoolMoment | ghta docs",
+    "summary": "Class NewSchoolMoment Namespace Moments Assembly gameoflife.dll public class NewSchoolMoment : Moment Inheritance object Moment NewSchoolMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors NewSchoolMoment(Human, DateTime, IAddressable) public NewSchoolMoment(Human who, DateTime when, IAddressable where) Parameters who Human when DateTime where IAddressable Fields School public readonly IEducatable? School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.SchoolDropoutMoment.html": {
+    "href": "api/Moments.SchoolDropoutMoment.html",
+    "title": "Class SchoolDropoutMoment | ghta docs",
+    "summary": "Class SchoolDropoutMoment Namespace Moments Assembly gameoflife.dll public class SchoolDropoutMoment : Moment Inheritance object Moment SchoolDropoutMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolDropoutMoment(Human, DateTime, IEducatable) public SchoolDropoutMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.SchoolExamnMoment.html": {
+    "href": "api/Moments.SchoolExamnMoment.html",
+    "title": "Class SchoolExamnMoment | ghta docs",
+    "summary": "Class SchoolExamnMoment Namespace Moments Assembly gameoflife.dll public class SchoolExamnMoment : Moment Inheritance object Moment SchoolExamnMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolExamnMoment(Human, bool, DateTime, IEducatable) public SchoolExamnMoment(Human pupil, bool passed, DateTime when, IEducatable school) Parameters pupil Human passed bool when DateTime school IEducatable Fields Passed public readonly bool Passed Field Value bool School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.SchoolFirstDayMoment.html": {
+    "href": "api/Moments.SchoolFirstDayMoment.html",
+    "title": "Class SchoolFirstDayMoment | ghta docs",
+    "summary": "Class SchoolFirstDayMoment Namespace Moments Assembly gameoflife.dll public class SchoolFirstDayMoment : Moment Inheritance object Moment SchoolFirstDayMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolFirstDayMoment(Human, DateTime, IEducatable) public SchoolFirstDayMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.SchoolGraduationMoment.html": {
+    "href": "api/Moments.SchoolGraduationMoment.html",
+    "title": "Class SchoolGraduationMoment | ghta docs",
+    "summary": "Class SchoolGraduationMoment Namespace Moments Assembly gameoflife.dll public class SchoolGraduationMoment : Moment Inheritance object Moment SchoolGraduationMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolGraduationMoment(Human, DateTime, IEducatable) public SchoolGraduationMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.SchoolTooDumbMoment.html": {
+    "href": "api/Moments.SchoolTooDumbMoment.html",
+    "title": "Class SchoolTooDumbMoment | ghta docs",
+    "summary": "Class SchoolTooDumbMoment Namespace Moments Assembly gameoflife.dll public class SchoolTooDumbMoment : Moment Inheritance object Moment SchoolTooDumbMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SchoolTooDumbMoment(Human, DateTime, IEducatable) public SchoolTooDumbMoment(Human pupil, DateTime when, IEducatable school) Parameters pupil Human when DateTime school IEducatable Fields School public readonly IEducatable School Field Value IEducatable Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.WorkRetirementMoment.html": {
+    "href": "api/Moments.WorkRetirementMoment.html",
+    "title": "Class WorkRetirementMoment | ghta docs",
+    "summary": "Class WorkRetirementMoment Namespace Moments Assembly gameoflife.dll public class WorkRetirementMoment : Moment Inheritance object Moment WorkRetirementMoment Inherited Members Moment.When Moment.Where Moment.Participants object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors WorkRetirementMoment(Human, DateTime) public WorkRetirementMoment(Human who, DateTime when) Parameters who Human when DateTime Fields Who public readonly Human Who Field Value Human"
+  },
+  "api/Moments.html": {
+    "href": "api/Moments.html",
+    "title": "Namespace Moments | ghta docs",
+    "summary": "Namespace Moments Classes BirthMoment The exact moment in time when someone is born; a significant event for all involved Human instances. BirthdayMoment DeathMoment DropoutMoment HistoricMoment Moment NewSchoolMoment SchoolDropoutMoment SchoolExamnMoment SchoolFirstDayMoment SchoolGraduationMoment SchoolTooDumbMoment WorkRetirementMoment"
   },
   "api/Names.INameable.html": {
     "href": "api/Names.INameable.html",

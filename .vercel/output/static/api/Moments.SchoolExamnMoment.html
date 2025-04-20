@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DropoutMoment | ghta docs </title>
+      <title>Class SchoolExamnMoment | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DropoutMoment | ghta docs ">
+      <meta name="title" content="Class SchoolExamnMoment | ghta docs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Domain.Moments.DropoutMoment">
+        <article data-uid="Moments.SchoolExamnMoment">
 
 
 
-  <h1 id="Domain_Moments_DropoutMoment" data-uid="Domain.Moments.DropoutMoment" class="text-break">
-Class DropoutMoment  
+  <h1 id="Moments_SchoolExamnMoment" data-uid="Moments.SchoolExamnMoment" class="text-break">
+Class SchoolExamnMoment  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Domain.html">Domain</a>.<a class="xref" href="Domain.Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class DropoutMoment
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DropoutMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public class SchoolExamnMoment : Moment</code></pre>
   </div>
 
 
@@ -111,8 +111,8 @@ Class DropoutMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Domain.Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">DropoutMoment</span></div>
+      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
+      <div><span class="xref">SchoolExamnMoment</span></div>
     </dd>
   </dl>
 
@@ -122,13 +122,13 @@ Class DropoutMoment
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_When">Moment.When</a>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
     </div>
     <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_Where">Moment.Where</a>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
     </div>
     <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_Participants">Moment.Participants</a>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -162,10 +162,10 @@ Class DropoutMoment
 </h2>
 
 
-  <a id="Domain_Moments_DropoutMoment__ctor_" data-uid="Domain.Moments.DropoutMoment.#ctor*"></a>
+  <a id="Moments_SchoolExamnMoment__ctor_" data-uid="Moments.SchoolExamnMoment.#ctor*"></a>
 
-  <h3 id="Domain_Moments_DropoutMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_" data-uid="Domain.Moments.DropoutMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)">
-  DropoutMoment(Human, DateTime, IEducatable)
+  <h3 id="Moments_SchoolExamnMoment__ctor_Humans_Human_System_Boolean_System_DateTime_Education_IEducatable_" data-uid="Moments.SchoolExamnMoment.#ctor(Humans.Human,System.Boolean,System.DateTime,Education.IEducatable)">
+  SchoolExamnMoment(Human, bool, DateTime, IEducatable)
   
   </h3>
 
@@ -173,12 +173,14 @@ Class DropoutMoment
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DropoutMoment(Human pupil, DateTime when, IEducatable school)</code></pre>
+    <pre><code class="lang-csharp hljs">public SchoolExamnMoment(Human pupil, bool passed, DateTime when, IEducatable school)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pupil</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dd></dd>
+    <dt><code>passed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
     <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
@@ -202,7 +204,37 @@ Class DropoutMoment
 
 
 
-  <h3 id="Domain_Moments_DropoutMoment_School" data-uid="Domain.Moments.DropoutMoment.School">
+  <h3 id="Moments_SchoolExamnMoment_Passed" data-uid="Moments.SchoolExamnMoment.Passed">
+  Passed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Passed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Moments_SchoolExamnMoment_School" data-uid="Moments.SchoolExamnMoment.School">
   School
   
   </h3>
@@ -232,7 +264,7 @@ Class DropoutMoment
 
 
 
-  <h3 id="Domain_Moments_DropoutMoment_Who" data-uid="Domain.Moments.DropoutMoment.Who">
+  <h3 id="Moments_SchoolExamnMoment_Who" data-uid="Moments.SchoolExamnMoment.Who">
   Who
   
   </h3>

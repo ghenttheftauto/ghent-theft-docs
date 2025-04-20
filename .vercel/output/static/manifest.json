@@ -68,202 +68,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.BirthMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.BirthMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.BirthMoment",
-      "Summary": "<p sourcefile=\".docs/api/Domain.Moments.BirthMoment.yml\" sourcestartlinenumber=\"1\">The exact moment in time when someone is born; a significant event for all involved <xref href=\"Humans.Human\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.BirthdayMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.BirthdayMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.BirthdayMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.DeathMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.DeathMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.DeathMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.DropoutMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.DropoutMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.DropoutMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.HistoricMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.HistoricMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.HistoricMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.Moment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.Moment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.Moment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.NewSchoolMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.NewSchoolMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.NewSchoolMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.SchoolDropoutMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.SchoolDropoutMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.SchoolDropoutMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.SchoolExamnMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.SchoolExamnMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.SchoolExamnMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.SchoolFirstDayMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.SchoolFirstDayMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.SchoolFirstDayMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.SchoolGraduationMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.SchoolGraduationMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.SchoolGraduationMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.SchoolTooDumbMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.SchoolTooDumbMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.SchoolTooDumbMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.WorkRetirementMoment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.WorkRetirementMoment.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments.WorkRetirementMoment",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Moments.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Moments.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Moments",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Domain.Utility.BellCurve.yml",
       "output": {
         ".html": {
@@ -918,6 +722,202 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Locations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.BirthMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.BirthMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.BirthMoment",
+      "Summary": "<p sourcefile=\".docs/api/Moments.BirthMoment.yml\" sourcestartlinenumber=\"1\">The exact moment in time when someone is born; a significant event for all involved <xref href=\"Humans.Human\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.BirthdayMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.BirthdayMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.BirthdayMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.DeathMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.DeathMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.DeathMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.DropoutMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.DropoutMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.DropoutMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.HistoricMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.HistoricMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.HistoricMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.Moment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.Moment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.Moment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.NewSchoolMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.NewSchoolMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.NewSchoolMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.SchoolDropoutMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.SchoolDropoutMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.SchoolDropoutMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.SchoolExamnMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.SchoolExamnMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.SchoolExamnMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.SchoolFirstDayMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.SchoolFirstDayMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.SchoolFirstDayMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.SchoolGraduationMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.SchoolGraduationMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.SchoolGraduationMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.SchoolTooDumbMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.SchoolTooDumbMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.SchoolTooDumbMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.WorkRetirementMoment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.WorkRetirementMoment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments.WorkRetirementMoment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Moments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Moments.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Moments",
       "Summary": null
     },
     {

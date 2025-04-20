@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class SchoolExamnMoment | ghta docs </title>
+      <title>Class HistoricMoment | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class SchoolExamnMoment | ghta docs ">
+      <meta name="title" content="Class HistoricMoment | ghta docs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Domain.Moments.SchoolExamnMoment">
+        <article data-uid="Moments.HistoricMoment">
 
 
 
-  <h1 id="Domain_Moments_SchoolExamnMoment" data-uid="Domain.Moments.SchoolExamnMoment" class="text-break">
-Class SchoolExamnMoment  
+  <h1 id="Moments_HistoricMoment" data-uid="Moments.HistoricMoment" class="text-break">
+Class HistoricMoment  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Domain.html">Domain</a>.<a class="xref" href="Domain.Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class SchoolExamnMoment
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SchoolExamnMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public class HistoricMoment</code></pre>
   </div>
 
 
@@ -111,8 +111,7 @@ Class SchoolExamnMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Domain.Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">SchoolExamnMoment</span></div>
+      <div><span class="xref">HistoricMoment</span></div>
     </dd>
   </dl>
 
@@ -121,15 +120,6 @@ Class SchoolExamnMoment
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_When">Moment.When</a>
-    </div>
-    <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_Where">Moment.Where</a>
-    </div>
-    <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_Participants">Moment.Participants</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -162,10 +152,10 @@ Class SchoolExamnMoment
 </h2>
 
 
-  <a id="Domain_Moments_SchoolExamnMoment__ctor_" data-uid="Domain.Moments.SchoolExamnMoment.#ctor*"></a>
+  <a id="Moments_HistoricMoment__ctor_" data-uid="Moments.HistoricMoment.#ctor*"></a>
 
-  <h3 id="Domain_Moments_SchoolExamnMoment__ctor_Humans_Human_System_Boolean_System_DateTime_Education_IEducatable_" data-uid="Domain.Moments.SchoolExamnMoment.#ctor(Humans.Human,System.Boolean,System.DateTime,Education.IEducatable)">
-  SchoolExamnMoment(Human, bool, DateTime, IEducatable)
+  <h3 id="Moments_HistoricMoment__ctor_System_DateTime_System_String_" data-uid="Moments.HistoricMoment.#ctor(System.DateTime,System.String)">
+  HistoricMoment(DateTime, string)
   
   </h3>
 
@@ -173,18 +163,14 @@ Class SchoolExamnMoment
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SchoolExamnMoment(Human pupil, bool passed, DateTime when, IEducatable school)</code></pre>
+    <pre><code class="lang-csharp hljs">public HistoricMoment(DateTime when, string what)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pupil</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
-    <dt><code>passed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
     <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
-    <dt><code>school</code> <a class="xref" href="Education.IEducatable.html">IEducatable</a></dt>
+    <dt><code>what</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -204,8 +190,8 @@ Class SchoolExamnMoment
 
 
 
-  <h3 id="Domain_Moments_SchoolExamnMoment_Passed" data-uid="Domain.Moments.SchoolExamnMoment.Passed">
-  Passed
+  <h3 id="Moments_HistoricMoment_Description" data-uid="Moments.HistoricMoment.Description">
+  Description
   
   </h3>
 
@@ -213,7 +199,7 @@ Class SchoolExamnMoment
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly bool Passed</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Description</code></pre>
   </div>
 
 
@@ -221,7 +207,7 @@ Class SchoolExamnMoment
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -234,8 +220,8 @@ Class SchoolExamnMoment
 
 
 
-  <h3 id="Domain_Moments_SchoolExamnMoment_School" data-uid="Domain.Moments.SchoolExamnMoment.School">
-  School
+  <h3 id="Moments_HistoricMoment_When" data-uid="Moments.HistoricMoment.When">
+  When
   
   </h3>
 
@@ -243,7 +229,7 @@ Class SchoolExamnMoment
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly IEducatable School</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly DateTime When</code></pre>
   </div>
 
 
@@ -251,37 +237,7 @@ Class SchoolExamnMoment
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Education.IEducatable.html">IEducatable</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Domain_Moments_SchoolExamnMoment_Who" data-uid="Domain.Moments.SchoolExamnMoment.Who">
-  Who
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Human Who</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 

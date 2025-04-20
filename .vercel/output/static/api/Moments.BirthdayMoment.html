@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HistoricMoment | ghta docs </title>
+      <title>Class BirthdayMoment | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HistoricMoment | ghta docs ">
+      <meta name="title" content="Class BirthdayMoment | ghta docs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Domain.Moments.HistoricMoment">
+        <article data-uid="Moments.BirthdayMoment">
 
 
 
-  <h1 id="Domain_Moments_HistoricMoment" data-uid="Domain.Moments.HistoricMoment" class="text-break">
-Class HistoricMoment  
+  <h1 id="Moments_BirthdayMoment" data-uid="Moments.BirthdayMoment" class="text-break">
+Class BirthdayMoment  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Domain.html">Domain</a>.<a class="xref" href="Domain.Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class HistoricMoment
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HistoricMoment</code></pre>
+    <pre><code class="lang-csharp hljs">public class BirthdayMoment : Moment</code></pre>
   </div>
 
 
@@ -111,7 +111,8 @@ Class HistoricMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">HistoricMoment</span></div>
+      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
+      <div><span class="xref">BirthdayMoment</span></div>
     </dd>
   </dl>
 
@@ -120,6 +121,15 @@ Class HistoricMoment
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
+    </div>
+    <div>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
+    </div>
+    <div>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -152,10 +162,10 @@ Class HistoricMoment
 </h2>
 
 
-  <a id="Domain_Moments_HistoricMoment__ctor_" data-uid="Domain.Moments.HistoricMoment.#ctor*"></a>
+  <a id="Moments_BirthdayMoment__ctor_" data-uid="Moments.BirthdayMoment.#ctor*"></a>
 
-  <h3 id="Domain_Moments_HistoricMoment__ctor_System_DateTime_System_String_" data-uid="Domain.Moments.HistoricMoment.#ctor(System.DateTime,System.String)">
-  HistoricMoment(DateTime, string)
+  <h3 id="Moments_BirthdayMoment__ctor_Humans_Human_System_DateTime_" data-uid="Moments.BirthdayMoment.#ctor(Humans.Human,System.DateTime)">
+  BirthdayMoment(Human, DateTime)
   
   </h3>
 
@@ -163,14 +173,14 @@ Class HistoricMoment
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HistoricMoment(DateTime when, string what)</code></pre>
+    <pre><code class="lang-csharp hljs">public BirthdayMoment(Human who, DateTime when)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><code>who</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
     <dd></dd>
-    <dt><code>what</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 
@@ -190,8 +200,8 @@ Class HistoricMoment
 
 
 
-  <h3 id="Domain_Moments_HistoricMoment_Description" data-uid="Domain.Moments.HistoricMoment.Description">
-  Description
+  <h3 id="Moments_BirthdayMoment_BirthdayBoy" data-uid="Moments.BirthdayMoment.BirthdayBoy">
+  BirthdayBoy
   
   </h3>
 
@@ -199,7 +209,7 @@ Class HistoricMoment
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly string Description</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Human BirthdayBoy</code></pre>
   </div>
 
 
@@ -207,37 +217,7 @@ Class HistoricMoment
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Domain_Moments_HistoricMoment_When" data-uid="Domain.Moments.HistoricMoment.When">
-  When
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly DateTime When</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
     <dd></dd>
   </dl>
 

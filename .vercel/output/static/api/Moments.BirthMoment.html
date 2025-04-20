@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class SchoolTooDumbMoment | ghta docs </title>
+      <title>Class BirthMoment | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class SchoolTooDumbMoment | ghta docs ">
+      <meta name="title" content="Class BirthMoment | ghta docs ">
       
-      
+      <meta name="description" content="The exact moment in time when someone is born; a significant event for all involved  instances.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,24 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Domain.Moments.SchoolTooDumbMoment">
+        <article data-uid="Moments.BirthMoment">
 
 
 
-  <h1 id="Domain_Moments_SchoolTooDumbMoment" data-uid="Domain.Moments.SchoolTooDumbMoment" class="text-break">
-Class SchoolTooDumbMoment  
+  <h1 id="Moments_BirthMoment" data-uid="Moments.BirthMoment" class="text-break">
+Class BirthMoment  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Domain.html">Domain</a>.<a class="xref" href="Domain.Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SchoolTooDumbMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public class BirthMoment : Moment</code></pre>
   </div>
 
 
@@ -111,8 +112,8 @@ Class SchoolTooDumbMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Domain.Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">SchoolTooDumbMoment</span></div>
+      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
+      <div><span class="xref">BirthMoment</span></div>
     </dd>
   </dl>
 
@@ -122,13 +123,13 @@ Class SchoolTooDumbMoment
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_When">Moment.When</a>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
     </div>
     <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_Where">Moment.Where</a>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
     </div>
     <div>
-      <a class="xref" href="Domain.Moments.Moment.html#Domain_Moments_Moment_Participants">Moment.Participants</a>
+      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -162,27 +163,28 @@ Class SchoolTooDumbMoment
 </h2>
 
 
-  <a id="Domain_Moments_SchoolTooDumbMoment__ctor_" data-uid="Domain.Moments.SchoolTooDumbMoment.#ctor*"></a>
+  <a id="Moments_BirthMoment__ctor_" data-uid="Moments.BirthMoment.#ctor*"></a>
 
-  <h3 id="Domain_Moments_SchoolTooDumbMoment__ctor_Humans_Human_System_DateTime_Education_IEducatable_" data-uid="Domain.Moments.SchoolTooDumbMoment.#ctor(Humans.Human,System.DateTime,Education.IEducatable)">
-  SchoolTooDumbMoment(Human, DateTime, IEducatable)
+  <h3 id="Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_" data-uid="Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)">
+  BirthMoment(Human, IAddressable, DateTime)
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The joyous moment of birth. 🐣</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SchoolTooDumbMoment(Human pupil, DateTime when, IEducatable school)</code></pre>
+    <pre><code class="lang-csharp hljs">public BirthMoment(Human child, IAddressable location, DateTime time)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pupil</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><code>child</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
     <dd></dd>
-    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><code>location</code> <a class="xref" href="Locations.IAddressable.html">IAddressable</a></dt>
     <dd></dd>
-    <dt><code>school</code> <a class="xref" href="Education.IEducatable.html">IEducatable</a></dt>
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 
@@ -202,16 +204,17 @@ Class SchoolTooDumbMoment
 
 
 
-  <h3 id="Domain_Moments_SchoolTooDumbMoment_School" data-uid="Domain.Moments.SchoolTooDumbMoment.School">
-  School
+  <h3 id="Moments_BirthMoment_Child" data-uid="Moments.BirthMoment.Child">
+  Child
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>🌎 The <a class="xref" href="Life.Simulation.html">Simulation</a> welcomes a new little wonder. This property is of type <a class="xref" href="Humans.Human.html">Human</a> and represents the newborn child.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly IEducatable School</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Human Child</code></pre>
   </div>
 
 
@@ -219,7 +222,7 @@ Class SchoolTooDumbMoment
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Education.IEducatable.html">IEducatable</a></dt>
+    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
     <dd></dd>
   </dl>
 
@@ -232,16 +235,18 @@ Class SchoolTooDumbMoment
 
 
 
-  <h3 id="Domain_Moments_SchoolTooDumbMoment_Who" data-uid="Domain.Moments.SchoolTooDumbMoment.Who">
-  Who
+  <h3 id="Moments_BirthMoment_Father" data-uid="Moments.BirthMoment.Father">
+  Father
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The father of the child.
+Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Human Who</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Male? Father</code></pre>
   </div>
 
 
@@ -249,7 +254,39 @@ Class SchoolTooDumbMoment
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><a class="xref" href="Humans.Male.html">Male</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Moments_BirthMoment_Mother" data-uid="Moments.BirthMoment.Mother">
+  Mother
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The mother of the child.
+Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but it's the only way to make it work.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Female? Mother</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Humans.Female.html">Female</a></dt>
     <dd></dd>
   </dl>
 
