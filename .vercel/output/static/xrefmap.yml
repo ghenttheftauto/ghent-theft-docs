@@ -1420,12 +1420,12 @@ references:
   commentId: F:Family.TreeNode._childNodes
   fullName: Family.TreeNode._childNodes
   nameWithType: TreeNode._childNodes
-- uid: Family.TreeNode._couple
-  name: _couple
-  href: api/Family.TreeNode.html#Family_TreeNode__couple
-  commentId: F:Family.TreeNode._couple
-  fullName: Family.TreeNode._couple
-  nameWithType: TreeNode._couple
+- uid: Family.TreeNode._couples
+  name: _couples
+  href: api/Family.TreeNode.html#Family_TreeNode__couples
+  commentId: F:Family.TreeNode._couples
+  fullName: Family.TreeNode._couples
+  nameWithType: TreeNode._couples
 - uid: Family.TreeNodeList
   name: TreeNodeList
   href: api/Family.TreeNodeList.html
@@ -3119,12 +3119,12 @@ references:
   commentId: E:Life.Simulation.OnHoliday
   fullName: Life.Simulation.OnHoliday
   nameWithType: Simulation.OnHoliday
-- uid: Life.Simulation.OnSimulationStarted
-  name: OnSimulationStarted
-  href: api/Life.Simulation.html#Life_Simulation_OnSimulationStarted
-  commentId: E:Life.Simulation.OnSimulationStarted
-  fullName: Life.Simulation.OnSimulationStarted
-  nameWithType: Simulation.OnSimulationStarted
+- uid: Life.Simulation.OnSimulationReady
+  name: OnSimulationReady
+  href: api/Life.Simulation.html#Life_Simulation_OnSimulationReady
+  commentId: E:Life.Simulation.OnSimulationReady
+  fullName: Life.Simulation.OnSimulationReady
+  nameWithType: Simulation.OnSimulationReady
 - uid: Life.Simulation.Population
   name: Population
   href: api/Life.Simulation.html#Life_Simulation_Population
@@ -3167,15 +3167,12 @@ references:
   isSpec: "True"
   fullName: Life.Simulation.SetPopulation
   nameWithType: Simulation.SetPopulation
-- uid: Life.Simulation.SetupTime(System.DateTime)
-  name: SetupTime(DateTime)
-  href: api/Life.Simulation.html#Life_Simulation_SetupTime_System_DateTime_
-  commentId: M:Life.Simulation.SetupTime(System.DateTime)
-  name.vb: SetupTime(Date)
-  fullName: Life.Simulation.SetupTime(System.DateTime)
-  fullName.vb: Life.Simulation.SetupTime(Date)
-  nameWithType: Simulation.SetupTime(DateTime)
-  nameWithType.vb: Simulation.SetupTime(Date)
+- uid: Life.Simulation.SetupTime
+  name: SetupTime()
+  href: api/Life.Simulation.html#Life_Simulation_SetupTime
+  commentId: M:Life.Simulation.SetupTime
+  fullName: Life.Simulation.SetupTime()
+  nameWithType: Simulation.SetupTime()
 - uid: Life.Simulation.SetupTime*
   name: SetupTime
   href: api/Life.Simulation.html#Life_Simulation_SetupTime_
@@ -3479,19 +3476,6 @@ references:
   commentId: T:Locations.Bedrijfcentrum
   fullName: Locations.Bedrijfcentrum
   nameWithType: Bedrijfcentrum
-- uid: Locations.Bedrijfcentrum.Address
-  name: Address
-  href: api/Locations.Bedrijfcentrum.html#Locations_Bedrijfcentrum_Address
-  commentId: P:Locations.Bedrijfcentrum.Address
-  fullName: Locations.Bedrijfcentrum.Address
-  nameWithType: Bedrijfcentrum.Address
-- uid: Locations.Bedrijfcentrum.Address*
-  name: Address
-  href: api/Locations.Bedrijfcentrum.html#Locations_Bedrijfcentrum_Address_
-  commentId: Overload:Locations.Bedrijfcentrum.Address
-  isSpec: "True"
-  fullName: Locations.Bedrijfcentrum.Address
-  nameWithType: Bedrijfcentrum.Address
 - uid: Locations.Bedrijfcentrum.City
   name: City
   href: api/Locations.Bedrijfcentrum.html#Locations_Bedrijfcentrum_City
@@ -3589,19 +3573,6 @@ references:
   commentId: T:Locations.Dokterspraktijk
   fullName: Locations.Dokterspraktijk
   nameWithType: Dokterspraktijk
-- uid: Locations.Dokterspraktijk.Address
-  name: Address
-  href: api/Locations.Dokterspraktijk.html#Locations_Dokterspraktijk_Address
-  commentId: P:Locations.Dokterspraktijk.Address
-  fullName: Locations.Dokterspraktijk.Address
-  nameWithType: Dokterspraktijk.Address
-- uid: Locations.Dokterspraktijk.Address*
-  name: Address
-  href: api/Locations.Dokterspraktijk.html#Locations_Dokterspraktijk_Address_
-  commentId: Overload:Locations.Dokterspraktijk.Address
-  isSpec: "True"
-  fullName: Locations.Dokterspraktijk.Address
-  nameWithType: Dokterspraktijk.Address
 - uid: Locations.Dokterspraktijk.City
   name: City
   href: api/Locations.Dokterspraktijk.html#Locations_Dokterspraktijk_City
@@ -3705,19 +3676,6 @@ references:
   fullName.vb: Locations.Hospital.New
   nameWithType: Hospital.Hospital
   nameWithType.vb: Hospital.New
-- uid: Locations.Hospital.Address
-  name: Address
-  href: api/Locations.Hospital.html#Locations_Hospital_Address
-  commentId: P:Locations.Hospital.Address
-  fullName: Locations.Hospital.Address
-  nameWithType: Hospital.Address
-- uid: Locations.Hospital.Address*
-  name: Address
-  href: api/Locations.Hospital.html#Locations_Hospital_Address_
-  commentId: Overload:Locations.Hospital.Address
-  isSpec: "True"
-  fullName: Locations.Hospital.Address
-  nameWithType: Hospital.Address
 - uid: Locations.Hospital.City
   name: City
   href: api/Locations.Hospital.html#Locations_Hospital_City
@@ -3918,19 +3876,6 @@ references:
   commentId: T:Locations.Lageschool
   fullName: Locations.Lageschool
   nameWithType: Lageschool
-- uid: Locations.Lageschool.Address
-  name: Address
-  href: api/Locations.Lageschool.html#Locations_Lageschool_Address
-  commentId: P:Locations.Lageschool.Address
-  fullName: Locations.Lageschool.Address
-  nameWithType: Lageschool.Address
-- uid: Locations.Lageschool.Address*
-  name: Address
-  href: api/Locations.Lageschool.html#Locations_Lageschool_Address_
-  commentId: Overload:Locations.Lageschool.Address
-  isSpec: "True"
-  fullName: Locations.Lageschool.Address
-  nameWithType: Lageschool.Address
 - uid: Locations.Lageschool.Advance(System.DateTime@,Humans.Human@)
   name: Advance(in DateTime, in Human)
   href: api/Locations.Lageschool.html#Locations_Lageschool_Advance_System_DateTime__Humans_Human__
@@ -4099,19 +4044,6 @@ references:
   commentId: T:Locations.Middelbaar
   fullName: Locations.Middelbaar
   nameWithType: Middelbaar
-- uid: Locations.Middelbaar.Address
-  name: Address
-  href: api/Locations.Middelbaar.html#Locations_Middelbaar_Address
-  commentId: P:Locations.Middelbaar.Address
-  fullName: Locations.Middelbaar.Address
-  nameWithType: Middelbaar.Address
-- uid: Locations.Middelbaar.Address*
-  name: Address
-  href: api/Locations.Middelbaar.html#Locations_Middelbaar_Address_
-  commentId: Overload:Locations.Middelbaar.Address
-  isSpec: "True"
-  fullName: Locations.Middelbaar.Address
-  nameWithType: Middelbaar.Address
 - uid: Locations.Middelbaar.Advance(System.DateTime@,Humans.Human@)
   name: Advance(in DateTime, in Human)
   href: api/Locations.Middelbaar.html#Locations_Middelbaar_Advance_System_DateTime__Humans_Human__
@@ -4286,19 +4218,6 @@ references:
   fullName.vb: Locations.PoliceStation.New
   nameWithType: PoliceStation.PoliceStation
   nameWithType.vb: PoliceStation.New
-- uid: Locations.PoliceStation.Address
-  name: Address
-  href: api/Locations.PoliceStation.html#Locations_PoliceStation_Address
-  commentId: P:Locations.PoliceStation.Address
-  fullName: Locations.PoliceStation.Address
-  nameWithType: PoliceStation.Address
-- uid: Locations.PoliceStation.Address*
-  name: Address
-  href: api/Locations.PoliceStation.html#Locations_PoliceStation_Address_
-  commentId: Overload:Locations.PoliceStation.Address
-  isSpec: "True"
-  fullName: Locations.PoliceStation.Address
-  nameWithType: PoliceStation.Address
 - uid: Locations.PoliceStation.City
   name: City
   href: api/Locations.PoliceStation.html#Locations_PoliceStation_City
@@ -4402,19 +4321,6 @@ references:
   fullName.vb: Locations.PostOffice.New
   nameWithType: PostOffice.PostOffice
   nameWithType.vb: PostOffice.New
-- uid: Locations.PostOffice.Address
-  name: Address
-  href: api/Locations.PostOffice.html#Locations_PostOffice_Address
-  commentId: P:Locations.PostOffice.Address
-  fullName: Locations.PostOffice.Address
-  nameWithType: PostOffice.Address
-- uid: Locations.PostOffice.Address*
-  name: Address
-  href: api/Locations.PostOffice.html#Locations_PostOffice_Address_
-  commentId: Overload:Locations.PostOffice.Address
-  isSpec: "True"
-  fullName: Locations.PostOffice.Address
-  nameWithType: PostOffice.Address
 - uid: Locations.PostOffice.City
   name: City
   href: api/Locations.PostOffice.html#Locations_PostOffice_City
@@ -4518,19 +4424,6 @@ references:
   fullName.vb: Locations.Residence.New
   nameWithType: Residence.Residence
   nameWithType.vb: Residence.New
-- uid: Locations.Residence.Address
-  name: Address
-  href: api/Locations.Residence.html#Locations_Residence_Address
-  commentId: P:Locations.Residence.Address
-  fullName: Locations.Residence.Address
-  nameWithType: Residence.Address
-- uid: Locations.Residence.Address*
-  name: Address
-  href: api/Locations.Residence.html#Locations_Residence_Address_
-  commentId: Overload:Locations.Residence.Address
-  isSpec: "True"
-  fullName: Locations.Residence.Address
-  nameWithType: Residence.Address
 - uid: Locations.Residence.City
   name: City
   href: api/Locations.Residence.html#Locations_Residence_City
@@ -4621,19 +4514,6 @@ references:
   fullName.vb: Locations.TheStreets.New
   nameWithType: TheStreets.TheStreets
   nameWithType.vb: TheStreets.New
-- uid: Locations.TheStreets.Address
-  name: Address
-  href: api/Locations.TheStreets.html#Locations_TheStreets_Address
-  commentId: P:Locations.TheStreets.Address
-  fullName: Locations.TheStreets.Address
-  nameWithType: TheStreets.Address
-- uid: Locations.TheStreets.Address*
-  name: Address
-  href: api/Locations.TheStreets.html#Locations_TheStreets_Address_
-  commentId: Overload:Locations.TheStreets.Address
-  isSpec: "True"
-  fullName: Locations.TheStreets.Address
-  nameWithType: TheStreets.Address
 - uid: Locations.TheStreets.City
   name: City
   href: api/Locations.TheStreets.html#Locations_TheStreets_City
@@ -4647,19 +4527,6 @@ references:
   isSpec: "True"
   fullName: Locations.TheStreets.City
   nameWithType: TheStreets.City
-- uid: Locations.TheStreets.Housenumber
-  name: Housenumber
-  href: api/Locations.TheStreets.html#Locations_TheStreets_Housenumber
-  commentId: P:Locations.TheStreets.Housenumber
-  fullName: Locations.TheStreets.Housenumber
-  nameWithType: TheStreets.Housenumber
-- uid: Locations.TheStreets.Housenumber*
-  name: Housenumber
-  href: api/Locations.TheStreets.html#Locations_TheStreets_Housenumber_
-  commentId: Overload:Locations.TheStreets.Housenumber
-  isSpec: "True"
-  fullName: Locations.TheStreets.Housenumber
-  nameWithType: TheStreets.Housenumber
 - uid: Locations.TheStreets.Name
   name: Name
   href: api/Locations.TheStreets.html#Locations_TheStreets_Name
@@ -4686,19 +4553,6 @@ references:
   isSpec: "True"
   fullName: Locations.TheStreets.Postcode
   nameWithType: TheStreets.Postcode
-- uid: Locations.TheStreets.Street
-  name: Street
-  href: api/Locations.TheStreets.html#Locations_TheStreets_Street
-  commentId: P:Locations.TheStreets.Street
-  fullName: Locations.TheStreets.Street
-  nameWithType: TheStreets.Street
-- uid: Locations.TheStreets.Street*
-  name: Street
-  href: api/Locations.TheStreets.html#Locations_TheStreets_Street_
-  commentId: Overload:Locations.TheStreets.Street
-  isSpec: "True"
-  fullName: Locations.TheStreets.Street
-  nameWithType: TheStreets.Street
 - uid: Locations.TheStreets.Workers
   name: Workers
   href: api/Locations.TheStreets.html#Locations_TheStreets_Workers
@@ -4737,19 +4591,6 @@ references:
   fullName.vb: Locations.University.New
   nameWithType: University.University
   nameWithType.vb: University.New
-- uid: Locations.University.Address
-  name: Address
-  href: api/Locations.University.html#Locations_University_Address
-  commentId: P:Locations.University.Address
-  fullName: Locations.University.Address
-  nameWithType: University.Address
-- uid: Locations.University.Address*
-  name: Address
-  href: api/Locations.University.html#Locations_University_Address_
-  commentId: Overload:Locations.University.Address
-  isSpec: "True"
-  fullName: Locations.University.Address
-  nameWithType: University.Address
 - uid: Locations.University.Advance(System.DateTime@,Humans.Human@)
   name: Advance(in DateTime, in Human)
   href: api/Locations.University.html#Locations_University_Advance_System_DateTime__Humans_Human__
