@@ -1,6 +1,6 @@
 # 🐺 The Steppe
 
-Ever since I read this article, I've been think about the Steppe. 🐺🌙🦬
+Ever since I read this article, I've been thinking about the Steppe. 🐺🌙🦬
 
 [VRT artikel](https://www.vrt.be/vrtnws/nl/2025/03/10/gent-archeologie-prehistorie-geschiedenis-sint-baafskathedraal-o/)
 
