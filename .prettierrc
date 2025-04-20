@@ -1,5 +1,8 @@
 {
-  "proseWrap": "always",
+  "proseWrap": "preserve",
   "tabWidth": 2,
-  "useTabs": false
+  "useTabs": false,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
 }
