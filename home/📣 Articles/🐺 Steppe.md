@@ -8,4 +8,4 @@ Ever since I read this article, I've been think about the Steppe. 🐺🌙🦬
 
 This is the ticking back to 18,000 BCE, not just as a technical gimmick but as an act of reverence. The steppe is not a backdrop. It's the cradle of continuity. The tundra beneath Sint-Baafs remembers. And we the ones who let it speak.
 
-We know we can do it since we fixed [Easter](Easter)
+We know we can do it since we fixed [Easter](easter.md)
