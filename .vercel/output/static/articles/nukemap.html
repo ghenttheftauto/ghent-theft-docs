@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>☢️ Nukemap | ghta docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="☢️ Nukemap | ghta docs ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/articles/nukemap.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="-nukemap">☢️ Nukemap</h1>
+
+<p>What is one the most outlandish ways to query a city-scale spatial datastructure fast?</p>
+<p>You <strong>nuke</strong> it. In 2 milliseconds.</p>
+<p>You've seen them. The cute webmap tile interfaces supposed to make your bones shudder or something when they draw three concentric circles, each a different color.</p>
+<p>Some number is ticking up somewhere in the corner of the map.</p>
+<p>Pathetic.</p>
+<p>Imagine you’ve got 270,000 entities in Ghent running around in between 127,000 buildings. Each building, person, and bird is spatially indexed.</p>
+<p>We want to ask it: what is visible? What <em>feels</em> the heat?</p>
+<p>What does a mach stem ripping through 800+ years of history look like?</p>
+<p>Would the Citadel bunker shield you from a neutron bomb?</p>
+<p><strong>Yes</strong>. This is peak Ghent Theft Auto, and <em>you know</em> you love it too.</p>
+<h2 id="-concentric-circles">🤹‍♂️ Concentric circles</h2>
+<p>We don't want to render pixels. We want to render Celcius, Pascal and Sievert.</p>
+<h3 id="-thermal-radiation">🔥 Thermal Radiation</h3>
+<p>Melted stained glass windows.</p>
+<h3 id="-overpressure-shockwave">💨 Overpressure Shockwave</h3>
+<p>Doornikse blauwsteen turned to shrapnel.</p>
+<h3 id="-fallout-radius">🌫️ Fallout Radius</h3>
+<p>Radioactive Macha tea in Patershol date?</p>
+<h2 id="-query-by-death">🧠 Query by Death</h2>
+<p>This isn't <code>SELECT \* FROM Buildings WHERE Distance &lt; radius</code>.</p>
+<p>Ghent is a Quadtree.
+The payload is a Vector3.
+The sradius is a float.</p>
+<p>We traverse once. We run a visibility check with shadows and render targets.</p>
+<p>We say: &quot;Show me what’s dead.&quot;</p>
+<p>The engine responds: &quot;Everyone east of the ring road except that guy swimming, but the fallout gets him about 30 minutes later.&quot;</p>
+<p>We imprint the <code>BitGrid</code> with isotopes for that real real.</p>
+<h2 id="-precision-please">📍 Precision, please</h2>
+<p>Want to know if a glass pane at Graslei survives? We can tell you.</p>
+<p>Want to know if a pigeon 340 meters up gets flash-fried? Also yes.</p>
+<p>This isn’t just nuke-core.
+This is context-aware annihilation.</p>
+<h2 id="dont-mention-the-war">Don't mention the war</h2>
+<p>For those with delicate dispositions: yes, you can look away. I am a math enjoyer, I don't fatshame isotopes.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ghenttheftauto/ghent-theft-docs/blob/main/.docs/articles/nukemap.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

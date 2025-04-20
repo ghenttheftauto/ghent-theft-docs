@@ -1209,6 +1209,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": ".docs/articles/nukemap.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/nukemap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": ".docs/articles/steppe.md",
       "output": {
         ".html": {
