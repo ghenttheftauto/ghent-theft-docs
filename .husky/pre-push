@@ -1,4 +1,2 @@
 #!/bin/sh
 # pre push
-npm run fix
-npm run rebuild
