@@ -13,16 +13,22 @@ Welcome to the simulation, [Human](xref:Humans.Human).
 
 ### ✨ Highlights
 
-🌐 For design philosophy and guiding principles, see the
-[Vision Doc](articles/vision.md).
+- #### 🌐 The Vision
+
+  For design philosophy and guiding principles, see the
+  [Vision Doc](articles/vision.md).
+
+- #### 🛠️ Never not working
+
+  For ongoing tasks and manic unsurmountable tasks for mere mortals, check the [To-Do List](articles/to-dos.md).
 
 - #### 🧠 Domain-Driven Architecture
 
   Fully modular simulation engine with dedicated systems for
-  [Education](xref:Education),[Locations](xref:Locations), [Work](xref:Work),
+  [Education](xref:Education), [Locations](xref:Locations), [Work](xref:Work),
   [Gods](xref:Gods), [Moments](xref:Domain.Moments), and more.
 
-- #### 🕰️ DateTime-Driven Emergent Behavior
+- #### 🕰️ DateTime-driven Emergent Behavior
 
   Each day, the simulation clock ticks — driving events like unpaid
   [Holiday](xref:Time.Holiday), school attendance with intermittent realistic
@@ -50,7 +56,3 @@ Welcome to the simulation, [Human](xref:Humans.Human).
 
   Absolutely cursed. You are gonna click [this](xref:Gods.Sex), you already know
   it.
-
-- #### 🛠️ Never not working
-
-For ongoing tasks and upcoming features, check the [To-Do List](articles/to-dos.md).

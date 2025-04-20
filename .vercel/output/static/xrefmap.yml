@@ -5556,6 +5556,12 @@ references:
   isSpec: "True"
   fullName: Time.Clock.AcademicYear
   nameWithType: Clock.AcademicYear
+- uid: Time.Clock.CurrentBreaks
+  name: CurrentBreaks
+  href: api/Time.Clock.html#Time_Clock_CurrentBreaks
+  commentId: F:Time.Clock.CurrentBreaks
+  fullName: Time.Clock.CurrentBreaks
+  nameWithType: Clock.CurrentBreaks
 - uid: Time.Clock.DayTick
   name: DayTick()
   href: api/Time.Clock.html#Time_Clock_DayTick
@@ -5660,12 +5666,6 @@ references:
   isSpec: "True"
   fullName: Time.Clock.Time
   nameWithType: Clock.Time
-- uid: Time.Clock._currentBreaks
-  name: _currentBreaks
-  href: api/Time.Clock.html#Time_Clock__currentBreaks
-  commentId: F:Time.Clock._currentBreaks
-  fullName: Time.Clock._currentBreaks
-  nameWithType: Clock._currentBreaks
 - uid: Time.Clock._currentHolidays
   name: _currentHolidays
   href: api/Time.Clock.html#Time_Clock__currentHolidays

@@ -197,17 +197,19 @@ to count Time all the way back to the <a class="xref" href="Life.Steppe.html">St
 
 
 
-  <h3 id="Time_Clock__currentBreaks" data-uid="Time.Clock._currentBreaks">
-  _currentBreaks
+  <h3 id="Time_Clock_CurrentBreaks" data-uid="Time.Clock.CurrentBreaks">
+  CurrentBreaks
   
   </h3>
 
-  <div class="markdown level1 summary"><p>🏖️ The calculated schoolbreaks for the current Year.</p>
+  <div class="markdown level1 summary"><p>🏖️ A dictionary of calculated school breaks for the current year,
+regardless of whether it's 2025 AD or 18,000 BCE.
+Each key is a (startDate, endDate) tuple, mapped to a SchoolBreakType.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;(DateTime, DateTime), SchoolBreakTypes&gt; _currentBreaks</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;(DateTime, DateTime), SchoolBreakTypes&gt; CurrentBreaks</code></pre>
   </div>
 
 
