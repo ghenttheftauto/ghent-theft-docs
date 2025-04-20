@@ -2,22 +2,19 @@
 
 > _You better start believing in simulation theories, you're in one!_
 
+Welcome to the simulation, [Human](xref:Humans.Human).
+
 ## Overview
 
-- [Codex](codex/) - Story driven development
-- [API Reference](api/) - Auto-generated API documentation
-- [Articles](articles/) - Longer form content
-- [UI](ui/) - Various UI design systems
+- [Codex](codex/simulation.md) - Story driven development
+- [API Reference](api/index.md) - Auto-generated API documentation
+- [Articles](articles/index.md) - Longer form content
+- [UI](ui/index.md) - Various UI design systems
 
 ### ✨ Highlights
 
-Welcome to the simulation, [Human](xref:Humans.Human).
-
 🌐 For design philosophy and guiding principles, see the
 [Vision Doc](articles/vision.md).
-
-🛠️ For ongoing tasks and upcoming features, check the
-[To-Do List](articles/to-dos.md).
 
 - #### 🧠 Domain-Driven Architecture
 
@@ -53,3 +50,7 @@ Welcome to the simulation, [Human](xref:Humans.Human).
 
   Absolutely cursed. You are gonna click [this](xref:Gods.Sex), you already know
   it.
+
+- #### 🛠️ Never not working
+
+For ongoing tasks and upcoming features, check the [To-Do List](articles/to-dos.md).
