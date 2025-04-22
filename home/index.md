@@ -35,7 +35,7 @@ Welcome to the simulation, [Human](xref:Humans.Human).
   [school breaks](xref:Education.SchoolBreakTypes), and the inevitable march
   toward [Death](xref:Moments.DeathMoment) ☠️.
 
-  Don't be sad, the [Steppe](xref:Life.Steppe) is always there.
+  Don't be sad, the [Steppe](xref:Steppe.Steppe) is always there.
 
   Sacred breaks and civic holidays? We got 'em. From
   [Easter Sunday to Pinkstermaandag](xref:Time.Calendar), this temporal core
@@ -47,12 +47,12 @@ Welcome to the simulation, [Human](xref:Humans.Human).
 - #### 🌅 Halal Easter Calculator
 
   A totally unhinged, fully halal, and vaguely canonical
-  [Easter calculation](xref:Gods.Religion) — just as ordained by the Council of
+  [Easter calculation](xref:Time) — just as ordained by the Council of
   Nicaea in 325-whatever.
 
   For all your sacred scheduling needs, from Ash Wednesday to Corpus Christi.
 
 - #### 🍆 Static Sex Class
 
-  Absolutely cursed. You are gonna click [this](xref:Gods.Sex), you already know
+  Absolutely cursed. You are gonna click [this](xref:Deities.Sex), you already know
   it.

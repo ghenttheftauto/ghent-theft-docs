@@ -17,7 +17,7 @@ All code is neatly grouped by domain. Expect things like:
 ---
 
 Explore the API by using the sidebar on the left, or dive into a class like
-[`Gods.Religion`](xref:Gods.Religion) to start on holy ground. 🕊️
+[`Deities`](xref:Deities) to start on holy ground. 🕊️
 
 ---
 

@@ -31,7 +31,7 @@ Where Conway had no past, we log everything, canonize it, and tell it back from
 each perspective.
 
 Each human is created with a specific birthdate (and potentially a death date,
-determined by [Reaper](xref:Gods.Reaper) logic). Their lifecycle is driven by
+determined by [Reaper](xref:Deities.Reaper) logic). Their lifecycle is driven by
 age thresholds—for example, when they hit their birthday, they age; when they
 hit school age, they transition from child to student; eventually, they
 graduate, work, retire, and ultimately die.
@@ -82,7 +82,7 @@ Your narrator (or storyteller) functions can dynamically switch between
 first-person when describing one’s own life events or third-person (world view)
 to describe what happened to others or globally.
 
-The [Simulation](xref:Life.Simulation) is controlled via flow controllers (like
+The [Simulation](xref:Steppe.Simulation) is controlled via flow controllers (like
 SinglePopulationFlow, MultiplePopulationFlow, MainFlow, etc.) which dictate the
 progression of the simulation and how information is presented.
 

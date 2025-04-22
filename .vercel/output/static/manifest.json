@@ -1617,16 +1617,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": ".docs/articles/devops-cosmotheology.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/devops-cosmotheology.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": ".docs/articles/easter.md",
       "output": {
         ".html": {
@@ -1661,6 +1651,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/mocking-god.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/mocking-god.html"
         }
       },
       "version": ""
