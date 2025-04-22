@@ -1,0 +1,5 @@
+apiRules:
+  - include:
+      visibility: public
+  - include:
+      visibility: internal

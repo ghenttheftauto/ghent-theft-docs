@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class StringExtensions | ghta docs </title>
+      <title>Class Day | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class StringExtensions | ghta docs ">
+      <meta name="title" content="Class Day | ghta docs ">
       
-      
+      <meta name="description" content="Babylon is falling. Because once you figure it out,  have nothing to do with .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,24 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Domain.Utility.StringExtensions">
+        <article data-uid="Days.Day">
 
 
 
-  <h1 id="Domain_Utility_StringExtensions" data-uid="Domain.Utility.StringExtensions" class="text-break">
-Class StringExtensions  
+  <h1 id="Days_Day" data-uid="Days.Day" class="text-break">
+Class Day  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Domain.html">Domain</a>.<a class="xref" href="Domain.Utility.html">Utility</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Days.html">Days</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Babylon is falling. Because once you figure it out, <a class="xref" href="Days.html">Days</a> have nothing to do with <a class="xref" href="Time.html">Time</a>.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StringExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Day</code></pre>
   </div>
 
 
@@ -111,11 +112,23 @@ Class StringExtensions
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">StringExtensions</span></div>
+      <div><span class="xref">Day</span></div>
     </dd>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Days.Friday.html">Friday</a></div>
+      <div><a class="xref" href="Days.Monday.html">Monday</a></div>
+      <div><a class="xref" href="Days.Saturday.html">Saturday</a></div>
+      <div><a class="xref" href="Days.Sunday.html">Sunday</a></div>
+      <div><a class="xref" href="Days.Thursday.html">Thursday</a></div>
+      <div><a class="xref" href="Days.Tuesday.html">Tuesday</a></div>
+      <div><a class="xref" href="Days.Wednesday.html">Wednesday</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -146,16 +159,83 @@ Class StringExtensions
 
 
 
+  <h2 id="Days_Day_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Babylon still wins in the end. base7 weekdays.</p>
+</div>
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Domain_Utility_StringExtensions_FirstCharToUpper_" data-uid="Domain.Utility.StringExtensions.FirstCharToUpper*"></a>
+  <a id="Days_Day_Celestial_" data-uid="Days.Day.Celestial*"></a>
 
-  <h3 id="Domain_Utility_StringExtensions_FirstCharToUpper_System_String_" data-uid="Domain.Utility.StringExtensions.FirstCharToUpper(System.String)">
-  FirstCharToUpper(string)
+  <h3 id="Days_Day_Celestial" data-uid="Days.Day.Celestial">
+  Celestial
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The celestial body associated with the day.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ICelestial Celestial { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Celestial.ICelestial.html">ICelestial</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Days_Day_Deity_" data-uid="Days.Day.Deity*"></a>
+
+  <h3 id="Days_Day_Deity" data-uid="Days.Day.Deity">
+  Deity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The deity from <a class="xref" href="Deities.html">Deities</a> associated with this day.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IDeity Deity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Deities.IDeity.html">IDeity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Days_Day_Dutch_" data-uid="Days.Day.Dutch*"></a>
+
+  <h3 id="Days_Day_Dutch" data-uid="Days.Day.Dutch">
+  Dutch
   
   </h3>
 
@@ -163,16 +243,14 @@ Class StringExtensions
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string FirstCharToUpper(this string input)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract string Dutch { get; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
@@ -180,6 +258,130 @@ Class StringExtensions
 
 
 
+
+
+
+
+
+  <a id="Days_Day_English_" data-uid="Days.Day.English*"></a>
+
+  <h3 id="Days_Day_English" data-uid="Days.Day.English">
+  English
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string English { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Days_Day_Latin_" data-uid="Days.Day.Latin*"></a>
+
+  <h3 id="Days_Day_Latin" data-uid="Days.Day.Latin">
+  Latin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The original Roman god this weekday maps to.
+E.g., Luna, Mars, Mercury, Jupiter, Venus, Saturnus, Sol.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string Latin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Days_Day_Order_" data-uid="Days.Day.Order*"></a>
+
+  <h3 id="Days_Day_Order" data-uid="Days.Day.Order">
+  Order
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Order in the Week. Non zero indexed because Monks and stuff.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract byte Order { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Days_Day_Symbol_" data-uid="Days.Day.Symbol*"></a>
+
+  <h3 id="Days_Day_Symbol" data-uid="Days.Day.Symbol">
+  Symbol
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string Symbol { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

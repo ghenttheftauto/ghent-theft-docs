@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BirthMoment | ghta docs </title>
+      <title>Class Fate | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BirthMoment | ghta docs ">
+      <meta name="title" content="Class Fate | ghta docs ">
       
-      <meta name="description" content="The exact moment in time when someone is born; a significant event for all involved  instances.">
+      <meta name="description" content="✨ The winds of Fate decide all outcomes. In the vast tapestry of possibility, threads interweave in patterns beyond mortal comprehension.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,25 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Moments.BirthMoment">
+        <article data-uid="Steppe.Fate">
 
 
 
-  <h1 id="Moments_BirthMoment" data-uid="Moments.BirthMoment" class="text-break">
-Class BirthMoment  
+  <h1 id="Steppe_Fate" data-uid="Steppe.Fate" class="text-break">
+Class Fate  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Steppe.html">Steppe</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
+  <div class="markdown summary"><p>✨ The winds of Fate decide all outcomes.</p>
+<p>In the vast tapestry of possibility, threads interweave in patterns beyond
+mortal comprehension.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BirthMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Fate</code></pre>
   </div>
 
 
@@ -112,8 +114,7 @@ Class BirthMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">BirthMoment</span></div>
+      <div><span class="xref">Fate</span></div>
     </dd>
   </dl>
 
@@ -122,15 +123,6 @@ Class BirthMoment
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -157,35 +149,85 @@ Class BirthMoment
 
 
 
+  <h2 id="Steppe_Fate_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This static class acts as the central oracle of randomness within the simulation.</p>
+<p>All stochastic processes — conception, deaths, traits, timings — flow through this point,
+including the determination of <a class="xref" href="Moments.SchoolGraduationMoment.html">SchoolGraduationMoment</a>, <a class="xref" href="Moments.DeathMoment.html">DeathMoment</a>. giving a divine consistency to randomness.
+Whether a child is born with brilliance, whether a vessel survives the winter, or whether two lovers meet at the right moment...</p>
+<p>Use this class with reverence. It does not guarantee fairness, only possibility.</p>
+<p>🎲 Alea acta est.</p>
+</div>
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Moments_BirthMoment__ctor_" data-uid="Moments.BirthMoment.#ctor*"></a>
+  <a id="Steppe_Fate_Random_" data-uid="Steppe.Fate.Random*"></a>
 
-  <h3 id="Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_" data-uid="Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)">
-  BirthMoment(Human, IAddressable, DateTime)
+  <h3 id="Steppe_Fate_Random" data-uid="Steppe.Fate.Random">
+  Random
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The joyous moment of birth. 🐣</p>
+  <div class="markdown level1 summary"><p>🫀 The internal beating heart of uncertainty, a wellspring of possibility from which
+all randomness flows like water from a hidden mountain spring.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BirthMoment(Human child, IAddressable location, DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Random Random { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Steppe_Fate_DrawCard_" data-uid="Steppe.Fate.DrawCard*"></a>
+
+  <h3 id="Steppe_Fate_DrawCard_System_Int32_" data-uid="Steppe.Fate.DrawCard(System.Int32)">
+  DrawCard(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>🃏 Draws a card from the universal deck, where each pull reveals
+another fragment of the grand design.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DrawCard(int cards)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>child</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
-    <dt><code>location</code> <a class="xref" href="Locations.IAddressable.html">IAddressable</a></dt>
-    <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of cards in the mystic deck.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The zero-indexed position of fate's chosen card.</p>
+</dd>
   </dl>
 
 
@@ -198,32 +240,28 @@ Class BirthMoment
 
 
 
+  <a id="Steppe_Fate_FlipCoin_" data-uid="Steppe.Fate.FlipCoin*"></a>
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="Moments_BirthMoment_Child" data-uid="Moments.BirthMoment.Child">
-  Child
+  <h3 id="Steppe_Fate_FlipCoin" data-uid="Steppe.Fate.FlipCoin">
+  FlipCoin()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>🌎 The Humans.Simulation welcomes a new little wonder. This property is of type <a class="xref" href="Humans.Human.html">Human</a> and represents the newborn child.</p>
+  <div class="markdown level1 summary"><p>🪙 As a spinning coin slices through the air -  glinting in the light of possibility - two futures shimmer in parallel.</p>
+<p>In its descent, all timelines converge, collapsing into a singular truth the moment it lands.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Human Child</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool FlipCoin()</code></pre>
   </div>
 
 
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True or false, yes or no, 👍 or 👎 - the binary breath of fate.</p>
+</dd>
   </dl>
 
 
@@ -235,60 +273,34 @@ Class BirthMoment
 
 
 
-  <h3 id="Moments_BirthMoment_Father" data-uid="Moments.BirthMoment.Father">
-  Father
+
+  <a id="Steppe_Fate_RollDice_" data-uid="Steppe.Fate.RollDice*"></a>
+
+  <h3 id="Steppe_Fate_RollDice" data-uid="Steppe.Fate.RollDice">
+  RollDice()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The father of the child.
-Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
+  <div class="markdown level1 summary"><p>🎲 Consults the dice of the cosmos,
+six platonic planes arranged in 24 dimensions
+The dice is a tool of fate,a means of divining the future,
+and have determined the fate of kings and paupers alike since time immemorial.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Male? Father</code></pre>
+    <pre><code class="lang-csharp hljs">public static int RollDice()</code></pre>
   </div>
 
 
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Male.html">Male</a></dt>
-    <dd></dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>💭 A number written in the stars, between 1 and the specified sides.</p>
+</dd>
   </dl>
 
 
-
-
-
-
-
-
-
-
-  <h3 id="Moments_BirthMoment_Mother" data-uid="Moments.BirthMoment.Mother">
-  Mother
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The mother of the child.
-Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but it's the only way to make it work.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Female? Mother</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Humans.Female.html">Female</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

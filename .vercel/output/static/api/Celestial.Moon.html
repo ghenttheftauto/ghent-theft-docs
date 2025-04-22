@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BirthMoment | ghta docs </title>
+      <title>Class Moon | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BirthMoment | ghta docs ">
+      <meta name="title" content="Class Moon | ghta docs ">
       
-      <meta name="description" content="The exact moment in time when someone is born; a significant event for all involved  instances.">
+      <meta name="description" content="Our silent witness.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,25 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Moments.BirthMoment">
+        <article data-uid="Celestial.Moon">
 
 
 
-  <h1 id="Moments_BirthMoment" data-uid="Moments.BirthMoment" class="text-break">
-Class BirthMoment  
+  <h1 id="Celestial_Moon" data-uid="Celestial.Moon" class="text-break">
+Class Moon  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Celestial.html">Celestial</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
+  <div class="markdown summary"><p>Our silent witness.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BirthMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Moon</code></pre>
   </div>
 
 
@@ -112,8 +112,7 @@ Class BirthMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">BirthMoment</span></div>
+      <div><span class="xref">Moon</span></div>
     </dd>
   </dl>
 
@@ -122,15 +121,6 @@ Class BirthMoment
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -157,46 +147,11 @@ Class BirthMoment
 
 
 
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="Moments_BirthMoment__ctor_" data-uid="Moments.BirthMoment.#ctor*"></a>
-
-  <h3 id="Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_" data-uid="Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)">
-  BirthMoment(Human, IAddressable, DateTime)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The joyous moment of birth. 🐣</p>
+  <h2 id="Celestial_Moon_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Companion to Earth, keeper of tides and myth.
+Orbits once every ~27.32 days, drifting slowly away each year.
+Aligned to <a class="xref" href="Deities.Gateway.html">Gateway</a>, the lunar archetype across cultures.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BirthMoment(Human child, IAddressable location, DateTime time)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>child</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
-    <dt><code>location</code> <a class="xref" href="Locations.IAddressable.html">IAddressable</a></dt>
-    <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
 
 
   <h2 class="section" id="fields">Fields
@@ -204,17 +159,16 @@ Class BirthMoment
 
 
 
-  <h3 id="Moments_BirthMoment_Child" data-uid="Moments.BirthMoment.Child">
-  Child
+  <h3 id="Celestial_Moon_Body" data-uid="Celestial.Moon.Body">
+  Body
   
   </h3>
 
-  <div class="markdown level1 summary"><p>🌎 The Humans.Simulation welcomes a new little wonder. This property is of type <a class="xref" href="Humans.Human.html">Human</a> and represents the newborn child.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Human Child</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly ICelestial Body</code></pre>
   </div>
 
 
@@ -222,7 +176,7 @@ Class BirthMoment
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><a class="xref" href="Celestial.ICelestial.html">ICelestial</a></dt>
     <dd></dd>
   </dl>
 
@@ -235,18 +189,16 @@ Class BirthMoment
 
 
 
-  <h3 id="Moments_BirthMoment_Father" data-uid="Moments.BirthMoment.Father">
-  Father
+  <h3 id="Celestial_Moon_God" data-uid="Celestial.Moon.God">
+  God
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The father of the child.
-Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Male? Father</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly IDeity God</code></pre>
   </div>
 
 
@@ -254,7 +206,7 @@ Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Male.html">Male</a></dt>
+    <dt><a class="xref" href="Deities.IDeity.html">IDeity</a></dt>
     <dd></dd>
   </dl>
 
@@ -267,18 +219,16 @@ Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
 
 
 
-  <h3 id="Moments_BirthMoment_Mother" data-uid="Moments.BirthMoment.Mother">
-  Mother
+  <h3 id="Celestial_Moon_Name" data-uid="Celestial.Moon.Name">
+  Name
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The mother of the child.
-Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but it's the only way to make it work.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Female? Mother</code></pre>
+    <pre><code class="lang-csharp hljs">public const string Name = &quot;Moon&quot;</code></pre>
   </div>
 
 
@@ -286,7 +236,7 @@ Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but i
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Female.html">Female</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -294,6 +244,143 @@ Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but i
 
 
 
+
+
+
+
+
+  <h3 id="Celestial_Moon_Orbit" data-uid="Celestial.Moon.Orbit">
+  Orbit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly IOrbital Orbit</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Celestial.IOrbital.html">IOrbital</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Celestial_Moon_OrbitalDays" data-uid="Celestial.Moon.OrbitalDays">
+  OrbitalDays
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Average lunar orbital period around Earth.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const double OrbitalDays = 27.32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Measured in Earth days. One sidereal orbit takes ~27.32 days.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Celestial_Moon_OrbitalDays_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Not the same as the synodic (full moon to full moon) period.
+The Moon doesn’t orbit in months — months orbit the Moon.</p>
+</div>
+
+
+
+
+
+  <h3 id="Celestial_Moon_OrbitalDistance" data-uid="Celestial.Moon.OrbitalDistance">
+  OrbitalDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Average distance from Earth in kilometers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const long OrbitalDistance = 384400</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Kilometers. Approximated as a circular orbit for simplicity.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Celestial_Moon_OrbitalDistance_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>So distant, yet perfectly sized to eclipse the Sun while Humans roam the Steppe???
+Coincidence? The Simulation thinks not.</p>
+</div>
+
+
+
+
+
+  <h3 id="Celestial_Moon_Radius" data-uid="Celestial.Moon.Radius">
+  Radius
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Average lunar radius in kilometers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Radius = 1737</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Celestial_Moon_Radius_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Roughly 25% of Earth’s radius.
+Not a mere satellite — the Earth–Moon system is almost a binary.</p>
+</div>
 
 
 

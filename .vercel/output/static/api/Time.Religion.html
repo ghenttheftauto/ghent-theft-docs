@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BirthMoment | ghta docs </title>
+      <title>Class Religion | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BirthMoment | ghta docs ">
+      <meta name="title" content="Class Religion | ghta docs ">
       
-      <meta name="description" content="The exact moment in time when someone is born; a significant event for all involved  instances.">
+      <meta name="description" content="&#128330;️ A sacred module for computing key dates in the liturgical calendar with reverence and precision. &#128255; Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi— all derived from canonical computus, purified of any profane math. &#128332; Fully halal. &#128333; Kosher-compliant. ✡️ Julian-aware. Designed for use in cathedral-scale simulations, ascetic calendar engines, and ecclesiastically approved procedural generation.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,25 +84,30 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Moments.BirthMoment">
+        <article data-uid="Time.Religion">
 
 
 
-  <h1 id="Moments_BirthMoment" data-uid="Moments.BirthMoment" class="text-break">
-Class BirthMoment  
+  <h1 id="Time_Religion" data-uid="Time.Religion" class="text-break">
+Class Religion  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Time.html">Time</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
+  <div class="markdown summary"><p>🕊️ A sacred module for computing key dates in the liturgical calendar with reverence and precision.</p>
+<p>📿 Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi—
+all derived from canonical computus, purified of any profane math.</p>
+<p>🕌 Fully halal. 🕍 Kosher-compliant. ✡️ Julian-aware.</p>
+<p>Designed for use in cathedral-scale simulations, ascetic calendar engines,
+and ecclesiastically approved procedural generation.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BirthMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Religion</code></pre>
   </div>
 
 
@@ -112,8 +117,7 @@ Class BirthMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">BirthMoment</span></div>
+      <div><span class="xref">Religion</span></div>
     </dd>
   </dl>
 
@@ -122,15 +126,6 @@ Class BirthMoment
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -159,33 +154,37 @@ Class BirthMoment
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Moments_BirthMoment__ctor_" data-uid="Moments.BirthMoment.#ctor*"></a>
+  <a id="Time_Religion_CalculateHalalEaster_" data-uid="Time.Religion.CalculateHalalEaster*"></a>
 
-  <h3 id="Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_" data-uid="Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)">
-  BirthMoment(Human, IAddressable, DateTime)
+  <h3 id="Time_Religion_CalculateHalalEaster_System_Int32_" data-uid="Time.Religion.CalculateHalalEaster(System.Int32)">
+  CalculateHalalEaster(int)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The joyous moment of birth. 🐣</p>
+  <div class="markdown level1 summary"><p>✨ Calculates 🐣 Easter Sunday for a given year using fully 🕌 <em>Halal</em> math.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BirthMoment(Human child, IAddressable location, DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DateTime CalculateHalalEaster(int year)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>child</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
-    <dt><code>location</code> <a class="xref" href="Locations.IAddressable.html">IAddressable</a></dt>
-    <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>📅 The Gregorian year (e.g. 2025).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>📆 The date of the ✝️ resurrection of Christ.</p>
+</dd>
   </dl>
 
 
@@ -194,35 +193,45 @@ Class BirthMoment
 
 
 
+  <h4 class="section" id="Time_Religion_CalculateHalalEaster_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>🙏 <strong>Nomine Patris, et Filii, et Spiritus Sancti.</strong></p>
+<p>🕌 This is a <strong>fully halal</strong> implementation of the 🧮 <em>Computus</em> — the sacred algorithm used to determine Easter.</p>
+<p>❌ Forbidden operations intentionally excluded:</p>
+<ul><li>🚫 Modulus (%)</li><li>🚫 Floating point division</li><li>🚫 Math libraries</li><li>🚫 Any logic that would offend a 6th-century monk 🧘</li></ul>
+<p>✅ This method is compliant with ecclesiastical expectations from the era of the Council of Nicaea (325 AD) onward.
+✅ It is ideal for 🛐 liturgical simulators, 🧠 theological simulations, and any sacred date generation engine.</p>
+<p>📜 The formula is based on the <em>Computus</em> as formalized in the Gregorian calendar, notably using the Gauss algorithm (1800s),
+transcribed here using only operations blessed by holy logic 🔥.</p>
+<p>🏰 Perfect for cathedral-scale 🕍 simulations or ascetic 🧎‍♂️ command-line environments.</p>
+</div>
 
 
 
 
+  <a id="Time_Religion_GetAshWednesday_" data-uid="Time.Religion.GetAshWednesday*"></a>
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="Moments_BirthMoment_Child" data-uid="Moments.BirthMoment.Child">
-  Child
+  <h3 id="Time_Religion_GetAshWednesday_System_Int32_" data-uid="Time.Religion.GetAshWednesday(System.Int32)">
+  GetAshWednesday(int)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>🌎 The Humans.Simulation welcomes a new little wonder. This property is of type <a class="xref" href="Humans.Human.html">Human</a> and represents the newborn child.</p>
+  <div class="markdown level1 summary"><p>Calculates Ash Wednesday (Easter - 46 days).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Human Child</code></pre>
+    <pre><code class="lang-csharp hljs">public static DateTime GetAshWednesday(int year)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 
@@ -235,26 +244,31 @@ Class BirthMoment
 
 
 
-  <h3 id="Moments_BirthMoment_Father" data-uid="Moments.BirthMoment.Father">
-  Father
+
+  <a id="Time_Religion_GetCorpusChristi_" data-uid="Time.Religion.GetCorpusChristi*"></a>
+
+  <h3 id="Time_Religion_GetCorpusChristi_System_Int32_" data-uid="Time.Religion.GetCorpusChristi(System.Int32)">
+  GetCorpusChristi(int)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The father of the child.
-Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
+  <div class="markdown level1 summary"><p>🔥🙏 Calculates the date of Corpus Christi (Easter + 60 days).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Male? Father</code></pre>
+    <pre><code class="lang-csharp hljs">public static DateTime GetCorpusChristi(int year)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Male.html">Male</a></dt>
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 
@@ -267,28 +281,35 @@ Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
 
 
 
-  <h3 id="Moments_BirthMoment_Mother" data-uid="Moments.BirthMoment.Mother">
-  Mother
+
+  <a id="Time_Religion_GetPentecost_" data-uid="Time.Religion.GetPentecost*"></a>
+
+  <h3 id="Time_Religion_GetPentecost_System_Int32_" data-uid="Time.Religion.GetPentecost(System.Int32)">
+  GetPentecost(int)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The mother of the child.
-Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but it's the only way to make it work.</p>
+  <div class="markdown level1 summary"><p>Calculates Pentecost Sunday (Easter + 49 days).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Female? Mother</code></pre>
+    <pre><code class="lang-csharp hljs">public static DateTime GetPentecost(int year)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Female.html">Female</a></dt>
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 

@@ -14,7 +14,13 @@ In the simulation, every living human is tied to a Soul. These are not erased up
 
 This doc serves as a napkin to scriblle manic thoughts on as I descend into the rabbit hole that is Easter calc for mammoths.
 
-The plan? We start out _anno domini style_ where we have access to wonderful things like [DateTime](xref:System.DateTime) and [Solar Time lib](dunnoyet). We ask those friendly boys for a DayOfWeek, Day, Month, Year yadda. In combination with a Astronomical Date (is this a float?). We then take a very dependable monk and counting frame, and let that wonderful dude count back 6 million times using like, a slightly better Epact, I think. Like a Gregorian Epact. If possible. The AstroLib is still giving us coherent days, because the orbital period of the Earth has been super stable since like forever. The spin rate is another thing. Lucklly the Steppe throws a SteppeException when we go back beyond 20k years from now. Where was I? Ah yes. The Epact 2.0. Afaik the Computus is still dank, the only thing kinda mid is the Epact because counting frame reasons. But like we can Computus more dank, more stank, float Epact, count shit all the way back after 6 million ticks we ask the monks yo whatsup and they are all like, its a fecking monday 03 april -180000, there is a mammoth standing next to me and ash wednesdays was two weeks ago, happy birthday btw!!!"
+The plan? We start out _anno domini style_ where we have access to wonderful things like [DateTime](xref:System.DateTime) and [Solar Time lib](dunnoyet). We ask those friendly boys for a DayOfWeek, Day, Month, Year yadda.
+
+In combination with a Astronomical Date (is this a float?). We then take a very dependable monk and counting frame, and let that wonderful dude count back 6 million times using like, a slightly better Epact, I think.
+
+Like a Gregorian Epact. If possible. The AstroLib is still giving us coherent days, because the orbital period of the Earth has been super stable since like forever. Earth's spin rate (day length) is another thing. Lucklly the Steppe throws a SteppeException when we go back beyond 20k years from now. Where was I? Ah yes. The Epact 2.0. Afaik the Computus is still dank, the only thing kinda mid is the Epact because counting frame reasons.
+
+But like we can Computus more dank, more stank, float Epact, count shit all the way back after 6 million ticks we ask the monks yo whatsup and they are all like, its a fecking monday 03 april -180000, there is a mammoth standing next to me and ash wednesdays was two weeks ago, happy birthday btw!!!"
 
 Any temporal simulation, any render engine is already ticking dat clock. We are just gonna make ART out of it. Dank easter on fleek Lent, #BlazeItSarracen.
 
@@ -114,7 +120,7 @@ accepted under constantine
 
 once it got locked in with islamic
 
-the names are all planetary as well.
+the [Days](xref:Days) are all [Celestial](xref:Celestial).
 
 ### Before the Common Era vs Anno Domini
 

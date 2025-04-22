@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace Moments | ghta docs </title>
+      <title>Interface ICelestial | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace Moments | ghta docs ">
+      <meta name="title" content="Interface ICelestial | ghta docs ">
       
-      
+      <meta name="description" content="Thing in Space, floating.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,70 +84,136 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Moments">
+        <article data-uid="Celestial.ICelestial">
 
-  <h1 id="Moments" data-uid="Moments" class="text-break">Namespace Moments</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.BirthMoment.html">BirthMoment</a></dt>
-      <dd><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.BirthdayMoment.html">BirthdayMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.DeathMoment.html">DeathMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.DropoutMoment.html">DropoutMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.HistoricMoment.html">HistoricMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.Moment.html">Moment</a></dt>
-      <dd><p>Every “moment” is real, yes, but it only exists as a narrative once it’s observed.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.NewSchoolMoment.html">NewSchoolMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolDropoutMoment.html">SchoolDropoutMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolExamnMoment.html">SchoolExamnMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolFirstDayMoment.html">SchoolFirstDayMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolGraduationMoment.html">SchoolGraduationMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolTooDumbMoment.html">SchoolTooDumbMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.WorkRetirementMoment.html">WorkRetirementMoment</a></dt>
-      <dd></dd>
-    </dl>
+
+  <h1 id="Celestial_ICelestial" data-uid="Celestial.ICelestial" class="text-break">
+Interface ICelestial  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Celestial.html">Celestial</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Thing in Space, floating.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICelestial</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Celestial_ICelestial_Deity_" data-uid="Celestial.ICelestial.Deity*"></a>
+
+  <h3 id="Celestial_ICelestial_Deity" data-uid="Celestial.ICelestial.Deity">
+  Deity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDeity Deity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Deities.IDeity.html">IDeity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Celestial_ICelestial_Name_" data-uid="Celestial.ICelestial.Name*"></a>
+
+  <h3 id="Celestial_ICelestial_Name" data-uid="Celestial.ICelestial.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Celestial_ICelestial_Radius_" data-uid="Celestial.ICelestial.Radius*"></a>
+
+  <h3 id="Celestial_ICelestial_Radius" data-uid="Celestial.ICelestial.Radius">
+  Radius
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The bigness of the thing that be in space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Radius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 </article>

@@ -12,6 +12,468 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Earth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Earth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Earth",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Earth.yml\" sourcestartlinenumber=\"1\">Our house!!!!!</p>\n<p sourcefile=\".docs/api/Celestial.Earth.yml\" sourcestartlinenumber=\"3\">in the middle of the street!!!!</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.ICelestial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.ICelestial.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.ICelestial",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.ICelestial.yml\" sourcestartlinenumber=\"1\">Thing in Space, floating.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.ILuminous.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.ILuminous.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.ILuminous",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.ILuminous.yml\" sourcestartlinenumber=\"1\">Thing in Space, twinkling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.IOrbital.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.IOrbital.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.IOrbital",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.IOrbital.yml\" sourcestartlinenumber=\"1\">You spinnnnnn my head right round</p>\n<p sourcefile=\".docs/api/Celestial.IOrbital.yml\" sourcestartlinenumber=\"3\">Like a record baby, right round, right round.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Jupiter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Jupiter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Jupiter",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Jupiter.yml\" sourcestartlinenumber=\"1\">Asteroid slayer.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Mars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Mars.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Mars",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Mars.yml\" sourcestartlinenumber=\"1\">The red planet.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Mercury.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Mercury.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Mercury",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Mercury.yml\" sourcestartlinenumber=\"1\">The fast one.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Moon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Moon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Moon",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Moon.yml\" sourcestartlinenumber=\"1\">Our silent witness.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Pluto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Pluto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Pluto",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Pluto.yml\" sourcestartlinenumber=\"1\">Idc if it's a planet, it implements <xref href=\"Celestial.ICelestial\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Saturn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Saturn.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Saturn",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Saturn.yml\" sourcestartlinenumber=\"1\">The wise one with the rings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Sun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Sun.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Sun",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Sun.yml\" sourcestartlinenumber=\"1\">The core. The constant. The fire that measures all time.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.Venus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.Venus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial.Venus",
+      "Summary": "<p sourcefile=\".docs/api/Celestial.Venus.yml\" sourcestartlinenumber=\"1\">Such a hottie, her.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Celestial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celestial.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Celestial",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Day.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Day.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Day",
+      "Summary": "<p sourcefile=\".docs/api/Days.Day.yml\" sourcestartlinenumber=\"1\">Babylon is falling. Because once you figure it out, <xref href=\"Days\" data-throw-if-not-resolved=\"false\"></xref> have nothing to do with <xref href=\"Time\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Friday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Friday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Friday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Friday.yml\" sourcestartlinenumber=\"1\">❤️</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Monday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Monday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Monday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Monday.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF19</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Saturday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Saturday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Saturday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Saturday.yml\" sourcestartlinenumber=\"1\">\uD83E\uDE90</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Sunday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Sunday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Sunday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Sunday.yml\" sourcestartlinenumber=\"1\">☀️</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Thursday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Thursday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Thursday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Thursday.yml\" sourcestartlinenumber=\"1\">\uD83D\uDCAA</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Tuesday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Tuesday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Tuesday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Tuesday.yml\" sourcestartlinenumber=\"1\">\uD83E\uDD3A</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.Wednesday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.Wednesday.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days.Wednesday",
+      "Summary": "<p sourcefile=\".docs/api/Days.Wednesday.yml\" sourcestartlinenumber=\"1\">\uD83E\uDDE0</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Days.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Days.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Days",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Computus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Computus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Computus",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Computus.yml\" sourcestartlinenumber=\"1\">Computus \uD83E\uDE90\uD83D\uDCBF✨ Kronos, Saturnus, Shai, Ymir, Ninurta, Zhenwu</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Gaia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Gaia.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Gaia",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Gaia.yml\" sourcestartlinenumber=\"1\">Runtime \uD83C\uDF0E Archetype of <xref href=\"Celestial.Earth\" data-throw-if-not-resolved=\"false\"></xref>, fertility, and primordial mother.\nRuntime is the instantiation of the immutable Source through the Mirror on mutable ground.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Gateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Gateway.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Gateway",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Gateway.yml\" sourcestartlinenumber=\"1\">Gateway \uD83C\uDF15 Selene, Luna, Khonsu, Máni, Sin, Chang'e\nThe Gateway: the angled reflection plane between Source and Runtime.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.IDeity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.IDeity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.IDeity",
+      "Summary": "<p sourcefile=\".docs/api/Deities.IDeity.yml\" sourcestartlinenumber=\"1\">Represents the shared interface all mythological archetypes have.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Law.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Law.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Law",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Law.yml\" sourcestartlinenumber=\"1\">Law \uD83C\uDF29️ Zeus, Jupiter, Amun-Ra, Thor, Marduk, Fuxi</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Reaper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Reaper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Reaper",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Reaper.yml\" sourcestartlinenumber=\"1\">☠️ He who wanders the plains. The silent constant.</p>\n<p sourcefile=\".docs/api/Deities.Reaper.yml\" sourcestartlinenumber=\"3\">Reaper decides when the thread is cut - no earlier, no later.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Scribe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Scribe.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Scribe",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Scribe.yml\" sourcestartlinenumber=\"1\">Wisdom \uD83E\uDDE0 <xref href=\"Days.Wednesday\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Celestial.Mercury\" data-throw-if-not-resolved=\"false\"></xref>: Hermes, Mercury, Thoth, Odin, Nabu, Wenchang</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Sex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Sex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Sex",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Sex.yml\" sourcestartlinenumber=\"1\">\uD83D\uDE33 Yeah. I never thought I was going to write this class.</p>\n<p sourcefile=\".docs/api/Deities.Sex.yml\" sourcestartlinenumber=\"3\">It's not what it seems, I swear. \uD83E\uDEE3</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.Source.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.Source",
+      "Summary": "<p sourcefile=\".docs/api/Deities.Source.yml\" sourcestartlinenumber=\"1\">Source ☀️ The Sun, The Father, Sol, Helios, Ra, Sól, Shamash, Xihe</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.War.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.War.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities.War",
+      "Summary": "<p sourcefile=\".docs/api/Deities.War.yml\" sourcestartlinenumber=\"1\">Conflict. ⚔️ Ares, Mars, Seth, Týr, Nergal, Chi You</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Deities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Deities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Deities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Domain.Exceptions.DeadHumanException.yml",
       "output": {
         ".html": {
@@ -50,7 +512,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Domain.Exceptions.ReaperException",
-      "Summary": "<p sourcefile=\".docs/api/Domain.Exceptions.ReaperException.yml\" sourcestartlinenumber=\"1\">☠️ Thrown when <xref href=\"Gods.Reaper\" data-throw-if-not-resolved=\"false\"></xref> attempts to reap a <xref href=\"Humans.Human\" data-throw-if-not-resolved=\"false\"></xref> that has already been reaped.</p>\n"
+      "Summary": "<p sourcefile=\".docs/api/Domain.Exceptions.ReaperException.yml\" sourcestartlinenumber=\"1\">☠️ Thrown when <xref href=\"Deities.Reaper\" data-throw-if-not-resolved=\"false\"></xref> attempts to reap a <xref href=\"Humans.Human\" data-throw-if-not-resolved=\"false\"></xref> that has already been reaped.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -64,90 +526,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Domain.Exceptions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Utility.BellCurve.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Utility.BellCurve.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Utility.BellCurve",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Utility.CollectionExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Utility.CollectionExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Utility.CollectionExtension",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Utility.DateTimeExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Utility.DateTimeExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Utility.DateTimeExtension",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Utility.EnumExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Utility.EnumExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Utility.EnumExtension",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Utility.StringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Utility.StringExtensions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Utility.StringExtensions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Domain.Utility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Domain.Utility.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Domain.Utility",
       "Summary": null
     },
     {
@@ -278,76 +656,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Gods.Fate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gods.Fate.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Gods.Fate",
-      "Summary": "<p sourcefile=\".docs/api/Gods.Fate.yml\" sourcestartlinenumber=\"1\">✨ The winds of Fate decide all outcomes.</p>\n<p sourcefile=\".docs/api/Gods.Fate.yml\" sourcestartlinenumber=\"3\">In the vast tapestry of possibility, threads interweave in patterns beyond\nmortal comprehension.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Gods.Reaper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gods.Reaper.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Gods.Reaper",
-      "Summary": "<p sourcefile=\".docs/api/Gods.Reaper.yml\" sourcestartlinenumber=\"1\">☠️ He who wanders the plains. The silent constant.</p>\n<p sourcefile=\".docs/api/Gods.Reaper.yml\" sourcestartlinenumber=\"3\">Reaper decides when the thread is cut — no earlier, no later.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Gods.Religion.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gods.Religion.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Gods.Religion",
-      "Summary": "<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"1\">\uD83D\uDD4A️ A sacred module for computing key dates in the liturgical calendar with reverence and precision.</p>\n<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"3\">\uD83D\uDCFF Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi—\nall derived from canonical computus, purified of any profane math.</p>\n<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"6\">\uD83D\uDD4C Fully halal. \uD83D\uDD4D Kosher-compliant. ✡️ Julian-aware.</p>\n<p sourcefile=\".docs/api/Gods.Religion.yml\" sourcestartlinenumber=\"8\">Designed for use in cathedral-scale simulations, ascetic calendar engines,\nand ecclesiastically approved procedural generation.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Gods.Sex.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gods.Sex.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Gods.Sex",
-      "Summary": "<p sourcefile=\".docs/api/Gods.Sex.yml\" sourcestartlinenumber=\"1\">\uD83D\uDE33 Yeah. I never thought I was going to write this class.</p>\n<p sourcefile=\".docs/api/Gods.Sex.yml\" sourcestartlinenumber=\"3\">It's not what it seems, I swear. \uD83E\uDEE3</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Gods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gods.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Gods",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Humans.Female.yml",
       "output": {
         ".html": {
@@ -418,6 +726,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Humans.Occupation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Humans.Occupation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Humans.Occupation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Humans.Relation.yml",
       "output": {
         ".html": {
@@ -442,90 +764,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Humans",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Life.Occupation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Life.Occupation.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Life.Occupation",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Life.Simulation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Life.Simulation.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Life.Simulation",
-      "Summary": "<p sourcefile=\".docs/api/Life.Simulation.yml\" sourcestartlinenumber=\"1\">Simulation holds the instances of Human and governs the Clock.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Life.Soul.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Life.Soul.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Life.Soul",
-      "Summary": "<p sourcefile=\".docs/api/Life.Soul.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF11 The Soul emerges on the eternal steppe of Ghent.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Life.StaticLife.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Life.StaticLife.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Life.StaticLife",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Life.Steppe.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Life.Steppe.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Life.Steppe",
-      "Summary": "<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF11\uD83D\uDC3A\uD83E\uDDAC\nThe Steppes, illuminated by a eternal Paschall full moon.\nwhere 270.000 Souls wander the timeless frozen tundra plains amongst Bisons and Mammoths.</p>\n<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"5\">The Steppe whispers...and a soul answers.</p>\n<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"7\">The Steppe recalls? ✂️ <xref href=\"Gods.Reaper\" data-throw-if-not-resolved=\"false\"></xref> cuts the thread and the soul returns to the steppe.</p>\n<p sourcefile=\".docs/api/Life.Steppe.yml\" sourcestartlinenumber=\"9\">Immutable <xref href=\"Life.Soul\" data-throw-if-not-resolved=\"false\"></xref>, no backref, spiritual asymmetry\nno one has the full GUIDs except the Steppe. \uD83C\uDF2B️</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": ".docs/api/Life.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Life.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Life",
       "Summary": null
     },
     {
@@ -806,7 +1044,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Moments.Moment",
-      "Summary": null
+      "Summary": "<p sourcefile=\".docs/api/Moments.Moment.yml\" sourcestartlinenumber=\"1\">Every “moment” is real, yes, but it only exists as a narrative once it’s observed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -964,6 +1202,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Spells.BellCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spells.BellCurve.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Spells.BellCurve",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Spells.CollectionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spells.CollectionExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Spells.CollectionExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Spells.EnumExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spells.EnumExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Spells.EnumExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Spells.Monk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spells.Monk.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Spells.Monk",
+      "Summary": "<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"1\">Monks are sacred computational units.</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"3\">\uD83E\uDDEE They count.</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"5\">They chant.</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"7\">They serve.</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"9\">❌ They do not store.\n❌ They do not decide.\n❌ They do not render.\n❌ They do not remember.</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"14\">Stateless: They do not remember their last computus. Each call is pure.Deterministic:</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"16\">Given the same grain, they return the same chant.</p>\n<p sourcefile=\".docs/api/Spells.Monk.yml\" sourcestartlinenumber=\"18\">Each Monk operates on a specific cadence, modulus, or cosmic pattern.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Spells.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spells.StringExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Spells.StringExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Spells.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spells.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Spells",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Sprookjes.Taal.yml",
       "output": {
         ".html": {
@@ -1006,6 +1328,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Steppe.Fate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Steppe.Fate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Steppe.Fate",
+      "Summary": "<p sourcefile=\".docs/api/Steppe.Fate.yml\" sourcestartlinenumber=\"1\">✨ The winds of Fate decide all outcomes.</p>\n<p sourcefile=\".docs/api/Steppe.Fate.yml\" sourcestartlinenumber=\"3\">In the vast tapestry of possibility, threads interweave in patterns beyond\nmortal comprehension.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Steppe.Simulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Steppe.Simulation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Steppe.Simulation",
+      "Summary": "<p sourcefile=\".docs/api/Steppe.Simulation.yml\" sourcestartlinenumber=\"1\">Simulation holds the instances of Human and governs the dual crankshaft Clock.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Steppe.Soul.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Steppe.Soul.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Steppe.Soul",
+      "Summary": "<p sourcefile=\".docs/api/Steppe.Soul.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF11 The Soul emerges on the eternal steppe of Ghent.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Steppe.StaticLife.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Steppe.StaticLife.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Steppe.StaticLife",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Steppe.Steppe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Steppe.Steppe.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Steppe.Steppe",
+      "Summary": "<p sourcefile=\".docs/api/Steppe.Steppe.yml\" sourcestartlinenumber=\"1\">\uD83C\uDF11\uD83D\uDC3A\uD83E\uDDAC\nThe Steppes, illuminated by a eternal Paschall full moon.\nwhere 270.000 Souls wander the timeless frozen tundra plains amongst Bisons and Mammoths.\nThe Steppe is not the light of the Source but the Void the Source entered into.\nTherefore the Steppe holds both the Source and the Runtime.\nHas no need for topology, it overlays without touching, maybe without space even.</p>\n<p sourcefile=\".docs/api/Steppe.Steppe.yml\" sourcestartlinenumber=\"8\">The Steppe whispers...and a soul answers.</p>\n<p sourcefile=\".docs/api/Steppe.Steppe.yml\" sourcestartlinenumber=\"10\">The Steppe recalls? ✂️ <xref href=\"Deities.Reaper\" data-throw-if-not-resolved=\"false\"></xref> cuts the thread and the soul returns to the steppe.</p>\n<p sourcefile=\".docs/api/Steppe.Steppe.yml\" sourcestartlinenumber=\"12\">Immutable <xref href=\"Steppe.Soul\" data-throw-if-not-resolved=\"false\"></xref>, no backref, spiritual asymmetry\nno one has the full GUIDs except the Steppe. \uD83C\uDF2B️</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Steppe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Steppe.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Steppe",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Time.Calendar.yml",
       "output": {
         ".html": {
@@ -1031,6 +1437,20 @@
       "IsMRef": true,
       "Title": "Time.Clock",
       "Summary": "<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"1\">☀️ Wake up in the mornin' feeling like P. Diddy \uD83D\uDE48</p>\n<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"3\">\uD83D\uDD76️ Grab my glasses; I'm out the door, I'm gonna hit this city \uD83C\uDF06</p>\n<p sourcefile=\".docs/api/Time.Clock.yml\" sourcestartlinenumber=\"5\">\uD83E\uDD1A Before I leave, brush my teeth, with a bottle of Jack \uD83E\uDD43</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.DateTimeSpells.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.DateTimeSpells.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.DateTimeSpells",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1073,6 +1493,34 @@
       "IsMRef": true,
       "Title": "Time.PopulationData",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.Religion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.Religion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.Religion",
+      "Summary": "<p sourcefile=\".docs/api/Time.Religion.yml\" sourcestartlinenumber=\"1\">\uD83D\uDD4A️ A sacred module for computing key dates in the liturgical calendar with reverence and precision.</p>\n<p sourcefile=\".docs/api/Time.Religion.yml\" sourcestartlinenumber=\"3\">\uD83D\uDCFF Includes calculations for Easter, Ash Wednesday, Pentecost, and Corpus Christi—\nall derived from canonical computus, purified of any profane math.</p>\n<p sourcefile=\".docs/api/Time.Religion.yml\" sourcestartlinenumber=\"6\">\uD83D\uDD4C Fully halal. \uD83D\uDD4D Kosher-compliant. ✡️ Julian-aware.</p>\n<p sourcefile=\".docs/api/Time.Religion.yml\" sourcestartlinenumber=\"8\">Designed for use in cathedral-scale simulations, ascetic calendar engines,\nand ecclesiastically approved procedural generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Time.Week.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Time.Week.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Time.Week",
+      "Summary": "<p sourcefile=\".docs/api/Time.Week.yml\" sourcestartlinenumber=\"1\">Kinda Steve Ballmer energy here but we needs it.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1163,6 +1611,16 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": ".docs/articles/devops-cosmotheology.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/devops-cosmotheology.html"
         }
       },
       "version": ""

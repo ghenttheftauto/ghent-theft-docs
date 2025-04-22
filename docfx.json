@@ -5,7 +5,8 @@
       "src": [
         {
           "src": "../game-of-life/GameOfLifeDomain/Domain",
-          "files": ["Domain.csproj"]
+          "files": ["Domain.csproj"],
+          "includeInternal": true
         },
         {
           "src": "../game-of-life/GameOfLifeDomain/Sprookjes",

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BirthMoment | ghta docs </title>
+      <title>Class CollectionExtension | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BirthMoment | ghta docs ">
+      <meta name="title" content="Class CollectionExtension | ghta docs ">
       
-      <meta name="description" content="The exact moment in time when someone is born; a significant event for all involved  instances.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,25 +84,24 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Moments.BirthMoment">
+        <article data-uid="Spells.CollectionExtension">
 
 
 
-  <h1 id="Moments_BirthMoment" data-uid="Moments.BirthMoment" class="text-break">
-Class BirthMoment  
+  <h1 id="Spells_CollectionExtension" data-uid="Spells.CollectionExtension" class="text-break">
+Class CollectionExtension  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Moments.html">Moments</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spells.html">Spells</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BirthMoment : Moment</code></pre>
+    <pre><code class="lang-csharp hljs">public static class CollectionExtension</code></pre>
   </div>
 
 
@@ -112,8 +111,7 @@ Class BirthMoment
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Moments.Moment.html">Moment</a></div>
-      <div><span class="xref">BirthMoment</span></div>
+      <div><span class="xref">CollectionExtension</span></div>
     </dd>
   </dl>
 
@@ -122,15 +120,6 @@ Class BirthMoment
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_When">Moment.When</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Where">Moment.Where</a>
-    </div>
-    <div>
-      <a class="xref" href="Moments.Moment.html#Moments_Moment_Participants">Moment.Participants</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -159,32 +148,39 @@ Class BirthMoment
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Moments_BirthMoment__ctor_" data-uid="Moments.BirthMoment.#ctor*"></a>
+  <a id="Spells_CollectionExtension_RandomElement_" data-uid="Spells.CollectionExtension.RandomElement*"></a>
 
-  <h3 id="Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_" data-uid="Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)">
-  BirthMoment(Human, IAddressable, DateTime)
+  <h3 id="Spells_CollectionExtension_RandomElement__1_System_Collections_Generic_IList___0__" data-uid="Spells.CollectionExtension.RandomElement``1(System.Collections.Generic.IList{``0})">
+  RandomElement&lt;T&gt;(IList&lt;T&gt;)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The joyous moment of birth. 🐣</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BirthMoment(Human child, IAddressable location, DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T RandomElement&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>child</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
     <dd></dd>
-    <dt><code>location</code> <a class="xref" href="Locations.IAddressable.html">IAddressable</a></dt>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
     <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
     <dd></dd>
   </dl>
 
@@ -197,98 +193,38 @@ Class BirthMoment
 
 
 
+  <a id="Spells_CollectionExtension_RandomElement_" data-uid="Spells.CollectionExtension.RandomElement*"></a>
 
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="Moments_BirthMoment_Child" data-uid="Moments.BirthMoment.Child">
-  Child
+  <h3 id="Spells_CollectionExtension_RandomElement__1___0___" data-uid="Spells.CollectionExtension.RandomElement``1(``0[])">
+  RandomElement&lt;T&gt;(T[])
   
   </h3>
 
-  <div class="markdown level1 summary"><p>🌎 The Humans.Simulation welcomes a new little wonder. This property is of type <a class="xref" href="Humans.Human.html">Human</a> and represents the newborn child.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Human Child</code></pre>
+    <pre><code class="lang-csharp hljs">public static T RandomElement&lt;T&gt;(this T[] array)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Human.html">Human</a></dt>
+    <dt><code>array</code> T[]</dt>
     <dd></dd>
   </dl>
 
-
-
-
-
-
-
-
-
-
-  <h3 id="Moments_BirthMoment_Father" data-uid="Moments.BirthMoment.Father">
-  Father
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The father of the child.
-Nullable <a class="xref" href="Humans.Male.html">Male</a> is more on brand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Male? Father</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Male.html">Male</a></dt>
+    <dt><span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 
-
-
-
-
-
-
-
-
-
-  <h3 id="Moments_BirthMoment_Mother" data-uid="Moments.BirthMoment.Mother">
-  Mother
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The mother of the child.
-Nullable <a class="xref" href="Humans.Female.html">Female</a> feels wrong, but it's the only way to make it work.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Female? Mother</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Humans.Female.html">Female</a></dt>
+    <dt><code>T</code></dt>
     <dd></dd>
   </dl>
+
 
 
 

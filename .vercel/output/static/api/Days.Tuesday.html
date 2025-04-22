@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DateTimeExtension | ghta docs </title>
+      <title>Class Tuesday | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DateTimeExtension | ghta docs ">
+      <meta name="title" content="Class Tuesday | ghta docs ">
       
-      
+      <meta name="description" content="&#129338;">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,24 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Domain.Utility.DateTimeExtension">
+        <article data-uid="Days.Tuesday">
 
 
 
-  <h1 id="Domain_Utility_DateTimeExtension" data-uid="Domain.Utility.DateTimeExtension" class="text-break">
-Class DateTimeExtension  
+  <h1 id="Days_Tuesday" data-uid="Days.Tuesday" class="text-break">
+Class Tuesday  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Domain.html">Domain</a>.<a class="xref" href="Domain.Utility.html">Utility</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Days.html">Days</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>🤺</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DateTimeExtension</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Tuesday : Day</code></pre>
   </div>
 
 
@@ -111,7 +112,8 @@ Class DateTimeExtension
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">DateTimeExtension</span></div>
+      <div><a class="xref" href="Days.Day.html">Day</a></div>
+      <div><span class="xref">Tuesday</span></div>
     </dd>
   </dl>
 
@@ -133,9 +135,6 @@ Class DateTimeExtension
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
@@ -146,16 +145,19 @@ Class DateTimeExtension
 
 
 
+  <h2 id="Days_Tuesday_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Mars.</p>
+</div>
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="Domain_Utility_DateTimeExtension_IsEasterSunday_" data-uid="Domain.Utility.DateTimeExtension.IsEasterSunday*"></a>
+  <a id="Days_Tuesday__ctor_" data-uid="Days.Tuesday.#ctor*"></a>
 
-  <h3 id="Domain_Utility_DateTimeExtension_IsEasterSunday_System_DateTime_" data-uid="Domain.Utility.DateTimeExtension.IsEasterSunday(System.DateTime)">
-  IsEasterSunday(DateTime)
+  <h3 id="Days_Tuesday__ctor" data-uid="Days.Tuesday.#ctor">
+  Tuesday()
   
   </h3>
 
@@ -163,18 +165,79 @@ Class DateTimeExtension
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsEasterSunday(this DateTime original)</code></pre>
+    <pre><code class="lang-csharp hljs">public Tuesday()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Days_Tuesday_Celestial_" data-uid="Days.Tuesday.Celestial*"></a>
+
+  <h3 id="Days_Tuesday_Celestial" data-uid="Days.Tuesday.Celestial">
+  Celestial
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The celestial body associated with the day.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ICelestial Celestial { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><code>original</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><a class="xref" href="Celestial.ICelestial.html">ICelestial</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+
+
+
+
+  <a id="Days_Tuesday_Deity_" data-uid="Days.Tuesday.Deity*"></a>
+
+  <h3 id="Days_Tuesday_Deity" data-uid="Days.Tuesday.Deity">
+  Deity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The deity from <a class="xref" href="Deities.html">Deities</a> associated with this day.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IDeity Deity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="Deities.IDeity.html">IDeity</a></dt>
     <dd></dd>
   </dl>
 
@@ -185,13 +248,10 @@ Class DateTimeExtension
 
 
 
+  <a id="Days_Tuesday_Dutch_" data-uid="Days.Tuesday.Dutch*"></a>
 
-
-
-  <a id="Domain_Utility_DateTimeExtension_IsInPeriod_" data-uid="Domain.Utility.DateTimeExtension.IsInPeriod*"></a>
-
-  <h3 id="Domain_Utility_DateTimeExtension_IsInPeriod_System_DateTime_System_ValueTuple_System_DateTime_System_DateTime__" data-uid="Domain.Utility.DateTimeExtension.IsInPeriod(System.DateTime,System.ValueTuple{System.DateTime,System.DateTime})">
-  IsInPeriod(DateTime, (DateTime, DateTime))
+  <h3 id="Days_Tuesday_Dutch" data-uid="Days.Tuesday.Dutch">
+  Dutch
   
   </h3>
 
@@ -199,20 +259,16 @@ Class DateTimeExtension
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsInPeriod(this DateTime time, (DateTime, DateTime) period)</code></pre>
+    <pre><code class="lang-csharp hljs">public override string Dutch { get; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
-    <dt><code>period</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>)</dt>
-    <dd></dd>
-  </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -223,13 +279,10 @@ Class DateTimeExtension
 
 
 
+  <a id="Days_Tuesday_English_" data-uid="Days.Tuesday.English*"></a>
 
-
-
-  <a id="Domain_Utility_DateTimeExtension_IsWeekend_" data-uid="Domain.Utility.DateTimeExtension.IsWeekend*"></a>
-
-  <h3 id="Domain_Utility_DateTimeExtension_IsWeekend_System_DateTime_" data-uid="Domain.Utility.DateTimeExtension.IsWeekend(System.DateTime)">
-  IsWeekend(DateTime)
+  <h3 id="Days_Tuesday_English" data-uid="Days.Tuesday.English">
+  English
   
   </h3>
 
@@ -237,18 +290,49 @@ Class DateTimeExtension
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsWeekend(this DateTime originalDate)</code></pre>
+    <pre><code class="lang-csharp hljs">public override string English { get; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><code>originalDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+
+
+
+
+  <a id="Days_Tuesday_Latin_" data-uid="Days.Tuesday.Latin*"></a>
+
+  <h3 id="Days_Tuesday_Latin" data-uid="Days.Tuesday.Latin">
+  Latin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The original Roman god this weekday maps to.
+E.g., Luna, Mars, Mercury, Jupiter, Venus, Saturnus, Sol.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Latin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -259,9 +343,74 @@ Class DateTimeExtension
 
 
 
+  <a id="Days_Tuesday_Order_" data-uid="Days.Tuesday.Order*"></a>
+
+  <h3 id="Days_Tuesday_Order" data-uid="Days.Tuesday.Order">
+  Order
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Order in the Week. Non zero indexed because Monks and stuff.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte Order { get; }</code></pre>
+  </div>
 
 
 
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Days_Tuesday_Symbol_" data-uid="Days.Tuesday.Symbol*"></a>
+
+  <h3 id="Days_Tuesday_Symbol" data-uid="Days.Tuesday.Symbol">
+  Symbol
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Symbol { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 id="seealso">See Also</h2>
+  <div class="seealso">
+      <div><a class="xref" href="Celestial.Mars.html">Mars</a></div>
+      <div><a class="xref" href="Deities.War.html">War</a></div>
+  </div>
 
 </article>
 

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace Moments | ghta docs </title>
+      <title>Interface ILuminous | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace Moments | ghta docs ">
+      <meta name="title" content="Interface ILuminous | ghta docs ">
       
-      
+      <meta name="description" content="Thing in Space, twinkling.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,70 +84,81 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Moments">
+        <article data-uid="Celestial.ILuminous">
 
-  <h1 id="Moments" data-uid="Moments" class="text-break">Namespace Moments</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.BirthMoment.html">BirthMoment</a></dt>
-      <dd><p>The exact moment in time when someone is born; a significant event for all involved <a class="xref" href="Humans.Human.html">Human</a> instances.</p>
+
+  <h1 id="Celestial_ILuminous" data-uid="Celestial.ILuminous" class="text-break">
+Interface ILuminous  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Celestial.html">Celestial</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Thing in Space, twinkling.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILuminous</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="Celestial_ILuminous_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Just kidding: only the Sun implements this, we don't model other stars. Yet.</p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Celestial_ILuminous_Fuel_" data-uid="Celestial.ILuminous.Fuel*"></a>
+
+  <h3 id="Celestial_ILuminous_Fuel" data-uid="Celestial.ILuminous.Fuel">
+  Fuel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The one candle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ulong Fuel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>unsigned 64 bit integer, we had to pack it into terratons in order to declare it as a const</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.BirthdayMoment.html">BirthdayMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.DeathMoment.html">DeathMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.DropoutMoment.html">DropoutMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.HistoricMoment.html">HistoricMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.Moment.html">Moment</a></dt>
-      <dd><p>Every “moment” is real, yes, but it only exists as a narrative once it’s observed.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.NewSchoolMoment.html">NewSchoolMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolDropoutMoment.html">SchoolDropoutMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolExamnMoment.html">SchoolExamnMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolFirstDayMoment.html">SchoolFirstDayMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolGraduationMoment.html">SchoolGraduationMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.SchoolTooDumbMoment.html">SchoolTooDumbMoment</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Moments.WorkRetirementMoment.html">WorkRetirementMoment</a></dt>
-      <dd></dd>
-    </dl>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Celestial_ILuminous_Fuel_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You need ~0.08 solar masses (8% of the Sun’s mass) for hydrogen fusion to ignite.</p>
+</div>
+
+
+
 
 
 </article>

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Reaper | ghta docs </title>
+      <title>Class DateTimeSpells | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Reaper | ghta docs ">
+      <meta name="title" content="Class DateTimeSpells | ghta docs ">
       
-      <meta name="description" content="☠️ He who wanders the plains. The silent constant. Reaper decides when the thread is cut — no earlier, no later.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,24 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Gods.Reaper">
+        <article data-uid="Time.DateTimeSpells">
 
 
 
-  <h1 id="Gods_Reaper" data-uid="Gods.Reaper" class="text-break">
-Class Reaper  
+  <h1 id="Time_DateTimeSpells" data-uid="Time.DateTimeSpells" class="text-break">
+Class DateTimeSpells  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Gods.html">Gods</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Time.html">Time</a></dd></dl>
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>☠️ He who wanders the plains. The silent constant.</p>
-<p>Reaper decides when the thread is cut — no earlier, no later.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Reaper</code></pre>
+    <pre><code class="lang-csharp hljs">public static class DateTimeSpells</code></pre>
   </div>
 
 
@@ -113,7 +111,7 @@ Class Reaper
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Reaper</span></div>
+      <div><span class="xref">DateTimeSpells</span></div>
     </dd>
   </dl>
 
@@ -148,25 +146,16 @@ Class Reaper
 
 
 
-  <h2 id="Gods_Reaper_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This static class governs mortality within the simulation.</p>
-<p>Based on age-specific probabilities stored in <a href="/api/Domain.Gods.Reaper"><code>MortalityTuples</code></a>,
-the Reaper evaluates whether a human should pass. This can be triggered by
-<a href="/api/Domain.Gods.Reaper.ThrowDiceOfLife"><code>ThrowDiceOfLife</code></a>, which simulates the
-uncertainty of life, or <a href="/api/Domain.Gods.Reaper.IsThisTheDay"><code>IsThisTheDay</code></a>, which simply checks
-whether death is scheduled. If so, <a href="/api/Domain.Gods.Reaper.Yoink"><code>Yoink</code></a> pulls the soul from the world.</p>
-<p>No negotiation. No mercy.
-Just one final tick.</p>
-</div>
 
 
-  <h2 class="section" id="fields">Fields
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
+  <a id="Time_DateTimeSpells_IsEasterSunday_" data-uid="Time.DateTimeSpells.IsEasterSunday*"></a>
 
-  <h3 id="Gods_Reaper_MortalityTuples" data-uid="Gods.Reaper.MortalityTuples">
-  MortalityTuples
+  <h3 id="Time_DateTimeSpells_IsEasterSunday_System_DateTime_" data-uid="Time.DateTimeSpells.IsEasterSunday(System.DateTime)">
+  IsEasterSunday(DateTime)
   
   </h3>
 
@@ -174,50 +163,12 @@ Just one final tick.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly Dictionary&lt;byte, (double, double)&gt; MortalityTuples</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>, (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>)&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Gods_Reaper_IsThisTheDay_" data-uid="Gods.Reaper.IsThisTheDay*"></a>
-
-  <h3 id="Gods_Reaper_IsThisTheDay_Humans_Human_System_DateTime__" data-uid="Gods.Reaper.IsThisTheDay(Humans.Human,System.DateTime@)">
-  IsThisTheDay(Human, in DateTime)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Checks if a human should die today.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsThisTheDay(Human human, in DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsEasterSunday(this DateTime original)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>human</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><code>original</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 
@@ -237,26 +188,26 @@ Just one final tick.</p>
 
 
 
-  <a id="Gods_Reaper_ThrowDiceOfLife_" data-uid="Gods.Reaper.ThrowDiceOfLife*"></a>
+  <a id="Time_DateTimeSpells_IsInPeriod_" data-uid="Time.DateTimeSpells.IsInPeriod*"></a>
 
-  <h3 id="Gods_Reaper_ThrowDiceOfLife_Humans_Human__" data-uid="Gods.Reaper.ThrowDiceOfLife(Humans.Human@)">
-  ThrowDiceOfLife(in Human)
+  <h3 id="Time_DateTimeSpells_IsInPeriod_System_DateTime_System_ValueTuple_System_DateTime_System_DateTime__" data-uid="Time.DateTimeSpells.IsInPeriod(System.DateTime,System.ValueTuple{System.DateTime,System.DateTime})">
+  IsInPeriod(DateTime, (DateTime, DateTime))
   
   </h3>
 
-  <div class="markdown level1 summary"><p>🎲 Casts the eternal dice of mortality to see if this soul must depart.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ThrowDiceOfLife(in Human human)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsInPeriod(this DateTime time, (DateTime, DateTime) period)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>human</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd><p>The human to throw the dice for.</p>
-</dd>
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>period</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>)</dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -275,29 +226,31 @@ Just one final tick.</p>
 
 
 
-  <a id="Gods_Reaper_Yoink_" data-uid="Gods.Reaper.Yoink*"></a>
+  <a id="Time_DateTimeSpells_IsWeekend_" data-uid="Time.DateTimeSpells.IsWeekend*"></a>
 
-  <h3 id="Gods_Reaper_Yoink_Humans_Human_System_DateTime__" data-uid="Gods.Reaper.Yoink(Humans.Human,System.DateTime@)">
-  Yoink(Human, in DateTime)
+  <h3 id="Time_DateTimeSpells_IsWeekend_System_DateTime_" data-uid="Time.DateTimeSpells.IsWeekend(System.DateTime)">
+  IsWeekend(DateTime)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>✂️ Reaps the soul of the given human. Their thread is cut, their journey ends.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Yoink(Human human, in DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsWeekend(this DateTime originalDate)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>human</code> <a class="xref" href="Humans.Human.html">Human</a></dt>
-    <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><code>originalDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
     <dd></dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

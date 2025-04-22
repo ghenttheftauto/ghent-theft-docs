@@ -87,13 +87,178 @@
         <article data-uid="">
 <h1 id="-the-steppe">🐺 The Steppe</h1>
 
-<p>Ever since I read this <a href="https://www.vrt.be/vrtnws/nl/2025/03/10/gent-archeologie-prehistorie-geschiedenis-sint-baafskathedraal-o/">VRT article</a> about deep soil drilling beneath the Saint Bavo cathedral, I've been thinking about the <a class="xref" href="../api/Life.Steppe.html">Steppe</a>. 🐺🌙🦬</p>
+<p>Ever since I read this <a href="https://www.vrt.be/vrtnws/nl/2025/03/10/gent-archeologie-prehistorie-geschiedenis-sint-baafskathedraal-o/">VRT article</a> about deep soil drilling beneath the Saint Bavo cathedral, I've been thinking about the <a href="xref:Life.Steppe">Steppe</a>. 🐺🌙🦬</p>
 <blockquote>
 <p>&quot;De oudste afzetting is een dikke zandlaag die afgezet is door de wind, vanuit het Noordzeebekken. <strong>Dat gebeurde in de prehistorie, 18.000 tot 14.650 jaar geleden</strong>.</p>
 </blockquote>
 <p>This triggered me to 'tick the game loop back to 18,000 BCE to pre-cook the simulation and all it's souls', not just as a technical gimmick but as an act of reverence.</p>
 <p>The tundra beneath Sint-Baafskathedraal remembers. We know we can do it since we fixed <a href="easter.html">Easter</a> with Metonic cycles and Epacts. We just need more maths, bigger numbers and possibly more balls, than the monks did in 500AD.</p>
 <p>In the simulation, every living human is tied to a Soul. These are not erased upon death—they return to the Steppe. A <code>static</code> list of 227,000 souls forms the canonical registry, passed around like candle flames between vessels. You can invoke the GC on a <a class="xref" href="../api/Humans.IVessel.html">IVessel</a>, but the Soul <code>struct</code> is <code>readonly</code>.</p>
+<h2 id="the-plan">The Plan</h2>
+<p>This doc serves as a napkin to scriblle manic thoughts on as I descend into the rabbit hole that is Easter calc for mammoths.</p>
+<p>The plan? We start out <em>anno domini style</em> where we have access to wonderful things like <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a> and <a href="dunnoyet">Solar Time lib</a>. We ask those friendly boys for a DayOfWeek, Day, Month, Year yadda.</p>
+<p>In combination with a Astronomical Date (is this a float?). We then take a very dependable monk and counting frame, and let that wonderful dude count back 6 million times using like, a slightly better Epact, I think.</p>
+<p>Like a Gregorian Epact. If possible. The AstroLib is still giving us coherent days, because the orbital period of the Earth has been super stable since like forever. Earth's spin rate (day length) is another thing. Lucklly the Steppe throws a SteppeException when we go back beyond 20k years from now. Where was I? Ah yes. The Epact 2.0. Afaik the Computus is still dank, the only thing kinda mid is the Epact because counting frame reasons.</p>
+<p>But like we can Computus more dank, more stank, float Epact, count shit all the way back after 6 million ticks we ask the monks yo whatsup and they are all like, its a fecking monday 03 april -180000, there is a mammoth standing next to me and ash wednesdays was two weeks ago, happy birthday btw!!!&quot;</p>
+<p>Any temporal simulation, any render engine is already ticking dat clock. We are just gonna make ART out of it. Dank easter on fleek Lent, #BlazeItSarracen.</p>
+<p>Do we cook a better epact?</p>
+<p>“If I render it in a datepicker, it’s Gregorian. Always has been.”
+– Me, reclaiming time from scared historians</p>
+<h3 id="tick-tock-on-the-clock-and-the-dj-dont-stop">Tick tock on the clock, and the dj don't stop</h3>
+<pre><code class="lang-csharp">public readonly long TicksSinceSteppeEpoch;
+</code></pre>
+<p>Every game engine ticks. We just do it in style.</p>
+<p>Turns out 30k BCE there were early modern humans in France carving moon days into stones. SOURCE THIS.
+Those guys with the cave paintings. Not really Neaderthal territory.</p>
+<p>8K BCE Warren Field calendar in Scotland, consist of a series of pits that align with lunar phases, suggesting a base12 method to track months and base4 seasons.</p>
+<p>Stonehenge tracks base2 equinoxes.</p>
+<p>Turns out I'm the clown after all! Big surprise.</p>
+<h3 id="sky-answers">Sky answers</h3>
+<blockquote>
+<p>Long ago the humans looked at the sky, a UI they didnt build and desperately wanted to parse.</p>
+</blockquote>
+<p>You might be looking at me funny for a lot of reasons, but I can imagine a main one being 'why is this guy so obsessed with monks'.</p>
+<p>I'm not religious, it's just that monks from all over the world had this tendency to model the natural world, to explain it, predict it and harness it. They needed God, we have Steve Ballmer.</p>
+<p>So you got Chinese monks scribing down Chang'e stuff all the way over there (oh yeah, we are already at that time and place in the article where time and place become interchangeable)</p>
+<p>Meanwhile you got the Euro branch of monk coders typing it down in Computus dank (the same Computus we still use to order Easter bunnies).</p>
+<p>I see a lot of data points.</p>
+<p>We gonna have a Sun God System looping perfect stable orbits for 20k years and one C# monk on a counting frame ticking the stuff into comprehensible SteppeDateTime.</p>
+<p>We gonna have unit tests backtesting Gregorian date deletion, battle of hastings wednesdayness, we gonna unit test the og ash wednesday of wednesydayness.</p>
+<p>It's gonna be wild af.</p>
+<h3 id="-gregorian-proleptic-supremacy">🔧 Gregorian Proleptic Supremacy</h3>
+<p>SteppeTime uses the Gregorian calendar everywhere, for all ticks, from Tick 0 (-18000-04-03) to the Heat Death of the Simulation™.</p>
+<p>There is no fallback to Julian.</p>
+<p>There is no concern for 1582.</p>
+<p>There is no drift, no patch, no reform.</p>
+<p>It’s all one smooth calendar, like you’d expect in a database UI, a date picker, or a divine ledger.</p>
+<p>🚨 Historical Correction:
+&quot;Hastings was on a Saturday in the Julian calendar.&quot;</p>
+<p>⚠️ Yeah? Well that's cool and all and we will compare it to our Gregorian but with a 10 day offset.
+The Steppe remembers—but on our terms.</p>
+<p>This isn’t heresy. This is temporal sovereignty.</p>
+<h3 id="steppedatetime">SteppeDateTime</h3>
+<p>SteppeDate what are you doing????</p>
+<p>We gon mimick/wrap/extends a System.DateTime into a GhTA.SteppeDateTime. Yes.</p>
+<p>SteppeDateTime is the most primal form of time. Positive big integer number, very <code>long</code>.</p>
+<h3 id="modulo-math">Modulo Math</h3>
+<p>Easiest counting frame ever.</p>
+<p>If it's a Saturday today, and I make you count back 6 millie times on a counting frame, you should still be able to tell me what weekday it is from our Gregorian hotfix lens, which is the only one that matters for us.</p>
+<pre><code class="lang-csharp">DayOfWeek day = 685493058 % 7 as DayOfWeek
+</code></pre>
+<p><code>.DayOfWeek =&gt; Ticks % 7</code> and we <em>done</em>.</p>
+<p>Computation without dogma. Love to see it.</p>
+<p>The 7-day cycle has been unbroken since ancient Babylon, regardless of calendar reforms?</p>
+<p>7 gods, 7 days.</p>
+<p>Bronze age</p>
+<p>jewish tradition to romans</p>
+<p>accepted under constantine</p>
+<p>once it got locked in with islamic</p>
+<p>the <a class="xref" href="../api/Days.html">Days</a> are all <a class="xref" href="../api/Celestial.html">Celestial</a>.</p>
+<h3 id="before-the-common-era-vs-anno-domini">Before the Common Era vs Anno Domini</h3>
+<p>Dem Monks never leave the room when we talk time. 🙄</p>
+<p>So yeah true: monkboys also decided our <strong>Anno Domini</strong> and what we consider Before the Christ Era or <strong>Before the Common Era</strong>. I know, total buzzkill. Whole other story.</p>
+<p>All I know is that's where our offset lies.</p>
+<p>So like when i talk -18000, the SteppeDate sees 0.</p>
+<p>Shokran Al-Mashrik 🙏</p>
+<p>Me? As a feral chaotic vibe mathematician, I just want clean positive integers, preferably very <code>long</code>.</p>
+<h3 id="-epact-epactsharp-steveballmerpact">🧮 Epact++? EpactSharp? SteveBallmerPact?</h3>
+<p>A monk thing.</p>
+<p>The Epact is basically how many days are between the moon's year and the solar year. Used in the Computus (how they compute Easter). Julian monks say it’s ~11 days. Gregorian monks patched it.</p>
+<p>They cooked that stuff up on a counting frame so they didn't have to look at the Moon because deep down they know there is no God other than our Sun and the Moon. But I digress!!!</p>
+<p>We C# Computus a float Epact that transcends Julian leap year logic and can tick us into the Steppe without drift.</p>
+<p>We can totally cook this. Here's the vibe:</p>
+<p>Earth orbit (tropical year) = ~365.24219 days</p>
+<p>Lunar month (synodic) = ~29.530588 days</p>
+<p>So lunar year = 12 × 29.530588 = 354.36706 days</p>
+<p>Difference = ~10.87513 days per year</p>
+<p>Your float epact is basically:</p>
+<pre><code class="lang-csharp">float epact = (yearsSinceBaseEpoch \* 10.87513f) % 29.530588f;
+</code></pre>
+<p>Ceremonial Modulo: How % 29.530588f might actually be the closest we get to divine division.</p>
+<p>We just locked in a moon phase calculator that works 20,000 years deep on spite only. Watch and learn kids.</p>
+<p>From here on we can derive lunar phases, Easter-style events, Sabbats, Solstices, or weird time rituals in the Steppe Calendar.</p>
+<p>Much like the monks but unit testable against [AstroLib].</p>
+<h2 id="backtesting">Backtesting</h2>
+<p>YouTube traders backtest markets.
+We backtest centuries.</p>
+<h3 id="1066-hastings-742-2-april-wednes-day">1066 Hastings, 742 2 April Wednes day</h3>
+<blockquote>
+<p>At dawn on Saturday 14 October 1066, two great armies prepared to fight for the throne of England.</p>
+</blockquote>
+<pre><code class="lang-csharp">[Test]
+public void HastingsWasWednesday()
+{
+    long ticksFromEpoch = DaysFromSteppeEpoch(-1066, 10, 14);
+    var dt = new SteppeDateTime(ticksFromEpoch);
+    Assert.AreEqual(DayOfWeek.Saturday, dt.DayOfWeek);
+}
+</code></pre>
+<pre><code class="lang-csharp">[Test]
+public void HastingsWasSaturday()
+{
+    var steppe = new SteppeDateTime(DaysFromSteppeEpoch(-1066, 10, 24)); // Gregorian
+    var julian = JulianConverter.ToGregorian(&quot;1066-10-14&quot;); // Historical record
+    Assert.AreEqual(julian.DayOfWeek, steppe.DayOfWeek); // Alignment = ✅
+}
+</code></pre>
+<p>this is kinda complex for pe 1580 ish because of gregory</p>
+<p>This one’s big. The Gregorian reform happened in October 1582 (or later in Protestant countries). We can’t assume a continuous Gregorian calendar before then.</p>
+<p>✅ Fix:</p>
+<p>SteppeDateTime is proleptic Gregorian (extends it infinitely backward)</p>
+<p>But historical events like Hastings must be tested via Julian calendar conversion.</p>
+<p>We can build a SteppeJulianConverter that handles this logic. Your engine should treat Gregorian as default but allow Julian corrections for events before 1582 if required.</p>
+<h4 id="-charlemagnes-birth"><strong>👑 Charlemagne's Birth</strong></h4>
+<blockquote>
+<p>On Wednesday the 2nd of April 742 a great King was born in France (?)</p>
+</blockquote>
+<p>This date is widely accepted among historians, and the weekday aligns with the proleptic Gregorian calendar.</p>
+<h3 id="the-wednesydayness-of-ash-wednesday">The Wednesydayness of Ash Wednesday</h3>
+<pre><code class="lang-csharp">[Test]
+public void AshWednesdayFeelsCorrect()
+{
+    var ash = new SteppeDateTime(DaysFromSteppeEpoch(2025, 3, 5));
+    Assert.AreEqual(DayOfWeek.Wednesday, ash.DayOfWeek); // Sanity baseline
+}
+
+</code></pre>
+<h3 id="julian-drift-detection">Julian Drift Detection</h3>
+<p>Julian dates drift 3 days every 400 years.</p>
+<p>We simulate this drift to verify the superior Epact we cooked.</p>
+<h3 id="delta-t-liturgy--moon-phase-regression">Delta T Liturgy – Moon Phase Regression</h3>
+<p>Backtest superior epact against regression of moonphase.</p>
+<p>11 != ~10.87513 days, get shysted.</p>
+<h2 id="theological-steppetime-challenges">Theological SteppeTime Challenges</h2>
+<h3 id="leapsecond-heresy">LeapSecond heresy</h3>
+<p>The LeapSecond Heresy: why UTC cannot be trusted in the Steppe.</p>
+<p>📜 We reject Earth’s wobble as a calendrical truth.</p>
+<p>It's a cringe 1972 patch made by some incels for political reasons.</p>
+<p>UTC has no authority in the Steppe. All SteppeTime is based on dynamical time (Terrestrial Time, TT).</p>
+<h3 id="the-0-bug">The 0 Bug</h3>
+<p>Year 0 doesn't exist in Gregorian logic. But it does in the Steppe.
+Because the Steppe says: &quot;A beginning with no name still counts.&quot;</p>
+<p>Very beta monks thought of Arabic zero too be too chad and/or blasphemous so yeah.</p>
+<p>Our years are not zero indexed. Very Haram.</p>
+<pre><code class="lang-markdown">“Ash Wednesday was two weeks ago.
+There is a mammoth next to me.
+Happy birthday, btw.”
+
+— Gospel of the Steppe, line 1.
+</code></pre>
+<p>🚫 No Year 0 in Gregorian
+✅ Your fix: The SteppeCalendar has a Year 0. Gregorian doesn’t.</p>
+<p>In historical reality:</p>
+<p>1 BCE → 1 CE jumps by 1.</p>
+<p>But astronomers use astronomical year numbering, where 0 = 1 BCE, -1 = 2 BCE, etc.</p>
+<p>📜 SteppeTime should follow astronomical year logic. Year 0 is a real year. We bless it.</p>
+<p>✅ Verdict: Good and necessary heresy.</p>
+<h3 id="delta-t-devil">Delta T Devil</h3>
+<p>🧠 Delta T is the difference between:</p>
+<p>TT (Terrestrial Time) – smooth ephemeris time</p>
+<p>UT (Universal Time) – Earth rotation time</p>
+<p>Delta T is non-linear, and grows over time. Currently ~69 seconds (2025), but back in 1000 AD it was ~157 seconds.
+Back in 18000 BCE, it’s chaos.</p>
+<p>🦴 Problem: This means full-on astrophysical moon phase calculations might diverge from your float epact by ~2–3 days at 18,000 BCE.</p>
+<p>Haram af.</p>
 
 </article>
 
