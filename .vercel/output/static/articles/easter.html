@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Easter | ghta docs </title>
+      <title>MVC | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Easter | ghta docs ">
+      <meta name="title" content="MVC | ghta docs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -85,9 +85,17 @@
         </div>
 
         <article data-uid="">
-<h1 id="easter">Easter</h1>
+<h1 id="mvc">MVC</h1>
 
-<p>first foray into custom time calc.</p>
+<pre><code class="lang-mermaid">flowchart TD
+  Source[&quot;☀️ Source.Emit()&quot;] --&gt; Gateway[&quot;🌙 Gateway.Multiplex()&quot;]
+  Reaper[&quot;☠️ Reaper.Yoink()&quot;] --&gt; Gateway[&quot;🌙 Gateway.Multiplex()&quot;]
+  Gateway --&gt; Runtime[&quot;🌎 Runtime.Render()&quot;]
+  Runtime --&gt; Human[&quot;🧍‍♂️ Human.Die()&quot;]
+  Human --&gt; DeathMoment[&quot;🪦 DeathMoment.Happen()&quot;]
+  Runtime --&gt; Calendar[&quot;📆 Monk.Chant()&quot;]
+  Calendar --&gt; Moment[&quot;🎉 EasterMoment.Happen()&quot;]
+</code></pre>
 
 </article>
 

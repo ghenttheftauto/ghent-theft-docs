@@ -102,7 +102,7 @@ Class EducationSystem
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EducationSystem</code></pre>
+    <pre><code class="lang-csharp hljs">public static class EducationSystem</code></pre>
   </div>
 
 
@@ -149,14 +149,13 @@ Class EducationSystem
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="fields">Fields
 </h2>
 
 
-  <a id="Education_EducationSystem__ctor_" data-uid="Education.EducationSystem.#ctor*"></a>
 
-  <h3 id="Education_EducationSystem__ctor_System_DateTime_" data-uid="Education.EducationSystem.#ctor(System.DateTime)">
-  EducationSystem(DateTime)
+  <h3 id="Education_EducationSystem_SchoolAge" data-uid="Education.EducationSystem.SchoolAge">
+  SchoolAge
   
   </h3>
 
@@ -164,17 +163,17 @@ Class EducationSystem
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EducationSystem(DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public const byte SchoolAge = 5</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
     <dd></dd>
   </dl>
-
-
-
 
 
 
@@ -201,7 +200,7 @@ Calculated by the <a class="xref" href="Time.Calendar.html#Time_Calendar_Calcula
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public (DateTime, DateTime) AcademicYear { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static (DateTime, DateTime) AcademicYear { get; }</code></pre>
   </div>
 
 
@@ -237,7 +236,7 @@ Calculated by the <a class="xref" href="Time.Calendar.html#Time_Calendar_Calcula
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AssignNewSchool(Human human, in EducationLevel level)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void AssignNewSchool(Human human, in EducationLevel level)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -272,7 +271,7 @@ Calculated by the <a class="xref" href="Time.Calendar.html#Time_Calendar_Calcula
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FirstDayOfNewAcademicYear(DateTime time)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void FirstDayOfNewAcademicYear(DateTime time)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -304,7 +303,7 @@ Calculated by the <a class="xref" href="Time.Calendar.html#Time_Calendar_Calcula
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool GradeStudent(in Human human, byte intelligence, byte difficulty)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool GradeStudent(in Human human, byte intelligence, byte difficulty)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

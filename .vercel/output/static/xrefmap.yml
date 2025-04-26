@@ -2302,25 +2302,6 @@ references:
   commentId: T:Education.EducationSystem
   fullName: Education.EducationSystem
   nameWithType: EducationSystem
-- uid: Education.EducationSystem.#ctor(System.DateTime)
-  name: EducationSystem(DateTime)
-  href: api/Education.EducationSystem.html#Education_EducationSystem__ctor_System_DateTime_
-  commentId: M:Education.EducationSystem.#ctor(System.DateTime)
-  name.vb: New(Date)
-  fullName: Education.EducationSystem.EducationSystem(System.DateTime)
-  fullName.vb: Education.EducationSystem.New(Date)
-  nameWithType: EducationSystem.EducationSystem(DateTime)
-  nameWithType.vb: EducationSystem.New(Date)
-- uid: Education.EducationSystem.#ctor*
-  name: EducationSystem
-  href: api/Education.EducationSystem.html#Education_EducationSystem__ctor_
-  commentId: Overload:Education.EducationSystem.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Education.EducationSystem.EducationSystem
-  fullName.vb: Education.EducationSystem.New
-  nameWithType: EducationSystem.EducationSystem
-  nameWithType.vb: EducationSystem.New
 - uid: Education.EducationSystem.AcademicYear
   name: AcademicYear
   href: api/Education.EducationSystem.html#Education_EducationSystem_AcademicYear
@@ -2382,6 +2363,12 @@ references:
   isSpec: "True"
   fullName: Education.EducationSystem.GradeStudent
   nameWithType: EducationSystem.GradeStudent
+- uid: Education.EducationSystem.SchoolAge
+  name: SchoolAge
+  href: api/Education.EducationSystem.html#Education_EducationSystem_SchoolAge
+  commentId: F:Education.EducationSystem.SchoolAge
+  fullName: Education.EducationSystem.SchoolAge
+  nameWithType: EducationSystem.SchoolAge
 - uid: Education.IEducatable
   name: IEducatable
   href: api/Education.IEducatable.html
@@ -6758,19 +6745,6 @@ references:
   isSpec: "True"
   fullName: Steppe.Simulation.CurrentTime
   nameWithType: Simulation.CurrentTime
-- uid: Steppe.Simulation.Education
-  name: Education
-  href: api/Steppe.Simulation.html#Steppe_Simulation_Education
-  commentId: P:Steppe.Simulation.Education
-  fullName: Steppe.Simulation.Education
-  nameWithType: Simulation.Education
-- uid: Steppe.Simulation.Education*
-  name: Education
-  href: api/Steppe.Simulation.html#Steppe_Simulation_Education_
-  commentId: Overload:Steppe.Simulation.Education
-  isSpec: "True"
-  fullName: Steppe.Simulation.Education
-  nameWithType: Simulation.Education
 - uid: Steppe.Simulation.Evaluate(System.Boolean@)
   name: Evaluate(in bool)
   href: api/Steppe.Simulation.html#Steppe_Simulation_Evaluate_System_Boolean__
@@ -7136,12 +7110,6 @@ references:
   commentId: F:Steppe.StaticLife.RetirementAge
   fullName: Steppe.StaticLife.RetirementAge
   nameWithType: StaticLife.RetirementAge
-- uid: Steppe.StaticLife.SchoolAge
-  name: SchoolAge
-  href: api/Steppe.StaticLife.html#Steppe_StaticLife_SchoolAge
-  commentId: F:Steppe.StaticLife.SchoolAge
-  fullName: Steppe.StaticLife.SchoolAge
-  nameWithType: StaticLife.SchoolAge
 - uid: Steppe.StaticLife.Surnames
   name: Surnames
   href: api/Steppe.StaticLife.html#Steppe_StaticLife_Surnames
