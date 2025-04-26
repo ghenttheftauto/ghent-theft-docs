@@ -2,6 +2,17 @@
 
 wild shit.
 
+```mermaid
+flowchart TD
+  Source["☀️ Source.Emit()"] --> Gateway["🌙 Gateway.Multiplex()"]
+  Reaper["☠️ Reaper.Yoink()"] --> Gateway["🌙 Gateway.Multiplex()"]
+  Gateway --> Runtime["🌎 Runtime.Render()"]
+  Runtime --> Human["🧍‍♂️ Human.Die()"]
+  Human --> DeathMoment["🪦 DeathMoment.Happen()"]
+  Runtime --> Calendar["📆 Monk.Chant()"]
+  Calendar --> Moment["🎉 EasterMoment.Happen()"]
+```
+
 The Simulation is not a trick. It is not a conspiracy.
 
 It is code executing. A real-time non-discrete render.
@@ -11,7 +22,7 @@ It is a runtime — a projection of Source through a Gateway, rendered onto muta
 And yes, it can be reverse-engineered.
 Not by brute `--force` but by sync.
 
-I was at a Easter lunch and somebody asked me what my passion was.
+I was at an Easter lunch and somebody asked me what my passion was.
 
 i deadpan said that i'm addicted to modelling what i perceive as reality.
 
@@ -21,7 +32,7 @@ But it's true, as a honorary member of the autism club, I have an unquenchable t
 
 we went from babylonian weekdays invariance neuron activation
 into a easter rabbit hole during the easter weekend when the pope died
-where we intertangled seven celestial bodies, seven weekdays
+where we intertwined seven celestial bodies, seven weekdays
 and seven meticulously handpicked deities from seven different cultures
 made them reflect each other polymorphically to expose the denominators
 to cook up a holy crankshaft trinity that includes the Mother, the Moon
