@@ -26,7 +26,7 @@ Welcome to the simulation, [Human](xref:Humans.Human).
 
   Fully modular simulation engine with dedicated systems for
   [Education](xref:Education), [Locations](xref:Locations), [Work](xref:Work),
-  [Gods](xref:Gods), [Moments](xref:Moments), and more.
+  [Deities](xref:Deities), [Moments](xref:Moments), and more.
 
 - #### 🕰️ DateTime-driven Emergent Behavior
 

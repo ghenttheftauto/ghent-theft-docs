@@ -1,6 +1,6 @@
 # 🐺 The Steppe
 
-Ever since I read this [VRT article](https://www.vrt.be/vrtnws/nl/2025/03/10/gent-archeologie-prehistorie-geschiedenis-sint-baafskathedraal-o/) about deep soil drilling beneath the Saint Bavo cathedral, I've been thinking about the [Steppe](xref:Life.Steppe). 🐺🌙🦬
+Ever since I read this [VRT article](https://www.vrt.be/vrtnws/nl/2025/03/10/gent-archeologie-prehistorie-geschiedenis-sint-baafskathedraal-o/) about deep soil drilling beneath the Saint Bavo cathedral, I've been thinking about the [Steppe](xref:Steppe.Steppe). 🐺🌙🦬
 
 > "De oudste afzetting is een dikke zandlaag die afgezet is door de wind, vanuit het Noordzeebekken. **Dat gebeurde in de prehistorie, 18.000 tot 14.650 jaar geleden**.
 
