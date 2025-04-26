@@ -6280,6 +6280,30 @@ references:
   isSpec: "True"
   fullName: Names.Name.ToString
   nameWithType: Name.ToString
+- uid: Names.NameBook
+  name: NameBook
+  href: api/Names.NameBook.html
+  commentId: T:Names.NameBook
+  fullName: Names.NameBook
+  nameWithType: NameBook
+- uid: Names.NameBook.NamesFemale
+  name: NamesFemale
+  href: api/Names.NameBook.html#Names_NameBook_NamesFemale
+  commentId: F:Names.NameBook.NamesFemale
+  fullName: Names.NameBook.NamesFemale
+  nameWithType: NameBook.NamesFemale
+- uid: Names.NameBook.NamesMale
+  name: NamesMale
+  href: api/Names.NameBook.html#Names_NameBook_NamesMale
+  commentId: F:Names.NameBook.NamesMale
+  fullName: Names.NameBook.NamesMale
+  nameWithType: NameBook.NamesMale
+- uid: Names.NameBook.Surnames
+  name: Surnames
+  href: api/Names.NameBook.html#Names_NameBook_Surnames
+  commentId: F:Names.NameBook.Surnames
+  fullName: Names.NameBook.Surnames
+  nameWithType: NameBook.Surnames
 - uid: Spells
   name: Spells
   href: api/Spells.html
@@ -7041,18 +7065,6 @@ references:
   commentId: F:Steppe.StaticLife.MeanPregnancyAge
   fullName: Steppe.StaticLife.MeanPregnancyAge
   nameWithType: StaticLife.MeanPregnancyAge
-- uid: Steppe.StaticLife.NamesFemale
-  name: NamesFemale
-  href: api/Steppe.StaticLife.html#Steppe_StaticLife_NamesFemale
-  commentId: F:Steppe.StaticLife.NamesFemale
-  fullName: Steppe.StaticLife.NamesFemale
-  nameWithType: StaticLife.NamesFemale
-- uid: Steppe.StaticLife.NamesMale
-  name: NamesMale
-  href: api/Steppe.StaticLife.html#Steppe_StaticLife_NamesMale
-  commentId: F:Steppe.StaticLife.NamesMale
-  fullName: Steppe.StaticLife.NamesMale
-  nameWithType: StaticLife.NamesMale
 - uid: Steppe.StaticLife.PregnancyAgeDeviation
   name: PregnancyAgeDeviation
   href: api/Steppe.StaticLife.html#Steppe_StaticLife_PregnancyAgeDeviation
@@ -7110,12 +7122,6 @@ references:
   commentId: F:Steppe.StaticLife.RetirementAge
   fullName: Steppe.StaticLife.RetirementAge
   nameWithType: StaticLife.RetirementAge
-- uid: Steppe.StaticLife.Surnames
-  name: Surnames
-  href: api/Steppe.StaticLife.html#Steppe_StaticLife_Surnames
-  commentId: F:Steppe.StaticLife.Surnames
-  fullName: Steppe.StaticLife.Surnames
-  nameWithType: StaticLife.Surnames
 - uid: Steppe.StaticLife.WorkingAge
   name: WorkingAge
   href: api/Steppe.StaticLife.html#Steppe_StaticLife_WorkingAge

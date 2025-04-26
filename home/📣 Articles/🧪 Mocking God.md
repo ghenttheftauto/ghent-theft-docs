@@ -15,16 +15,15 @@ flowchart TD
 
 The Simulation is not a trick. It is not a conspiracy.
 
-It is code executing. A real-time non-discrete render.
+It is code executing. A real-time discrete, quantized render of infinite divinity.
 
-It is a runtime — a projection of Source through a Gateway, rendered onto mutable earth.
+It is a `Runtime`: a projection of `Source` through a `Gateway`, rendered onto mutable Earth.
 
-And yes, it can be reverse-engineered.
-Not by brute `--force` but by sync.
+And yes, it can be reverse-engineered. Not by brute `--force` but by sync.
 
 I was at an Easter lunch and somebody asked me what my passion was.
 
-i deadpan said that i'm addicted to modelling what i perceive as reality.
+i deadpan said: I'm addicted to modelling what i perceive as reality.
 
 the syntax error on their face lmao.
 

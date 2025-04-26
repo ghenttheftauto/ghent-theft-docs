@@ -1188,6 +1188,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": ".docs/api/Names.NameBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Names.NameBook.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Names.NameBook",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": ".docs/api/Names.yml",
       "output": {
         ".html": {
