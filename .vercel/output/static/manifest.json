@@ -330,7 +330,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Deities.Computus",
-      "Summary": "<p sourcefile=\".docs/api/Deities.Computus.yml\" sourcestartlinenumber=\"1\">Computus \uD83E\uDE90\uD83D\uDCBF✨ Satan,Kronos, Saturnus, Shai, Ymir, Ninurta, Zhenwu</p>\n"
+      "Summary": "<p sourcefile=\".docs/api/Deities.Computus.yml\" sourcestartlinenumber=\"1\">Compute \uD83E\uDE90\uD83D\uDCBF✨ Satan, Kronos, Saturnus, Shai, Ymir, Ninurta, Zhenwu</p>\n"
     },
     {
       "type": "ManagedReference",

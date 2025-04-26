@@ -4,7 +4,7 @@ Ever since I read this [VRT article](https://www.vrt.be/vrtnws/nl/2025/03/10/gen
 
 > "De oudste afzetting is een dikke zandlaag die afgezet is door de wind, vanuit het Noordzeebekken. **Dat gebeurde in de prehistorie, 18.000 tot 14.650 jaar geleden**.
 
-This triggered me to 'tick the game loop back to 18,000 BCE to pre-cook the simulation and all it's souls', not just as a technical gimmick but as an act of reverence.
+This triggered me to '`step` the game loop back to 18,000 BCE to pre-cook the simulation and all it's souls', not just as a technical gimmick but as an act of reverence.
 
 The tundra beneath Sint-Baafskathedraal remembers. We know we can do it since we fixed [Easter](easter.md) with Metonic cycles and Epacts. We just need more maths, bigger numbers and possibly more balls, than the monks did in 500AD.
 
