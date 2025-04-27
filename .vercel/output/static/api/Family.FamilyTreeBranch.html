@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TreeNode | ghta docs </title>
+      <title>Class FamilyTreeBranch | ghta docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TreeNode | ghta docs ">
+      <meta name="title" content="Class FamilyTreeBranch | ghta docs ">
       
-      
+      <meta name="description" content="&#127807; One branch of a family tree.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Family.TreeNode">
+        <article data-uid="Family.FamilyTreeBranch">
 
 
 
-  <h1 id="Family_TreeNode" data-uid="Family.TreeNode" class="text-break">
-Class TreeNode  
+  <h1 id="Family_FamilyTreeBranch" data-uid="Family.FamilyTreeBranch" class="text-break">
+Class FamilyTreeBranch  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Class TreeNode
   <dl><dt>Assembly</dt><dd>gameoflife.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>🌿 One branch of a family tree.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TreeNode : IEnumerable&lt;Relation&gt;, IEnumerable&lt;Human&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class FamilyTreeBranch : IEnumerable&lt;Relation&gt;, IEnumerable&lt;Human&gt;, IEnumerable</code></pre>
   </div>
 
 
@@ -111,7 +112,7 @@ Class TreeNode
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">TreeNode</span></div>
+      <div><span class="xref">FamilyTreeBranch</span></div>
     </dd>
   </dl>
 
@@ -124,12 +125,6 @@ Class TreeNode
     </dd>
   </dl>
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Family.FamilyTree.html">FamilyTree</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -160,16 +155,20 @@ Class TreeNode
 
 
 
+  <h2 id="Family_FamilyTreeBranch_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Humans remain children even after they become parents.
+A branch grows new branches without severing its past.</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="Family_TreeNode__ctor_" data-uid="Family.TreeNode.#ctor*"></a>
+  <a id="Family_FamilyTreeBranch__ctor_" data-uid="Family.FamilyTreeBranch.#ctor*"></a>
 
-  <h3 id="Family_TreeNode__ctor_Humans_Relation_Family_TreeNode_" data-uid="Family.TreeNode.#ctor(Humans.Relation,Family.TreeNode)">
-  TreeNode(Relation, TreeNode)
+  <h3 id="Family_FamilyTreeBranch__ctor_Humans_Relation_Family_FamilyTreeBranch_" data-uid="Family.FamilyTreeBranch.#ctor(Humans.Relation,Family.FamilyTreeBranch)">
+  FamilyTreeBranch(Relation, FamilyTreeBranch)
   
   </h3>
 
@@ -177,14 +176,14 @@ Class TreeNode
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TreeNode(Relation couple, TreeNode parent)</code></pre>
+    <pre><code class="lang-csharp hljs">public FamilyTreeBranch(Relation couple, FamilyTreeBranch parent)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>couple</code> <a class="xref" href="Humans.Relation.html">Relation</a></dt>
     <dd></dd>
-    <dt><code>parent</code> <a class="xref" href="Family.TreeNode.html">TreeNode</a></dt>
+    <dt><code>parent</code> <a class="xref" href="Family.FamilyTreeBranch.html">FamilyTreeBranch</a></dt>
     <dd></dd>
   </dl>
 
@@ -204,7 +203,7 @@ Class TreeNode
 
 
 
-  <h3 id="Family_TreeNode_Father" data-uid="Family.TreeNode.Father">
+  <h3 id="Family_FamilyTreeBranch_Father" data-uid="Family.FamilyTreeBranch.Father">
   Father
   
   </h3>
@@ -234,7 +233,7 @@ Class TreeNode
 
 
 
-  <h3 id="Family_TreeNode_Mother" data-uid="Family.TreeNode.Mother">
+  <h3 id="Family_FamilyTreeBranch_Mother" data-uid="Family.FamilyTreeBranch.Mother">
   Mother
   
   </h3>
@@ -264,8 +263,8 @@ Class TreeNode
 
 
 
-  <h3 id="Family_TreeNode_OnChildBecomesCouple" data-uid="Family.TreeNode.OnChildBecomesCouple">
-  OnChildBecomesCouple
+  <h3 id="Family_FamilyTreeBranch_OnLeafBecomesBranch" data-uid="Family.FamilyTreeBranch.OnLeafBecomesBranch">
+  OnLeafBecomesBranch
   
   </h3>
 
@@ -273,7 +272,7 @@ Class TreeNode
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;Relation&gt;? OnChildBecomesCouple</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Relation&gt;? OnLeafBecomesBranch</code></pre>
   </div>
 
 
@@ -294,7 +293,37 @@ Class TreeNode
 
 
 
-  <h3 id="Family_TreeNode__allHumans" data-uid="Family.TreeNode._allHumans">
+  <h3 id="Family_FamilyTreeBranch_OnNewHuman" data-uid="Family.FamilyTreeBranch.OnNewHuman">
+  OnNewHuman
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;Human&gt;? OnNewHuman</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Humans.Human.html">Human</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Family_FamilyTreeBranch__allHumans" data-uid="Family.FamilyTreeBranch._allHumans">
   _allHumans
   
   </h3>
@@ -324,7 +353,7 @@ Class TreeNode
 
 
 
-  <h3 id="Family_TreeNode__childNodes" data-uid="Family.TreeNode._childNodes">
+  <h3 id="Family_FamilyTreeBranch__childNodes" data-uid="Family.FamilyTreeBranch._childNodes">
   _childNodes
   
   </h3>
@@ -354,7 +383,7 @@ Class TreeNode
 
 
 
-  <h3 id="Family_TreeNode__couples" data-uid="Family.TreeNode._couples">
+  <h3 id="Family_FamilyTreeBranch__couples" data-uid="Family.FamilyTreeBranch._couples">
   _couples
   
   </h3>
@@ -387,9 +416,9 @@ Class TreeNode
 </h2>
 
 
-  <a id="Family_TreeNode_ChildNodes_" data-uid="Family.TreeNode.ChildNodes*"></a>
+  <a id="Family_FamilyTreeBranch_ChildNodes_" data-uid="Family.FamilyTreeBranch.ChildNodes*"></a>
 
-  <h3 id="Family_TreeNode_ChildNodes" data-uid="Family.TreeNode.ChildNodes">
+  <h3 id="Family_FamilyTreeBranch_ChildNodes" data-uid="Family.FamilyTreeBranch.ChildNodes">
   ChildNodes
   
   </h3>
@@ -418,40 +447,9 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_Children_" data-uid="Family.TreeNode.Children*"></a>
+  <a id="Family_FamilyTreeBranch_Couple_" data-uid="Family.FamilyTreeBranch.Couple*"></a>
 
-  <h3 id="Family_TreeNode_Children" data-uid="Family.TreeNode.Children">
-  Children
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Human&gt; Children { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Humans.Human.html">Human</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Family_TreeNode_Couple_" data-uid="Family.TreeNode.Couple*"></a>
-
-  <h3 id="Family_TreeNode_Couple" data-uid="Family.TreeNode.Couple">
+  <h3 id="Family_FamilyTreeBranch_Couple" data-uid="Family.FamilyTreeBranch.Couple">
   Couple
   
   </h3>
@@ -480,9 +478,9 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_Depth_" data-uid="Family.TreeNode.Depth*"></a>
+  <a id="Family_FamilyTreeBranch_Depth_" data-uid="Family.FamilyTreeBranch.Depth*"></a>
 
-  <h3 id="Family_TreeNode_Depth" data-uid="Family.TreeNode.Depth">
+  <h3 id="Family_FamilyTreeBranch_Depth" data-uid="Family.FamilyTreeBranch.Depth">
   Depth
   
   </h3>
@@ -511,9 +509,40 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_IsRoot_" data-uid="Family.TreeNode.IsRoot*"></a>
+  <a id="Family_FamilyTreeBranch_IsLeaf_" data-uid="Family.FamilyTreeBranch.IsLeaf*"></a>
 
-  <h3 id="Family_TreeNode_IsRoot" data-uid="Family.TreeNode.IsRoot">
+  <h3 id="Family_FamilyTreeBranch_IsLeaf" data-uid="Family.FamilyTreeBranch.IsLeaf">
+  IsLeaf
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLeaf { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Family_FamilyTreeBranch_IsRoot_" data-uid="Family.FamilyTreeBranch.IsRoot*"></a>
+
+  <h3 id="Family_FamilyTreeBranch_IsRoot" data-uid="Family.FamilyTreeBranch.IsRoot">
   IsRoot
   
   </h3>
@@ -542,18 +571,19 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_Parent_" data-uid="Family.TreeNode.Parent*"></a>
+  <a id="Family_FamilyTreeBranch_Leaves_" data-uid="Family.FamilyTreeBranch.Leaves*"></a>
 
-  <h3 id="Family_TreeNode_Parent" data-uid="Family.TreeNode.Parent">
-  Parent
+  <h3 id="Family_FamilyTreeBranch_Leaves" data-uid="Family.FamilyTreeBranch.Leaves">
+  Leaves
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>All leaves under this branch (current children).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TreeNode? Parent { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Human&gt; Leaves { get; }</code></pre>
   </div>
 
 
@@ -562,7 +592,7 @@ Class TreeNode
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Family.TreeNode.html">TreeNode</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Humans.Human.html">Human</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -573,10 +603,10 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_Root_" data-uid="Family.TreeNode.Root*"></a>
+  <a id="Family_FamilyTreeBranch_Parent_" data-uid="Family.FamilyTreeBranch.Parent*"></a>
 
-  <h3 id="Family_TreeNode_Root" data-uid="Family.TreeNode.Root">
-  Root
+  <h3 id="Family_FamilyTreeBranch_Parent" data-uid="Family.FamilyTreeBranch.Parent">
+  Parent
   
   </h3>
 
@@ -584,7 +614,7 @@ Class TreeNode
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TreeNode Root { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public FamilyTreeBranch? Parent { get; set; }</code></pre>
   </div>
 
 
@@ -593,7 +623,38 @@ Class TreeNode
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Family.TreeNode.html">TreeNode</a></dt>
+    <dt><a class="xref" href="Family.FamilyTreeBranch.html">FamilyTreeBranch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Family_FamilyTreeBranch_Root_" data-uid="Family.FamilyTreeBranch.Root*"></a>
+
+  <h3 id="Family_FamilyTreeBranch_Root" data-uid="Family.FamilyTreeBranch.Root">
+  Root
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FamilyTreeBranch Root { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Family.FamilyTreeBranch.html">FamilyTreeBranch</a></dt>
     <dd></dd>
   </dl>
 
@@ -608,9 +669,9 @@ Class TreeNode
 </h2>
 
 
-  <a id="Family_TreeNode_AddTreeNodeToTreeNode_" data-uid="Family.TreeNode.AddTreeNodeToTreeNode*"></a>
+  <a id="Family_FamilyTreeBranch_AddTreeNodeToTreeNode_" data-uid="Family.FamilyTreeBranch.AddTreeNodeToTreeNode*"></a>
 
-  <h3 id="Family_TreeNode_AddTreeNodeToTreeNode_Humans_Relation_" data-uid="Family.TreeNode.AddTreeNodeToTreeNode(Humans.Relation)">
+  <h3 id="Family_FamilyTreeBranch_AddTreeNodeToTreeNode_Humans_Relation_" data-uid="Family.FamilyTreeBranch.AddTreeNodeToTreeNode(Humans.Relation)">
   AddTreeNodeToTreeNode(Relation)
   
   </h3>
@@ -619,7 +680,7 @@ Class TreeNode
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TreeNode AddTreeNodeToTreeNode(Relation couple)</code></pre>
+    <pre><code class="lang-csharp hljs">public FamilyTreeBranch AddTreeNodeToTreeNode(Relation couple)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -630,7 +691,7 @@ Class TreeNode
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Family.TreeNode.html">TreeNode</a></dt>
+    <dt><a class="xref" href="Family.FamilyTreeBranch.html">FamilyTreeBranch</a></dt>
     <dd></dd>
   </dl>
 
@@ -644,9 +705,9 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_GetEnumerator_" data-uid="Family.TreeNode.GetEnumerator*"></a>
+  <a id="Family_FamilyTreeBranch_GetEnumerator_" data-uid="Family.FamilyTreeBranch.GetEnumerator*"></a>
 
-  <h3 id="Family_TreeNode_GetEnumerator" data-uid="Family.TreeNode.GetEnumerator">
+  <h3 id="Family_FamilyTreeBranch_GetEnumerator" data-uid="Family.FamilyTreeBranch.GetEnumerator">
   GetEnumerator()
   
   </h3>
@@ -677,9 +738,9 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_HandleNewCouple_" data-uid="Family.TreeNode.HandleNewCouple*"></a>
+  <a id="Family_FamilyTreeBranch_HandleNewCouple_" data-uid="Family.FamilyTreeBranch.HandleNewCouple*"></a>
 
-  <h3 id="Family_TreeNode_HandleNewCouple_Humans_Relation_" data-uid="Family.TreeNode.HandleNewCouple(Humans.Relation)">
+  <h3 id="Family_FamilyTreeBranch_HandleNewCouple_Humans_Relation_" data-uid="Family.FamilyTreeBranch.HandleNewCouple(Humans.Relation)">
   HandleNewCouple(Relation)
   
   </h3>
@@ -708,9 +769,9 @@ Class TreeNode
 
 
 
-  <a id="Family_TreeNode_UpdateNodeWithChild_" data-uid="Family.TreeNode.UpdateNodeWithChild*"></a>
+  <a id="Family_FamilyTreeBranch_UpdateNodeWithChild_" data-uid="Family.FamilyTreeBranch.UpdateNodeWithChild*"></a>
 
-  <h3 id="Family_TreeNode_UpdateNodeWithChild_Humans_Human_" data-uid="Family.TreeNode.UpdateNodeWithChild(Humans.Human)">
+  <h3 id="Family_FamilyTreeBranch_UpdateNodeWithChild_Humans_Human_" data-uid="Family.FamilyTreeBranch.UpdateNodeWithChild(Humans.Human)">
   UpdateNodeWithChild(Human)
   
   </h3>

@@ -2494,15 +2494,15 @@ references:
   commentId: T:Family.FamilyTree
   fullName: Family.FamilyTree
   nameWithType: FamilyTree
-- uid: Family.FamilyTree.#ctor(Humans.Relation,Family.TreeNode)
-  name: FamilyTree(Relation, TreeNode)
-  href: api/Family.FamilyTree.html#Family_FamilyTree__ctor_Humans_Relation_Family_TreeNode_
-  commentId: M:Family.FamilyTree.#ctor(Humans.Relation,Family.TreeNode)
-  name.vb: New(Relation, TreeNode)
-  fullName: Family.FamilyTree.FamilyTree(Humans.Relation, Family.TreeNode)
-  fullName.vb: Family.FamilyTree.New(Humans.Relation, Family.TreeNode)
-  nameWithType: FamilyTree.FamilyTree(Relation, TreeNode)
-  nameWithType.vb: FamilyTree.New(Relation, TreeNode)
+- uid: Family.FamilyTree.#ctor(Humans.Relation)
+  name: FamilyTree(Relation)
+  href: api/Family.FamilyTree.html#Family_FamilyTree__ctor_Humans_Relation_
+  commentId: M:Family.FamilyTree.#ctor(Humans.Relation)
+  name.vb: New(Relation)
+  fullName: Family.FamilyTree.FamilyTree(Humans.Relation)
+  fullName.vb: Family.FamilyTree.New(Humans.Relation)
+  nameWithType: FamilyTree.FamilyTree(Relation)
+  nameWithType.vb: FamilyTree.New(Relation)
 - uid: Family.FamilyTree.#ctor*
   name: FamilyTree
   href: api/Family.FamilyTree.html#Family_FamilyTree__ctor_
@@ -2516,9 +2516,42 @@ references:
 - uid: Family.FamilyTree.AdamAndEve
   name: AdamAndEve
   href: api/Family.FamilyTree.html#Family_FamilyTree_AdamAndEve
-  commentId: F:Family.FamilyTree.AdamAndEve
+  commentId: P:Family.FamilyTree.AdamAndEve
   fullName: Family.FamilyTree.AdamAndEve
   nameWithType: FamilyTree.AdamAndEve
+- uid: Family.FamilyTree.AdamAndEve*
+  name: AdamAndEve
+  href: api/Family.FamilyTree.html#Family_FamilyTree_AdamAndEve_
+  commentId: Overload:Family.FamilyTree.AdamAndEve
+  isSpec: "True"
+  fullName: Family.FamilyTree.AdamAndEve
+  nameWithType: FamilyTree.AdamAndEve
+- uid: Family.FamilyTree.AllHumans
+  name: AllHumans
+  href: api/Family.FamilyTree.html#Family_FamilyTree_AllHumans
+  commentId: P:Family.FamilyTree.AllHumans
+  fullName: Family.FamilyTree.AllHumans
+  nameWithType: FamilyTree.AllHumans
+- uid: Family.FamilyTree.AllHumans*
+  name: AllHumans
+  href: api/Family.FamilyTree.html#Family_FamilyTree_AllHumans_
+  commentId: Overload:Family.FamilyTree.AllHumans
+  isSpec: "True"
+  fullName: Family.FamilyTree.AllHumans
+  nameWithType: FamilyTree.AllHumans
+- uid: Family.FamilyTree.AllRelations
+  name: AllRelations
+  href: api/Family.FamilyTree.html#Family_FamilyTree_AllRelations
+  commentId: P:Family.FamilyTree.AllRelations
+  fullName: Family.FamilyTree.AllRelations
+  nameWithType: FamilyTree.AllRelations
+- uid: Family.FamilyTree.AllRelations*
+  name: AllRelations
+  href: api/Family.FamilyTree.html#Family_FamilyTree_AllRelations_
+  commentId: Overload:Family.FamilyTree.AllRelations
+  isSpec: "True"
+  fullName: Family.FamilyTree.AllRelations
+  nameWithType: FamilyTree.AllRelations
 - uid: Family.FamilyTree.AreSiblings(Humans.Human,Humans.Human)
   name: AreSiblings(Human, Human)
   href: api/Family.FamilyTree.html#Family_FamilyTree_AreSiblings_Humans_Human_Humans_Human_
@@ -2571,6 +2604,19 @@ references:
   isSpec: "True"
   fullName: Family.FamilyTree.GetChildrenForParent
   nameWithType: FamilyTree.GetChildrenForParent
+- uid: Family.FamilyTree.GetEnumerator
+  name: GetEnumerator()
+  href: api/Family.FamilyTree.html#Family_FamilyTree_GetEnumerator
+  commentId: M:Family.FamilyTree.GetEnumerator
+  fullName: Family.FamilyTree.GetEnumerator()
+  nameWithType: FamilyTree.GetEnumerator()
+- uid: Family.FamilyTree.GetEnumerator*
+  name: GetEnumerator
+  href: api/Family.FamilyTree.html#Family_FamilyTree_GetEnumerator_
+  commentId: Overload:Family.FamilyTree.GetEnumerator
+  isSpec: "True"
+  fullName: Family.FamilyTree.GetEnumerator
+  nameWithType: FamilyTree.GetEnumerator
 - uid: Family.FamilyTree.GetNodeForChild(Humans.Human)
   name: GetNodeForChild(Human)
   href: api/Family.FamilyTree.html#Family_FamilyTree_GetNodeForChild_Humans_Human_
@@ -2681,238 +2727,315 @@ references:
   isSpec: "True"
   fullName: Family.FamilyTree.IsParentOf
   nameWithType: FamilyTree.IsParentOf
-- uid: Family.FamilyTree.ToList
-  name: ToList()
-  href: api/Family.FamilyTree.html#Family_FamilyTree_ToList
-  commentId: M:Family.FamilyTree.ToList
-  fullName: Family.FamilyTree.ToList()
-  nameWithType: FamilyTree.ToList()
-- uid: Family.FamilyTree.ToList*
-  name: ToList
-  href: api/Family.FamilyTree.html#Family_FamilyTree_ToList_
-  commentId: Overload:Family.FamilyTree.ToList
+- uid: Family.FamilyTree.RootBranch
+  name: RootBranch
+  href: api/Family.FamilyTree.html#Family_FamilyTree_RootBranch
+  commentId: P:Family.FamilyTree.RootBranch
+  fullName: Family.FamilyTree.RootBranch
+  nameWithType: FamilyTree.RootBranch
+- uid: Family.FamilyTree.RootBranch*
+  name: RootBranch
+  href: api/Family.FamilyTree.html#Family_FamilyTree_RootBranch_
+  commentId: Overload:Family.FamilyTree.RootBranch
   isSpec: "True"
-  fullName: Family.FamilyTree.ToList
-  nameWithType: FamilyTree.ToList
-- uid: Family.TreeNode
-  name: TreeNode
-  href: api/Family.TreeNode.html
-  commentId: T:Family.TreeNode
-  fullName: Family.TreeNode
-  nameWithType: TreeNode
-- uid: Family.TreeNode.#ctor(Humans.Relation,Family.TreeNode)
-  name: TreeNode(Relation, TreeNode)
-  href: api/Family.TreeNode.html#Family_TreeNode__ctor_Humans_Relation_Family_TreeNode_
-  commentId: M:Family.TreeNode.#ctor(Humans.Relation,Family.TreeNode)
-  name.vb: New(Relation, TreeNode)
-  fullName: Family.TreeNode.TreeNode(Humans.Relation, Family.TreeNode)
-  fullName.vb: Family.TreeNode.New(Humans.Relation, Family.TreeNode)
-  nameWithType: TreeNode.TreeNode(Relation, TreeNode)
-  nameWithType.vb: TreeNode.New(Relation, TreeNode)
-- uid: Family.TreeNode.#ctor*
-  name: TreeNode
-  href: api/Family.TreeNode.html#Family_TreeNode__ctor_
-  commentId: Overload:Family.TreeNode.#ctor
+  fullName: Family.FamilyTree.RootBranch
+  nameWithType: FamilyTree.RootBranch
+- uid: Family.FamilyTree.ToString
+  name: ToString()
+  href: api/Family.FamilyTree.html#Family_FamilyTree_ToString
+  commentId: M:Family.FamilyTree.ToString
+  fullName: Family.FamilyTree.ToString()
+  nameWithType: FamilyTree.ToString()
+- uid: Family.FamilyTree.ToString*
+  name: ToString
+  href: api/Family.FamilyTree.html#Family_FamilyTree_ToString_
+  commentId: Overload:Family.FamilyTree.ToString
+  isSpec: "True"
+  fullName: Family.FamilyTree.ToString
+  nameWithType: FamilyTree.ToString
+- uid: Family.FamilyTreeBranch
+  name: FamilyTreeBranch
+  href: api/Family.FamilyTreeBranch.html
+  commentId: T:Family.FamilyTreeBranch
+  fullName: Family.FamilyTreeBranch
+  nameWithType: FamilyTreeBranch
+- uid: Family.FamilyTreeBranch.#ctor(Humans.Relation,Family.FamilyTreeBranch)
+  name: FamilyTreeBranch(Relation, FamilyTreeBranch)
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch__ctor_Humans_Relation_Family_FamilyTreeBranch_
+  commentId: M:Family.FamilyTreeBranch.#ctor(Humans.Relation,Family.FamilyTreeBranch)
+  name.vb: New(Relation, FamilyTreeBranch)
+  fullName: Family.FamilyTreeBranch.FamilyTreeBranch(Humans.Relation, Family.FamilyTreeBranch)
+  fullName.vb: Family.FamilyTreeBranch.New(Humans.Relation, Family.FamilyTreeBranch)
+  nameWithType: FamilyTreeBranch.FamilyTreeBranch(Relation, FamilyTreeBranch)
+  nameWithType.vb: FamilyTreeBranch.New(Relation, FamilyTreeBranch)
+- uid: Family.FamilyTreeBranch.#ctor*
+  name: FamilyTreeBranch
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch__ctor_
+  commentId: Overload:Family.FamilyTreeBranch.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: Family.TreeNode.TreeNode
-  fullName.vb: Family.TreeNode.New
-  nameWithType: TreeNode.TreeNode
-  nameWithType.vb: TreeNode.New
-- uid: Family.TreeNode.AddTreeNodeToTreeNode(Humans.Relation)
+  fullName: Family.FamilyTreeBranch.FamilyTreeBranch
+  fullName.vb: Family.FamilyTreeBranch.New
+  nameWithType: FamilyTreeBranch.FamilyTreeBranch
+  nameWithType.vb: FamilyTreeBranch.New
+- uid: Family.FamilyTreeBranch.AddTreeNodeToTreeNode(Humans.Relation)
   name: AddTreeNodeToTreeNode(Relation)
-  href: api/Family.TreeNode.html#Family_TreeNode_AddTreeNodeToTreeNode_Humans_Relation_
-  commentId: M:Family.TreeNode.AddTreeNodeToTreeNode(Humans.Relation)
-  fullName: Family.TreeNode.AddTreeNodeToTreeNode(Humans.Relation)
-  nameWithType: TreeNode.AddTreeNodeToTreeNode(Relation)
-- uid: Family.TreeNode.AddTreeNodeToTreeNode*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_AddTreeNodeToTreeNode_Humans_Relation_
+  commentId: M:Family.FamilyTreeBranch.AddTreeNodeToTreeNode(Humans.Relation)
+  fullName: Family.FamilyTreeBranch.AddTreeNodeToTreeNode(Humans.Relation)
+  nameWithType: FamilyTreeBranch.AddTreeNodeToTreeNode(Relation)
+- uid: Family.FamilyTreeBranch.AddTreeNodeToTreeNode*
   name: AddTreeNodeToTreeNode
-  href: api/Family.TreeNode.html#Family_TreeNode_AddTreeNodeToTreeNode_
-  commentId: Overload:Family.TreeNode.AddTreeNodeToTreeNode
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_AddTreeNodeToTreeNode_
+  commentId: Overload:Family.FamilyTreeBranch.AddTreeNodeToTreeNode
   isSpec: "True"
-  fullName: Family.TreeNode.AddTreeNodeToTreeNode
-  nameWithType: TreeNode.AddTreeNodeToTreeNode
-- uid: Family.TreeNode.ChildNodes
+  fullName: Family.FamilyTreeBranch.AddTreeNodeToTreeNode
+  nameWithType: FamilyTreeBranch.AddTreeNodeToTreeNode
+- uid: Family.FamilyTreeBranch.ChildNodes
   name: ChildNodes
-  href: api/Family.TreeNode.html#Family_TreeNode_ChildNodes
-  commentId: P:Family.TreeNode.ChildNodes
-  fullName: Family.TreeNode.ChildNodes
-  nameWithType: TreeNode.ChildNodes
-- uid: Family.TreeNode.ChildNodes*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_ChildNodes
+  commentId: P:Family.FamilyTreeBranch.ChildNodes
+  fullName: Family.FamilyTreeBranch.ChildNodes
+  nameWithType: FamilyTreeBranch.ChildNodes
+- uid: Family.FamilyTreeBranch.ChildNodes*
   name: ChildNodes
-  href: api/Family.TreeNode.html#Family_TreeNode_ChildNodes_
-  commentId: Overload:Family.TreeNode.ChildNodes
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_ChildNodes_
+  commentId: Overload:Family.FamilyTreeBranch.ChildNodes
   isSpec: "True"
-  fullName: Family.TreeNode.ChildNodes
-  nameWithType: TreeNode.ChildNodes
-- uid: Family.TreeNode.Children
-  name: Children
-  href: api/Family.TreeNode.html#Family_TreeNode_Children
-  commentId: P:Family.TreeNode.Children
-  fullName: Family.TreeNode.Children
-  nameWithType: TreeNode.Children
-- uid: Family.TreeNode.Children*
-  name: Children
-  href: api/Family.TreeNode.html#Family_TreeNode_Children_
-  commentId: Overload:Family.TreeNode.Children
-  isSpec: "True"
-  fullName: Family.TreeNode.Children
-  nameWithType: TreeNode.Children
-- uid: Family.TreeNode.Couple
+  fullName: Family.FamilyTreeBranch.ChildNodes
+  nameWithType: FamilyTreeBranch.ChildNodes
+- uid: Family.FamilyTreeBranch.Couple
   name: Couple
-  href: api/Family.TreeNode.html#Family_TreeNode_Couple
-  commentId: P:Family.TreeNode.Couple
-  fullName: Family.TreeNode.Couple
-  nameWithType: TreeNode.Couple
-- uid: Family.TreeNode.Couple*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Couple
+  commentId: P:Family.FamilyTreeBranch.Couple
+  fullName: Family.FamilyTreeBranch.Couple
+  nameWithType: FamilyTreeBranch.Couple
+- uid: Family.FamilyTreeBranch.Couple*
   name: Couple
-  href: api/Family.TreeNode.html#Family_TreeNode_Couple_
-  commentId: Overload:Family.TreeNode.Couple
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Couple_
+  commentId: Overload:Family.FamilyTreeBranch.Couple
   isSpec: "True"
-  fullName: Family.TreeNode.Couple
-  nameWithType: TreeNode.Couple
-- uid: Family.TreeNode.Depth
+  fullName: Family.FamilyTreeBranch.Couple
+  nameWithType: FamilyTreeBranch.Couple
+- uid: Family.FamilyTreeBranch.Depth
   name: Depth
-  href: api/Family.TreeNode.html#Family_TreeNode_Depth
-  commentId: P:Family.TreeNode.Depth
-  fullName: Family.TreeNode.Depth
-  nameWithType: TreeNode.Depth
-- uid: Family.TreeNode.Depth*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Depth
+  commentId: P:Family.FamilyTreeBranch.Depth
+  fullName: Family.FamilyTreeBranch.Depth
+  nameWithType: FamilyTreeBranch.Depth
+- uid: Family.FamilyTreeBranch.Depth*
   name: Depth
-  href: api/Family.TreeNode.html#Family_TreeNode_Depth_
-  commentId: Overload:Family.TreeNode.Depth
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Depth_
+  commentId: Overload:Family.FamilyTreeBranch.Depth
   isSpec: "True"
-  fullName: Family.TreeNode.Depth
-  nameWithType: TreeNode.Depth
-- uid: Family.TreeNode.Father
+  fullName: Family.FamilyTreeBranch.Depth
+  nameWithType: FamilyTreeBranch.Depth
+- uid: Family.FamilyTreeBranch.Father
   name: Father
-  href: api/Family.TreeNode.html#Family_TreeNode_Father
-  commentId: F:Family.TreeNode.Father
-  fullName: Family.TreeNode.Father
-  nameWithType: TreeNode.Father
-- uid: Family.TreeNode.GetEnumerator
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Father
+  commentId: F:Family.FamilyTreeBranch.Father
+  fullName: Family.FamilyTreeBranch.Father
+  nameWithType: FamilyTreeBranch.Father
+- uid: Family.FamilyTreeBranch.GetEnumerator
   name: GetEnumerator()
-  href: api/Family.TreeNode.html#Family_TreeNode_GetEnumerator
-  commentId: M:Family.TreeNode.GetEnumerator
-  fullName: Family.TreeNode.GetEnumerator()
-  nameWithType: TreeNode.GetEnumerator()
-- uid: Family.TreeNode.GetEnumerator*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_GetEnumerator
+  commentId: M:Family.FamilyTreeBranch.GetEnumerator
+  fullName: Family.FamilyTreeBranch.GetEnumerator()
+  nameWithType: FamilyTreeBranch.GetEnumerator()
+- uid: Family.FamilyTreeBranch.GetEnumerator*
   name: GetEnumerator
-  href: api/Family.TreeNode.html#Family_TreeNode_GetEnumerator_
-  commentId: Overload:Family.TreeNode.GetEnumerator
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_GetEnumerator_
+  commentId: Overload:Family.FamilyTreeBranch.GetEnumerator
   isSpec: "True"
-  fullName: Family.TreeNode.GetEnumerator
-  nameWithType: TreeNode.GetEnumerator
-- uid: Family.TreeNode.HandleNewCouple(Humans.Relation)
+  fullName: Family.FamilyTreeBranch.GetEnumerator
+  nameWithType: FamilyTreeBranch.GetEnumerator
+- uid: Family.FamilyTreeBranch.HandleNewCouple(Humans.Relation)
   name: HandleNewCouple(Relation)
-  href: api/Family.TreeNode.html#Family_TreeNode_HandleNewCouple_Humans_Relation_
-  commentId: M:Family.TreeNode.HandleNewCouple(Humans.Relation)
-  fullName: Family.TreeNode.HandleNewCouple(Humans.Relation)
-  nameWithType: TreeNode.HandleNewCouple(Relation)
-- uid: Family.TreeNode.HandleNewCouple*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_HandleNewCouple_Humans_Relation_
+  commentId: M:Family.FamilyTreeBranch.HandleNewCouple(Humans.Relation)
+  fullName: Family.FamilyTreeBranch.HandleNewCouple(Humans.Relation)
+  nameWithType: FamilyTreeBranch.HandleNewCouple(Relation)
+- uid: Family.FamilyTreeBranch.HandleNewCouple*
   name: HandleNewCouple
-  href: api/Family.TreeNode.html#Family_TreeNode_HandleNewCouple_
-  commentId: Overload:Family.TreeNode.HandleNewCouple
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_HandleNewCouple_
+  commentId: Overload:Family.FamilyTreeBranch.HandleNewCouple
   isSpec: "True"
-  fullName: Family.TreeNode.HandleNewCouple
-  nameWithType: TreeNode.HandleNewCouple
-- uid: Family.TreeNode.IsRoot
-  name: IsRoot
-  href: api/Family.TreeNode.html#Family_TreeNode_IsRoot
-  commentId: P:Family.TreeNode.IsRoot
-  fullName: Family.TreeNode.IsRoot
-  nameWithType: TreeNode.IsRoot
-- uid: Family.TreeNode.IsRoot*
-  name: IsRoot
-  href: api/Family.TreeNode.html#Family_TreeNode_IsRoot_
-  commentId: Overload:Family.TreeNode.IsRoot
+  fullName: Family.FamilyTreeBranch.HandleNewCouple
+  nameWithType: FamilyTreeBranch.HandleNewCouple
+- uid: Family.FamilyTreeBranch.IsLeaf
+  name: IsLeaf
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_IsLeaf
+  commentId: P:Family.FamilyTreeBranch.IsLeaf
+  fullName: Family.FamilyTreeBranch.IsLeaf
+  nameWithType: FamilyTreeBranch.IsLeaf
+- uid: Family.FamilyTreeBranch.IsLeaf*
+  name: IsLeaf
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_IsLeaf_
+  commentId: Overload:Family.FamilyTreeBranch.IsLeaf
   isSpec: "True"
-  fullName: Family.TreeNode.IsRoot
-  nameWithType: TreeNode.IsRoot
-- uid: Family.TreeNode.Mother
+  fullName: Family.FamilyTreeBranch.IsLeaf
+  nameWithType: FamilyTreeBranch.IsLeaf
+- uid: Family.FamilyTreeBranch.IsRoot
+  name: IsRoot
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_IsRoot
+  commentId: P:Family.FamilyTreeBranch.IsRoot
+  fullName: Family.FamilyTreeBranch.IsRoot
+  nameWithType: FamilyTreeBranch.IsRoot
+- uid: Family.FamilyTreeBranch.IsRoot*
+  name: IsRoot
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_IsRoot_
+  commentId: Overload:Family.FamilyTreeBranch.IsRoot
+  isSpec: "True"
+  fullName: Family.FamilyTreeBranch.IsRoot
+  nameWithType: FamilyTreeBranch.IsRoot
+- uid: Family.FamilyTreeBranch.Leaves
+  name: Leaves
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Leaves
+  commentId: P:Family.FamilyTreeBranch.Leaves
+  fullName: Family.FamilyTreeBranch.Leaves
+  nameWithType: FamilyTreeBranch.Leaves
+- uid: Family.FamilyTreeBranch.Leaves*
+  name: Leaves
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Leaves_
+  commentId: Overload:Family.FamilyTreeBranch.Leaves
+  isSpec: "True"
+  fullName: Family.FamilyTreeBranch.Leaves
+  nameWithType: FamilyTreeBranch.Leaves
+- uid: Family.FamilyTreeBranch.Mother
   name: Mother
-  href: api/Family.TreeNode.html#Family_TreeNode_Mother
-  commentId: F:Family.TreeNode.Mother
-  fullName: Family.TreeNode.Mother
-  nameWithType: TreeNode.Mother
-- uid: Family.TreeNode.OnChildBecomesCouple
-  name: OnChildBecomesCouple
-  href: api/Family.TreeNode.html#Family_TreeNode_OnChildBecomesCouple
-  commentId: F:Family.TreeNode.OnChildBecomesCouple
-  fullName: Family.TreeNode.OnChildBecomesCouple
-  nameWithType: TreeNode.OnChildBecomesCouple
-- uid: Family.TreeNode.Parent
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Mother
+  commentId: F:Family.FamilyTreeBranch.Mother
+  fullName: Family.FamilyTreeBranch.Mother
+  nameWithType: FamilyTreeBranch.Mother
+- uid: Family.FamilyTreeBranch.OnLeafBecomesBranch
+  name: OnLeafBecomesBranch
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_OnLeafBecomesBranch
+  commentId: F:Family.FamilyTreeBranch.OnLeafBecomesBranch
+  fullName: Family.FamilyTreeBranch.OnLeafBecomesBranch
+  nameWithType: FamilyTreeBranch.OnLeafBecomesBranch
+- uid: Family.FamilyTreeBranch.OnNewHuman
+  name: OnNewHuman
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_OnNewHuman
+  commentId: F:Family.FamilyTreeBranch.OnNewHuman
+  fullName: Family.FamilyTreeBranch.OnNewHuman
+  nameWithType: FamilyTreeBranch.OnNewHuman
+- uid: Family.FamilyTreeBranch.Parent
   name: Parent
-  href: api/Family.TreeNode.html#Family_TreeNode_Parent
-  commentId: P:Family.TreeNode.Parent
-  fullName: Family.TreeNode.Parent
-  nameWithType: TreeNode.Parent
-- uid: Family.TreeNode.Parent*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Parent
+  commentId: P:Family.FamilyTreeBranch.Parent
+  fullName: Family.FamilyTreeBranch.Parent
+  nameWithType: FamilyTreeBranch.Parent
+- uid: Family.FamilyTreeBranch.Parent*
   name: Parent
-  href: api/Family.TreeNode.html#Family_TreeNode_Parent_
-  commentId: Overload:Family.TreeNode.Parent
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Parent_
+  commentId: Overload:Family.FamilyTreeBranch.Parent
   isSpec: "True"
-  fullName: Family.TreeNode.Parent
-  nameWithType: TreeNode.Parent
-- uid: Family.TreeNode.Root
+  fullName: Family.FamilyTreeBranch.Parent
+  nameWithType: FamilyTreeBranch.Parent
+- uid: Family.FamilyTreeBranch.Root
   name: Root
-  href: api/Family.TreeNode.html#Family_TreeNode_Root
-  commentId: P:Family.TreeNode.Root
-  fullName: Family.TreeNode.Root
-  nameWithType: TreeNode.Root
-- uid: Family.TreeNode.Root*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Root
+  commentId: P:Family.FamilyTreeBranch.Root
+  fullName: Family.FamilyTreeBranch.Root
+  nameWithType: FamilyTreeBranch.Root
+- uid: Family.FamilyTreeBranch.Root*
   name: Root
-  href: api/Family.TreeNode.html#Family_TreeNode_Root_
-  commentId: Overload:Family.TreeNode.Root
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_Root_
+  commentId: Overload:Family.FamilyTreeBranch.Root
   isSpec: "True"
-  fullName: Family.TreeNode.Root
-  nameWithType: TreeNode.Root
-- uid: Family.TreeNode.UpdateNodeWithChild(Humans.Human)
+  fullName: Family.FamilyTreeBranch.Root
+  nameWithType: FamilyTreeBranch.Root
+- uid: Family.FamilyTreeBranch.UpdateNodeWithChild(Humans.Human)
   name: UpdateNodeWithChild(Human)
-  href: api/Family.TreeNode.html#Family_TreeNode_UpdateNodeWithChild_Humans_Human_
-  commentId: M:Family.TreeNode.UpdateNodeWithChild(Humans.Human)
-  fullName: Family.TreeNode.UpdateNodeWithChild(Humans.Human)
-  nameWithType: TreeNode.UpdateNodeWithChild(Human)
-- uid: Family.TreeNode.UpdateNodeWithChild*
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_UpdateNodeWithChild_Humans_Human_
+  commentId: M:Family.FamilyTreeBranch.UpdateNodeWithChild(Humans.Human)
+  fullName: Family.FamilyTreeBranch.UpdateNodeWithChild(Humans.Human)
+  nameWithType: FamilyTreeBranch.UpdateNodeWithChild(Human)
+- uid: Family.FamilyTreeBranch.UpdateNodeWithChild*
   name: UpdateNodeWithChild
-  href: api/Family.TreeNode.html#Family_TreeNode_UpdateNodeWithChild_
-  commentId: Overload:Family.TreeNode.UpdateNodeWithChild
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch_UpdateNodeWithChild_
+  commentId: Overload:Family.FamilyTreeBranch.UpdateNodeWithChild
   isSpec: "True"
-  fullName: Family.TreeNode.UpdateNodeWithChild
-  nameWithType: TreeNode.UpdateNodeWithChild
-- uid: Family.TreeNode._allHumans
+  fullName: Family.FamilyTreeBranch.UpdateNodeWithChild
+  nameWithType: FamilyTreeBranch.UpdateNodeWithChild
+- uid: Family.FamilyTreeBranch._allHumans
   name: _allHumans
-  href: api/Family.TreeNode.html#Family_TreeNode__allHumans
-  commentId: F:Family.TreeNode._allHumans
-  fullName: Family.TreeNode._allHumans
-  nameWithType: TreeNode._allHumans
-- uid: Family.TreeNode._childNodes
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch__allHumans
+  commentId: F:Family.FamilyTreeBranch._allHumans
+  fullName: Family.FamilyTreeBranch._allHumans
+  nameWithType: FamilyTreeBranch._allHumans
+- uid: Family.FamilyTreeBranch._childNodes
   name: _childNodes
-  href: api/Family.TreeNode.html#Family_TreeNode__childNodes
-  commentId: F:Family.TreeNode._childNodes
-  fullName: Family.TreeNode._childNodes
-  nameWithType: TreeNode._childNodes
-- uid: Family.TreeNode._couples
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch__childNodes
+  commentId: F:Family.FamilyTreeBranch._childNodes
+  fullName: Family.FamilyTreeBranch._childNodes
+  nameWithType: FamilyTreeBranch._childNodes
+- uid: Family.FamilyTreeBranch._couples
   name: _couples
-  href: api/Family.TreeNode.html#Family_TreeNode__couples
-  commentId: F:Family.TreeNode._couples
-  fullName: Family.TreeNode._couples
-  nameWithType: TreeNode._couples
+  href: api/Family.FamilyTreeBranch.html#Family_FamilyTreeBranch__couples
+  commentId: F:Family.FamilyTreeBranch._couples
+  fullName: Family.FamilyTreeBranch._couples
+  nameWithType: FamilyTreeBranch._couples
+- uid: Family.Forest
+  name: Forest
+  href: api/Family.Forest.html
+  commentId: T:Family.Forest
+  fullName: Family.Forest
+  nameWithType: Forest
+- uid: Family.Forest.Fell(Family.FamilyTree)
+  name: Fell(FamilyTree)
+  href: api/Family.Forest.html#Family_Forest_Fell_Family_FamilyTree_
+  commentId: M:Family.Forest.Fell(Family.FamilyTree)
+  fullName: Family.Forest.Fell(Family.FamilyTree)
+  nameWithType: Forest.Fell(FamilyTree)
+- uid: Family.Forest.Fell*
+  name: Fell
+  href: api/Family.Forest.html#Family_Forest_Fell_
+  commentId: Overload:Family.Forest.Fell
+  isSpec: "True"
+  fullName: Family.Forest.Fell
+  nameWithType: Forest.Fell
+- uid: Family.Forest.Grove
+  name: Grove
+  href: api/Family.Forest.html#Family_Forest_Grove
+  commentId: P:Family.Forest.Grove
+  fullName: Family.Forest.Grove
+  nameWithType: Forest.Grove
+- uid: Family.Forest.Grove*
+  name: Grove
+  href: api/Family.Forest.html#Family_Forest_Grove_
+  commentId: Overload:Family.Forest.Grove
+  isSpec: "True"
+  fullName: Family.Forest.Grove
+  nameWithType: Forest.Grove
+- uid: Family.Forest.Pile
+  name: Pile
+  href: api/Family.Forest.html#Family_Forest_Pile
+  commentId: P:Family.Forest.Pile
+  fullName: Family.Forest.Pile
+  nameWithType: Forest.Pile
+- uid: Family.Forest.Pile*
+  name: Pile
+  href: api/Family.Forest.html#Family_Forest_Pile_
+  commentId: Overload:Family.Forest.Pile
+  isSpec: "True"
+  fullName: Family.Forest.Pile
+  nameWithType: Forest.Pile
 - uid: Family.TreeNodeList
   name: TreeNodeList
   href: api/Family.TreeNodeList.html
   commentId: T:Family.TreeNodeList
   fullName: Family.TreeNodeList
   nameWithType: TreeNodeList
-- uid: Family.TreeNodeList.#ctor(Family.TreeNode)
-  name: TreeNodeList(TreeNode)
-  href: api/Family.TreeNodeList.html#Family_TreeNodeList__ctor_Family_TreeNode_
-  commentId: M:Family.TreeNodeList.#ctor(Family.TreeNode)
-  name.vb: New(TreeNode)
-  fullName: Family.TreeNodeList.TreeNodeList(Family.TreeNode)
-  fullName.vb: Family.TreeNodeList.New(Family.TreeNode)
-  nameWithType: TreeNodeList.TreeNodeList(TreeNode)
-  nameWithType.vb: TreeNodeList.New(TreeNode)
+- uid: Family.TreeNodeList.#ctor(Family.FamilyTreeBranch)
+  name: TreeNodeList(FamilyTreeBranch)
+  href: api/Family.TreeNodeList.html#Family_TreeNodeList__ctor_Family_FamilyTreeBranch_
+  commentId: M:Family.TreeNodeList.#ctor(Family.FamilyTreeBranch)
+  name.vb: New(FamilyTreeBranch)
+  fullName: Family.TreeNodeList.TreeNodeList(Family.FamilyTreeBranch)
+  fullName.vb: Family.TreeNodeList.New(Family.FamilyTreeBranch)
+  nameWithType: TreeNodeList.TreeNodeList(FamilyTreeBranch)
+  nameWithType.vb: TreeNodeList.New(FamilyTreeBranch)
 - uid: Family.TreeNodeList.#ctor*
   name: TreeNodeList
   href: api/Family.TreeNodeList.html#Family_TreeNodeList__ctor_
@@ -2923,12 +3046,12 @@ references:
   fullName.vb: Family.TreeNodeList.New
   nameWithType: TreeNodeList.TreeNodeList
   nameWithType.vb: TreeNodeList.New
-- uid: Family.TreeNodeList.Add(Family.TreeNode)
-  name: Add(TreeNode)
-  href: api/Family.TreeNodeList.html#Family_TreeNodeList_Add_Family_TreeNode_
-  commentId: M:Family.TreeNodeList.Add(Family.TreeNode)
-  fullName: Family.TreeNodeList.Add(Family.TreeNode)
-  nameWithType: TreeNodeList.Add(TreeNode)
+- uid: Family.TreeNodeList.Add(Family.FamilyTreeBranch)
+  name: Add(FamilyTreeBranch)
+  href: api/Family.TreeNodeList.html#Family_TreeNodeList_Add_Family_FamilyTreeBranch_
+  commentId: M:Family.TreeNodeList.Add(Family.FamilyTreeBranch)
+  fullName: Family.TreeNodeList.Add(Family.FamilyTreeBranch)
+  nameWithType: TreeNodeList.Add(FamilyTreeBranch)
 - uid: Family.TreeNodeList.Add(Humans.Relation)
   name: Add(Relation)
   href: api/Family.TreeNodeList.html#Family_TreeNodeList_Add_Humans_Relation_
@@ -3151,15 +3274,15 @@ references:
   isSpec: "True"
   fullName: Humans.Human.BecomeParent
   nameWithType: Human.BecomeParent
-- uid: Humans.Human.Birth(Locations.IAddressable@)
-  name: Birth(in IAddressable)
-  href: api/Humans.Human.html#Humans_Human_Birth_Locations_IAddressable__
-  commentId: M:Humans.Human.Birth(Locations.IAddressable@)
-  name.vb: Birth(IAddressable)
-  fullName: Humans.Human.Birth(in Locations.IAddressable)
-  fullName.vb: Humans.Human.Birth(Locations.IAddressable)
-  nameWithType: Human.Birth(in IAddressable)
-  nameWithType.vb: Human.Birth(IAddressable)
+- uid: Humans.Human.Birth(Location@)
+  name: Birth(in Location)
+  href: api/Humans.Human.html#Humans_Human_Birth_Location__
+  commentId: M:Humans.Human.Birth(Location@)
+  name.vb: Birth(Location)
+  fullName: Humans.Human.Birth(in Location)
+  fullName.vb: Humans.Human.Birth(Location)
+  nameWithType: Human.Birth(in Location)
+  nameWithType.vb: Human.Birth(Location)
 - uid: Humans.Human.Birth*
   name: Birth
   href: api/Humans.Human.html#Humans_Human_Birth_
@@ -3769,15 +3892,15 @@ references:
   isSpec: "True"
   fullName: Humans.IVessel.Alive
   nameWithType: IVessel.Alive
-- uid: Humans.IVessel.Birth(Locations.IAddressable@)
-  name: Birth(in IAddressable)
-  href: api/Humans.IVessel.html#Humans_IVessel_Birth_Locations_IAddressable__
-  commentId: M:Humans.IVessel.Birth(Locations.IAddressable@)
-  name.vb: Birth(IAddressable)
-  fullName: Humans.IVessel.Birth(in Locations.IAddressable)
-  fullName.vb: Humans.IVessel.Birth(Locations.IAddressable)
-  nameWithType: IVessel.Birth(in IAddressable)
-  nameWithType.vb: IVessel.Birth(IAddressable)
+- uid: Humans.IVessel.Birth(Location@)
+  name: Birth(in Location)
+  href: api/Humans.IVessel.html#Humans_IVessel_Birth_Location__
+  commentId: M:Humans.IVessel.Birth(Location@)
+  name.vb: Birth(Location)
+  fullName: Humans.IVessel.Birth(in Location)
+  fullName.vb: Humans.IVessel.Birth(Location)
+  nameWithType: IVessel.Birth(in Location)
+  nameWithType.vb: IVessel.Birth(Location)
 - uid: Humans.IVessel.Birth*
   name: Birth
   href: api/Humans.IVessel.html#Humans_IVessel_Birth_
@@ -4098,6 +4221,19 @@ references:
   commentId: F:Humans.Relation.OnHaveChild
   fullName: Humans.Relation.OnHaveChild
   nameWithType: Relation.OnHaveChild
+- uid: Humans.Relation.OnPartnerDeath(Humans.Human)
+  name: OnPartnerDeath(Human)
+  href: api/Humans.Relation.html#Humans_Relation_OnPartnerDeath_Humans_Human_
+  commentId: M:Humans.Relation.OnPartnerDeath(Humans.Human)
+  fullName: Humans.Relation.OnPartnerDeath(Humans.Human)
+  nameWithType: Relation.OnPartnerDeath(Human)
+- uid: Humans.Relation.OnPartnerDeath*
+  name: OnPartnerDeath
+  href: api/Humans.Relation.html#Humans_Relation_OnPartnerDeath_
+  commentId: Overload:Humans.Relation.OnPartnerDeath
+  isSpec: "True"
+  fullName: Humans.Relation.OnPartnerDeath
+  nameWithType: Relation.OnPartnerDeath
 - uid: Humans.Relation.StartDate
   name: StartDate
   href: api/Humans.Relation.html#Humans_Relation_StartDate
@@ -5664,15 +5800,15 @@ references:
   commentId: T:Moments.BirthMoment
   fullName: Moments.BirthMoment
   nameWithType: BirthMoment
-- uid: Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)
-  name: BirthMoment(Human, IAddressable, DateTime)
-  href: api/Moments.BirthMoment.html#Moments_BirthMoment__ctor_Humans_Human_Locations_IAddressable_System_DateTime_
-  commentId: M:Moments.BirthMoment.#ctor(Humans.Human,Locations.IAddressable,System.DateTime)
-  name.vb: New(Human, IAddressable, Date)
-  fullName: Moments.BirthMoment.BirthMoment(Humans.Human, Locations.IAddressable, System.DateTime)
-  fullName.vb: Moments.BirthMoment.New(Humans.Human, Locations.IAddressable, Date)
-  nameWithType: BirthMoment.BirthMoment(Human, IAddressable, DateTime)
-  nameWithType.vb: BirthMoment.New(Human, IAddressable, Date)
+- uid: Moments.BirthMoment.#ctor(Humans.Human,Location,System.DateTime)
+  name: BirthMoment(Human, Location, DateTime)
+  href: api/Moments.BirthMoment.html#Moments_BirthMoment__ctor_Humans_Human_Location_System_DateTime_
+  commentId: M:Moments.BirthMoment.#ctor(Humans.Human,Location,System.DateTime)
+  name.vb: New(Human, Location, Date)
+  fullName: Moments.BirthMoment.BirthMoment(Humans.Human, Location, System.DateTime)
+  fullName.vb: Moments.BirthMoment.New(Humans.Human, Location, Date)
+  nameWithType: BirthMoment.BirthMoment(Human, Location, DateTime)
+  nameWithType.vb: BirthMoment.New(Human, Location, Date)
 - uid: Moments.BirthMoment.#ctor*
   name: BirthMoment
   href: api/Moments.BirthMoment.html#Moments_BirthMoment__ctor_
@@ -5843,15 +5979,15 @@ references:
   commentId: T:Moments.Moment
   fullName: Moments.Moment
   nameWithType: Moment
-- uid: Moments.Moment.#ctor(System.DateTime,Locations.IAddressable)
-  name: Moment(DateTime, IAddressable)
-  href: api/Moments.Moment.html#Moments_Moment__ctor_System_DateTime_Locations_IAddressable_
-  commentId: M:Moments.Moment.#ctor(System.DateTime,Locations.IAddressable)
-  name.vb: New(Date, IAddressable)
-  fullName: Moments.Moment.Moment(System.DateTime, Locations.IAddressable)
-  fullName.vb: Moments.Moment.New(Date, Locations.IAddressable)
-  nameWithType: Moment.Moment(DateTime, IAddressable)
-  nameWithType.vb: Moment.New(Date, IAddressable)
+- uid: Moments.Moment.#ctor(System.DateTime,Location)
+  name: Moment(DateTime, Location)
+  href: api/Moments.Moment.html#Moments_Moment__ctor_System_DateTime_Location_
+  commentId: M:Moments.Moment.#ctor(System.DateTime,Location)
+  name.vb: New(Date, Location)
+  fullName: Moments.Moment.Moment(System.DateTime, Location)
+  fullName.vb: Moments.Moment.New(Date, Location)
+  nameWithType: Moment.Moment(DateTime, Location)
+  nameWithType.vb: Moment.New(Date, Location)
 - uid: Moments.Moment.#ctor*
   name: Moment
   href: api/Moments.Moment.html#Moments_Moment__ctor_
@@ -5886,15 +6022,15 @@ references:
   commentId: T:Moments.NewSchoolMoment
   fullName: Moments.NewSchoolMoment
   nameWithType: NewSchoolMoment
-- uid: Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Locations.IAddressable)
-  name: NewSchoolMoment(Human, DateTime, IAddressable)
-  href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment__ctor_Humans_Human_System_DateTime_Locations_IAddressable_
-  commentId: M:Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Locations.IAddressable)
-  name.vb: New(Human, Date, IAddressable)
-  fullName: Moments.NewSchoolMoment.NewSchoolMoment(Humans.Human, System.DateTime, Locations.IAddressable)
-  fullName.vb: Moments.NewSchoolMoment.New(Humans.Human, Date, Locations.IAddressable)
-  nameWithType: NewSchoolMoment.NewSchoolMoment(Human, DateTime, IAddressable)
-  nameWithType.vb: NewSchoolMoment.New(Human, Date, IAddressable)
+- uid: Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Location)
+  name: NewSchoolMoment(Human, DateTime, Location)
+  href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment__ctor_Humans_Human_System_DateTime_Location_
+  commentId: M:Moments.NewSchoolMoment.#ctor(Humans.Human,System.DateTime,Location)
+  name.vb: New(Human, Date, Location)
+  fullName: Moments.NewSchoolMoment.NewSchoolMoment(Humans.Human, System.DateTime, Location)
+  fullName.vb: Moments.NewSchoolMoment.New(Humans.Human, Date, Location)
+  nameWithType: NewSchoolMoment.NewSchoolMoment(Human, DateTime, Location)
+  nameWithType.vb: NewSchoolMoment.New(Human, Date, Location)
 - uid: Moments.NewSchoolMoment.#ctor*
   name: NewSchoolMoment
   href: api/Moments.NewSchoolMoment.html#Moments_NewSchoolMoment__ctor_

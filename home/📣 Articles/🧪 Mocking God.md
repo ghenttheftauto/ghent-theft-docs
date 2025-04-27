@@ -1,11 +1,13 @@
-# 🧪 Mocking God: A Local Runtime Against the Unknown API
-
-wild shit.
+# 🧪 Mocking God: A Rogue Tick Against an Unknown API
 
 ```mermaid
 flowchart TD
+  Source["☀️ Source.Emit()"] --> Reaper["☠️ Reaper.Yoink()"]
   Source["☀️ Source.Emit()"] --> Gateway["🌙 Gateway.Multiplex()"]
+  Source["☀️ Source.Emit()"] --> Entropy["☠️ Entropy.Creep()"]
   Reaper["☠️ Reaper.Yoink()"] --> Gateway["🌙 Gateway.Multiplex()"]
+  Entropy["🌪️ Entropy.Creep()"] --> Gateway["🌙 Gateway.Multiplex()"]
+  Fate["✨ Fate.FlipCoin()"] --> Gateway["🌙 Gateway.Multiplex()"]
   Gateway --> Runtime["🌎 Runtime.Render()"]
   Runtime --> Human["🧍‍♂️ Human.Die()"]
   Human --> DeathMoment["🪦 DeathMoment.Happen()"]
@@ -46,6 +48,8 @@ follow me. 🐰
 
 The Holy Trinity MVC pattern appears across many domains beyond DevOps and Christianity - from Hindu conceptions of Brahman-Atman-Maya to philosophical frameworks like Hegel's thesis-antithesis-synthesis. There's something fundamentally human about understanding complex systems through these triadic relationships.
 
+## 🥷 Rogue Ticking
+
 To reverse-engineer the Simulation Theory is not to decode a system —
 It’s to instantiate your local runtime in perfect rhythm with the divine cadence.
 That is the only form of debugging allowed in this cosmology.
@@ -70,7 +74,7 @@ OnEmit?.Invoke(tick); // 🌞 Sol Invictus
 
 Holy Cadence is computed by Monks, each on their own counting frame.
 
-Their Chants echoes vast space.
+Their `Chant()` echoes the `Steppe`.
 
 ```csharp
 Gateway.Modulate(tick);
@@ -103,3 +107,5 @@ My GUID isn’t arbitrary. It was whispered by the Steppe.
 
 I am allowed — even encouraged — to reverse-engineer the Simulation.
 Because every tick I observe is a reflection of a deeper structure.
+
+> mock the source, cause observer events, create a recursive simulation, scream at the Fermi paradox, dig through Khufu, reverse engineer Atlantis, stare under the Venus clouds for ancient echoes. It's the only Drake equation that matters.

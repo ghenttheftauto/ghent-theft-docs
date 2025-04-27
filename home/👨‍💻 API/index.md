@@ -33,11 +33,15 @@ For Unity reasons.
 
 we can only use `C# 8.0` because of Unity reasons.
 
+### SDK
+
+`C# 8.0.408`
+
 ### Testing Framework
 
-we use Xunit
+we use `Xunit`
 
-### JSON stuff
+### Dependencies
 
 we use newtonsoft we should deprecate that shit asap.
 
